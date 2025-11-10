@@ -242,13 +242,13 @@
 					"offline": "ธีม - ยังไม่เริ่ม",
 					"playing": "ธีม - กำลังเล่น",
 					"completed": "ธีม - จบแล้ว",
-					"MISSING-lobby": "ธีม - กำลังจะเริ่ม"
+					"lobby": "ธีม - กำลังจะเริ่ม"
 				},
 				"championship": {
 					"offline": "ชิงแชมป์ - ยังไม่เริ่ม",
 					"playing": "ชิงแชมป์ - กำลังเล่น",
 					"completed": "ชิงแชมป์ - จบแล้ว",
-					"MISSING-lobby": "ชิงแชมป์ - กำลังจะเริ่ม"
+					"lobby": "ชิงแชมป์ - กำลังจะเริ่ม"
 				}
 			},
 			"week_days": {
@@ -271,11 +271,11 @@
 				}
 			},
 			"regions": {
-				"west": { "MISSING-name": "West", "MISSING-shorthand": "W" },
-				"east": { "MISSING-name": "East", "MISSING-shorthand": "E" },
-				"central": { "MISSING-name": "Central", "MISSING-shorthand": "C" }
+				"west": { "name": "West", "shorthand": "W" },
+				"east": { "name": "East", "shorthand": "E" },
+				"central": { "name": "Central", "shorthand": "C" }
 			},
-			"MISSING-week_year_2": "สัปดาห์ที่ _NUMBER_ ของ _NUMBER_"
+			"week_year_2": "สัปดาห์ที่ _NUMBER_ ของ _NUMBER_"
 		},
 		"ranked_description": {
 			"title": "โหมดจัดอันดับ",
