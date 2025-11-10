@@ -331,8 +331,8 @@
 				"invalid_amount": {
 					"title": "จำนวนไม่ถูกต้อง",
 					"text": {
-						"MISSING-illegal": "You must enter a donation amount",
-						"MISSING-minimum": "The minimum donation amount is 1€"
+						"illegal": "ต้องใส่จำนวนที่จะสนับสนุน",
+						"minimum": "ต้องสนับสนุนขั้นต่ำ 1€"
 					}
 				},
 				"donation_error": { "title": "เกิดปัญหาในการสนับสนุน" },
@@ -341,11 +341,11 @@
 			},
 			"faq_button": "FAQ",
 			"faq_header": "FAQ",
-			"MISSING-title": "Avatar Drive"
+			"title": "Avatar Drive"
 		},
 		"social_rewards": {
 			"title": "รางวัลการติดตาม",
-			"MISSING-description_2": "เมื่อติดตามเกมทาง Discord หรือ Patreon จะได้รับตั๋ว 8 ใบต่อ 1 ช่องทาง _BREAK_ ติดตาม _LINK_ Discord _LINK_ ก่อนที่จะรับรางวัล Discord _BREAK_ ติดตามหรือสนับสนุน _LINK2_ Patreon _LINK2_ ก่อนที่จะรับรางวัล Patreon"
+			"description_2": "เมื่อติดตามเกมทาง Discord หรือ Patreon จะได้รับตั๋ว 8 ใบต่อ 1 ช่องทาง _BREAK_ ติดตาม _LINK_ Discord _LINK_ ก่อนที่จะรับรางวัล Discord _BREAK_ ติดตามหรือสนับสนุน _LINK2_ Patreon _LINK2_ ก่อนที่จะรับรางวัล Patreon"
 		},
 		"game_mode": {
 			"title": "โหมด",
