@@ -455,7 +455,7 @@
 		"edit": "แก้ไข",
 		"change_nickname": "เปลี่ยนชื่อ",
 		"change_nickname_modal": {
-			"description": "สามารถเปลี่ยนชื่อที่โชว์ในเกมได้โดยการใช้หนึ่งโทเคน จะได้รับหนึ่งโทเคนทุกๆปีและได้รับหนึ่งโทเคนเพิ่มเติมทุกๆเดือนเมื่อสนับสนุน Patreon ระดับ 4 หรือมากกว่า _BREAK_ เมื่อเปลี่ยนชื่อแล้วนอื่นๆจะสามารถใช้ชื่อเก่าได้แม้ว่าจะเป็นชื่อแรกก็ตาม _BREAK_ ชื่อแรกสุดจะยังสามารถเห็นได้ในโปรไฟล์",
+			"description": "สามารถเปลี่ยนชื่อที่แสดงในเกมได้โดยการใช้หนึ่งโทเคน จะได้รับหนึ่งโทเคนทุกๆปีและได้รับหนึ่งโทเคนเพิ่มเติมทุกๆเดือนเมื่อสนับสนุน Patreon ระดับ 4 หรือมากกว่า _BREAK_ เมื่อเปลี่ยนชื่อแล้วนอื่นๆจะสามารถใช้ชื่อเก่าได้แม้ว่าจะเป็นชื่อแรกก็ตาม _BREAK_ ชื่อแรกสุดจะยังสามารถเห็นได้ในโปรไฟล์",
 			"current_tokens": "จำนวนโทเคนที่มี: _SPAN_ _NUMBER_ _SPAN_",
 			"check_availability": "ตรวจสอบชื่อ"
 		},
@@ -634,75 +634,75 @@
 		}
 	},
 	"setting_window": {
-		"MISSING-title": "Settings",
+		"title": "ตั้งค่า",
 		"tabs": {
-			"MISSING-game": "Game",
-			"MISSING-anime_list": "Anime List",
+			"game": "เกม",
+			"anime_list": "อนิเมะ",
 			"MISSING-graphics": "Graphics",
-			"MISSING-audio": "Audio"
+			"audio": "เสียง"
 		},
-		"MISSING-language": "Language",
+		"language": "ภาษา",
 		"auto_submit": {
-			"MISSING-title": "Auto Submit",
-			"MISSING-description": "Automatically submit your answer when the guess time runs out"
+			"title": "ส่งอัตโนมัติ",
+			"description": "ส่งคำตอบที่มีอยู่ให้อัตโนมัติเมื่อหมดเวลาตอบ"
 		},
 		"list_numbering": {
-			"MISSING-title": "List Numbering",
-			"MISSING-description": "Show number of songs played from each players anime list on the scoreboard"
+			"title": "จำนวนเพลง",
+			"description": "แสดงจำนวนเพลงที่มาจากผู้เล่นแต่ละคนในตารางคะแนน"
 		},
 		"disable_emotes": {
-			"MISSING-title": "Disable Emotes",
-			"MISSING-description": "Disable emotes from being shown in chats"
+			"title": "ซ่อน emote",
+			"description": "ซ่อน emote ไม่ให้เห็นในแชท"
 		},
 		"answer_time": {
-			"MISSING-title": "Answer Time",
-			"MISSING-description": "Display players answer time on their avatars"
+			"title": "เวลาที่ตอบ",
+			"description": "แสดงเวลาที่ผู้เล่นแต่ละคนทำการตอบ"
 		},
-		"anime_link": { "MISSING-title": "Anime Link", "MISSING-description": "The anime site that's linked in song info" },
+		"anime_link": { "title": "ลิงก์อนิเมะ", "description": "เว็บอนิเมะที่จะเปิดเมื่อกดดูในข้อมูลเพลง" },
 		"auto_skip_vote": {
-			"MISSING-title": "Auto Skip Vote",
-			"MISSING-description": "Automatically vote to skip after answering and/or after 2 seconds in the replay phase",
-			"MISSING-guessing_phase": "Guessing Phase",
-			"MISSING-replay_phase": "Replay Phase"
+			"title": "ข้ามอัตโนมัติ",
+			"description": "ทำการโหวตข้ามอัตโนมัติในช่วงทายอนิเมะหรือช่วงเฉลย",
+			"guessing_phase": "ช่วงทาย",
+			"replay_phase": "ช่วงเฉลย"
 		},
 		"block_non_friend_actions": {
-			"MISSING-title": "Block Non-Friend Actions",
-			"MISSING-description": "Block social actions from players not on your friends list",
-			"MISSING-direct_messages": "Direct Messages",
-			"MISSING-friend_requests": "Friend Requests",
-			"MISSING-game_invites": "Game Invites"
+			"title": "กันผู้เล่นที่ไม่ใช่เพื่อน",
+			"description": "กันการกระทำบางอย่างสำหรับผู้เล่นที่ไม่ใช่เพื่อน",
+			"direct_messages": "ข้อความโดยตรง",
+			"friend_requests": "คำขอเป็นเพื่อน",
+			"game_invites": "คำชวนเล่นเกม"
 		},
 		"anime_names": {
-			"MISSING-title": "Anime Names",
-			"MISSING-description": "Default anime name shown in quizzes",
-			"MISSING-english": "English",
-			"MISSING-romaji": "Romaji"
+			"title": "ชื่ออนิเมะ",
+			"description": "ภาษาของชื่ออนิเมะที่จะเห็น",
+			"english": "อังกฤษ",
+			"romaji": "โรมาจิ"
 		},
 		"team_answer": {
-			"MISSING-title": "Team Answers in Chat",
-			"MISSING-description": "Show your team answers in the chat during team games",
-			"MISSING-never": "Never",
-			"MISSING-out_of_focus": "Out of Focus",
-			"MISSING-always": "Always"
+			"title": "คำตอบทีม",
+			"description": "แสดงคำตอบของทีมในช่องแชท",
+			"never": "ไม่ต้อง",
+			"out_of_focus": "เมื่อมองไม่เห็น",
+			"always": "ตลอดเวลา"
 		},
 		"sound_equalizing": {
-			"MISSING-title": "Sound Equalizing",
-			"MISSING-description": "Equalize volume levels between different songs"
+			"title": "ปรับระดับเสียง",
+			"description": "ปรับระดับเสียงในแต่ละพลงให้เท่าๆกัน"
 		},
 		"max_volume": {
-			"MISSING-title": "Max Volume",
-			"MISSING-description": "The maximum volume for sound equalizing, increasing this will increase the overall volume, but may cause quieter songs to not be fully equalized"
+			"title": "ระดับเสียงมากสุด",
+			"description": "ระดับเสียงที่มากที่สุดสำหรับการปรับระดับเสียง เมื่อตั้งให้สูงขึ้นจะทำให้เพลงดังขึ้นแต่อาจจะทำให้เพลงที่เบาเสียงดังไม่เท่า"
 		},
 		"auto_hide_video": {
-			"MISSING-title": "Auto Hide Video",
-			"MISSING-description": "Automatically hide the video for the selected categories, it can still be unhidden by clicking the video during the replay phase",
-			"MISSING-openings": "Openings",
-			"MISSING-endings": "Endings",
+			"title": "ซ่อนวีดิโอ",
+			"description": "ซ่อนวีดิโอในหมวดหมู่ที่เลือกให้โดยอัตโนมัติโดยยังสามารถกดเปิดดูเองได้ในช่วงเฉลย",
+			"openings": "เพลงเปิด",
+			"endings": "เพลงปิด",
 			"MISSING-inserts": "Inserts",
-			"unwatched": { "MISSING-title": "Unwatched", "MISSING-description": "Videos from anime you haven't watched" },
+			"unwatched": { "title": "ไม่ได้ดู", "description": "อนิเมะที่ไม่ได้ดู" },
 			"high_risk": {
-				"MISSING-title": "High Risk",
-				"MISSING-description": "Videos that are likely to cause spoilers or are nsfw. Based on player statistics"
+				"title": "สุ่มเสี่ยง",
+				"description": "วีดิโอที่อาจมีการสปอยล์หรือมีภาพที่ล่อแหลม"
 			}
 		},
 		"anime_list": {
@@ -715,17 +715,17 @@
 				"MISSING-title": "Show Scores",
 				"MISSING-description": "Show your anime score for shows on your list"
 			},
-			"MISSING-anilist_username": "AniList Username",
-			"MISSING-mal_username": "MyAnimeList Username",
-			"MISSING-mal_username_short": "MAL Username",
-			"MISSING-kitsu_username": "Kitsu Username",
-			"MISSING-last_updated": "_BOLD_ Last Updated: _BOLD_ _SPAN_ _DATE_ _SPAN_",
+			"anilist_username": "ชื่อผู้ใช้ AniList",
+			"mal_username": "ชื่อผู้ใช้ MyAnimeList",
+			"mal_username_short": "ชื่อผู้ใช้ MAL",
+			"kitsu_username": "ชื่อผู้ใช้ Kitsu",
+			"last_updated": "_BOLD_ อัปเดตล่าสุด: _BOLD_ _SPAN_ _DATE_ _SPAN_",
 			"update_messages": {
-				"MISSING-update_successful": "Update Successful",
-				"MISSING-update_failed": "Update Failed",
+				"update_successful": "อัปเดตสำเร็จ",
+				"update_failed": "อัปเดตผิดพลาด",
 				"MISSING-list_updated": "List Updated",
 				"MISSING-list_removed": "List Removed",
-				"MISSING-unknown_username": "Unknown Username",
+				"unknown_username": "ไม่พบชื่อผู้ใช้นี้",
 				"MISSING-mal_private": "MAL List set to private, only public lists can be synced to the game",
 				"MISSING-mal_error": "Error from MAL, please try again later",
 				"MISSING-anilist_error": "Unable to Retrieve List from AniList"
@@ -754,16 +754,16 @@
 			"MISSING-name_effects_friend_list": "Name Effects in Friend List"
 		},
 		"audio": {
-			"MISSING-nexus": "Nexus",
-			"MISSING-master": "Master",
-			"MISSING-music": "Music",
-			"MISSING-effects": "Effects"
+			"nexus": "Nexus",
+			"master": "เสียงหลัก",
+			"music": "ดนตรี",
+			"effects": "เอฟเฟค"
 		}
 	},
-	"blocked_player_window": { "MISSING-title": "Blocked Player List", "MISSING-remove_button": "Remove" },
+	"blocked_player_window": { "title": "ผู้เล่นที่บล็อก", "remove_button": "ลบ" },
 	"change_password_window": {
-		"MISSING-title": "Change Password",
-		"MISSING-current_password": "Current Password",
+		"title": "เปลี่ยนรหัสผ่าน",
+		"current_password": "รหัสผ่านตอนนี้",
 		"MISSING-no_current_password": "You must provide your current password",
 		"MISSING-unexpected_error": "Unexpected error, please try again",
 		"MISSING-error_contacting_server": "Error contacting server, please try again later",
@@ -771,20 +771,20 @@
 		"MISSING-wrong_password": "Current password is incorrect"
 	},
 	"leaderboard_window": {
-		"MISSING-title": "Leaderboard",
-		"MISSING-levels": "Levels",
-		"MISSING-self": "Self",
-		"MISSING-friends": "Friends",
-		"MISSING-top": "Top",
-		"MISSING-ranked": "Ranked",
-		"MISSING-all": "All",
-		"MISSING-champs": "Champs"
+		"title": "ตารางอันดับ",
+		"levels": "เลเวล",
+		"self": "ตัวเอง",
+		"friends": "เพื่อน",
+		"top": "สูงสุด",
+		"ranked": "โหมดจัดอันดับ",
+		"all": "ทั้งหมด",
+		"champs": "แชมป์"
 	},
 	"tutorial_window": {
-		"MISSING-title": "Tutorials",
+		"title": "วิธีเล่น",
 		"MISSING-start": "Start",
 		"MISSING-reset": "Reset",
-		"MISSING-nexus_tutorials": "Nexus Tutorials",
+		"nexus_tutorials": "วิธีเล่น Nexus",
 		"tutorials": {
 			"MISSING-gameplay": "Gameplay",
 			"MISSING-avatars": "Avatars",
