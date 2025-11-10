@@ -793,7 +793,7 @@
 			"MISSING-workshop": "Workshop",
 			"MISSING-rune_setup": "Rune Setup"
 		},
-		"status": { "MISSING-locked": "Locked", "MISSING-unlocked": "Unlocked", "MISSING-completed": "Completed" },
+		"status": { "MISSING-locked": "Locked", "MISSING-unlocked": "Unlocked", "MISSING-completed": "Completed" }
 	},
 	"guidelines_window": {
 		"MISSING-title": "Guidelines",
@@ -930,7 +930,7 @@
 			"MISSING-decoration_not_unlocked": "Decoration Not Unlocked",
 			"MISSING-active": "Active",
 			"MISSING-unavailable": "Unavailable",
-			"MISSING-unlock": "Unlock",
+			"MISSING-unlock": "Unlock"
 		},
 		"avatar_bonus": {
 			"MISSING-title": "Avatar Bonus",
