@@ -38,8 +38,8 @@
 			"block": "บล็อก",
 			"send_friend_request": "ส่งคำขอเป็นเพื่อน",
 			"invite_to_game": "ชวนเข้าเกม",
-			"MISSING-none": "None",
-			"MISSING-default": "Default",
+			"none": "ไม่มี",
+			"default": "ปกติ",
 			"delete": "ลบ",
 			"report": "รายงาน",
 			"close_button": "ปิด",
@@ -390,7 +390,7 @@
 				"playing_nexus": "กำลังเล่น Nexus_NAME_",
 				"in_nexus_lobby": "อยู่ใน Nexus_NAME_",
 				"in_lobby": "อยู่ในห้อง_NAME_",
-				"spectating_quiz": "กำลังดู_NAME_",
+				"spectating_quiz": "กำลังดูห้อง_NAME_",
 				"in_quiz": "เล่น_NAME_อยู่",
 				"mode_names": {
 					"co-op": "โหมดหลายคน",
@@ -553,19 +553,19 @@
 		}
 	},
 	"patreon_window": {
-		"MISSING-title": "Patreon",
+		"title": "Patreon",
 		"MISSING-description": "Help support the operation and development of AMQ by backing the game on Patreon. Working on and sharing AMQ with you all has been and is an amazing experience, and I have so much more I want to do with the game. By backing the Patreon you'll help me not only cover the costs of running the game, but also continue its development! As a special thanks, you'll get several exclusive rewards!",
 		"reward_examples": {
-			"MISSING-title": "Some of the Patreon Rewards",
-			"MISSING-sneak_peeks": "Sneak Peeks",
-			"MISSING-patreon_badge": "Patreon Badges",
-			"MISSING-custom_emotes": "Custom Emotes",
-			"MISSING-monthly_tickets": "Monthly Tickets"
+			"title": "รางวัลส่วนหนึ่ง",
+			"sneak_peeks": "รู้ข่าวล่วงหน้า",
+			"patreon_badge": "ตรา Patreon",
+			"custom_emotes": "Emote กำหนดเอง",
+			"monthly_tickets": "ตั๋วรายเดือน"
 		},
-		"MISSING-already_a_backer": "Already a Backer?",
-		"MISSING-link_account": "Link Patreon Account",
-		"MISSING-become_a_backer": "Become a Backer",
-		"MISSING-patreon_linked": "Patreon Linked!",
+		"already_a_backer": "สนับสนุนอยู่แล้ว?",
+		"link_account": "เชื่อมบัญชี Patreon",
+		"become_a_backer": ",มาเป็นผู้สนับสนุน",
+		"patreon_linked": "เชื่อมต่อ Patreon แล้ว",
 		"backer_level": {
 			"MISSING-title": "Backer Level",
 			"MISSING-tier": "Level _NUMBER_",
