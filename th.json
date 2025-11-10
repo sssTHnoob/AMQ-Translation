@@ -389,16 +389,16 @@
 				"MISSING-invisible": "Invisible",
 				"playing_nexus": "กำลังเล่น Nexus_NAME_",
 				"in_nexus_lobby": "อยู่ใน Nexus_NAME_",
-				"in_lobby": "อยู่ใน_NAME_",
+				"in_lobby": "อยู่ในห้อง_NAME_",
 				"spectating_quiz": "กำลังดู_NAME_",
 				"in_quiz": "เล่น_NAME_อยู่",
 				"mode_names": {
 					"co-op": "โหมดหลายคน",
-					"private": "ห้องส่วนตัว",
-					"jam": "ห้อง Jam",
+					"private": "ส่วนตัว",
+					"jam": "Jam",
 					"MISSING-event": "Event",
 					"solo": "โหมดเล่นคนเดียว",
-					"quiz_of_the_day": "ห้องประจำวัน"
+					"quiz_of_the_day": "ประจำวัน"
 				}
 			},
 			"options": {
@@ -438,26 +438,26 @@
 		}
 	},
 	"player_profile": {
-		"MISSING-profile_image": "Profile Image",
-		"MISSING-avatar": "Avatar",
-		"MISSING-no_badges": "No Badges",
-		"MISSING-profile": "Profile",
-		"MISSING-special_badges": "Special Badges",
-		"MISSING-standard_badges": "Standard Badges",
-		"MISSING-name_effects": "Name Effects",
-		"MISSING-name_color": "Name Color",
-		"MISSING-name_glow": "Name Glow",
-		"MISSING-hidden": "Hidden",
-		"MISSING-account_creation": "Account Creation",
-		"MISSING-songs_played": "Songs Played",
-		"MISSING-guess_rate": "Guess Rate",
+		"profile_image": "รูปโปรไฟล์",
+		"avatar": "ตัวละคร",
+		"no_badges": "ไม่มีตรา",
+		"profile": "โปรไฟล์",
+		"special_badges": "ตราพิเศษ",
+		"standard_badges": "ตราปกติ",
+		"name_effects": "ชื่อ",
+		"name_color": "สี",
+		"name_glow": "เรืองแสง",
+		"hidden": "ซ่อน",
+		"account_creation": "วันที่สมัคร",
+		"songs_played": "จำนวนเพลงที่เล่น",
+		"guess_rate": "ตอบถูก",
 		"MISSING-options": "Options",
-		"MISSING-edit": "Edit",
-		"MISSING-change_nickname": "Change Nickname",
+		"edit": "แก้ไข",
+		"change_nickname": "เปลี่ยนชื่อ",
 		"change_nickname_modal": {
-			"MISSING-description": "You can change your nickname (the name you appear as in-game) by spending one name change token. Your account gets one name change token each year and an additional token each month if you’re a level 4 or higher Patreon backer. _BREAK_ If you change your nickname, your old nickname will become available for anyone to use (even if it's your original name). _BREAK_ Your original name will still be viewable on your profile.",
-			"MISSING-current_tokens": "Current Name Change Tokens: _SPAN_ _NUMBER_ _SPAN_",
-			"MISSING-check_availability": "Check Availability"
+			"description": "สามารถเปลี่ยนชื่อที่โชว์ในเกมได้โดยการใช้หนึ่งโทเคน จะได้รับหนึ่งโทเคนทุกๆปีและได้รับหนึ่งโทเคนเพิ่มเติมทุกๆเดือนเมื่อสนับสนุน Patreon ระดับ 4 หรือมากกว่า _BREAK_ เมื่อเปลี่ยนชื่อแล้วนอื่นๆจะสามารถใช้ชื่อเก่าได้แม้ว่าจะเป็นชื่อแรกก็ตาม _BREAK_ ชื่อแรกสุดจะยังสามารถเห็นได้ในโปรไฟล์",
+			"current_tokens": "จำนวนโทเคนที่มี: _SPAN_ _NUMBER_ _SPAN_",
+			"check_availability": "ตรวจสอบชื่อ"
 		},
 		"alerts": {
 			"MISSING-error_getting_profile": "Error Getting Player Profile",
@@ -465,22 +465,22 @@
 		},
 		"name_effects_entries": {
 			"challenger_color": {
-				"MISSING-name": "Challenger",
-				"MISSING-description": "Unlocked for players who qualified for last month ranked championship"
+				"name": "Challenger",
+				"description": "ปลดล็อกสำหรับผู้ที่มีสิทธิเล่นโหมดชิงแชมป์ในเดือนที่แล้ว"
 			},
 			"challenger_glow": {
-				"MISSING-name": "Challenger",
-				"MISSING-description": "Unlocked for players who got top 50 in last month ranked championship"
+				"name": "Challenger",
+				"description": "ปลดล็อกสำหรับผู้ที่ได้ 50 อันดับแรกในโหมดชิงแชมป์ในเดือนที่แล้ว"
 			},
 			"patreon_color": {
-				"MISSING-name": "Patreon",
-				"MISSING-description": "Unlocked for level 3 or higher Patreon backers"
+				"name": "Patreon",
+				"description": "ปลดล็อกสำหรับผู้ที่สนับสนุน Patreon ระดับ 3 หรือสูงกว่า"
 			},
 			"patreon_glow": {
-				"MISSING-name": "Patreon",
-				"MISSING-description": "Unlocked for level 4 or higher Patreon backers"
+				"name": "Patreon",
+				"description": "ปลดล็อกสำหรับผู้ที่สนับสนุน Patreon ระดับ 4 หรือสูงกว่า"
 			},
-			"MISSING-month_patreon_current": "Unlocked for level 5 Patreon backers who back this month, and level 6 backers",
+			"month_patreon_current": "ปลดล็อกสำหรับผู้ที่สนับสนุน Patreon ระดับ 5 ในเดือนนี้และผู้ที่สนับสนุนระดับ 6",
 			"MISSING-month_patreon_previous": "Unlocked for level 5 Patreons who backed during the release month, and level 6 backers",
 			"MISSING-month_patreon_previous_unlocked": "Unlocked for level 5 Patreons who backed during the release month, and level 6 backers. You backed during the release month."
 		}
