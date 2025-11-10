@@ -487,16 +487,16 @@
 	},
 	"badges": {
 		"ranked": {
-			"MISSING-name": "Ranked _TIER_ _YEAR_ _NUMBER_",
-			"MISSING-name_result": "Ranked _TIER_ _YEAR_",
-			"MISSING-description": "Got _TIER_ tier in the _YEAR_ ranked season _NUMBER_",
-			"MISSING-description_result": "Got _TIER_ tier for the _YEAR_ ranked seasons",
+			"name": "จันดันดับระดับ _TIER_ ปี _YEAR_ ซีซั่นที่ _NUMBER_",
+			"name_result": "จันดันดับระดับ _TIER_ ปี _YEAR_",
+			"description": "โหมดจัดอันดับได้ระดับ _TIER_ ในปี _YEAR_ ซีซั่นที่ _NUMBER_",
+			"description_result": "โหมดจัดอันดับได้ระดับ _TIER_ ในปี _YEAR_",
 			"tiers": {
-				"MISSING-bronze": "Bronze",
-				"MISSING-silver": "Silver",
-				"MISSING-gold": "Gold",
-				"MISSING-platinum": "Platinum",
-				"MISSING-diamond": "Diamond"
+				"bronze": "Bronze",
+				"silver": "Silver",
+				"gold": "Gold",
+				"platinum": "Platinum",
+				"diamond": "Diamond"
 			}
 		},
 		"champion": {
@@ -524,14 +524,14 @@
 		},
 		"patreon": {
 			"name": {
-				"MISSING-start": "Patreon Backer",
-				"MISSING-month": "_NUMBER_ Months Patreon Backer",
-				"MISSING-one_year": "1 Year Patreon Backer",
-				"MISSING-multiple_years": "_NUMBER_ Years Patreon Backer"
+				"start": "ผู้สนับสนุน Patreon",
+				"month": "ผู้สนับสนุน Patreon _NUMBER_ เดือน",
+				"one_year": "ผู้สนับสนุน Patreon 1 ปี",
+				"multiple_years": "ผู้สนับสนุน Patreon _NUMBER_ ปี"
 			},
-			"MISSING-description": "AMQ Patreon Backer"
+			"description": "เป็นผู้สนับสนุน AMQ Patreon"
 		},
-		"avatar": { "MISSING-name": "_NAME_ Badge", "MISSING-description": "Unlock 10 skins/recolors for _NAME_" },
+		"avatar": { "name": "ตรา _NAME_", "description": "มีสกินของ _NAME_ 10 สกิน" },
 		"mod": {
 			"name": { "MISSING-game": "AMQ Moderator", "MISSING-jam": "AMQ Jam Mode Moderator" },
 			"description": {
@@ -541,12 +541,12 @@
 		},
 		"aragaimu": {
 			"name": {
-				"MISSING-participant": "Aragaimu _YEAR_ Participant",
+				"participant": "ผู้เข้าร่วม Aragaimu ปี _YEAR_",
 				"MISSING-top32": "Aragaimu _YEAR_ Top 32",
 				"MISSING-top4": "Aragaimu _YEAR_ Top 4"
 			},
 			"description": {
-				"MISSING-participant": "Participated in the Aragaimu _YEAR_ tournament",
+				"participant": "เข้าร่วมในการแข่งขัน Aragaimu ปี _YEAR_",
 				"MISSING-top32": "Got Top 32 in the Aragaimu _YEAR_ tournament",
 				"MISSING-top4": "Got Top 4 in the Aragaimu _YEAR_ tournament"
 			}
