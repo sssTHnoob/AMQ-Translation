@@ -378,37 +378,37 @@
 			}
 		},
 		"friend_list": {
-			"MISSING-friends": "Friends",
+			"friends": "เพื่อน",
 			"MISSING-total": "Total",
 			"MISSING-all": "All",
 			"statuses": {
-				"MISSING-online": "Online",
-				"MISSING-offline": "Offline",
-				"MISSING-away": "Away",
-				"MISSING-do_not_disturb": "Do Not Disturb",
+				"online": "ออนไลน์",
+				"offline": "ออฟไลน์",
+				"away": "ไม่อยู่",
+				"do_not_disturb": "ห้ามรบกวน",
 				"MISSING-invisible": "Invisible",
-				"MISSING-playing_nexus": "Playing _NAME_ Nexus",
-				"MISSING-in_nexus_lobby": "In _NAME_ Nexus Lobby",
-				"MISSING-in_lobby": "In _NAME_ Lobby",
-				"MISSING-spectating_quiz": "Spectating _NAME_ Quiz",
-				"MISSING-in_quiz": "In _NAME_ Quiz",
+				"playing_nexus": "กำลังเล่น Nexus _NAME_",
+				"in_nexus_lobby": "อยู่ใน Nexus _NAME_",
+				"in_lobby": "อยู่ใน _NAME_",
+				"spectating_quiz": "กำลังดู _NAME_",
+				"in_quiz": "เล่น _NAME_ อยู่",
 				"mode_names": {
-					"MISSING-co-op": "Co-Op",
-					"MISSING-private": "Private",
-					"MISSING-jam": "Jam",
+					"co-op": "โหมดหลายคน",
+					"private": "ห้องส่วนตัว",
+					"jam": "ห้อง Jam",
 					"MISSING-event": "Event",
-					"MISSING-solo": "Solo",
-					"MISSING-quiz_of_the_day": "Quiz of the Day"
+					"solo": "โหมดเล่นคนเดียว",
+					"quiz_of_the_day": "ห้องประจำวัน"
 				}
 			},
 			"options": {
-				"MISSING-report": "Report",
-				"MISSING-remove_friend": "Remove Friend",
-				"MISSING-join_game": "Join Game"
+				"report": "รายงาน",
+				"remove_friend": "ลบเพื่อน",
+				"join_game": "เข้าเกม"
 			},
 			"popout_messages": {
-				"MISSING-not_in_game": "You are not in a game",
-				"MISSING-solo_game_invite": "Can't invite players to solo games"
+				"not_in_game": "ไม่ได้อยู่ในเกมตอนนี้",
+				"game_invite": "ไม่สามารถชวนผู้เล่นในโหมดเล่นคนเดียวได้"
 			}
 		},
 		"menu": {
