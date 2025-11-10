@@ -203,8 +203,7 @@
 				"valentine": "สกินวาเลนไทน์",
 				"summer_games": "สกินกีฬาฤดูร้อน"
 			},
-			"skin_footer": "มาแล้วตอนนี้",
-			"DELETED-skin_text": "รับสกินพิเศษจากการสนับสนุน AMQ"
+			"skin_footer": "มาแล้วตอนนี้"
 		},
 		"quiz_of_the_day": {
 			"title": "ห้องประจำวัน",
@@ -243,15 +242,13 @@
 					"offline": "ธีม - ยังไม่เริ่ม",
 					"playing": "ธีม - กำลังเล่น",
 					"completed": "ธีม - จบแล้ว",
-					"MISSING-lobby": "Themed - Lobby Up",
-					"DELETED-lobby_up": "ธีม - กำลังจะเริ่ม"
+					"MISSING-lobby": "ธีม - กำลังจะเริ่ม"
 				},
 				"championship": {
 					"offline": "ชิงแชมป์ - ยังไม่เริ่ม",
 					"playing": "ชิงแชมป์ - กำลังเล่น",
 					"completed": "ชิงแชมป์ - จบแล้ว",
-					"MISSING-lobby": "Championship - Lobby Up",
-					"DELETED-lobby_up": "ชิงแชมป์ - กำลังจะเริ่ม"
+					"MISSING-lobby": "ชิงแชมป์ - กำลังจะเริ่ม"
 				}
 			},
 			"week_days": {
@@ -278,8 +275,7 @@
 				"east": { "MISSING-name": "East", "MISSING-shorthand": "E" },
 				"central": { "MISSING-name": "Central", "MISSING-shorthand": "C" }
 			},
-			"MISSING-week_year_2": "Week _NUMBER_ of _YEAR_",
-			"DELETED-week_year": "สัปดาห์ที่ _NUMBER_ ของ _NUMBER_"
+			"MISSING-week_year_2": "สัปดาห์ที่ _NUMBER_ ของ _NUMBER_"
 		},
 		"ranked_description": {
 			"title": "โหมดจัดอันดับ",
@@ -343,16 +339,13 @@
 				"donation_received": { "title": "ได้รับเงินแล้ว", "text": "ขอบคุณในการสนับสนุนเกม" },
 				"use_free_donation": { "title": "ใช้สิทธิสนับสนุนฟรี", "text": "คุณมีสิทธิสนับสนุนฟรี 1 ครั้งต่อเดือนเท่านั้น" }
 			},
-			"MISSING-faq_button": "FAQ",
-			"MISSING-faq_header": "FAQ",
-			"DELETED-faq": "FAQ",
-			"DELETED-none": "ไม่ระบุ",
+			"faq_button": "FAQ",
+			"faq_header": "FAQ",
 			"MISSING-title": "Avatar Drive"
 		},
 		"social_rewards": {
 			"title": "รางวัลการติดตาม",
-			"MISSING-description_2": "As a thanks for following the game’s Discord and Patreon, you can claim an 8 ticket reward from following each. _BREAK_ Make sure to join the _LINK_ Discord _LINK_ before claiming the Discord reward. _BREAK_ Make sure to join (free) or back the _LINK2_ Patreon _LINK2_ before claiming the Patreon reward.",
-			"DELETED-description": "เมื่อติดตามเกมทาง Discord หรือ Patreon จะได้รับตั๋ว 8 ใบต่อ 1 ช่องทาง _BREAK_ ติดตาม _LINK_ Discord _LINK_ ก่อนที่จะรับรางวัล Discord _BREAK_ ติดตามหรือสนับสนุน _LINK_ Patreon _LINK_ ก่อนที่จะรับรางวัล Patreon"
+			"MISSING-description_2": "เมื่อติดตามเกมทาง Discord หรือ Patreon จะได้รับตั๋ว 8 ใบต่อ 1 ช่องทาง _BREAK_ ติดตาม _LINK_ Discord _LINK_ ก่อนที่จะรับรางวัล Discord _BREAK_ ติดตามหรือสนับสนุน _LINK2_ Patreon _LINK2_ ก่อนที่จะรับรางวัล Patreon"
 		},
 		"game_mode": {
 			"title": "โหมด",
@@ -801,7 +794,6 @@
 			"MISSING-rune_setup": "Rune Setup"
 		},
 		"status": { "MISSING-locked": "Locked", "MISSING-unlocked": "Unlocked", "MISSING-completed": "Completed" },
-		"DELETED-states": { "MISSING-locked": "Locked", "MISSING-unlocked": "Unlocked", "MISSING-completed": "Completed" }
 	},
 	"guidelines_window": {
 		"MISSING-title": "Guidelines",
@@ -873,7 +865,6 @@
 				"MISSING-description": "This will cost 50% of your current resonance points.",
 				"MISSING-confirm_button": "Swap Target"
 			},
-			"DELETED-target_message": "Target in Resonance System",
 			"target_no_active_warning": {
 				"MISSING-title": "Resonance Target Not Active",
 				"MISSING-description": "Resonance points can’t be earned towards inactive targets, so roll won’t award resonance points."
@@ -893,11 +884,9 @@
 			"auto_switch": {
 				"MISSING-description": "Auto switch between favorited avatars at the end of each game",
 				"MISSING-auto_switch": "Auto Switch",
-				"mode": { "MISSING-random": "Random", "MISSING-off": "Off", "MISSING-cycle": "Cycle" },
-				"DELETED-random": "Random"
+				"mode": { "MISSING-random": "Random", "MISSING-off": "Off", "MISSING-cycle": "Cycle" }
 			}
 		},
-		"DELETED-no_favorite_selected": "No Favorites Selected _BREAK_ Set Some by Clicking the _BREAK_ _ICON_ on Unlocked Avatars",
 		"filters": {
 			"locked": { "MISSING-title": "Locked", "MISSING-description": "Show content you haven't unlocked" },
 			"unlocked": { "MISSING-title": "Unlocked", "MISSING-description": "Show content you have unlocked" },
@@ -942,8 +931,6 @@
 			"MISSING-active": "Active",
 			"MISSING-unavailable": "Unavailable",
 			"MISSING-unlock": "Unlock",
-			"DELETED-Active": "Active",
-			"DELETED-unavaliable": "Unavailable"
 		},
 		"avatar_bonus": {
 			"MISSING-title": "Avatar Bonus",
@@ -1096,9 +1083,7 @@
 		"hibiki": {
 			"MISSING-monster_trainer": "Never being one to settle down for long, it didn’t surprise anyone when Hibiki set out to explore the world once she met her partner Hineko. Together the two of them make a powerhouse of a team, and are quickly making a name for themselves.",
 			"MISSING-fast_food_employee": "Finding herself in a new city, Hibiki had to quickly find a new job. Luckily, she ended up landing a great job up a locale fast food joint, where she now spends her days working with great colleagues, while preparing for the next leg of her journey.",
-			"MISSING-thief": "Hibiki is a well known happy go lucky adventurer, with a knack for getting in where she isn’t supposed to be and out with more than she entered with. A skill she’s often found boasting about at local taverns.",
-			"DELETED-theif": "Hibiki is a well known happy go lucky adventurer, with a knack for getting in where she isn’t supposed to be and out with more than she entered with. A skill she’s often found boasting about at local taverns."
-		},
+			"MISSING-thief": "Hibiki is a well known happy go lucky adventurer, with a knack for getting in where she isn’t supposed to be and out with more than she entered with. A skill she’s often found boasting about at local taverns."		},
 		"honoka": {
 			"MISSING-standard": "Being weak of health, Honoka spent most of her life at her family's estate, only kept company by her books and personal maid Kyouko, until recently when she by chance ran into Ritsu and the two became friends.",
 			"MISSING-druid": "Honoka hails from a nation of druids, but is now traveling the world in search of new knowledge, the final test given to novice scholars of her people. Her travels are currently shared with Kyouko, a local knight, assigned to be her guide in this kingdom."
