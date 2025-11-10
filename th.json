@@ -379,7 +379,7 @@
 		},
 		"friend_list": {
 			"friends": "เพื่อน",
-			"MISSING-total": "Total",
+			"total": "ทั้งหมด",
 			"MISSING-all": "All",
 			"statuses": {
 				"online": "ออนไลน์",
@@ -387,11 +387,11 @@
 				"away": "ไม่อยู่",
 				"do_not_disturb": "ห้ามรบกวน",
 				"MISSING-invisible": "Invisible",
-				"playing_nexus": "กำลังเล่น Nexus _NAME_",
-				"in_nexus_lobby": "อยู่ใน Nexus _NAME_",
-				"in_lobby": "อยู่ใน _NAME_",
-				"spectating_quiz": "กำลังดู _NAME_",
-				"in_quiz": "เล่น _NAME_ อยู่",
+				"playing_nexus": "กำลังเล่น Nexus_NAME_",
+				"in_nexus_lobby": "อยู่ใน Nexus_NAME_",
+				"in_lobby": "อยู่ใน_NAME_",
+				"spectating_quiz": "กำลังดู_NAME_",
+				"in_quiz": "เล่น_NAME_อยู่",
 				"mode_names": {
 					"co-op": "โหมดหลายคน",
 					"private": "ห้องส่วนตัว",
@@ -412,17 +412,17 @@
 			}
 		},
 		"menu": {
-			"MISSING-patreon": "Patreon",
-			"MISSING-donate": "Donate",
-			"MISSING-song_history": "Song History",
-			"MISSING-settings": "Settings",
-			"MISSING-blocked_players": "Blocked Players",
-			"MISSING-change_password": "Change Password",
-			"MISSING-leaderboard": "Leaderboard",
-			"MISSING-tutorial": "Tutorial",
+			"patreon": "Patreon",
+			"donate": "สนับสนุน",
+			"Msong_history": "ประวัติเพลง",
+			"settings": "ตั้งค่า",
+			"blocked_players": "ผู้เล่นที่บล็อก",
+			"change_password": "เปลี่ยนรหัส",
+			"leaderboard": "ตารางอันดับ",
+			"tutorial": "วิธีเล่น",
 			"MISSING-guidelines": "Guidelines",
 			"MISSING-about": "About",
-			"MISSING-logout": "Logout"
+			"logout": "ออกจากระบบ"
 		},
 		"video_host": {
 			"MISSING-title": "Video Host Connections",
