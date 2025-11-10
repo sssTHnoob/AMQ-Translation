@@ -275,7 +275,7 @@
 				"east": { "name": "East", "shorthand": "E" },
 				"central": { "name": "Central", "shorthand": "C" }
 			},
-			"week_year_2": "สัปดาห์ที่ _NUMBER_ ของ _NUMBER_"
+			"week_year_2": "สัปดาห์ที่ _NUMBER_ ของ _YEAR_"
 		},
 		"ranked_description": {
 			"title": "โหมดจัดอันดับ",
