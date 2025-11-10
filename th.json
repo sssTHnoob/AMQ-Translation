@@ -33,16 +33,16 @@
 			"play": "เล่น",
 			"use_button": "ใช้",
 			"claim_button": "รับ",
-			"MISSING-update_button": "Update",
-			"MISSING-chat": "Chat",
-			"MISSING-block": "Block",
-			"MISSING-send_friend_request": "Send Friend Request",
-			"MISSING-invite_to_game": "Invite to Game",
+			"update_button": "อัปเดต",
+			"chat": "แชท",
+			"block": "บล็อก",
+			"send_friend_request": "ส่งคำขอเป็นเพื่อน",
+			"invite_to_game": "ชวนเข้าเกม",
 			"MISSING-none": "None",
 			"MISSING-default": "Default",
-			"MISSING-delete": "Delete",
-			"MISSING-report": "Report",
-			"MISSING-close_button": "Close",
+			"delete": "ลบ",
+			"report": "รายงาน",
+			"close_button": "ปิด",
 			"MISSING-not_applicable": "N/A"
 		},
 		"popout_messages": {
@@ -54,10 +54,10 @@
 			"guest_account": "บัญชีชั่วคราวไม่สามารถใช้ได้",
 			"guest_account_text": "บัญชีชั่วคราวไม่สามารถใช้งานฟังก์ชันนี้ได้",
 			"block_player": {
-				"MISSING-title": "Block _NAME_",
-				"MISSING-text": "You won't see messages or get friend/game invites from blocked players",
-				"MISSING-confirm": "Block",
-				"MISSING-cancel": "Cancel"
+				"title": "บล็อก _NAME_",
+				"text": "ไม่สามารถเห็นข้อความหรือรับคำชวนจากคนที่บล็อกได้",
+				"confirm": "บล็อก",
+				"cancel": "ยกเลิก"
 			}
 		},
 		"registration": {
