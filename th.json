@@ -1,0 +1,1306 @@
+{
+	"meta": {
+		"language_name": "Thai",
+		"language_name_native": "ภาษาไทย",
+		"language_code": "th",
+		"creators": "sssTHnoob"
+	},
+	"common": {
+		"ui": {
+			"translation_coverage": "แปลแล้ว",
+			"translation_by": "แปลโดย",
+			"username": "ชื่อผู้ใช้งาน",
+			"password": "รหัสผ่าน",
+			"email": "อีเมล",
+			"repeat_password": "ยืนยันรหัสผ่าน",
+			"back_button": "ย้อนกลับ",
+			"resend_button": "ส่งใหม่อีกครั้ง",
+			"register_button": "สร้างบัญชี",
+			"change_button": "เปลี่ยน",
+			"logout_button": "ออกจากระบบ",
+			"confirm_button": "ยืนยัน",
+			"continue_button": "ต่อไป",
+			"ok_button": "OK",
+			"cancel_button": "ยกเลิก",
+			"load_button": "ยืนยัน",
+			"new_password": "รหัสผ่านใหม่",
+			"repeat_new_password": "ยืนยันรหัสผ่านใหม่",
+			"contact": "ติดต่อ",
+			"socials": "โซเชียล",
+			"legal": "ข้อกำหนด",
+			"community_translations": "แปลโดยคอมมูนิตี้",
+			"loading": "กำลังโหลด",
+			"play": "เล่น",
+			"use_button": "ใช้",
+			"claim_button": "รับ",
+			"MISSING-update_button": "Update",
+			"MISSING-chat": "Chat",
+			"MISSING-block": "Block",
+			"MISSING-send_friend_request": "Send Friend Request",
+			"MISSING-invite_to_game": "Invite to Game",
+			"MISSING-none": "None",
+			"MISSING-default": "Default",
+			"MISSING-delete": "Delete",
+			"MISSING-report": "Report",
+			"MISSING-close_button": "Close",
+			"MISSING-not_applicable": "N/A"
+		},
+		"popout_messages": {
+			"unexpected_error": "เกิดข้อผิดพลาดที่ไม่คาดคิด",
+			"please_try_again": "โปรดลองใหม่อีกครั้ง",
+			"error_contacting_server": "มีปัญหาในการติดต่อเซิฟเวอร์",
+			"internal_server_error": "เกิดข้อผิดพลาดภายในเซิฟเวอร์",
+			"down_for_maintenance": "ขณะนี้เซิฟเวอร์กำลังปิดปรับปรุง",
+			"guest_account": "บัญชีชั่วคราวไม่สามารถใช้ได้",
+			"guest_account_text": "บัญชีชั่วคราวไม่สามารถใช้งานฟังก์ชันนี้ได้",
+			"block_player": {
+				"MISSING-title": "Block _NAME_",
+				"MISSING-text": "You won't see messages or get friend/game invites from blocked players",
+				"MISSING-confirm": "Block",
+				"MISSING-cancel": "Cancel"
+			}
+		},
+		"registration": {
+			"terms_of_service": "ยอมรับข้อตกลงในการใช้งานเพื่อลงทะเบียน",
+			"no_username": "ยังไม่ได้ตั้งชื่อผู้ใช้งาน",
+			"username_length": "ชื่อผู้ใช้งานห้ามเปิน 16 ตัวอักษร",
+			"invalid_username": "ชื่อผู้ใช้งานประกอบได้ด้วย ตัวอักษรภาษาอังกฤษ, ตัวเลข และ อันเดอร์สกอร์ เท่านั้น",
+			"amq_username": "ไม่สามารถตั้งชื่อผู้ใช้งานเป็น \"AMQ\" ได้",
+			"password_too_short": "รหัสผ่านห้ามน้อยกว่า 5 ตัวอักษร",
+			"password_too_long": "รหัสผ่านห้ามเกิน 9999 ตัวอักษร",
+			"passwords_not_matching": "รหัสผ่านไม่ตรงกัน",
+			"no_email": "ยังไม่ได้ใส่อีเมล",
+			"invalid_email": "อีเมลไม่ถูกต้อง",
+			"no_country": "ยังไม่ได้เลือกประเทศ",
+			"disabled": "การลงทะเบียนไม่เปิดขณะนี้",
+			"unknown_country": "ไม่พบประเทศนี้",
+			"username_taken": "มีชื่อผู้ใช้งานนี้แล้ว",
+			"email_taken": "อีเมลนี้ทำการสร้างบัญชีแล้ว",
+			"email_sent": "ทำการส่งอีเมลยืนยันไปที่ _EMAIL_ แล้ว",
+			"email_length": "อีเมลห้ามเกิน 255 ตัวอักษร",
+			"account_created": "ทำการสร้างบัญชี _NAME_ แล้ว"
+		},
+		"guest_account": {
+			"title": "บัญชีชั่วคราว",
+			"click_to_register": "ลงทะเบียนต่อให้สมบูรณ์",
+			"complete_registration": "ลงทะเบียนเรียบร้อย",
+			"complete_registration_message": "ในการลงทะเบียนให้สมบูรณ์ ทำการยืนยันอีเมลโดยการกดลิงค์ที่ส่งไปที่ _BOLD_ _EMAIL_ _BOLD_"
+		}
+	},
+	"login_page": {
+		"ui": {
+			"play_now": "ทดลองเล่น",
+			"login": "เข้าสู่ระบบ",
+			"send_button": "ยืนยัน",
+			"return_to_login": "กลับหน้าล็อกอิน",
+			"stay_signed_in": "จำการล็อกอินนี้ไว้",
+			"forgot_password": "ลืมรหัสผ่าน",
+			"forgot_username": "ลืมชื่อผู้ใช้งาน",
+			"country_of_residence": "ประเทศ",
+			"agree_terms_of_service": "ยอมรับ _LINK_ ข้อตกลงในการใช้งาน _LINK_",
+			"start_playing_now": "เริ่มเล่นเลย"
+		},
+		"popout_messages": {
+			"create_guest_account": {
+				"title": "สร้างบัญชีชั่วคราว",
+				"text": "ในการสร้างบัญชีชั่วคราวคุณได้ยอมรับ _LINK_ ข้อตกลงในการใช้งาน _LINK_ และ _LINK_ นโยบายความเป็นส่วนตัว _LINK_",
+				"error_title": "เกิดปัญหาในการสร้างบัญชีชั่วคราว",
+				"error_disabled": "Guest accounts are disabled"
+			},
+			"select_country": "โปรดเลือกประเทศ",
+			"country_error": "มีปัญหาในการบันทึกประเทศ",
+			"already_online": { "title": "บัญชีนี้ออนไลน์อยู่แล้ว", "text": "ล็อกอินเครื่องนี้ และ ล็อกเอ้าท์เครื่องอื่น" },
+			"guest_timeout": "บัญชีชั่วคราวหมดเวลาแล้ว โปรดสร้างบัญชีใหม่"
+		},
+		"text": {
+			"create_account": "สร้างบัญชี",
+			"recover_username_title": "รับชื่อผู้ใช้งาน",
+			"recover_username_text": "ใส่อีเมลที่ใช้ในการสร้างบัญชีเพื่อรับชื่อผู้ใช้งาน",
+			"forgot_password_title": "แก้ไขรหัสผ่าน",
+			"forgot_password_text": "ใส่อีเมลที่ใช้ในการสร้างบัญชีเพื่อรับลิงค์ในการเปลี่ยนรหัสผ่าน",
+			"reset_password_title": "เปลี่ยนรหัสผ่าน",
+			"missing_information": "ข้อมูลบัญชีไม่ครบ",
+			"missing_country": "บัญชีนี้ขาดข้อมูลประเทศ โปรดเลือกประเทศข้างล่าง",
+			"promo_title": "เกมทายเพลงอนิเมะอันดับ 1",
+			"promo_one": {
+				"title": "เล่นได้ไม่จำกัด",
+				"line_one": "มากกว่า 35,000 เพลงจากอนิเมะมากกว่า 8000 เรื่อง",
+				"line_two": "ทุกรอบไม่เหมือนกัน",
+				"line_three": "เลือกเพลงจากอนิเมะที่ดูโดยใข้ MyAnimeList, AniList หรือ Kitsu",
+				"line_four": "เล่นได้ฟรี"
+			},
+			"promo_two": {
+				"title": "เล่นในแบบตัวเอง",
+				"line_one": "เล่นกับเพื่อน",
+				"line_two": "ท้าทายตัวเอง",
+				"line_three": "ไต่อันดับ",
+				"line_four": "สำรวจดันเจี้ยน"
+			},
+			"login_queue": {
+				"title": "คิวล็อกอิน",
+				"text": "ขณะนี้เซิฟเวอร์มีผู้ใช้จำนวนมาก จะทำการล็อกอินให้อัตโนมัติตามลำดับ",
+				"position": "ลำดับในคิว: _SPAN_ 0 _SPAN_"
+			}
+		},
+		"messages": {
+			"account_verified": "ทำการยืนยันบัญชีแล้ว สามารถเข้าสู่ระบบได้",
+			"account_verified_guest": "ทำการยืนยันบัญชีแล้ว สามารถปิดหน้าต่างนี้ได้",
+			"verification_error": "มีปัญหาในการยืนยันบัญชี: เกิดข้อผิดพลาดที่ไม่คาดคิด",
+			"MISSING-unknown_reset_code": "Unknown Reset Code",
+			"wrong_username_password": "ชื่อผู้ใช้งาน หรือ รหัสผ่านผิดพลาด",
+			"email_sent": "ส่งอีเมลแล้ว",
+			"password_updated": "เปลี่ยนรหัสผ่านแล้ว"
+		},
+		"account_verification": {
+			"title": "ยืนยันอีเมล",
+			"text_one": "_SPAN_ บัญชีนี้ยังไม่ได้ยืนยัน _SPAN_ สามารถยืนยันอีเมลโดยการกดลิงค์ที่ส่งไปที่ _BOLD_ _EMAIL_ _BOLD_.",
+			"text_two": "หากไม่ได้รับอีเมลให้ลองเช็คว่าอีเมลอยู่ในช่องอีเมลขยะหรือสแปมหรือไม่ หากไม่มีให้ทำการรอสักพักแล้วเช็กอีกที ถ้ายังไม่มีให้ทำการกดส่งใหม่หรือเปลี่ยนอีเมลที่ใช้ข้างล่าง"
+		},
+		"banned_messages": {
+			"title_temp": "บัญชีนี้ถูกแบนชั่วคราว",
+			"title_ban": "บัญชีนี้ถูกแบน",
+			"text_one": "บัญชีนี้ถูกสงสัยว่าทำการโกง การใช้ปลั๊กอิน, โค้ด หรือการแก้ไขตัวเว็บไซต์ที่ส่งผลให้เกิดความไม่ยุติธรรมถือว่าผิดต่อข้อตกลงในการใช้งานของเกม",
+			"text_two": "บัญชีนี้ถูกแบนเนื่องจากผู้ดูแลตรวจพบการละเมิดข้อตกลงในการใช้งาน สามารถเช็คอีเมลเพื่อดูเหตุผลในการแบนได้",
+			"text_three": "บัญชีนี้ถูกสงสัยว่าทำการโกง การใช้ปลั๊กอิน, โค้ด หรือการแก้ไขตัวเว็บไซต์ที่ส่งผลให้เกิดความไม่ยุติธรรมถือว่าผิดต่อข้อตกลงในการใช้งานของเกม",
+			"text_temp": "เนื่องจากเป็นการแบนครั้งแรกบัญชีนี้จึงถูกแบนเพียงชั่วคราวเท่นั้น หากพบการโกงอีกในอนาคตบัญชีนี้จะถูกแบนถาวร",
+			"text_perm": "เนื่องจากเป็นการแบนครั้งที่สองบัญชีนี้จึงถูกแบนถาวร",
+			"text_end": "หากคิดว่าการแบนนี้เกิดจากความผิดพลาด สามารถติดต่อได้ทาง _LINK_ Discord _LINK_ ที่ช่อง #open-a-ticket channel",
+			"suspended_until": "ถูกแบนจนถึง"
+		}
+	},
+	"main_menu": {
+		"ui": {
+			"news": "ข่าว",
+			"stay_connected": "ช่องทางติดตาม",
+			"merch_store": "ร้านสินค้า",
+			"song_library": "ลิสต์เพลง",
+			"leaderboard": "ตารางอันดับ"
+		},
+		"carousel": {
+			"social_promo": "ติดตาม AMQ บน Discord และ Patreon เพื่อรับตั๋วฟรี",
+			"patreon_promo": "สนับสนุนเกมและรับรางวัลพิเศษ",
+			"sale_names": {
+				"fall": "โปรโมชั่นฤดูใบไม้ร่วง",
+				"summer": "โปรโมชั่นฤดูร้อน",
+				"winter": "โปรโมชั่นฤดูหนาว",
+				"spring": "โปรโมชั่นฤดูใบไม้ผลิ",
+				"halloween": "โปรโมชั่นวันฮาโลวีน",
+				"christmas": "โปรโมชั่นวันคริสต์มาส",
+				"lunar": "โปรโมชั่นวันตรุษจีน",
+				"valentine": "โปรโมชั่นวันวาเลนไทน์",
+				"summer_games": "โปรโมชั่นกีฬาฤดูร้อน"
+			},
+			"sale_text": "ซื้อตั๋วในราคาที่คุ้มค่า",
+			"skin_header": "พิเศษ",
+			"skin_seasons": {
+				"spring": "สกินฤดูใบไม้ผลิ",
+				"summer": "สกินฤดูร้อน",
+				"fall": "สกินฤดูใบไม้ร่วง",
+				"winter": "สกินฤดูหนาว",
+				"halloween": "สกินฮาโลวีน",
+				"christmas": "สกินคริสต์มาส",
+				"lunar": "สกินตรุษจีน",
+				"valentine": "สกินวาเลนไทน์",
+				"summer_games": "สกินกีฬาฤดูร้อน"
+			},
+			"skin_footer": "มาแล้วตอนนี้",
+			"DELETED-skin_text": "รับสกินพิเศษจากการสนับสนุน AMQ"
+		},
+		"quiz_of_the_day": {
+			"title": "ห้องประจำวัน",
+			"time_slots": "เวลาในแต่ละรอบ",
+			"weekly_schedule": "ตารางรายสัปดาห์",
+			"current_week": "สัปดาห์นี้",
+			"what_is": "ห้องประจำวันคืออะไร",
+			"what_is_description": "ห้องประจำวันเป็นห้องที่เปิดให้มีผู้เล่นกี่คนก็ได้มาเล่นพร้อมกันเพื่อแข่งกับผู้เล่นจำนวนมาก ตอนนี้แบ่งเป็น 2 แบบ คือ จัดอันดับ เป็นห้องที่แข่งขันกันเพื่อชิงอันดับหนึ่ง และ ธีม ให้ผู้เล่นได้ลองเล่นเพลงที่เลือกไว้ก่อนแล้วตามธีมของวันนั้นเน้นไปที่ความสนุกและแปลกใหม่",
+			"ranked_description": "โหมดจัดอันดับคือ",
+			"week": "สัปดาห์ที่ _NUMBER_",
+			"championship": "ชิงแชมป์",
+			"championship_description": "ผู้เล่น 150 อันดับแรกแข่งขันกันเพื่อชิงอันดับที่หนึ่งประจำซีซั่น",
+			"rest_day": "วันพัก",
+			"rest_day_description": "ไม่มีห้องประจำวันในวันต่อจากชิงแชมป์",
+			"ranked": "จัดอันดับ",
+			"ranked_finished": "จบแล้ว",
+			"ranked_types": {
+				"novice": {
+					"title": "ผู้เริ่มต้น",
+					"description": "ทั้งหมด 45 เพลง เหมาะสำหรับผู้เล่นใหม่และผู้ที่ยังไม่เชี่ยวชาญมากนัก"
+				},
+				"expert": {
+					"title": "ผู้เชี่ยวชาญ",
+					"description": "ทั้งหมด 85 เพลง สำหรับผู้ที่เชี่ยวชาญแล้ว นอกจากนั้นจะได้แต้มมากกว่าปกติด้วย"
+				}
+			},
+			"states": {
+				"ranked": {
+					"offline": "จัดอันดับ - ยังไม่เริ่ม",
+					"lobby": "จัดอันดับ - กำลังจะเริ่ม",
+					"playing": "จัดอันดับ - กำลังเล่น",
+					"completed": "จัดอันดับ - จบแล้ว",
+					"rest_day": "วันพัก"
+				},
+				"themed": {
+					"offline": "ธีม - ยังไม่เริ่ม",
+					"playing": "ธีม - กำลังเล่น",
+					"completed": "ธีม - จบแล้ว",
+					"MISSING-lobby": "Themed - Lobby Up",
+					"DELETED-lobby_up": "ธีม - กำลังจะเริ่ม"
+				},
+				"championship": {
+					"offline": "ชิงแชมป์ - ยังไม่เริ่ม",
+					"playing": "ชิงแชมป์ - กำลังเล่น",
+					"completed": "ชิงแชมป์ - จบแล้ว",
+					"MISSING-lobby": "Championship - Lobby Up",
+					"DELETED-lobby_up": "ชิงแชมป์ - กำลังจะเริ่ม"
+				}
+			},
+			"week_days": {
+				"monday": "จันทร์",
+				"tuesday": "อังคาร",
+				"wednesday": "พุธ",
+				"thursday": "พฤหัส",
+				"friday": "ศุกร์",
+				"saturday": "เสาร์",
+				"sunday": "อาทิตย์"
+			},
+			"popout_messages": {
+				"weekly_quiz": { "title": "ตารางรายสัปดาห์", "text": "ดูข้อมูลเกี่ยวกับห้องประจำวันและธีมที่จะมาในอนาคต" },
+				"region_time": { "text": "ภูมิภาคและเวลาจนกว่าจะถึงรอบต่อไป" }
+			},
+			"alerts": {
+				"ranked_rules": {
+					"title": "กฎในโหมดจัดอันดับ",
+					"text": "ในการเล่นโหมดจัดอันดับ ห้ามมีการใบ้หรือบอกคำตอบแก่ผู้เล่นคนอื่น นอกจากนั้นห้ามมีการใช้เครื่องมือหรือวิธีการที่ส่งผลให้เกิดความไม่ยุติธรรม"
+				}
+			},
+			"regions": {
+				"west": { "MISSING-name": "West", "MISSING-shorthand": "W" },
+				"east": { "MISSING-name": "East", "MISSING-shorthand": "E" },
+				"central": { "MISSING-name": "Central", "MISSING-shorthand": "C" }
+			},
+			"MISSING-week_year_2": "Week _NUMBER_ of _YEAR_",
+			"DELETED-week_year": "สัปดาห์ที่ _NUMBER_ ของ _NUMBER_"
+		},
+		"ranked_description": {
+			"title": "โหมดจัดอันดับ",
+			"description": "ท้าทายตัวเองด้วยการแข่งกับผู้เล่น AMQ ในโหมดจัดอันดับ เก็บแต้มในการเล่นแต่ละรอบเพื่อรับของรางวัลพิเศษและสิทธืในการชิงแชมป์ช่วงสิ้นเดือน _BREAK_ การเล่นโหมดจัดอันดับต้องมีเลเวล 10 เป็นอย่างน้อย",
+			"how_it_works": "รายละเอียด",
+			"regions": "ภูมิภาค",
+			"region_description": "โหมดจัดอันดับจะมีการเล่น 3 รอบต่อวันแบ่งเป็นแต่ละภูมิภาคคือ West, Central และ East แต่ละคนสามารถเลือกที่จะเล่นรอบไหนก็ได้ แต่คะแนนและสิทธิในการเล่นชิงแชมป์ในแต่ละรอบจะคิดแยกกัน",
+			"ranked_game": "การเล่น",
+			"ranked_game_description_one": "30 นาทีก่อนเริ่มห้องจะเปิดให้เข้าไปรอได้ สามารถเลือกได้ระหว่างห้องผู้เริ่มต้นและห้องผู้เชี่ยวชาญ _BREAK_ ห้องผู้เริ่มต้นเหมาะสำหรับผู้เล่นใหม่และผู้เล่นที่ยังมีประสบการณ์ไม่มาก มีทั้งหมด 45 เพลงเน้นไปที่ความยากง่ายและปานกลาง แต่ละเพลงยาว 20 วินาที _BREAK_ ห้องผู้เชี่ยวชาญเหมาะสำหรับผู้ที่ต้องการการแข่งขัน มีทั้งหมด 85 เพลง แต่ละเพลงยาว 15 วินาที",
+			"ranked_game_description_two": "เมื่อจบเกมจัดอันดับแต่ละรอบผู้เล่นทุกคนจะได้คะแนนตามจำนวนเพลงที่ตอบถูก _BREAK_ สำหรับห้องผู้เริ่มต้นจะได้ 3 คะแนนต่อเพลง _BREAK_ สำหรับห้องผู้เชี่ยวชาญ 5 เพลงแรกที่ตอบถูกจะได้เพลงละ 5 คะแนน, 5 เพลงต่อมาได้เพลงละ 6 คะแนน และเพิ่มคะแนนทุกๆ 5 เพลงแบบนี้เรื่อยๆ",
+			"end_of_season": "จบซีซั่น",
+			"end_of_season_description": "ในวันเสาร์สุดท้ายของแต่ละเดือนจะมีการเล่นชิงแชมป์แทนการจัดอันดับปกติ การเล่นชิงแชมป์จะเหมือนการจัดอันดับแต่จะมีแค่ 150 อันดับแรกในภูมิภาคนั้นเท่านั้นที่มีสิทธิในการเล่น ผู้ชนะจะได้รางวัลเป็นป้ายผู้ชนะในซีซั่นนั้น _BREAK_ วันจันทร์หลังจากเล่นชิงแชมป์จะทำการรีเซ็ตคะแนนและเริ่มต้นซีซั่นใหม่",
+			"rules": "กฎ",
+			"rules_description": "โหมดจัดอันดับมีไว้เพื่อทดสอบความสามารถของตัวเอง จึงห้ามมีการใบ้หรือบอกคำตอบให้คนอื่น นอกจากนั้นการใช้เครื่องมือหรือวิธีการที่ทำให้ได้เปรียบผู้เล่นคนอื่นก็ถูกห้ามเหมือนกัน(รวมถึงในเกมปกติด้วย) _BREAK_ การฝ่าฝืนกฎที่กล่าวมาจะส่งผลให้บัญชีถูกแบนและเสียรางวัลทั้งหมดที่ได้จากการเล่นโหมดจัดอันดับ"
+		},
+		"avatar_drive": {
+			"standings": "อันดับ",
+			"recent": "ล่าสุด",
+			"MISSING-weekly": "Weekly",
+			"weekly_short": "W",
+			"MISSING-monthly": "Monthly",
+			"monthly_short": "M",
+			"MISSING-all_time": "All Time",
+			"all_time_short": "AT",
+			"donate": "สนับสนุน",
+			"amount": "จำนวน",
+			"description": "สนับสนุนเพื่อเลือกตัวละครใหม่ที่กำลังจะมา เมื่อคะแนนถึงเป้าตัวละครที่อยู่อันดับแรกจะได้เพื่มเข้าสู่เกมในอนาคต แม้คะแนนจะถึงเป้าแล้วการสนับสนุนในรอบนี้อาจจะดำเนินต่อไปอีกสักพัก",
+			"faq_what_is": {
+				"title": "Avatar Drive คืออะไร",
+				"text": "Avatar Drive คือ วิธีการสนับสนุนเกมโดยที่มีส่วนในการเลือกตัวละครที่จะมาเพิ่มในอนาคตไปพร้อมกัน ในตอนสนับสนุนสามารถเลือกระหว่างสนับสนุนตัวละครที่มีคนเสนอมาอยู่แล้วหรือเสนอชื่อตัวละครใหม่ก็ได้ จำนวนเงินที่สนับสนุนจะไปเพิ่มคะแนนให้กับตัวละครนั้นๆ เมื่อคะแนนรวมถึงเป้าแล้วตัวละครที่มีคะแนนสูงสุดจะได้เข้าสู่เกมในอนาคต"
+			},
+			"faq_nomination_type": {
+				"title": "สามารถเสนอตัวละครแบบไหนได้บ้าง",
+				"text": "ตัวละครที่เสนอสามารถเป็นแบบไหนก็ได้ตราบใดที่เหมาะสม, เข้ากับรูปแบบของเกม และสามารถนำเข้าเกมได้โดยไม่ผิดกฎหมาย ทุกตัวละครที่เสนอจะมีการตรวจเช็คก่อนและอาจถูกปฏิเสธได้หากไม่ตรงไปตามแนวทางที่กล่าวมาข้างต้น"
+			},
+			"faq_existing_avatar": {
+				"title": "เสนอตัวละครที่มีอยู่แล้วได้มั้ย",
+				"text": "การเสนอตัวละครที่มีอยู่แล้วสามารถทำได้ หากตัวละครนั้นชนะใน Avater Drive จะเป็นการเพิ่มชุดใหม่ให้ตัวละครนั้นแทน นอกจากนั้นตอนเสนอชื่อตัวละครที่มีอยู่แล้วสามารถระบุชุดที่ต้องการได้เลยเหมือนกัน เช่น ถ้าอยากได้ชุดนินจาของตัวละคร Hibiki สามารถระบุตอนเสนอชื่อว่า \"Ninja Hibiki\" ได้เลย"
+			},
+			"donate_towards": "สนับสนุนให้",
+			"nominated_avatar": "ตัวละครที่เสนอมาแล้ว",
+			"new_avatar": "ตัวละครใหม่",
+			"avatar_description": "รายละเอียดตัวละคร",
+			"avatar_description_placeholder": "คำอธิบายสั้นๆเกี่ยวกับตัวละคร",
+			"nomination": "ตัวละครที่สนับสนุน",
+			"anonymous_donation": "ไม่ระบุชื่อผู้สนับสนุน",
+			"free_donation": "ใช้สิทธิสนับสนุนฟรี",
+			"free_donation_amount": "จำนวน: _NUMBER_€",
+			"approx_dollars": "ประมาณ $",
+			"checkout": "ยืนยัน",
+			"popover": { "no_free_donation": "ใช้สิทธิสนับสนุนฟรีของเดือนนี้ไปแล้ว" },
+			"alerts": {
+				"invalid_amount": {
+					"title": "จำนวนไม่ถูกต้อง",
+					"text": {
+						"MISSING-illegal": "You must enter a donation amount",
+						"MISSING-minimum": "The minimum donation amount is 1€"
+					}
+				},
+				"donation_error": { "title": "เกิดปัญหาในการสนับสนุน" },
+				"donation_received": { "title": "ได้รับเงินแล้ว", "text": "ขอบคุณในการสนับสนุนเกม" },
+				"use_free_donation": { "title": "ใช้สิทธิสนับสนุนฟรี", "text": "คุณมีสิทธิสนับสนุนฟรี 1 ครั้งต่อเดือนเท่านั้น" }
+			},
+			"MISSING-faq_button": "FAQ",
+			"MISSING-faq_header": "FAQ",
+			"DELETED-faq": "FAQ",
+			"DELETED-none": "ไม่ระบุ",
+			"MISSING-title": "Avatar Drive"
+		},
+		"social_rewards": {
+			"title": "รางวัลการติดตาม",
+			"MISSING-description_2": "As a thanks for following the game’s Discord and Patreon, you can claim an 8 ticket reward from following each. _BREAK_ Make sure to join the _LINK_ Discord _LINK_ before claiming the Discord reward. _BREAK_ Make sure to join (free) or back the _LINK2_ Patreon _LINK2_ before claiming the Patreon reward.",
+			"DELETED-description": "เมื่อติดตามเกมทาง Discord หรือ Patreon จะได้รับตั๋ว 8 ใบต่อ 1 ช่องทาง _BREAK_ ติดตาม _LINK_ Discord _LINK_ ก่อนที่จะรับรางวัล Discord _BREAK_ ติดตามหรือสนับสนุน _LINK_ Patreon _LINK_ ก่อนที่จะรับรางวัล Patreon"
+		},
+		"game_mode": {
+			"title": "โหมด",
+			"solo": { "title": "เล่นคนเดียว", "description": "ท้าทายตัวเองด้วยเพลงที่มีไม่จำกัดและไม่ซ้ำกันในแต่ละรอบ" },
+			"multiplayer": { "title": "เล่นหลายคน", "description": "เล่นไปพร้อมกับผู้เล่นคนอื่นๆ" },
+			"community": { "title": "กำหนดเอง", "description": "เล่นเพลงที่ผู้เล่นคนอื่นๆเลือกมาหรือจะสร้างเองก็ได้" },
+			"jam": { "title": "Jam", "description": "ห้องที่เปิดตลอดเวลาเพื่อให้ผู้เล่นทุกคนเข้ามาตอนไหนก็ได้" },
+			"nexus": {
+				"title": "Nexus",
+				"description": "ท้าทายตัวเองใน Nexus Dungeon ด้วยการเล่นแนว Roguelike สามารถเล่นได้ทั้งแบบคนเดียวและหลายคน"
+			}
+		}
+	},
+	"menu_bar": {
+		"settings": {
+			"language": {
+				"custom": "กำหนดเอง",
+				"custom_description": "ระบุไฟล์ภาษาเพื่อใช้ทดลองในเกม",
+				"custom_title": "ไฟล์ภาษากำหนดเอง",
+				"custom_placeholder": "ลิงค์สำหรับไฟล์ภาษา",
+				"custom_alert_description": "ระบุลิงค์สำหรับไฟล์ภาษา",
+				"custom_failed_to_load": {
+					"title": "เกิดปัญหาในการโหลดไฟล์ภาษา",
+					"text": "ไม่สามารถโหลดไฟล์ภาษาจากลิงค์ที่ระบุได้"
+				},
+				"custom_wrong_format": {
+					"title": "รูปแบบไฟล์มีปัญหา",
+					"text": "ไฟล์ที่ระบุอยู่ในรูปแบบที่ไม่ถูกต้อง เปิด console เพื่อดูรายละเอียด"
+				}
+			}
+		},
+		"friend_list": {
+			"MISSING-friends": "Friends",
+			"MISSING-total": "Total",
+			"MISSING-all": "All",
+			"statuses": {
+				"MISSING-online": "Online",
+				"MISSING-offline": "Offline",
+				"MISSING-away": "Away",
+				"MISSING-do_not_disturb": "Do Not Disturb",
+				"MISSING-invisible": "Invisible",
+				"MISSING-playing_nexus": "Playing _NAME_ Nexus",
+				"MISSING-in_nexus_lobby": "In _NAME_ Nexus Lobby",
+				"MISSING-in_lobby": "In _NAME_ Lobby",
+				"MISSING-spectating_quiz": "Spectating _NAME_ Quiz",
+				"MISSING-in_quiz": "In _NAME_ Quiz",
+				"mode_names": {
+					"MISSING-co-op": "Co-Op",
+					"MISSING-private": "Private",
+					"MISSING-jam": "Jam",
+					"MISSING-event": "Event",
+					"MISSING-solo": "Solo",
+					"MISSING-quiz_of_the_day": "Quiz of the Day"
+				}
+			},
+			"options": {
+				"MISSING-report": "Report",
+				"MISSING-remove_friend": "Remove Friend",
+				"MISSING-join_game": "Join Game"
+			},
+			"popout_messages": {
+				"MISSING-not_in_game": "You are not in a game",
+				"MISSING-solo_game_invite": "Can't invite players to solo games"
+			}
+		},
+		"menu": {
+			"MISSING-patreon": "Patreon",
+			"MISSING-donate": "Donate",
+			"MISSING-song_history": "Song History",
+			"MISSING-settings": "Settings",
+			"MISSING-blocked_players": "Blocked Players",
+			"MISSING-change_password": "Change Password",
+			"MISSING-leaderboard": "Leaderboard",
+			"MISSING-tutorial": "Tutorial",
+			"MISSING-guidelines": "Guidelines",
+			"MISSING-about": "About",
+			"MISSING-logout": "Logout"
+		},
+		"video_host": {
+			"MISSING-title": "Video Host Connections",
+			"MISSING-description": "Connection status to the different video servers",
+			"MISSING-click_to_retest": "Click to retest connection",
+			"MISSING-speed": "Speed: _SPANC_ _NUMBER_  _SPANC_",
+			"connection_status": {
+				"MISSING-good": "Good",
+				"MISSING-okay": "Okay",
+				"MISSING-poor": "Poor",
+				"MISSING-bad": "Bad"
+			}
+		}
+	},
+	"player_profile": {
+		"MISSING-profile_image": "Profile Image",
+		"MISSING-avatar": "Avatar",
+		"MISSING-no_badges": "No Badges",
+		"MISSING-profile": "Profile",
+		"MISSING-special_badges": "Special Badges",
+		"MISSING-standard_badges": "Standard Badges",
+		"MISSING-name_effects": "Name Effects",
+		"MISSING-name_color": "Name Color",
+		"MISSING-name_glow": "Name Glow",
+		"MISSING-hidden": "Hidden",
+		"MISSING-account_creation": "Account Creation",
+		"MISSING-songs_played": "Songs Played",
+		"MISSING-guess_rate": "Guess Rate",
+		"MISSING-options": "Options",
+		"MISSING-edit": "Edit",
+		"MISSING-change_nickname": "Change Nickname",
+		"change_nickname_modal": {
+			"MISSING-description": "You can change your nickname (the name you appear as in-game) by spending one name change token. Your account gets one name change token each year and an additional token each month if you’re a level 4 or higher Patreon backer. _BREAK_ If you change your nickname, your old nickname will become available for anyone to use (even if it's your original name). _BREAK_ Your original name will still be viewable on your profile.",
+			"MISSING-current_tokens": "Current Name Change Tokens: _SPAN_ _NUMBER_ _SPAN_",
+			"MISSING-check_availability": "Check Availability"
+		},
+		"alerts": {
+			"MISSING-error_getting_profile": "Error Getting Player Profile",
+			"MISSING-unknown_player": "Unknown Player"
+		},
+		"name_effects_entries": {
+			"challenger_color": {
+				"MISSING-name": "Challenger",
+				"MISSING-description": "Unlocked for players who qualified for last month ranked championship"
+			},
+			"challenger_glow": {
+				"MISSING-name": "Challenger",
+				"MISSING-description": "Unlocked for players who got top 50 in last month ranked championship"
+			},
+			"patreon_color": {
+				"MISSING-name": "Patreon",
+				"MISSING-description": "Unlocked for level 3 or higher Patreon backers"
+			},
+			"patreon_glow": {
+				"MISSING-name": "Patreon",
+				"MISSING-description": "Unlocked for level 4 or higher Patreon backers"
+			},
+			"MISSING-month_patreon_current": "Unlocked for level 5 Patreon backers who back this month, and level 6 backers",
+			"MISSING-month_patreon_previous": "Unlocked for level 5 Patreons who backed during the release month, and level 6 backers",
+			"MISSING-month_patreon_previous_unlocked": "Unlocked for level 5 Patreons who backed during the release month, and level 6 backers. You backed during the release month."
+		}
+	},
+	"badges": {
+		"ranked": {
+			"MISSING-name": "Ranked _TIER_ _YEAR_ _NUMBER_",
+			"MISSING-name_result": "Ranked _TIER_ _YEAR_",
+			"MISSING-description": "Got _TIER_ tier in the _YEAR_ ranked season _NUMBER_",
+			"MISSING-description_result": "Got _TIER_ tier for the _YEAR_ ranked seasons",
+			"tiers": {
+				"MISSING-bronze": "Bronze",
+				"MISSING-silver": "Silver",
+				"MISSING-gold": "Gold",
+				"MISSING-platinum": "Platinum",
+				"MISSING-diamond": "Diamond"
+			}
+		},
+		"champion": {
+			"name": {
+				"MISSING-first": "Ranked Champion _YEAR_ _NUMBER_",
+				"MISSING-second": "Ranked Second Place _YEAR_ _NUMBER_",
+				"MISSING-third": "Ranked Third Place _YEAR_ _NUMBER_"
+			},
+			"description": {
+				"MISSING-first": "Won the _YEAR_ season _NUMBER_ championship",
+				"MISSING-second": "Ranked Second Place in the _YEAR_ season _NUMBER_ championship",
+				"MISSING-third": "Ranked Third Place in the _YEAR_ season _NUMBER_ championship"
+			}
+		},
+		"challenger": {
+			"name": {
+				"MISSING-top": "Ranked Expert _YEAR_ _NUMBER_",
+				"MISSING-mid": "Ranked Up-and-Coming _YEAR_ _NUMBER_",
+				"MISSING-qualified": "Ranked Challenger _YEAR_ _NUMBER_"
+			},
+			"description": {
+				"MISSING-qualified": "Qualified for the _YEAR_ season _NUMBER_ championship",
+				"MISSING-top": "Got top _TOP_ in the _YEAR_ season _NUMBER_ ranked championship"
+			}
+		},
+		"patreon": {
+			"name": {
+				"MISSING-start": "Patreon Backer",
+				"MISSING-month": "_NUMBER_ Months Patreon Backer",
+				"MISSING-one_year": "1 Year Patreon Backer",
+				"MISSING-multiple_years": "_NUMBER_ Years Patreon Backer"
+			},
+			"MISSING-description": "AMQ Patreon Backer"
+		},
+		"avatar": { "MISSING-name": "_NAME_ Badge", "MISSING-description": "Unlock 10 skins/recolors for _NAME_" },
+		"mod": {
+			"name": { "MISSING-game": "AMQ Moderator", "MISSING-jam": "AMQ Jam Mode Moderator" },
+			"description": {
+				"MISSING-game": "Part of the AMQ Moderator team",
+				"MISSING-jam": "Part of the AMQ Jam Mode Moderator team"
+			}
+		},
+		"aragaimu": {
+			"name": {
+				"MISSING-participant": "Aragaimu _YEAR_ Participant",
+				"MISSING-top32": "Aragaimu _YEAR_ Top 32",
+				"MISSING-top4": "Aragaimu _YEAR_ Top 4"
+			},
+			"description": {
+				"MISSING-participant": "Participated in the Aragaimu _YEAR_ tournament",
+				"MISSING-top32": "Got Top 32 in the Aragaimu _YEAR_ tournament",
+				"MISSING-top4": "Got Top 4 in the Aragaimu _YEAR_ tournament"
+			}
+		}
+	},
+	"patreon_window": {
+		"MISSING-title": "Patreon",
+		"MISSING-description": "Help support the operation and development of AMQ by backing the game on Patreon. Working on and sharing AMQ with you all has been and is an amazing experience, and I have so much more I want to do with the game. By backing the Patreon you'll help me not only cover the costs of running the game, but also continue its development! As a special thanks, you'll get several exclusive rewards!",
+		"reward_examples": {
+			"MISSING-title": "Some of the Patreon Rewards",
+			"MISSING-sneak_peeks": "Sneak Peeks",
+			"MISSING-patreon_badge": "Patreon Badges",
+			"MISSING-custom_emotes": "Custom Emotes",
+			"MISSING-monthly_tickets": "Monthly Tickets"
+		},
+		"MISSING-already_a_backer": "Already a Backer?",
+		"MISSING-link_account": "Link Patreon Account",
+		"MISSING-become_a_backer": "Become a Backer",
+		"MISSING-patreon_linked": "Patreon Linked!",
+		"backer_level": {
+			"MISSING-title": "Backer Level",
+			"MISSING-tier": "Level _NUMBER_",
+			"rewards": { "MISSING-emotes": "_NUMBER_ Emotes", "MISSING-tickets": "_NUMBER_ Tickets" }
+		},
+		"MISSING-badge_level": "Badge Level",
+		"MISSING-badge_level_info": "Your badge level is equal to the concurrent months you've been a level 2 or higher backer of the Patreon",
+		"MISSING-patreon_page": "Patreon Page",
+		"MISSING-relink": "Relink",
+		"MISSING-update_info": "Update Info",
+		"MISSING-unlink_account": "Unlink Account",
+		"MISSING-linked_account": "Linked Account",
+		"emotes": {
+			"MISSING-title": "Emotes",
+			"MISSING-upload": "Upload",
+			"MISSING-close": "Close",
+			"MISSING-manage": "Manage",
+			"MISSING-empty": "Empty",
+			"states": {
+				"waiting_approval": { "MISSING-name": "Waiting Approval", "MISSING-shorthand": "W" },
+				"active": { "MISSING-name": "Active", "MISSING-shorthand": "A" },
+				"disabled": { "MISSING-name": "Disabled", "MISSING-shorthand": "D" }
+			},
+			"MISSING-error_deleting": "Error Deleting Emote",
+			"upload_emote": {
+				"MISSING-title": "Upload Emote",
+				"description": {
+					"MISSING-line_one": "_BOLD_ Slots Left _BOLD_",
+					"MISSING-line_two": "Standard: _NUMBER_",
+					"MISSING-line_three": "Animated: _NUMBER_"
+				},
+				"MISSING-confirm_button": "Select File",
+				"MISSING-footer": "Accepted File Formats: png (Standard), gif (Animated). Max Filesize: 256kb",
+				"file_too_large": {
+					"MISSING-title": "File Too Big",
+					"MISSING-description": "Max filesize is 256kb. Provided file is _NUMBER_kb"
+				},
+				"no_standard_slot": {
+					"MISSING-title": "No Standard Slot Available",
+					"MISSING-description": "You don't have any empty standard emote slots available"
+				},
+				"no_animated_slot": {
+					"MISSING-title": "No Animated Slot Available",
+					"MISSING-description": "You don't have any empty animated emote slots available"
+				},
+				"selected_image": {
+					"MISSING-title": "Selected Image",
+					"MISSING-image": "Image",
+					"MISSING-resulting_emote": "Resulting Emote",
+					"MISSING-placeholder": "Emote Name",
+					"errors": {
+						"MISSING-no_name": "You must provide an emote name",
+						"MISSING-name_format": "Emote names can only contain letters and numbers",
+						"MISSING-name_length": "Emote names must be at most _NUMBER_ characters"
+					}
+				},
+				"server_rejected": {
+					"MISSING-title": "Error Uploading Emote",
+					"MISSING-description": "The server rejected the emote upload."
+				},
+				"emote_uploaded": {
+					"MISSING-title": "Emote Uploaded",
+					"MISSING-description": "Your emote has been successfully uploaded and is pending approval"
+				}
+			}
+		}
+	},
+	"setting_window": {
+		"MISSING-title": "Settings",
+		"tabs": {
+			"MISSING-game": "Game",
+			"MISSING-anime_list": "Anime List",
+			"MISSING-graphics": "Graphics",
+			"MISSING-audio": "Audio"
+		},
+		"MISSING-language": "Language",
+		"auto_submit": {
+			"MISSING-title": "Auto Submit",
+			"MISSING-description": "Automatically submit your answer when the guess time runs out"
+		},
+		"list_numbering": {
+			"MISSING-title": "List Numbering",
+			"MISSING-description": "Show number of songs played from each players anime list on the scoreboard"
+		},
+		"disable_emotes": {
+			"MISSING-title": "Disable Emotes",
+			"MISSING-description": "Disable emotes from being shown in chats"
+		},
+		"answer_time": {
+			"MISSING-title": "Answer Time",
+			"MISSING-description": "Display players answer time on their avatars"
+		},
+		"anime_link": { "MISSING-title": "Anime Link", "MISSING-description": "The anime site that's linked in song info" },
+		"auto_skip_vote": {
+			"MISSING-title": "Auto Skip Vote",
+			"MISSING-description": "Automatically vote to skip after answering and/or after 2 seconds in the replay phase",
+			"MISSING-guessing_phase": "Guessing Phase",
+			"MISSING-replay_phase": "Replay Phase"
+		},
+		"block_non_friend_actions": {
+			"MISSING-title": "Block Non-Friend Actions",
+			"MISSING-description": "Block social actions from players not on your friends list",
+			"MISSING-direct_messages": "Direct Messages",
+			"MISSING-friend_requests": "Friend Requests",
+			"MISSING-game_invites": "Game Invites"
+		},
+		"anime_names": {
+			"MISSING-title": "Anime Names",
+			"MISSING-description": "Default anime name shown in quizzes",
+			"MISSING-english": "English",
+			"MISSING-romaji": "Romaji"
+		},
+		"team_answer": {
+			"MISSING-title": "Team Answers in Chat",
+			"MISSING-description": "Show your team answers in the chat during team games",
+			"MISSING-never": "Never",
+			"MISSING-out_of_focus": "Out of Focus",
+			"MISSING-always": "Always"
+		},
+		"sound_equalizing": {
+			"MISSING-title": "Sound Equalizing",
+			"MISSING-description": "Equalize volume levels between different songs"
+		},
+		"max_volume": {
+			"MISSING-title": "Max Volume",
+			"MISSING-description": "The maximum volume for sound equalizing, increasing this will increase the overall volume, but may cause quieter songs to not be fully equalized"
+		},
+		"auto_hide_video": {
+			"MISSING-title": "Auto Hide Video",
+			"MISSING-description": "Automatically hide the video for the selected categories, it can still be unhidden by clicking the video during the replay phase",
+			"MISSING-openings": "Openings",
+			"MISSING-endings": "Endings",
+			"MISSING-inserts": "Inserts",
+			"unwatched": { "MISSING-title": "Unwatched", "MISSING-description": "Videos from anime you haven't watched" },
+			"high_risk": {
+				"MISSING-title": "High Risk",
+				"MISSING-description": "Videos that are likely to cause spoilers or are nsfw. Based on player statistics"
+			}
+		},
+		"anime_list": {
+			"MISSING-description": "Connect your AniList, MyAnimeList or Kitsu list, and the game will use your anime list when picking songs with the “watched” setting. _BREAK_ Lists are updated weekly or when clicking update. To remove a list, update it without a username.",
+			"share_entries": {
+				"MISSING-title": "Share Entries",
+				"MISSING-description": "Show when a show is from your list"
+			},
+			"show_scores": {
+				"MISSING-title": "Show Scores",
+				"MISSING-description": "Show your anime score for shows on your list"
+			},
+			"MISSING-anilist_username": "AniList Username",
+			"MISSING-mal_username": "MyAnimeList Username",
+			"MISSING-mal_username_short": "MAL Username",
+			"MISSING-kitsu_username": "Kitsu Username",
+			"MISSING-last_updated": "_BOLD_ Last Updated: _BOLD_ _SPAN_ _DATE_ _SPAN_",
+			"update_messages": {
+				"MISSING-update_successful": "Update Successful",
+				"MISSING-update_failed": "Update Failed",
+				"MISSING-list_updated": "List Updated",
+				"MISSING-list_removed": "List Removed",
+				"MISSING-unknown_username": "Unknown Username",
+				"MISSING-mal_private": "MAL List set to private, only public lists can be synced to the game",
+				"MISSING-mal_error": "Error from MAL, please try again later",
+				"MISSING-anilist_error": "Unable to Retrieve List from AniList"
+			},
+			"included_entries": {
+				"MISSING-title": "Included Entries",
+				"types": {
+					"MISSING-watching": "Watching",
+					"MISSING-completed": "Completed",
+					"MISSING-on_hold": "On Hold",
+					"MISSING-dropped": "Dropped",
+					"MISSING-planning": "Planning"
+				}
+			}
+		},
+		"graphics": {
+			"particle_effects": {
+				"MISSING-title": "Particle Effects",
+				"MISSING-description": "Controls the number of particles used in effects, such as the XP animation.",
+				"levels": { "MISSING-off": "Off", "MISSING-low": "Low", "MISSING-high": "High" }
+			},
+			"disable_floating_text": {
+				"MISSING-title": "Disable Floating Text",
+				"MISSING-description": "Floating text won't appear when gaining xp and notes"
+			},
+			"MISSING-name_effects_friend_list": "Name Effects in Friend List"
+		},
+		"audio": {
+			"MISSING-nexus": "Nexus",
+			"MISSING-master": "Master",
+			"MISSING-music": "Music",
+			"MISSING-effects": "Effects"
+		}
+	},
+	"blocked_player_window": { "MISSING-title": "Blocked Player List", "MISSING-remove_button": "Remove" },
+	"change_password_window": {
+		"MISSING-title": "Change Password",
+		"MISSING-current_password": "Current Password",
+		"MISSING-no_current_password": "You must provide your current password",
+		"MISSING-unexpected_error": "Unexpected error, please try again",
+		"MISSING-error_contacting_server": "Error contacting server, please try again later",
+		"MISSING-password_updated": "Password updated successfully",
+		"MISSING-wrong_password": "Current password is incorrect"
+	},
+	"leaderboard_window": {
+		"MISSING-title": "Leaderboard",
+		"MISSING-levels": "Levels",
+		"MISSING-self": "Self",
+		"MISSING-friends": "Friends",
+		"MISSING-top": "Top",
+		"MISSING-ranked": "Ranked",
+		"MISSING-all": "All",
+		"MISSING-champs": "Champs"
+	},
+	"tutorial_window": {
+		"MISSING-title": "Tutorials",
+		"MISSING-start": "Start",
+		"MISSING-reset": "Reset",
+		"MISSING-nexus_tutorials": "Nexus Tutorials",
+		"tutorials": {
+			"MISSING-gameplay": "Gameplay",
+			"MISSING-avatars": "Avatars",
+			"MISSING-social": "Social",
+			"MISSING-dungeon": "Dungeon",
+			"MISSING-workshop": "Workshop",
+			"MISSING-rune_setup": "Rune Setup"
+		},
+		"status": { "MISSING-locked": "Locked", "MISSING-unlocked": "Unlocked", "MISSING-completed": "Completed" },
+		"DELETED-states": { "MISSING-locked": "Locked", "MISSING-unlocked": "Unlocked", "MISSING-completed": "Completed" }
+	},
+	"guidelines_window": {
+		"MISSING-title": "Guidelines",
+		"MISSING-description": "Anime Music Quiz is meant to be fair and enjoyable for everyone. To ensure this it’s important you follow the below guidelines, as well as any instructions from moderators. Failure to follow these guidelines will result in chat or game bans depending on the case.",
+		"dont_cheat": {
+			"MISSING-title": "Don't Cheat",
+			"MISSING-text": "Using any type of external software or tool that gives an unfair advantage is considered cheating. This in general covers, but is not limited to tools that reveal extra information about the song, video or show."
+		},
+		"no_teaming": {
+			"MISSING-title": "No Teaming in Ranked",
+			"MISSING-text": "Ranked is meant to be a test of individual skill, teaming or sharing answers with other players is therefore strictly prohibited. Outside of ranked (and jam mode) you are more than welcome to share answers with friends if the hosts of the room are okay with it, but keep the sharing out of ranked."
+		},
+		"no_automated_grind": {
+			"MISSING-title": "No (Semi-)Automated Grind",
+			"MISSING-text": "It’s okay to grind for notes and tickets, as long as you put in the work for it. But using any tools or method to automate or semi automate the grind is strictly against the rules, and will resolve in a perma ban. This includes AFK grinding in team lobbies."
+		},
+		"dont_harass": {
+			"MISSING-title": "Don't Harass Other Players",
+			"MISSING-text": "The game is for everyone, so harassment of others is not tolerated. It’s of course okay to banter between friends, but make sure everyone is in on it."
+		},
+		"no_hate_speech": {
+			"MISSING-title": "No Hate Speech or Racism",
+			"MISSING-text": "This goes without saying, be nice to each other and don’t go throwing around racial slurs."
+		}
+	},
+	"about_window": {
+		"MISSING-title": "About",
+		"MISSING-developed_by": "Developed by _NAME_",
+		"MISSING-development": "Development",
+		"MISSING-art": "Art",
+		"MISSING-sound_and_audio": "Sound and Audio",
+		"MISSING-special_thanks": "Special Thanks",
+		"MISSING-credits": "Credits"
+	},
+	"avatar_window": {
+		"MISSING-nothing_selected": "Nothing Selected _BREAK_ Select Above",
+		"MISSING-collapse_all": "Collapse All",
+		"rhythm": {
+			"MISSING-title": "Rhythm",
+			"MISSING-description": "Currency gained by rolling duplicates in the Ticket System. Can be used to unlock ticket rewards.",
+			"MISSING-duplicate": "Duplicate, rhythm awarded"
+		},
+		"resonance_system": {
+			"MISSING-target": "Target",
+			"MISSING-title": "Resonance System",
+			"MISSING-no_target": "No Target Selected",
+			"MISSING-no_target_description": "Target a skin/avatar by targeting it from the shop",
+			"how_it_works": {
+				"MISSING-title": "How It Works",
+				"MISSING-description": "Target an epic or legendary avatar/skin in the shop, and gain points towards it every time you roll in the Ticket System, double points if you use an avatar token for the target. _BREAK_ Once you’ve gained enough points (200 for epic, 500 for legendary) the target is unlocked! _BREAK_ You can swap your target at any time, but it halves your point. _BREAK_ You can target seasonal/limited-time avatars, but you can only gain points towards them while they are in rotation."
+			},
+			"target_messages": {
+				"MISSING-target_message": "Target in Resonance System",
+				"MISSING-require_base_skin": "Require Base Skin to Target",
+				"MISSING-rare_common": "Rare/Common skins cannot be targeted"
+			},
+			"set_target_prompt": {
+				"MISSING-title": "Set Skin as Resonance Target?",
+				"MISSING-description": "Ticket rolls will earn points towards guaranteeing unlocking this avatar/skin. Targets can be changed, at the cost of 50% of gathered resonance points.",
+				"MISSING-confirm_button": "Set Target"
+			},
+			"seasonal_target_prompt": {
+				"MISSING-title": "Seasonal Target",
+				"MISSING-description": "Resonance points can only be earned towards it while it's in rotation. Target anyway?",
+				"MISSING-confirm_button": "Yes"
+			},
+			"swap_target_prompt": {
+				"MISSING-title": "Swap Resonance Target?",
+				"MISSING-description": "This will cost 50% of your current resonance points.",
+				"MISSING-confirm_button": "Swap Target"
+			},
+			"DELETED-target_message": "Target in Resonance System",
+			"target_no_active_warning": {
+				"MISSING-title": "Resonance Target Not Active",
+				"MISSING-description": "Resonance points can’t be earned towards inactive targets, so roll won’t award resonance points."
+			},
+			"resonance_limit_warning": {
+				"MISSING-title": "Resonance Limit Reached",
+				"MISSING-description": "Earn points from your rolls towards guaranteeing unlocks, by targeting a roll-able epic or legendary avatar/skin. Points are lost without a target. For details, hover the target tab to the left."
+			},
+			"resonance_different_target_warning": {
+				"MISSING-title": "Target Different From Resonance",
+				"MISSING-description": "Token target different from resonance target, roll won't award extra resonance points."
+			},
+			"MISSING-target_set": "Resonance Target Set"
+		},
+		"favorites": {
+			"MISSING-no_favorite_selected": "No Favorites Selected _BREAK_ Set Some by Clicking the _BREAK_ _ICON_ on Unlocked Avatars",
+			"auto_switch": {
+				"MISSING-description": "Auto switch between favorited avatars at the end of each game",
+				"MISSING-auto_switch": "Auto Switch",
+				"mode": { "MISSING-random": "Random", "MISSING-off": "Off", "MISSING-cycle": "Cycle" },
+				"DELETED-random": "Random"
+			}
+		},
+		"DELETED-no_favorite_selected": "No Favorites Selected _BREAK_ Set Some by Clicking the _BREAK_ _ICON_ on Unlocked Avatars",
+		"filters": {
+			"locked": { "MISSING-title": "Locked", "MISSING-description": "Show content you haven't unlocked" },
+			"unlocked": { "MISSING-title": "Unlocked", "MISSING-description": "Show content you have unlocked" },
+			"available": {
+				"MISSING-title": "Available",
+				"MISSING-description": "Show content that's available to unlock in the shop"
+			},
+			"unavailable": {
+				"MISSING-title": "Unavailable",
+				"MISSING-description": "Show content that's not currently available to unlock in the shop"
+			},
+			"limited": {
+				"MISSING-title": "Limited",
+				"MISSING-description": "Show content that's only available for a limited time"
+			},
+			"unlimited": {
+				"MISSING-title": "Unlimited",
+				"MISSING-description": "Show content that's always available to unlock"
+			},
+			"exclusive": {
+				"MISSING-title": "Exclusive",
+				"MISSING-description": "Show content unlockable through the ticket systems"
+			},
+			"standard": { "MISSING-title": "Standard", "MISSING-description": "Show content unlockable with notes" }
+		},
+		"MISSING-background": "Background",
+		"toggle": { "MISSING-on": "Toggle On", "MISSING-off": "Toggle Off" },
+		"MISSING-poses": "Poses",
+		"pose_names": {
+			"MISSING-base": "Base",
+			"MISSING-thinking": "Thinking",
+			"MISSING-waiting": "Waiting",
+			"MISSING-no_answer": "No Answer",
+			"MISSING-correct": "Correct",
+			"MISSING-wrong": "Wrong"
+		},
+		"avatar_action_button": {
+			"MISSING-missing_skin": "Missing Skin Bonus",
+			"MISSING-background_locked": "Background Locked",
+			"MISSING-use": "Use",
+			"MISSING-decoration_not_unlocked": "Decoration Not Unlocked",
+			"MISSING-active": "Active",
+			"MISSING-unavailable": "Unavailable",
+			"MISSING-unlock": "Unlock",
+			"DELETED-Active": "Active",
+			"DELETED-unavaliable": "Unavailable"
+		},
+		"avatar_bonus": {
+			"MISSING-title": "Avatar Bonus",
+			"MISSING-description": "Unlock 10 different skins/versions for this avatar to earn its badge"
+		},
+		"skin_bonus": {
+			"MISSING-title": "Skin Bonus",
+			"MISSING-description": "Unlock 10 different versions of this skin to unlock its backgrounds for other avatars"
+		},
+		"MISSING-world": "World",
+		"MISSING-artist": "Artist",
+		"MISSING-version_artist": "Version Artist",
+		"MISSING-background_story": "Background Story",
+		"ticket_system": {
+			"menu": { "MISSING-use": "Use", "MISSING-history": "History", "MISSING-buy": "Buy", "MISSING-gift": "Gift" },
+			"MISSING-redeem_code": "Redeem Ticket Code",
+			"patreon_promo": {
+				"MISSING-line_one": "Back the Patreon to get",
+				"MISSING-line_two": "the Most Tickets for Your Money!"
+			},
+			"MISSING-gift_target": "Gift Target",
+			"MISSING-gift_no_target_message": "Select Friend to Gift",
+			"MISSING-gift_clear": "Clear",
+			"MISSING-no_past_rolls": "No Past _BREAK_ Ticket Rolls",
+			"MISSING-one_roll": "1 Roll",
+			"ten_roll": { "MISSING-title": "10 Rolls", "MISSING-description": "Rare or Higher Item Guaranteed!" },
+			"MISSING-token_description": "Select an avatar for _BREAK_ 50% chance for it _BREAK_ on all rolls",
+			"MISSING-token_description_dropdown": "Select an avatar above and all rolls will have a 50% chance of being of that avatar",
+			"MISSING-roll": "Roll",
+			"animated_promo": {
+				"MISSING-title": "Animated Promo",
+				"MISSING-description": "Rollable without base skin",
+				"MISSING-ends_in": "Ends in _NUMBER_ days",
+				"MISSING-extended_description": "Promo event that allows you to roll the animated _NAME_ alt. version in the ticket system without first unlocking the base _NAME2_ legendary skin."
+			},
+			"info": {
+				"MISSING-title": "Ticket System",
+				"MISSING-description": "The Ticket System allows players to spend tickets to unlock exclusive skins, skin versions, emotes, avatar backgrounds and decorations.",
+				"how_to_earn": {
+					"MISSING-title": "How to Earn Tickets",
+					"MISSING-text": "Players receive one ticket each time they level up, with a bonus 5 tickets every 10th level. Tickets can also be bought directly or be earned by backing the games Patreon."
+				},
+				"how_do_rolls_work": {
+					"MISSING-title": "How Do Rolls Work?",
+					"MISSING-text": "You can spend tickets to roll for exclusive rewards in the ticket system. Each roll costs 2 tickets. Rewards are split into 4 rarities, with different chances of being rolled:",
+					"MISSING-common": "(Common) 85% chance: Simple skin recolors and Emotes.",
+					"MISSING-rare": "(Rare) 10% chance: Advanced skin versions and decorations.",
+					"MISSING-epic": "(Epic) 4.5% chance: Major skin version, seasonal skins and unique backgrounds.",
+					"MISSING-legendary": "(Legendary) 0.5% chance: Unique skins and animated versions.",
+					"MISSING-info_footer": "Skin versions for a ticket reward skin can’t be rolled until the skin has been unlocked."
+				},
+				"how_does_rhythm_work": {
+					"MISSING-title": "How Does Rhythm Work?",
+					"MISSING-text": "If you roll a reward you have already unlocked, you earn an amount of rhythm based on the reward's rarity. Rhythm can be spent to unlock any specific reward item once enough of it has been collected."
+				},
+				"how_does_avatar_tokens_work": {
+					"MISSING-title": "How Do Avatar Tokens Work?",
+					"MISSING-text": "When buying tickets or backing the Patron, you’ll receive avatar tokens. These tokens can be used to focus ticket rolls towards specific avatars or seasonal skins, by selecting a target before doing a roll. When an avatar/season is focused, each individual roll will have a 50% chance of being a non duplicate (if any available) of that avatar/season. _BREAK_ The rarity pull ratio remains the same when using avatar tokens."
+				}
+			},
+			"ticket_code_input": {
+				"MISSING-title": "Enter Ticket Code",
+				"MISSING-placeholder": "Ticket Code",
+				"MISSING-redeem": "Redeem"
+			},
+			"MISSING-invalid_ticket_code": "Invalid Ticket Code",
+			"ticket_code_redeemed_message": {
+				"MISSING-title": "Ticket Code Redeemed!",
+				"MISSING-description": "_NUMBER_ tickets and _NUMBER2_ tokens claimed."
+			},
+			"MISSING-approx_dollar": "Approx. $_NUMBER_",
+			"MISSING-one_ticket": "1 Ticket",
+			"MISSING-ticket_pack": "_NUMBER_ Pack",
+			"MISSING-ticket": "Ticket",
+			"MISSING-tickets": "Tickets",
+			"MISSING-avatar_token": "Avatar Token",
+			"MISSING-avatar_tokens": "Avatar Tokens",
+			"gift_message": {
+				"MISSING-title": "Buying Ticket Gift for _NAME_",
+				"MISSING-placeholder": "Gift message: _MESSAGE_"
+			},
+			"no_gift_target_message": {
+				"MISSING-title": "No Gift Target Selected",
+				"MISSING-description": "Select one below"
+			},
+			"gift_no_friends": {
+				"MISSING-title": "No Friends in Friend List",
+				"MISSING-description": "You're only able to gift tickets to friends in your friend list."
+			},
+			"sale_text": {
+				"MISSING-unlocks_remaining": "_SPANC_ _NUMBER _SPANC_ Unlock(s) Remaining",
+				"MISSING-days_remaining": "_SPANC_ _NUMBER_ _SPANC_ Days Remaining",
+				"MISSING-getting_started_pack": "Getting Started Pack"
+			},
+			"MISSING-subtotal": "Subtotal",
+			"MISSING-sales_tax": "Sales Tax",
+			"MISSING-total": "Total"
+		},
+		"avatar_tokens": {
+			"MISSING-title": "Avatar Tokens",
+			"MISSING-description": "Tokens used to roll for specific avatars, gained by purchasing tickets or being a Patreon backer.",
+			"not_enough_tokens": {
+				"MISSING-title": "Not Enough Avatar Tokens",
+				"MISSING-description": "You're missing _NUMBER_ avatar token to be able to perform the roll with an avatar target. Avatar tokens are obtained by buying tickets or supporting the Patreon"
+			},
+			"MISSING-not_enough_tickets": "Not Enough Tickets"
+		},
+		"unlock_checkout": {
+			"MISSING-title": "Unlock",
+			"MISSING-buy": "Buy",
+			"MISSING-open_checkout": "Open Checkout",
+			"MISSING-skin_entry": "Skin (Default: _NAME_)",
+			"MISSING-version_entry": "Version: _NAME_",
+			"MISSING-location_background": "Location Background",
+			"MISSING-decorations": "Decorations",
+			"errors": {
+				"MISSING-failed_to_create_payment": "Failed to create payment, please try again.",
+				"MISSING-unlimited_slots_already_unlocked": "Unlimited slots already unlocked",
+				"MISSING-insufficient_notes": "Insufficient Notes",
+				"MISSING-insufficient_notes_message": "You don't have enough notes to unlock this item.",
+				"MISSING-insufficient_rhythm": "Insufficient Rhythm",
+				"MISSING-insufficient_rhythm_message": "You don't have enough rhythm to unlock this item.",
+				"MISSING-error_unlocking": "Error Unlocking"
+			},
+			"MISSING-gift": "Gift",
+			"MISSING-tickets": "Tickets"
+		},
+		"MISSING-toggle_favorite": "Toggle Favorite",
+		"avatar_states": {
+			"MISSING-unavailable": "Unavailable",
+			"MISSING-limited": "Limited",
+			"MISSING-exclusive": "Exclusive",
+			"MISSING-standard": "Standard",
+			"MISSING-unique": "Unique"
+		},
+		"decoration_buttons": { "MISSING-front": "Front", "MISSING-back": "Back" },
+		"MISSING-open_all": "Open All",
+		"item_types": {
+			"MISSING-emote": "Emote",
+			"MISSING-background": "Background",
+			"MISSING-decoration": "Decoration",
+			"MISSING-skin": "Skin"
+		},
+		"MISSING-ticket_reward_tier": "Ticket Reward Tier _TIER_",
+		"MISSING-rhythm_price": "Rhythm Price",
+		"MISSING-silver_hibike_description": "Unique launch recolor unlocked by having joined the game doing the launch week or by unlocking all non unique recolors for all avatars.",
+		"emote_previews": { "MISSING-chat": "Chat", "MISSING-profile": "Profile" }
+	},
+	"avatar_lore": {
+		"hibiki": {
+			"MISSING-monster_trainer": "Never being one to settle down for long, it didn’t surprise anyone when Hibiki set out to explore the world once she met her partner Hineko. Together the two of them make a powerhouse of a team, and are quickly making a name for themselves.",
+			"MISSING-fast_food_employee": "Finding herself in a new city, Hibiki had to quickly find a new job. Luckily, she ended up landing a great job up a locale fast food joint, where she now spends her days working with great colleagues, while preparing for the next leg of her journey.",
+			"MISSING-thief": "Hibiki is a well known happy go lucky adventurer, with a knack for getting in where she isn’t supposed to be and out with more than she entered with. A skill she’s often found boasting about at local taverns.",
+			"DELETED-theif": "Hibiki is a well known happy go lucky adventurer, with a knack for getting in where she isn’t supposed to be and out with more than she entered with. A skill she’s often found boasting about at local taverns."
+		},
+		"honoka": {
+			"MISSING-standard": "Being weak of health, Honoka spent most of her life at her family's estate, only kept company by her books and personal maid Kyouko, until recently when she by chance ran into Ritsu and the two became friends.",
+			"MISSING-druid": "Honoka hails from a nation of druids, but is now traveling the world in search of new knowledge, the final test given to novice scholars of her people. Her travels are currently shared with Kyouko, a local knight, assigned to be her guide in this kingdom."
+		},
+		"kyouko": {
+			"MISSING-standard": "Kyouko has been working as Honoka’s personal maid for several years. Her energetic nature and natural clumsiness have resulted in several accidents that would have gotten her fired if not for her friendship with Honoka.",
+			"MISSING-knight": "As the newest member of the royal guard, Kyouko was tasked with assisting Honoka, a scholar from an allied tribe of druids, in her travels around the country. Her days are therefore spent on the road, serving as Honoka's guard and guide.",
+			"MISSING-bodyguard": "Kyouko was dismissed as Honoka’s maid, due to security changes. Still wanting to help Honoka, Kyouko studied to become a bodyguard, through her clumsiness often cause issues, Honoka let it slide as she likes spending time with Kyouko."
+		},
+		"ritsu": {
+			"MISSING-standard": "An energetic high school student with a passion for music, and club president of her school's music club. Ritsu is often found attending live concerts around the city, and it was at one of these she met and befriended an out of place Honoka.",
+			"MISSING-bard": "Ritsu was never a fan of the quiet life at her family’s farm, so when she got the chance, she ran away with a group of travelling entertainers. She now travels from town to town, sharing her music and exploring the world.",
+			"MISSING-park_ranger": "As a young girl, Ritsu fell in love with the nature in national parks on an oversea vacation. So after finishing her education, she joined the park ranger program, and now spends her days protecting the wild nature in the parks.",
+			"MISSING-kitsune": "In a certain city, there’s an urban legend about a Kitsune who hangs out around the city, joining in on the fun events going on. Ritsu have heard the rumor, but is unaware of the Kitsune bound to her, who sneaks out in her body from time to time.",
+			"MISSING-summer_games": "In what quickly have become a yearly tradition, athletes from all the different worlds meet up every summer to compete in friendly competition. This year, Ritsu is one of the favorites for winning the 100-meter sprint.",
+			"MISSING-queen": "Ritsu didn’t expect to end up as the queen of the country, but after a sudden turn of events she ended up wth the crown. All through it’s all very new to her, she puts on a confident look, dedicated to not repeat her predecessors mistakes."
+		},
+		"hikari": {
+			"MISSING-standard": "As a young easy going person, Hikari enjoys his simple life as a high school math teacher. He’s also ended up as the club advisor for the music club led by Ritsu, as her leadership allows him to spend most of the time relaxing.",
+			"MISSING-scholar": "As a leading scholar at the royal academy, most would suspect Hikari to spending his days buried in dusty old tomes, and not exploring ancient ruins in search for lost arcane knowledge from past civilizations.",
+			"MISSING-fireman": "As a boy, Hikari was saved by a firefighter, which sparked his love for the job. He’s now a beloved firefighter in his locale community, spending his days helping the locals and saving people when accidents occur."
+		},
+		"komugi": {
+			"MISSING-standard": "A local fox spirit of a half forgotten shrine in the countryside, Komugi is known for pulling pranks on the locals. Her shrine rarely gets visitors due to a larger shrine nearby, so she enjoys the visits she gets from Noel.",
+			"MISSING-tribal_sorcerer": "Coming from a tribe of kitsune, Komugi mastered the art of fire sorcery at an early age. But after growing bored of the peaceful village life, she set out looking for adventures and fun.",
+			"MISSING-pirate": "Known as a friend in port and a menace to all who run across her at sea. Komugi is a highly sought-after pirate for hire by anyone who has enough gold and adventures grand enough to satisfy her."
+		},
+		"noel": {
+			"MISSING-standard": "As a self proclaimed master detective, Noel finds mysteries and riddles to solve in everything, no case is too big for detective Noel! After finding an old forgotten shrine, she now also drags its spirit Komugi along on her \"detective work\".",
+			"MISSING-brawler": "Noel never liked the strict nature of the temple she grew up in, so when she got the chance, she ran away to explore the world. She has now teamed up with Komugi, and together they travel around, getting into all kinds of adventures.",
+			"MISSING-catgirl": "During a case, Noel ended up possessed by a bakeneko. It wasn’t powerful enough to control Noel, but it still influenced her demeanor and made her sprout cat ears and tail, much to the dismay of Komugi who had to cover it all up."
+		},
+		"kuriko": {
+			"MISSING-standard": "Even among witches, Kuriko is seen as especially powerful, but her carefree attitude often keeps her from using her full powers. She can often be found having fun during the conflicts between technology and magic that occur in her world.",
+			"MISSING-sorceress": "Hailing from a nomadic tribe in the far southern countries, Kuriko has traveled all the way to the kingdom on a mission to spread the word of her people, but more often she ends up tricking people into joining her on crazy adventures."
+		},
+		"miyu": {
+			"MISSING-standard": "As a bright and cheerful girl, Miyu lived an uneventful life until her last year of middle school when she found a star shaped gem which allowed her to materialise her dormant magical powers.",
+			"MISSING-valkyrie": "Miyu showed immense potential with magic at an early age, and was recruited as an royal magical knight, where her powers quickly earned her the rank of high knight and the nickname Valkyrie.",
+			"MISSING-ice_princess": "Doing one of her battles, Miyu ended up defending a tribe of ice sprites, who as Miyu was about to be defeated, bestowed their powers to her. Transforming her into a magical ice princess, giving her the power to defeat the enemy.",
+			"MISSING-idol": "After a mysterious evil organization infiltrated the idol industry, Miyu had to go undercover as an idol, to figure out and put a stop to their evil schemes. So, assisted by her magic, Miyu took to the stage as a world known idol.",
+			"MISSING-summer_games": "Being a timed girl, people didn’t have much trust in Miyu being able to become a professional gymnast. But her talent and hard worked proved them all wrong, and she’s now ready to display her skills at the yearly summer games."
+		},
+		"shiina": {
+			"MISSING-standard": "Spending her childhood watching idols on television, Shiina dreamed of becoming one herself. Her dream finally started to come true as she began in highschool and was able to land the job as a local idol for her city."
+		},
+		"mizuki": {
+			"MISSING-standard": "Mizuki serves as the shrine maiden at her popular shrine, sharing her blessing with its many visitors. Blessings which often end up in her favor. She often gets visits from Komugi who’s annoyed that the shrine is leaving Komugi’s forgotten.",
+			"MISSING-high_priest": "Being the High Priest of her tribe, Mizuki was enjoying her life. That all changed when Komugi broke the rules and left the tribe, forcing Mizuki to set out to bring her back. She now travels around the world, trying to catch Komugi."
+		},
+		"marine": {
+			"MISSING-standard": "Due to her hardworking, stubborn and proud nature, Marine broke several records when she reached the rank of captain at her early age. A rank she has proven worthy of, after winning several battles against the neighboring magical nations.",
+			"MISSING-buccaneer": "Most people look twice when meeting Marine for the first time, but few who comment on her size live to tell the tale. Any doubts in her skills also quickly disappear after seeing her jump decks grinning as she brandishes her lance."
+		},
+		"akira": {
+			"MISSING-standard": "A lot of Akira’s fans wouldn't expect that the normally cool and composed idol grew up as the oldest of several siblings. Working several jobs to help support them, until he by coincidence was scouted by a major idol agency.",
+			"MISSING-samurai": "As the crown prince of an eastern country, Akira wanted to experience the world before having to take over as a ruler. But being the crown prince, he has to travel in secret, to avoid getting caught in locale politics."
+		},
+		"rinko": {
+			"MISSING-standard": "To most of her classmates, Rinko appears as a normal hard working high school student, they wouldn’t expect her to be a big fan of gothic lolita, who spends most weekends dressing up and attending events."
+		},
+		"alisa": {
+			"MISSING-standard": "Most people know Alisa as a gentle and proud girl, but due to her immense talent with the sword and magic she’s often leading the charge against the technological nations. She is also one of the few people who can stand Kuriko’s antics."
+		},
+		"chika": {
+			"MISSING-standard": "As a self proclaimed genius and master scientist, Chika lets nothing stand between her and her next experiment! This has earned her a bit of a reputation at her school, where she’s the president of the science club."
+		},
+		"yumemi": {
+			"MISSING-standard": "Yumemi is usually found sleeping at any chance she gets. Most people are therefore surprised when they hear she’s the vice president of the science club, through the only joined to help her childhood friend Chika get enough members."
+		},
+		"katsu": {
+			"MISSING-standard": "Being a prominent player of the Zetto card game, Katsu is trying to collect the ancient precursor cards, which are said to hold the power to change the world. This often leads to battle against a shadowy organization who’re also seeking them."
+		},
+		"riku": {
+			"MISSING-standard": "Riku is known by most as Rika, a famous live streamer and vlogger who’s known for getting access to places he’s not supposed to be. Riku himself mainly just enjoys the trill of exploring and sharing his antics."
+		},
+		"yuki": {
+			"MISSING-standard": "As a young girl, Yuki fell in love with the cheerful Christmas atmosphere. So she’s often found at cosplay events giving out presents to kids and friends. It was at one of these events she met and befriended Rinko."
+		},
+		"fuwagi": {
+			"MISSING-standard": "Most people know Fuwagi as a lucky rabbit, as luck seems to conspire with her to get her out of any situation she finds herself in. Though, she views herself as unlucky, as it’s bad luck that gets her into those situations.",
+			"MISSING-traveling_merchant": "Known as the lucky bunny, Fuwagi travels from town to town selling her wares. She got the lucky nickname because misfortune never effects her goods, but she views herself as unlucky, as every permanent store she sets up is destroyed in some accident."
+		},
+		"yuuna": {
+			"MISSING-standard": "Being the child of a famous chef, Yuuna fell in love with the art of cooking at a young age. She now travels the world, on a journey to hone her skills and prove she can live up to her mom’s legacy.",
+			"MISSING-painter": "Loving to explore and experience the world, Yuuna set out on a trip across the globe to discover its beauty. She travels leisurely from place to place, taking the time to capture the surrounding beauty on her canvas."
+		},
+		"haruki": {
+			"MISSING-standard": "Being closely attuned to nature, Haruki is one of the most powerful one-tailed kistsune and can even rival some nine tails. He’s often tasked with breaking up the fights between Komugi and Mizuki, a task he loathes."
+		},
+		"asuka": {
+			"MISSING-standard": "Asuka’s skills in the sky have earned her the title of flying ace, and is therefore often called into battle against the neighboring countries. Personally, Asuka couldn’t care less about the war, and is just happy to fly freely through the sky."
+		},
+		"fira": {
+			"MISSING-standard": "Fira rule immense powers as the heir to the dark dragon clan. Through, as she can’t stand the politics, she ran away from her home and is currently staying at Fuwagi’s house. Much to the dismay of Fuwagi who doesn’t dare ask her to leave."
+		},
+		"naomi": {
+			"MISSING-standard": "Due to her direct attitude and nature, Naomi quickly became the leader of the delinquent group at her school. Though she doesn’t seek out fights, she often ends up in them, as she isn’t one to hold back if others starts one."
+		},
+		"kumiko": {
+			"MISSING-standard": "Kumiko have been haunting her locale village and pulling pranks on it inhabitants since she died over a century ago. Even through she’s known as a prankster, she’s well liked by the villagers and part of the locale legends."
+		},
+		"sachiko": {
+			"MISSING-standard": "Due to Sachiko leadership, her squad have become known as an elite squad, carrying out critical tasks in the war against the magical nation. She also got a rivalry going with Marine, trying to prove the army’s importance over the navy."
+		},
+		"kasumi": {
+			"MISSING-standard": "Kasumi comes from a secluded clan that have hunted evil yokai since ancient time. She recently finished her training and became a kunochi of the clan, through her inexperience still shown when she’s out on missions."
+		},
+		"shin": {
+			"MISSING-standard": "Shin is known locally as a street cat, as he enjoys spending his time exploring the urban environment of his home city and interacting with the different people in it. Through, his curiosity does land him in trouble from time to time.",
+			"MISSING-maid": "Some friends wanted to pull a prank on Shin, and tricked him into helping out at a locale maid café. But much to their surprise and dismay, Shin ended up being an extremely skillful maid, quickly becoming the café’s most popular."
+		},
+		"lilith": {
+			"MISSING-standard": "Lilith comes from a long line of ancient vampires, but currently enjoy a normal high school life. Through she doesn’t hide her vampire origins, people around her doesn’t believe it, and just thinks it’s a quick of her personality.",
+			"MISSING-school_girl": "Living her highschool life to her fullest, Lilith looks almost like any other energetic highschool girl, beside the fact she’s a vampire. While she doesn’t hide this, everyone around her just thinks she’s joking around."
+		},
+		"mao": {
+			"MISSING-standard": "Mao was born with the reincarnated demon kings spirit sealed inside her, granting her the ability to tab into his powers, power which might corrupt her and free the demon king. Or that’s what she’ll tell you when you ask what she’s doing.",
+			"MISSING-student_president": "After a random series of events, Mao ended up as the student council president of her school. Taking up the responsibility, she’s now ready to rule the school with an iron fist and show everyone how a true student president acts!",
+			"MISSING-demon_lord": "Suddenly finding themselves summoned to another world as a demon lord would shock a lot of people, but not Mao, who relished in finally having the power she always dreamed of. Through, she still has to learn how to use them."
+		},
+		"kei": {
+			"MISSING-standard": "Being born without magical talent, Kei decided to dedicate herself to developing trinkets and gadgets, utilizing the magical artifacts found in her country. Due to the conflict with the nearby technological nations, this have earned her both friends and foes."
+		},
+		"akane": {
+			"MISSING-standard": "As the leader of a clan of lamia, Akane decided to stay neutral in the ongoing conflicts between the magical and science nations. Through her and clan members does sometime lend their skills of seduction to the magical nations."
+		},
+		"umi": {
+			"MISSING-standard": "Umi visited the marine city Venity at a young age, and was instantly charmed by its calm beauty. So when Umi grew up, she decided to move to Venity, where she now enjoys life as a gondolier in her favorite city.",
+			"MISSING-drummer": "Most people know Umi as an elegant gondolier, so they’re pretty surprised the first time they see her let loose as the drummer of The Wave, letting out all that energy she keeps under wrap during her gondolier work."
+		},
+		"etsuko": {
+			"MISSING-standard": "Watching her mother, a professional athlete, Etsuko fell in love with track and field sports. Through her hard work and skills, she’s now looking towards qualifying to the national championship as her school's ace runner."
+		},
+		"yasuko": {
+			"MISSING-standard": "Yasuko enjoys her life in Venity, working at one of the city major companies. While many of her colleagues rushes around, Yasuko take life slowly, making sure to often sample the cities hot spring, often inviting Umi along."
+		},
+		"yin_yan": {
+			"MISSING-standard": "Twins are a rare occurrence in the Kitsune world, so Yin and Yan were seen as a divine blessing by their clan. They now work as messengers for the clan, traveling the country bringing messages between its members.",
+			"MISSING-mahou_shoujo": "After getting caught up in one of Miyu’s battle, the twins Yin and Yan ended up catching a magical gem, allowing one of them to transform into a magical girl, while the other take the shape of a fox. Power they use to fight together with Miyu."
+		},
+		"ayu": {
+			"MISSING-standard": "Ayu was never one for following the norm or caring much about other people's expectations. As a self-proclaimed life enjoyer, she enjoys her days relaxing with her friends and hanging out in the city after school."
+		},
+		"miku": {
+			"MISSING-standard": "Known by her fellow soldiers as their cheerful goddess of victory, Miku boast her skill as head strategist of magic nation's flying forces, while not shying away from leading from the front lines. To the dismay of the technological nations."
+		},
+		"eksu": {
+			"MISSING-standard": "Eksu was created in an experiment that was discarded as a failure, so when Eksu materialized she found herself alone in an urban city. She quickly learned to stay hidden, but enjoys lurking around the city, watching the lights and people."
+		},
+		"victoria": {
+			"MISSING-standard": "Victoria went to a private school for rich ladies in England, while she enjoyed her time there, she always found it too restrictive. She now often joins her family on business trips, where she gets to experience others and share her own culture."
+		},
+		"kiki": {
+			"MISSING-standard": "Kiki’s family disagreed with her pursuing an education in music, but Kiku still enrolled in the music program at a large university. A decision she hasn’t regretted, as she spends her days studying and playing the music she loves."
+		},
+		"sera": {
+			"MISSING-standard": "Living in the celestial realm, many angels don’t spend much time thinking about the mortal world, but Sera have always had a fascination of humans, loving to observe them, and sometimes sneaking down to the mortal world."
+		},
+		"ignis": {
+			"MISSING-standard": "Ignis the Flaming Justice is a well known hero who defends the masses when evil is afoot. Through many people have meet Ignis, no one have been able to figure out who’s behind the mask, and he has yet to share the secret with anyone.",
+			"MISSING-adventurer": "Ignis is known as a mysterious adventurer that rushes to the aid of people in need, no matter if it’s a caravan getting ambushed by monsters or farmers being harassed by corrupt knights, as he travels through the kingdom."
+		},
+		"rin": {
+			"MISSING-standard": "Having a hard time with bullies in school, Rin quickly accepted when a strange entity offered her magical powers. Drunk on her new powers, Rin started enacting revenge on her former bullies, often leading her to clash with Miyu."
+		},
+		"emiri": {
+			"MISSING-standard": "Looking forward to enjoying her dream high school life, Emiri was shocked to find Chika and Yumemi in her class. Their crazy antics often end up dragging her into them, interrupting her idea of the perfect high school life."
+		},
+		"ichika": {
+			"MISSING-standard": "Scouted while in high school, Ichika turned out to be a prodigy in the field of acting. Quickly growing to become one of Japans most famous actors. Ichika herself loves bringing characters to life, and working with people in the industry."
+		},
+		"neoko": {
+			"MISSING-standard": "Neoko surprised everyone with her sudden appearance on the v-tuber scene, quickly gaining a large audience who enjoy her quirky and passionate live-streaming. She now streams regularly, enjoying hanging out with chat and sharing her passions."
+		},
+		"elika": {
+			"MISSING-standard": "Elika enjoy a quiet life in the French countryside, where she loves to emerge herself in detective novels. She often shares the story she reads with her younger cousin and pen pal Noel, who currently live in the far away land of Japan."
+		},
+		"mofuji": {
+			"MISSING-standard": "Mofuji runs a small café in the countryside, but the location is often caught up in the battles between the technological and magic nations. Mofuji doesn’t mind this, and often keeps the café open while bombs and spell rains down around it."
+		},
+		"arai": {
+			"MISSING-standard": "Arai runs her own underground quiz tournaments, which have made her infamous in some circles and famous in others. Despite the questionability of her being both the host and a participant, her tournaments draw huge crowds."
+		},
+		"yua": {
+			"MISSING-standard": "Since high school, Yua has lowed tailoring and dressmaking, with a huge passion for wedding gowns. She secretly loves dressing up in them, dreaming of getting wed one day, but would die of embarrassment if her friends found out."
+		},
+		"kaori": {
+			"MISSING-standard": "Kaori just started highschool where she’s the quiet and nervous girl in her class, but get her talking about frogs and she forgets all that. She managed to make a couple of good friends, who have to live with Kaori trying to buy all frog merch she finds."
+		},
+		"saki": {
+			"MISSING-standard": "Due to being born with albinism, Saki spent most of her life indoors reading books. This has given her a lot of knowledge for her young age, something she loves to show off and can be rather cocky about."
+		},
+		"hanabi": {
+			"MISSING-standard": "Hanabi is the proud hair to the red dragon clan, and doesn’t accept any disrespect towards it. She can’t stand the rivaling dark dragon clan, except for Fira, who she think is insanely cute and will do anything to protect."
+		},
+		"fukami": {
+			"MISSING-standard": "While her kind usually takes part in the conflicts between the magic and technology nations, Fukami doesn’t care much about them. But much to the dismay of Marine, she loves sneaking into the technology nations to steal their fun toys."
+		},
+		"asahi": {
+			"MISSING-standard": "Asahi is the captain of her school's track team, and got a reputation as a tough person who always speak her mind. But she’s actually rather chill, and enjoys her high school days hanging out with her friends without too much drama."
+		},
+		"MISSING-unknown": "Unknown"
+	}
+}
