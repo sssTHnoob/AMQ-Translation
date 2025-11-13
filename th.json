@@ -330,10 +330,7 @@
 			"alerts": {
 				"invalid_amount": {
 					"title": "จำนวนไม่ถูกต้อง",
-					"text": {
-						"illegal": "ต้องใส่จำนวนที่จะสนับสนุน",
-						"minimum": "ต้องสนับสนุนขั้นต่ำ 1€"
-					}
+					"text": { "illegal": "ต้องใส่จำนวนที่จะสนับสนุน", "minimum": "ต้องสนับสนุนขั้นต่ำ 1€" }
 				},
 				"donation_error": { "title": "เกิดปัญหาในการสนับสนุน" },
 				"donation_received": { "title": "ได้รับเงินแล้ว", "text": "ขอบคุณในการสนับสนุนเกม" },
@@ -401,20 +398,16 @@
 					"quiz_of_the_day": "ประจำวัน"
 				}
 			},
-			"options": {
-				"report": "รายงาน",
-				"remove_friend": "ลบเพื่อน",
-				"join_game": "เข้าเกม"
-			},
+			"options": { "report": "รายงาน", "remove_friend": "ลบเพื่อน", "join_game": "เข้าเกม" },
 			"popout_messages": {
 				"not_in_game": "ไม่ได้อยู่ในเกมตอนนี้",
-				"game_invite": "ไม่สามารถชวนผู้เล่นในโหมดเล่นคนเดียวได้"
+				"MISSING-solo_game_invite": "Can't invite players to solo games",
+				"DELETED-game_invite": "ไม่สามารถชวนผู้เล่นในโหมดเล่นคนเดียวได้"
 			}
 		},
 		"menu": {
 			"patreon": "Patreon",
 			"donate": "สนับสนุน",
-			"Msong_history": "ประวัติเพลง",
 			"settings": "ตั้งค่า",
 			"blocked_players": "ผู้เล่นที่บล็อก",
 			"change_password": "เปลี่ยนรหัส",
@@ -422,7 +415,9 @@
 			"tutorial": "วิธีเล่น",
 			"MISSING-guidelines": "Guidelines",
 			"MISSING-about": "About",
-			"logout": "ออกจากระบบ"
+			"logout": "ออกจากระบบ",
+			"MISSING-song_history": "Song History",
+			"DELETED-Msong_history": "ประวัติเพลง"
 		},
 		"video_host": {
 			"MISSING-title": "Video Host Connections",
@@ -472,14 +467,8 @@
 				"name": "Challenger",
 				"description": "ปลดล็อกสำหรับผู้ที่ได้ 50 อันดับแรกในโหมดชิงแชมป์ในเดือนที่แล้ว"
 			},
-			"patreon_color": {
-				"name": "Patreon",
-				"description": "ปลดล็อกสำหรับผู้ที่สนับสนุน Patreon ระดับ 3 หรือสูงกว่า"
-			},
-			"patreon_glow": {
-				"name": "Patreon",
-				"description": "ปลดล็อกสำหรับผู้ที่สนับสนุน Patreon ระดับ 4 หรือสูงกว่า"
-			},
+			"patreon_color": { "name": "Patreon", "description": "ปลดล็อกสำหรับผู้ที่สนับสนุน Patreon ระดับ 3 หรือสูงกว่า" },
+			"patreon_glow": { "name": "Patreon", "description": "ปลดล็อกสำหรับผู้ที่สนับสนุน Patreon ระดับ 4 หรือสูงกว่า" },
 			"month_patreon_current": "ปลดล็อกสำหรับผู้ที่สนับสนุน Patreon ระดับ 5 ในเดือนนี้และผู้ที่สนับสนุนระดับ 6",
 			"MISSING-month_patreon_previous": "Unlocked for level 5 Patreons who backed during the release month, and level 6 backers",
 			"MISSING-month_patreon_previous_unlocked": "Unlocked for level 5 Patreons who backed during the release month, and level 6 backers. You backed during the release month."
@@ -491,13 +480,7 @@
 			"name_result": "จันดันดับระดับ _TIER_ ปี _YEAR_",
 			"description": "โหมดจัดอันดับได้ระดับ _TIER_ ในปี _YEAR_ ซีซั่นที่ _NUMBER_",
 			"description_result": "โหมดจัดอันดับได้ระดับ _TIER_ ในปี _YEAR_",
-			"tiers": {
-				"bronze": "Bronze",
-				"silver": "Silver",
-				"gold": "Gold",
-				"platinum": "Platinum",
-				"diamond": "Diamond"
-			}
+			"tiers": { "bronze": "Bronze", "silver": "Silver", "gold": "Gold", "platinum": "Platinum", "diamond": "Diamond" }
 		},
 		"champion": {
 			"name": {
@@ -635,29 +618,12 @@
 	},
 	"setting_window": {
 		"title": "ตั้งค่า",
-		"tabs": {
-			"game": "เกม",
-			"anime_list": "อนิเมะ",
-			"MISSING-graphics": "Graphics",
-			"audio": "เสียง"
-		},
+		"tabs": { "game": "เกม", "anime_list": "อนิเมะ", "MISSING-graphics": "Graphics", "audio": "เสียง" },
 		"language": "ภาษา",
-		"auto_submit": {
-			"title": "ส่งอัตโนมัติ",
-			"description": "ส่งคำตอบที่มีอยู่ให้อัตโนมัติเมื่อหมดเวลาตอบ"
-		},
-		"list_numbering": {
-			"title": "จำนวนเพลง",
-			"description": "แสดงจำนวนเพลงที่มาจากผู้เล่นแต่ละคนในตารางคะแนน"
-		},
-		"disable_emotes": {
-			"title": "ซ่อน emote",
-			"description": "ซ่อน emote ไม่ให้เห็นในแชท"
-		},
-		"answer_time": {
-			"title": "เวลาที่ตอบ",
-			"description": "แสดงเวลาที่ผู้เล่นแต่ละคนทำการตอบ"
-		},
+		"auto_submit": { "title": "ส่งอัตโนมัติ", "description": "ส่งคำตอบที่มีอยู่ให้อัตโนมัติเมื่อหมดเวลาตอบ" },
+		"list_numbering": { "title": "จำนวนเพลง", "description": "แสดงจำนวนเพลงที่มาจากผู้เล่นแต่ละคนในตารางคะแนน" },
+		"disable_emotes": { "title": "ซ่อน emote", "description": "ซ่อน emote ไม่ให้เห็นในแชท" },
+		"answer_time": { "title": "เวลาที่ตอบ", "description": "แสดงเวลาที่ผู้เล่นแต่ละคนทำการตอบ" },
 		"anime_link": { "title": "ลิงก์อนิเมะ", "description": "เว็บอนิเมะที่จะเปิดเมื่อกดดูในข้อมูลเพลง" },
 		"auto_skip_vote": {
 			"title": "ข้ามอัตโนมัติ",
@@ -685,10 +651,7 @@
 			"out_of_focus": "เมื่อมองไม่เห็น",
 			"always": "ตลอดเวลา"
 		},
-		"sound_equalizing": {
-			"title": "ปรับระดับเสียง",
-			"description": "ปรับระดับเสียงในแต่ละพลงให้เท่าๆกัน"
-		},
+		"sound_equalizing": { "title": "ปรับระดับเสียง", "description": "ปรับระดับเสียงในแต่ละพลงให้เท่าๆกัน" },
 		"max_volume": {
 			"title": "ระดับเสียงมากสุด",
 			"description": "ระดับเสียงที่มากที่สุดสำหรับการปรับระดับเสียง เมื่อตั้งให้สูงขึ้นจะทำให้เพลงดังขึ้นแต่อาจจะทำให้เพลงที่เบาเสียงดังไม่เท่า"
@@ -700,10 +663,7 @@
 			"endings": "เพลงปิด",
 			"MISSING-inserts": "Inserts",
 			"unwatched": { "title": "ไม่ได้ดู", "description": "อนิเมะที่ไม่ได้ดู" },
-			"high_risk": {
-				"title": "สุ่มเสี่ยง",
-				"description": "วีดิโอที่อาจมีการสปอยล์หรือมีภาพที่ล่อแหลม"
-			}
+			"high_risk": { "title": "สุ่มเสี่ยง", "description": "วีดิโอที่อาจมีการสปอยล์หรือมีภาพที่ล่อแหลม" }
 		},
 		"anime_list": {
 			"MISSING-description": "Connect your AniList, MyAnimeList or Kitsu list, and the game will use your anime list when picking songs with the “watched” setting. _BREAK_ Lists are updated weekly or when clicking update. To remove a list, update it without a username.",
@@ -753,12 +713,7 @@
 			},
 			"MISSING-name_effects_friend_list": "Name Effects in Friend List"
 		},
-		"audio": {
-			"nexus": "Nexus",
-			"master": "เสียงหลัก",
-			"music": "ดนตรี",
-			"effects": "เอฟเฟค"
-		}
+		"audio": { "nexus": "Nexus", "master": "เสียงหลัก", "music": "ดนตรี", "effects": "เอฟเฟค" }
 	},
 	"blocked_player_window": { "title": "ผู้เล่นที่บล็อก", "remove_button": "ลบ" },
 	"change_password_window": {
@@ -1083,7 +1038,8 @@
 		"hibiki": {
 			"MISSING-monster_trainer": "Never being one to settle down for long, it didn’t surprise anyone when Hibiki set out to explore the world once she met her partner Hineko. Together the two of them make a powerhouse of a team, and are quickly making a name for themselves.",
 			"MISSING-fast_food_employee": "Finding herself in a new city, Hibiki had to quickly find a new job. Luckily, she ended up landing a great job up a locale fast food joint, where she now spends her days working with great colleagues, while preparing for the next leg of her journey.",
-			"MISSING-thief": "Hibiki is a well known happy go lucky adventurer, with a knack for getting in where she isn’t supposed to be and out with more than she entered with. A skill she’s often found boasting about at local taverns."		},
+			"MISSING-thief": "Hibiki is a well known happy go lucky adventurer, with a knack for getting in where she isn’t supposed to be and out with more than she entered with. A skill she’s often found boasting about at local taverns."
+		},
 		"honoka": {
 			"MISSING-standard": "Being weak of health, Honoka spent most of her life at her family's estate, only kept company by her books and personal maid Kyouko, until recently when she by chance ran into Ritsu and the two became friends.",
 			"MISSING-druid": "Honoka hails from a nation of druids, but is now traveling the world in search of new knowledge, the final test given to novice scholars of her people. Her travels are currently shared with Kyouko, a local knight, assigned to be her guide in this kingdom."
@@ -1237,9 +1193,6 @@
 		"victoria": {
 			"MISSING-standard": "Victoria went to a private school for rich ladies in England, while she enjoyed her time there, she always found it too restrictive. She now often joins her family on business trips, where she gets to experience others and share her own culture."
 		},
-		"kiki": {
-			"MISSING-standard": "Kiki’s family disagreed with her pursuing an education in music, but Kiku still enrolled in the music program at a large university. A decision she hasn’t regretted, as she spends her days studying and playing the music she loves."
-		},
 		"sera": {
 			"MISSING-standard": "Living in the celestial realm, many angels don’t spend much time thinking about the mortal world, but Sera have always had a fascination of humans, loving to observe them, and sometimes sneaking down to the mortal world."
 		},
@@ -1286,6 +1239,818 @@
 		"asahi": {
 			"MISSING-standard": "Asahi is the captain of her school's track team, and got a reputation as a tough person who always speak her mind. But she’s actually rather chill, and enjoys her high school days hanging out with her friends without too much drama."
 		},
-		"MISSING-unknown": "Unknown"
+		"MISSING-unknown": "Unknown",
+		"kiku": {
+			"MISSING-standard": "Kiku's family disagreed with her pursuing an education in music, but Kiku still enrolled in the music program at a large university. A decision she hasn't regretted, as she spends her days studying and playing the music she loves."
+		},
+		"DELETED-kiki": {
+			"MISSING-standard": "Kiki’s family disagreed with her pursuing an education in music, but Kiku still enrolled in the music program at a large university. A decision she hasn’t regretted, as she spends her days studying and playing the music she loves."
+		}
+	},
+	"song_library": {
+		"MISSING-title": "Song Library",
+		"MISSING-expand": "Expand",
+		"MISSING-expand_count": "Count: _SPAN_ _NUMBER_ _SPAN_",
+		"MISSING-expand_count_description": "The number of songs you have uploaded",
+		"expand_level_requirement": {
+			"MISSING-title": "Level 5+ required",
+			"MISSING-description": "The Expand feature allows players to help add missing video/mp3 sources for songs, and isn't available for accounts below level 5"
+		},
+		"expand_confirmation": {
+			"MISSING-title": "Expand Video/MP3 Library",
+			"MISSING-description": "Help expanding the library by adding missing mp3 or video links. Songs missing from the library can be requested on the AMQ Discord"
+		},
+		"MISSING-video_preview": "Video Preview",
+		"MISSING-views": "Views:",
+		"MISSING-library": "Library",
+		"MISSING-library_description": "View all songs in the library",
+		"MISSING-new_songs": "New Songs",
+		"MISSING-new_songs_description": "View the newest 200 songs added to the game",
+		"MISSING-recent_wrong": "Recently Wrong",
+		"MISSING-recent_wrong_description": "View the songs you have recently guessed wrong",
+		"MISSING-no_upload_message": "Not in video/mp3 database",
+		"upload_message_success": {
+			"MISSING-title": "URL Added",
+			"MISSING-description": "Video/mp3 will be added to the game after approval by a moderator"
+		},
+		"upload_message_failure": {
+			"MISSING-title": "Unable to Add URL",
+			"MISSING-temp_ban": "You are temporarily banned from the Expand function. _NUMBER_ days left of ban",
+			"MISSING-perma_ban": "You are permanently banned from the Expand function",
+			"MISSING-currently_closed": "Expand Currently Disabled",
+			"MISSING-already_uploading": "Song Already Being Uploaded",
+			"MISSING-unknown_song": "Unknown Song",
+			"MISSING-invalid_resolution": "Invalid Resolution",
+			"MISSING-already_uploaded": "Song Already Uploaded",
+			"MISSING-no_video_approved": "No Video Approved for Song"
+		},
+		"upload_message_alerts": {
+			"MISSING-provide_missing_version": "Provide a link for a missing version",
+			"MISSING-litterbox": "Catbox files must be uploaded to litter.catbox.moe",
+			"MISSING-host_format": "URL must point to a valid host and be in webm/mp3 format",
+			"MISSING-unsupported_resolution": "Unsupported resolution: _NUMBER_. Max resolution: 720p",
+			"MISSING-already_uploaded": "Version already uploaded",
+			"MISSING-loading_video": "Loading video",
+			"MISSING-video_passed_check": "Video passed check",
+			"MISSING-error_loading_video": "Error loading video",
+			"MISSING-submitting_video": "Submitting video",
+			"MISSING-mp3_before_video": "Mp3 must be uploaded after a video version is approved"
+		},
+		"filters": {
+			"MISSING-watched": "Watched",
+			"MISSING-unwatched": "Unwatched",
+			"MISSING-openings": "Openings",
+			"MISSING-endings": "Endings",
+			"MISSING-inserts": "Inserts",
+			"MISSING-missing_versions": "Missing Versions",
+			"MISSING-player_state": "Player State",
+			"MISSING-liked": "Liked",
+			"MISSING-unrated": "Unrated",
+			"MISSING-disliked": "Disliked",
+			"MISSING-vintage": "Vintage",
+			"song_categories": {
+				"MISSING-title": "Song Categories",
+				"MISSING-standard": "Standard",
+				"MISSING-chanting": "Chanting",
+				"MISSING-instrumental": "Instrumental",
+				"MISSING-character": "Character"
+			},
+			"upload_status": {
+				"MISSING-title": "Upload Status",
+				"MISSING-uploaded": "Uploaded",
+				"MISSING-missing": "Missing"
+			}
+		},
+		"search_targets": {
+			"MISSING-all": "All",
+			"MISSING-anime": "Anime",
+			"MISSING-song": "Song",
+			"MISSING-artist": "Artist",
+			"MISSING-composer": "Composer",
+			"MISSING-arranger": "Arranger"
+		},
+		"MISSING-strict": "Strict",
+		"MISSING-strict_description": "Do not include groups that artists belong to when searching for artists/composers/arrangers.",
+		"MISSING-search": "Search",
+		"anime_entry": {
+			"song_counts": { "MISSING-op": "OP _NUMBER_", "MISSING-ed": "ED _NUMBER_", "MISSING-insert": "IN _NUMBER_" },
+			"vintage": {
+				"MISSING-winter": "Winter _YEAR_",
+				"MISSING-spring": "Spring _YEAR_",
+				"MISSING-summer": "Summer _YEAR_",
+				"MISSING-fall": "Fall _YEAR_"
+			},
+			"MISSING-genre": "Genre",
+			"MISSING-names": "Names",
+			"MISSING-tags": "Tags",
+			"MISSING-songs": "Songs"
+		},
+		"song_entry": {
+			"type": { "MISSING-op": "OP_NUMBER_", "MISSING-ed": "ED_NUMBER_", "MISSING-in": "IN" },
+			"MISSING-dub": "Dub",
+			"MISSING-rebroadcast": "Rebroad",
+			"MISSING-composer": "Composer",
+			"MISSING-arranger": "Arranger",
+			"MISSING-song_category": "Song Category",
+			"guess_percent": {
+				"MISSING-title": "Guess Percent",
+				"MISSING-global": "Global: _SPANC_ X _SPANC_%",
+				"MISSING-recent": "Recent: _SPANC_ X _SPANC_%",
+				"MISSING-description": "The overall correct guess percentage for this song and your own correct guess percentage counting your last 8 answers. Only includes typed answers in quizzes with larger song pools."
+			},
+			"MISSING-play_count": "Play Count",
+			"MISSING-play_count_correct": "(_SPANC_ X _SPANC_% Correct)",
+			"MISSING-play_count_description": "The total number of times this song has played for you, and your correct guess percent for it.",
+			"play_count_expanded_description": {
+				"MISSING-line_one": "Typed Answers: _NUMBER_ (_NUMBER2_% Correct)",
+				"MISSING-line_two": "Multiple Choice: _NUMBER_ (_NUMBER2_% Correct)"
+			},
+			"MISSING-submit": "Submit",
+			"MISSING-insert_litterbox_url": "Insert Litterbox URL",
+			"like_options": { "MISSING-like": "Like", "MISSING-dislike": "Dislike", "MISSING-unset": "Unset" },
+			"upload_state_messages": {
+				"MISSING-missing": "Missing",
+				"MISSING-pending": "Pending Approval",
+				"MISSING-uploaded": "Click to View"
+			}
+		},
+		"faq": {
+			"MISSING-shorthand": "FAQ",
+			"MISSING-title": "Expand Library FAQ",
+			"what_version": {
+				"MISSING-title": "What version of a song should I use?",
+				"MISSING-text": "You should always use the version that was used in the show. For openings and endings, that's usually the 1:30 minute cut version. In the case that different versions are used throughout the show, you should go with the one most commonly used, if they're used equally go with the first one."
+			},
+			"still_image": {
+				"MISSING-title": "Can I use a still image instead of the video?",
+				"MISSING-text": "No, all uploads require there to be a correct video."
+			},
+			"what_to_include": {
+				"MISSING-title": "What should be included in the video?",
+				"MISSING-text": "The opening/ending/scene the song plays in. _BREAK_ If a song plays with talking or other sounds during the scene, replace the audio with a clean version that matches with what was used in the anime."
+			},
+			"file_format": {
+				"MISSING-title": "What file formats are accepted?",
+				"MISSING-text": "Video files should be in webm format, and audio files in mp3. Any other formats will be rejected by the Scan Bot."
+			},
+			"quality_requirements": {
+				"MISSING-title": "What are the quality requirements?",
+				"MISSING-text": "The song must not be pitched, sped up, slowed down or remixed in any way from their original versions. Any silence at the start or end of the song should be cut out. Likewise, extended notes at the end of the song should be cut short. In addition, the bitrate of an upload should not exceed 6.2 kbps. _BREAK_ The video should also be of decent quality and not contain hardsubs, though exceptions can be made for older or rare shows where a better quality isn't available."
+			},
+			"volume_requirements": {
+				"MISSING-title": "What are the volume requirements?",
+				"MISSING-text": "Uploads should have a mean volume between -20 and -17db. The max volume ideally should not exceed -.5dB, and if possible should be around -5dB."
+			},
+			"what_are_keyframes": {
+				"MISSING-title": "What are keyframes?",
+				"MISSING-text": "Keyframes are special frames set when the video is encoded. They allow for skipping in the video without having to load the rest of the video up to the point skipped to. _BREAK_ For AMQ a minimum of 1 keyframe for each 10 seconds of video is required, anything less will get rejected by the bot. It's recommended to have 1 keyframe per 5 seconds."
+			},
+			"what_happens_file_submit": {
+				"MISSING-title": "What happens once my file has been submitted?",
+				"MISSING-text": "After your song has been submitted, it'll enter the queue to be scanned by the scan bot. The scan bots check if the encoding, resolution and keyframe count of the file are correct. If the scan bot does not automatically reject your upload, it'll pass it to the moderator team, who will validate that the song is correct, check the quality of the video, and confirm that your edit is smooth and matches what was used in the anime. _BREAK_ If your song is rejected, you will receive a server message about it."
+			},
+			"missing_song": {
+				"MISSING-title": "A song is missing from the database, how do I get it added?",
+				"MISSING-text": "First make sure the song isn't already in the database: Make sure that it doesn't appear in the Library when not in expand mode. _BREAK_ If it isn't in the Library or in game, you can request to have it added on the game's Discord. Make sure to read the FAQ channel and the pins in the #database-fixes channel for details on rules and how to request additions."
+			},
+			"upload_rejected": {
+				"MISSING-title": "My upload was rejected but I didn't get a message?",
+				"MISSING-text": "There's a bug in the update system that causes some rejection messages not to be sent out. If you have any questions about why your upload got rejected, you can ask the database moderators in the game's Discord."
+			},
+			"what_to_do_approved": {
+				"MISSING-title": "I'm not sure what to do to get my upload approved?",
+				"MISSING-text": "If your upload got rejected, or you're not sure how to get an upload approved, it is recommended to ask on the game's Discord server, where people will be able to help you."
+			}
+		}
+	},
+	"anime_types": {
+		"MISSING-tv": "TV _NUMBER_",
+		"MISSING-season": "Season _NUMBER_",
+		"MISSING-movie": "Movie _NUMBER_",
+		"MISSING-ova": "OVA _NUMBER_",
+		"MISSING-ona": "ONA _NUMBER_",
+		"MISSING-tv_special": "TV Special _NUMBER_",
+		"MISSING-special": "Special _NUMBER_",
+		"MISSING-music_video": "Music Video _NUMBER_",
+		"MISSING-doujin": "Doujin _NUMBER_",
+		"MISSING-game_cutscene_compilation": "Game Cutscene Compilation _NUMBER_"
+	},
+	"song_catagory": {
+		"MISSING-none": "None",
+		"MISSING-standard": "Standard",
+		"MISSING-chanting": "Chanting",
+		"MISSING-instrumental": "Instrumental",
+		"MISSING-character": "Character"
+	},
+	"artist_hover": {
+		"MISSING-other_names": "Other Names",
+		"MISSING-members": "Members",
+		"MISSING-member_of": "Member of",
+		"group": { "MISSING-title": "Group", "MISSING-shorthand": "G" },
+		"artist": { "MISSING-title": "Artist", "MISSING-shorthand": "A" }
+	},
+	"community_quiz_window": {
+		"MISSING-title": "Community Quizzes",
+		"MISSING-build": "Build",
+		"categories": {
+			"MISSING-public": "Public",
+			"MISSING-official": "Official",
+			"MISSING-favorites": "Favorites",
+			"MISSING-friends": "Friends",
+			"MISSING-my_quizzes": "My Quizzes"
+		},
+		"sorting": {
+			"MISSING-trending": "Trending",
+			"MISSING-newest": "Newest",
+			"MISSING-most_liked": "Most Liked",
+			"MISSING-most_played": "Most Played"
+		},
+		"MISSING-search_for_quizzes": "Search for Quizzes",
+		"song_types": { "MISSING-op": "OP", "MISSING-ed": "ED", "MISSING-in": "IN" },
+		"difficulties": { "MISSING-easy": "Easy", "MISSING-medium": "Medium", "MISSING-hard": "Hard" },
+		"upload_time": {
+			"MISSING-last_24_hours": "Last 24 Hours",
+			"MISSING-last_week": "Last Week",
+			"MISSING-last_month": "Last Month",
+			"MISSING-all_time": "All Time"
+		},
+		"play_state": { "MISSING-played": "Played", "MISSING-unplayed": "Unplayed" },
+		"MISSING-slots_available": "Slots Available",
+		"MISSING-buy_slots": "Buy Slots",
+		"MISSING-buy_quiz_slots": "Buy Quiz Slots",
+		"MISSING-unlimited_slots": "Unlimited",
+		"one_slot_entry": { "MISSING-title": "1 Slot", "MISSING-description": "Permanently unlock a single quiz slot" },
+		"unlimited_slot_entry": {
+			"MISSING-title": "Unlimited",
+			"MISSING-description": "Unlock unlimited slots for a one time payment",
+			"MISSING-approx_dollar": "Approx. $_NUMBER_"
+		},
+		"MISSING-patreon_promo": "Become a level 3+ Patreon Backer to _BREAK_ unlock unlimited slots and more perks",
+		"MISSING-creator": "Creator",
+		"MISSING-description": "Description",
+		"MISSING-tags": "Tags",
+		"quiz_stats": {
+			"MISSING-title": "Quiz Stats",
+			"MISSING-plays": "Plays:",
+			"MISSING-likes": "Likes:",
+			"MISSING-songs": "Songs:",
+			"MISSING-age": "Age:",
+			"MISSING-song_types": "Song Types:",
+			"MISSING-difficulty": "Difficulty:",
+			"MISSING-selection": "Selection:",
+			"selection_types": { "MISSING-random": "Random", "MISSING-watched": "Watched" }
+		},
+		"highscores": {
+			"MISSING-title": "Highscores",
+			"MISSING-friends": "Friends",
+			"MISSING-personal": "Personal",
+			"MISSING-no_plays": "No Plays",
+			"MISSING-score": "Score",
+			"MISSING-name": "Name",
+			"MISSING-multiple_choice_toggle": "Toggle Displaying Multiple Choice Entries"
+		},
+		"quiz_buttons": {
+			"MISSING-delete": "Delete",
+			"MISSING-edit": "Edit",
+			"MISSING-clone": "Clone",
+			"MISSING-share": "Share",
+			"MISSING-unshare": "Unshare",
+			"MISSING-publish": "Publish",
+			"MISSING-play": "Play",
+			"MISSING-select": "Select"
+		},
+		"MISSING-no_quiz_selected": "No Quiz Selected",
+		"messages": {
+			"error_cloning": {
+				"MISSING-title": "Error Cloning Quiz",
+				"MISSING-description": "An error occurred while trying to clone the quiz. Please try again later."
+			},
+			"quiz_cloned": {
+				"MISSING-title": "Quiz Cloned",
+				"MISSING-description": "The quiz has been successfully cloned."
+			},
+			"quiz_reported": {
+				"MISSING-title": "Quiz Reported",
+				"MISSING-description": "The quiz has been reported to the moderators for review."
+			},
+			"quiz_deleted": {
+				"MISSING-title": "Quiz Deleted",
+				"MISSING-description": "The quiz has been successfully deleted."
+			},
+			"MISSING-slot_unlocked": "Quiz Slot Unlocked",
+			"MISSING-unlimited_slots_unlocked": "Unlimited Quiz Slots Unlocked",
+			"no_slots_available": {
+				"MISSING-title": "No Slots Available",
+				"MISSING-description": "All quiz slots are currently in use. Unlock more slots or delete an old quiz before creating a new one."
+			},
+			"delete_quiz_confirmation": {
+				"MISSING-title": "Delete Quiz",
+				"MISSING-description": "Are you sure you want to permanently delete this quiz?"
+			},
+			"clone_quiz": {
+				"MISSING-title": "Clone Quiz",
+				"MISSING-input_text": "New Name",
+				"MISSING-confirm_button": "Clone"
+			},
+			"publish_quiz_confirmation": {
+				"MISSING-title": "Publish Quiz",
+				"MISSING-description": "Public quizzes can be played by anyone, once a quiz is public you can no longer edit or delete it.",
+				"MISSING-confirm_button": "Publish"
+			},
+			"report_quiz": {
+				"MISSING-title": "Report Quiz",
+				"MISSING-input_text": "Please provide a reason for reporting this quiz.",
+				"MISSING-confirm_button": "Report"
+			},
+			"report_failed": {
+				"MISSING-title": "Report Failed",
+				"MISSING-description": "You must provide a reason for reporting the quiz."
+			},
+			"error_sharing": {
+				"MISSING-title": "Error Sharing Quiz",
+				"MISSING-description": "An error occurred while trying to share the quiz. Please try again later."
+			},
+			"error_publishing": {
+				"MISSING-title": "Error Publishing Quiz",
+				"MISSING-description": "An error occurred while trying to publish the quiz. Please try again later."
+			},
+			"not_enough_songs": {
+				"MISSING-title": "Not Enough Songs",
+				"MISSING-description": "The quiz must have at least 5 songs to be published."
+			},
+			"publish_limit_reached": {
+				"MISSING-title": "Publish Limit Reached",
+				"MISSING-description": "You have reached the maximum number of 10 published quizzes within 24 hours, please try again later."
+			},
+			"quiz_published": {
+				"MISSING-title": "Quiz Published",
+				"MISSING-description": "The quiz has been successfully published."
+			}
+		},
+		"popovers": {
+			"MISSING-share": "Share this quiz with friends",
+			"MISSING-unshare": "Unshare this quiz with friends",
+			"MISSING-creation_date": "Creation Date",
+			"MISSING-quiz_id": "Quiz ID"
+		},
+		"checkout": {
+			"MISSING-unlock": "Unlock Community Quiz Slots",
+			"MISSING-one_slot": "1 Slot",
+			"MISSING-unlimited": "Unlimited Slots"
+		},
+		"host_community_quiz": {
+			"MISSING-title": "Host Community Quiz",
+			"MISSING-room_type": "Room Type",
+			"MISSING-room_info": "Room Info",
+			"MISSING-optional_password": "Optional Password"
+		}
+	},
+	"community_quiz_tags": {
+		"MISSING-training": "Training",
+		"MISSING-challenge": "Challenge",
+		"MISSING-themed": "Themed",
+		"MISSING-favorites": "Favorites",
+		"MISSING-top_list": "Top List"
+	},
+	"game_settings": {
+		"MISSING-setup_game": "Setup Game",
+		"MISSING-select_settings_to_load": "Select Settings to Load",
+		"MISSING-load_from_code": "Load from Code",
+		"tabs": {
+			"MISSING-quick": "Quick",
+			"MISSING-advanced": "Advanced",
+			"MISSING-save": "Save",
+			"MISSING-load": "Load"
+		},
+		"categories": {
+			"MISSING-mode": "Mode",
+			"MISSING-general": "General",
+			"MISSING-quiz": "Quiz",
+			"MISSING-anime": "Anime"
+		},
+		"quiz_mode": { "MISSING-standard_quiz": "Standard Quiz", "MISSING-community_quiz": "Community Quiz" },
+		"buttons": {
+			"MISSING-exit": "Exit",
+			"MISSING-host": "Host",
+			"MISSING-create": "Create",
+			"MISSING-update": "Update",
+			"MISSING-change": "Change",
+			"MISSING-join": "Join",
+			"MISSING-spectate": "Spectate",
+			"MISSING-invite_link": "Invite Link",
+			"MISSING-invite_link_copied": "Copied!",
+			"MISSING-reset_to_default": "Reset to Default"
+		},
+		"MISSING-room_name": "Room Name",
+		"MISSING-private_room": "Private Room",
+		"game_modes": {
+			"MISSING-ranked": "Ranked",
+			"MISSING-event": "Event",
+			"MISSING-jam": "Jam",
+			"MISSING-themed": "Themed",
+			"MISSING-solo": "Solo",
+			"MISSING-multiplayer": "Multiplayer"
+		},
+		"MISSING-game_mode_display": "_NAME_ Mode",
+		"MISSING-game_mode_settings_display": "_NAME_ Game Settings",
+		"MISSING-algorithm_block_settings": "Algorithm Block Settings",
+		"MISSING-randomize": "Randomize",
+		"MISSING-custom": "Custom",
+		"MISSING-empty": "Empty",
+		"MISSING-search": "Search",
+		"MISSING-random": "Random",
+		"MISSING-invite_description": "Create an invite link to this room",
+		"MISSING-swap_button_description": "Swap between community and standard quiz",
+		"game_mode": {
+			"MISSING-title": "Game Mode",
+			"standard": { "MISSING-title": "Standard Quiz", "MISSING-description": "Compete in guessing the most songs" },
+			"hint": {
+				"MISSING-title": "Hint",
+				"MISSING-description": "Get hints for songs, but earn fewer points when hints are used"
+			},
+			"quick_draw": {
+				"MISSING-title": "Quick Draw",
+				"MISSING-description": "Earn more points the quicker you guessed the song"
+			},
+			"lives": {
+				"MISSING-title": "Lives",
+				"MISSING-description": "Start with lives, losing one each time you miss a show"
+			},
+			"battle_royale": {
+				"MISSING-title": "Battle Royale",
+				"MISSING-description": "Start in a looting phase, collecting the shows that will appear in the quiz"
+			},
+			"boss_fight": {
+				"MISSING-title": "Boss Fight",
+				"MISSING-description": "Players take turns being the boss, playing with only their songs and power-ups the boss can use against the other players"
+			}
+		},
+		"player_score": {
+			"MISSING-title": "Player Score",
+			"MISSING-description": "Limit songs to anime that players have scored on their list within the given range."
+		},
+		"anime_score": {
+			"MISSING-title": "Anime Score",
+			"MISSING-description": "Limit songs to anime with a score on Anime News Network within the given range."
+		},
+		"vintage": {
+			"MISSING-title": "Vintage",
+			"MISSING-description": "Year and season the anime was released.",
+			"MISSING-add_to_advanced": "Add to Advanced Filter"
+		},
+		"season_selector": {
+			"winter": { "MISSING-title": "Winter", "MISSING-shorthand": "W" },
+			"spring": { "MISSING-title": "Spring", "MISSING-shorthand": "S" },
+			"summer": { "MISSING-title": "Summer", "MISSING-shorthand": "S" },
+			"fall": { "MISSING-title": "Fall", "MISSING-shorthand": "F" }
+		},
+		"anime_type": {
+			"MISSING-title": "Type",
+			"MISSING-tv": "TV",
+			"MISSING-movie": "Movie",
+			"MISSING-ova": "OVA",
+			"MISSING-ona": "ONA",
+			"MISSING-special": "Special",
+			"MISSING-one_must_be_selected": "At least one anime type must be selected"
+		},
+		"genre": {
+			"MISSING-title": "Genre",
+			"MISSING-description": "Genres are determined using AniList. If optional is used, at least one optional genre will be required by the anime."
+		},
+		"tags": {
+			"MISSING-title": "Tags",
+			"MISSING-description": "Tags are determined using AniList. If optional is used, at least one optional tag will be required by the anime."
+		},
+		"number_of_players": { "MISSING-title": "Number of Players", "MISSING-unlimited": "Unlimited" },
+		"number_of_songs": { "MISSING-title": "Number of Songs" },
+		"team_size": { "MISSING-title": "Team Size", "MISSING-solo": "Solo" },
+		"song_selection": {
+			"MISSING-title": "Song Selection",
+			"MISSING-description": "How songs are chosen for the quiz. Watched covers all anime watched by any player.",
+			"MISSING-watched": "Watched",
+			"MISSING-unwatched": "Unwatched",
+			"MISSING-random": "Random",
+			"MISSING-mix": "Mix"
+		},
+		"watched_distribution": {
+			"MISSING-title": "Watched Distribution",
+			"MISSING-description": "How watched songs are chosen between players, either at random, weighted where larger lists gets more songs or an equal amount from each list.",
+			"MISSING-random": "Random",
+			"MISSING-weighted": "Weighted",
+			"MISSING-equal": "Equal"
+		},
+		"song_types": {
+			"MISSING-title": "Song Types",
+			"MISSING-openings": "Openings",
+			"MISSING-endings": "Endings",
+			"MISSING-inserts": "Insert Songs",
+			"MISSING-one_type_must_be_selected": "At least one song type must be selected"
+		},
+		"song_categories": {
+			"MISSING-title": "Song Categories",
+			"MISSING-description": "Filter what category of songs is selected for each song type. Hover over the categories below to get a description of them.",
+			"standard": { "MISSING-title": "Standard", "MISSING-description": "Songs not in any of the other categories" },
+			"chanting": { "MISSING-title": "Chanting", "MISSING-description": "Songs with chanting as the only main vocals" },
+			"instrumental": { "MISSING-title": "Instrumental", "MISSING-description": "Songs without any vocals" },
+			"character": {
+				"MISSING-title": "Character",
+				"MISSING-description": "Songs sung by characters without being part of a musical performance"
+			},
+			"MISSING-inserts": "Inserts",
+			"MISSING-one_opening_type_must_be_selected": "At least one opening category must be selected",
+			"MISSING-one_ending_type_must_be_selected": "At least one ending category must be selected",
+			"MISSING-one_insert_type_must_be_selected": "At least one insert category must be selected"
+		},
+		"scoring": {
+			"MISSING-title": "Scoring",
+			"count": {
+				"MISSING-title": "Count",
+				"MISSING-description": "Players earn 1 point for each show they guess correctly"
+			},
+			"hint": {
+				"MISSING-title": "Hint",
+				"MISSING-description": "Players can get hints for songs, but earn fewer points when hints are used."
+			},
+			"speed": {
+				"MISSING-title": "Speed",
+				"MISSING-description": "Players earn more points the quicker they guessed the song"
+			},
+			"lives": {
+				"MISSING-title": "Lives",
+				"MISSING-description": "Players start with a set amount of lives, and lose 1 each time they get a song wrong another player guessed"
+			},
+			"boss": {
+				"MISSING-title": "Boss",
+				"MISSING-description": "Players take turns being the boss, playing with only their songs and a set amount of lives. The boss earns points the more songs they guess before they’re outed by the other players."
+			}
+		},
+		"show_selection": {
+			"MISSING-title": "Show Selection",
+			"MISSING-description": "How shows are selected for the quiz",
+			"auto": { "MISSING-title": "Auto", "MISSING-description": "Game randomly picks shows from within the settings" },
+			"looting": {
+				"MISSING-title": "Looting",
+				"MISSING-description": "Play a looting phase before the quiz, where players move around collecting the shows used for the quiz"
+			}
+		},
+		"answering": {
+			"MISSING-title": "Answering",
+			"MISSING-description": "How players submit answers.",
+			"typing": {
+				"MISSING-title": "Typing",
+				"MISSING-description": "Players write their answers, with dropdown suggestions to select from"
+			},
+			"mix": {
+				"MISSING-title": "Mix",
+				"MISSING-description": "All players can choose between typing and multiple choice answering"
+			},
+			"multiple_choice": {
+				"MISSING-title": "Multiple Choice",
+				"MISSING-description": "Players get possible 4 answers to choose from"
+			}
+		},
+		"lives": { "MISSING-title": "Lives", "MISSING-description": "The amount of lives players start with." },
+		"boss_lives": {
+			"MISSING-title": "Boss Lives",
+			"MISSING-description": "The amount of lives boss players start with."
+		},
+		"boss_power_ups": {
+			"MISSING-title": "Boss Power-ups",
+			"MISSING-description": "The amount of different power-ups the boss players can use."
+		},
+		"boss_max_song_count": {
+			"MISSING-title": "Boss Max Song Count",
+			"MISSING-description": "The max number of songs a boss player can get. If they survive all songs, they earn bonus points based on the amount of lives they have left."
+		},
+		"inventory_size": {
+			"MISSING-title": "Inventory Size",
+			"MISSING-description": "Number of shows players can carry during the looting phase"
+		},
+		"looting_time": {
+			"MISSING-title": "Looting Time",
+			"MISSING-description": "Time players have to spend looting",
+			"MISSING-time_display": "_NUMBER_ seconds",
+			"MISSING-time_range_display": "_NUMBER_-_NUMBER2_ seconds"
+		},
+		"loot_dropping": {
+			"MISSING-title": "Loot Dropping",
+			"MISSING-description": "Allow players to drop collected shows during the looting phase"
+		},
+		"guess_time": {
+			"MISSING-title": "Guess Time",
+			"MISSING-description": "Time players have, with the song playing, to submit their answer",
+			"MISSING-time_display": "_NUMBER_ seconds",
+			"MISSING-time_range_display": "_NUMBER_-_NUMBER2_ seconds"
+		},
+		"extra_guess_time": {
+			"MISSING-title": "Extra Guess Time",
+			"MISSING-description": "Additional time players have to submit their answer after the song has finished playing",
+			"MISSING-time_display": "_NUMBER_ seconds",
+			"MISSING-time_range_display": "_NUMBER_-_NUMBER2_ seconds"
+		},
+		"sample_point": {
+			"MISSING-title": "Sample Point",
+			"MISSING-description": "The point songs are played from",
+			"MISSING-percent_into_song": "% Into Song",
+			"MISSING-start": "Start",
+			"MISSING-middle": "Middle",
+			"MISSING-end": "End",
+			"MISSING-percent_range_display": "_NUMBER_%-_NUMBER2_% Into Song"
+		},
+		"playback_speed": { "MISSING-title": "Playback Speed", "MISSING-description": "The speed songs are played at" },
+		"song_difficulty": {
+			"MISSING-title": "Song Difficulty",
+			"MISSING-description": "Difficulty of songs selected",
+			"MISSING-easy": "Easy",
+			"MISSING-medium": "Medium",
+			"MISSING-hard": "Hard",
+			"MISSING-percent_guessed_correct": "% Guessed Correct",
+			"MISSING-percent_range_display": "_NUMBER_%-_NUMBER2_% Correct Guesses",
+			"MISSING-one_difficulty_must_be_selected": "At least one difficulty must be selected"
+		},
+		"song_popularity": {
+			"MISSING-title": "Song Popularity",
+			"MISSING-description": "Popularity of songs selected",
+			"MISSING-disliked": "Disliked",
+			"MISSING-mixed": "Mixed",
+			"MISSING-liked": "Liked",
+			"MISSING-percent_liked": "% Liked",
+			"MISSING-percent_range_display": "_NUMBER_%-_NUMBER2_% Liked Songs",
+			"MISSING-one_popularity_must_be_selected": "At least one popularity must be selected"
+		},
+		"modifiers": {
+			"MISSING-title": "Modifiers",
+			"skip_guessing": {
+				"MISSING-title": "Skip Guessing",
+				"MISSING-description": "Allow voting skip during the guessing phase"
+			},
+			"skip_results": {
+				"MISSING-title": "Skip Results",
+				"MISSING-description": "Allow voting skip during the results phase"
+			},
+			"queueing": {
+				"MISSING-title": "Queueing",
+				"MISSING-description": "Allow spectators to queue up for joining the game"
+			},
+			"duplicate_shows": {
+				"MISSING-title": "Duplicate Shows",
+				"MISSING-description": "Allow shows to have multiple of their songs selected in the same game"
+			},
+			"rebroadcast_songs": {
+				"MISSING-title": "Rebroadcast Songs",
+				"MISSING-description": "Allow songs from rebroadcasts to be selected"
+			},
+			"dub_songs": {
+				"MISSING-title": "Dub Songs",
+				"MISSING-description": "Allow songs from dubbed versions to be selected (legacy setting with limited songs)"
+			},
+			"full_song_range": {
+				"MISSING-title": "Full Song Range",
+				"MISSING-description": "Allow songs to play up to the very ending of the song, can cause silence while answers are revealed"
+			}
+		},
+		"filter_types": { "MISSING-include": "Include", "MISSING-exclude": "Exclude", "MISSING-optional": "Optional" },
+		"alerts": {
+			"MISSING-room_name_missing": "Room name is required",
+			"room_name_too_long": {
+				"MISSING-title": "Room Name Too Long",
+				"MISSING-description": "Room name cannot exceed 20 characters"
+			},
+			"MISSING-password_missing": "Password is required for private rooms",
+			"MISSING-one_player_score_required": "At least one player score must be toggled on",
+			"MISSING-one_anime_score_required": "At least one anime score must be toggled on",
+			"MISSING-one_playback_speed_required": "At least one playback speed must be selected"
+		},
+		"errors": {
+			"too_many_tag_genre": {
+				"MISSING-title": "Error Saving Settings",
+				"MISSING-description": "Vintage/Tag/Genre limit exceeded"
+			},
+			"MISSING-value_already_filter": "Value Already in Filter",
+			"MISSING-error_decoding_code": "Error Decoding Code",
+			"MISSING-error_decoding_settings": "Error Decoding Settings",
+			"MISSING-error_deleting_setting": "Error Deleting Setting",
+			"MISSING-error_saving_setting": "Error Saving Setting"
+		},
+		"load_setting_from_code": {
+			"MISSING-title": "Load Settings from Code",
+			"MISSING-placeholder": "Setting Code",
+			"MISSING-confirm_button": "Load",
+			"MISSING-must_provide_code": "You must provide a code",
+			"MISSING-loading_disabled": "Loading Disabled"
+		},
+		"select_name_for_setting": {
+			"MISSING-title": "Select Name for Setting",
+			"MISSING-placeholder": "Setting Name",
+			"MISSING-confirm_button": "Save",
+			"MISSING-setting_saved": "Setting Saved",
+			"MISSING-must_provide_name": "You must provide a name",
+			"MISSING-name_too_long": "Name must be at most _NUMBER_ characters",
+			"MISSING-max_saved_settings": "Max number of _NUMBER_ saved settings reached"
+		},
+		"delete_saved_setting": { "MISSING-title": "Delete Saved Setting", "MISSING-confirm_button": "Delete" },
+		"get_code": { "MISSING-title": "Get Code for Settings", "MISSING-setting_code": "Setting Code" }
+	},
+	"room_browser": {
+		"filters": {
+			"only": {
+				"MISSING-title": "Only:",
+				"MISSING-public": "Public",
+				"MISSING-in_lobby": "In Lobby",
+				"MISSING-open": "Open",
+				"MISSING-friends": "Friends"
+			},
+			"MISSING-search_placeholder": "Search",
+			"show_selection": { "MISSING-title": "Show Selection", "MISSING-auto": "Auto", "MISSING-looting": "Looting" },
+			"answering_mode": {
+				"MISSING-title": "Answering Mode",
+				"MISSING-typing": "Typing",
+				"MISSING-multiple_choice": "Multiple Choice"
+			},
+			"song_type": {
+				"MISSING-title": "Song Types",
+				"MISSING-openings": "Openings",
+				"MISSING-endings": "Endings",
+				"MISSING-inserts": "Inserts"
+			},
+			"song_selection": {
+				"MISSING-title": "Song Selection",
+				"MISSING-watched": "Watched",
+				"MISSING-unwatched": "Unwatched",
+				"MISSING-random": "Random"
+			},
+			"scoring": {
+				"MISSING-title": "Scoring",
+				"MISSING-count": "Count",
+				"MISSING-hint": "Hint",
+				"MISSING-speed": "Speed",
+				"MISSING-lives": "Lives",
+				"MISSING-boss": "Boss"
+			},
+			"MISSING-number_of_players": "Number of Players",
+			"MISSING-number_of_songs": "Number of Songs",
+			"MISSING-guess_time": "Guess Time",
+			"MISSING-difficulty": "Difficulty",
+			"anime_type": {
+				"MISSING-title": "Anime Type",
+				"MISSING-tv": "TV",
+				"MISSING-movie": "Movie",
+				"MISSING-ova": "OVA",
+				"MISSING-ona": "ONA",
+				"MISSING-special": "Special"
+			},
+			"only_non_default": {
+				"MISSING-title": "Only Non-Default Settings",
+				"MISSING-sample_point": "Sample Point",
+				"MISSING-playback_speed": "Playback Speed",
+				"MISSING-anime_score": "Anime Score",
+				"MISSING-vintage": "Vintage",
+				"MISSING-genre": "Genre",
+				"MISSING-tag": "Tag",
+				"MISSING-popularity": "Popularity"
+			}
+		},
+		"MISSING-host_room": "Host Room",
+		"MISSING-games": " Games",
+		"room_tile": {
+			"MISSING-host": "Host: _SPANC_ _NAME_ _SPANC_",
+			"popovers": {
+				"MISSING-spectators": "Spectators",
+				"MISSING-songs_left": "Songs Left",
+				"MISSING-players": "Players",
+				"MISSING-game_mode": "Game Mode",
+				"MISSING-guess_time": "Guess Time",
+				"MISSING-number_of_songs": "Number of Songs",
+				"MISSING-song_selection": "Song Selection",
+				"MISSING-all_settings": "All Settings",
+				"MISSING-song_types": "Song Types",
+				"MISSING-friends": "Friends"
+			},
+			"song_types": { "MISSING-opening": "Opening", "MISSING-ending": "Ending", "MISSING-insert": "Insert" },
+			"MISSING-join": "Join",
+			"MISSING-spectate": "Spectate",
+			"game_mode": {
+				"MISSING-community": "Community",
+				"MISSING-battle_royale": "Battle Royale",
+				"MISSING-hint": "Hint",
+				"MISSING-last_man_standing": "Last Man Standing",
+				"MISSING-quick_draw": "Quick Draw",
+				"MISSING-boss_fight": "Boss Fight",
+				"MISSING-amq_awards": "AMQ Awards",
+				"MISSING-standard": "Standard"
+			},
+			"song_selection": {
+				"MISSING-random": "Random",
+				"MISSING-mix": "Mix",
+				"MISSING-watched": "Watched",
+				"MISSING-custom": "Custom"
+			},
+			"MISSING-room_closed": "Room Closed",
+			"password": {
+				"MISSING-title": "Password Required",
+				"MISSING-placeholder": "Enter Password",
+				"MISSING-confirm_button": "Join"
+			}
+		}
 	}
 }
