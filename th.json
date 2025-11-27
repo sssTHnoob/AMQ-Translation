@@ -813,8 +813,8 @@
 			"no_target": "ยังไม่ได้เลือกเป้าหมาย",
 			"no_target_description": "เลือกสกินหรือตัวละครเป็นเป้าหมายได้จากในร้านค้า",
 			"how_it_works": {
-				"title": "ระบบ Resonance คือ",
-				"MISSING-description": "Target an epic or legendary avatar/skin in the shop, and gain points towards it every time you roll in the Ticket System, double points if you use an avatar token for the target. _BREAK_ Once you’ve gained enough points (200 for epic, 500 for legendary) the target is unlocked! _BREAK_ You can swap your target at any time, but it halves your point. _BREAK_ You can target seasonal/limited-time avatars, but you can only gain points towards them while they are in rotation."
+				"title": "Resonance คือ",
+				"description": "หลังจากที่เลือกเป้าหมายแล้ว ทุกครั้งที่ทำการสุ่มจะได้แต้มเพิ่ม 1 แต้ม ถ้าหากมีการใช้โทเคนจะได้เพิ่มเป็น 2 แต้มแทน _BREAK_ เมื่อมีแต้มเพียงพอแล้ว (200 สำหรับ epic, 500 สำหรับ legendary) จะได้รับเป้าหมายที่เลือกไว้ _BREAK_ เป้าหมายสามารถเปลี่ยนได้ทุกเมื่อแต่จะเสียแต้มที่มีไปครึ่งหนึ่ง _BREAK_ สามารถเลือกสกินที่มีเวลาจำกัดในการสุ่มได้แต่จะได้รับแต้มเฉพาะช่วงที่สุ่มได้เท่านั้น"
 			},
 			"target_messages": {
 				"target_message": "เลือกเป็นเป้าหมาย",
@@ -845,22 +845,22 @@
 				"MISSING-description": "Earn points from your rolls towards guaranteeing unlocks, by targeting a roll-able epic or legendary avatar/skin. Points are lost without a target. For details, hover the target tab to the left."
 			},
 			"resonance_different_target_warning": {
-				"MISSING-title": "Target Different From Resonance",
-				"MISSING-description": "Token target different from resonance target, roll won't award extra resonance points."
+				"title": "ไม่ใช่เป้าหมาย Resonance",
+				"description": "การใช้โทเคนกับตัวละครที่ไม่ใช่เป้าหมาย Resonance จะไม่ทำให้ได้แต้ม Resonance พิเศษเพิ่ม"
 			},
 			"MISSING-target_set": "Resonance Target Set"
 		},
 		"favorites": {
-			"MISSING-no_favorite_selected": "No Favorites Selected _BREAK_ Set Some by Clicking the _BREAK_ _ICON_ on Unlocked Avatars",
+			"no_favorite_selected": "ไม่ได้เลือกตัวละครที่ชอบไว้ _BREAK_ สามารถเลือกได้โดยการกด _BREAK_ _ICON_ ที่ตัวละครที่มีแล้ว",
 			"auto_switch": {
-				"MISSING-description": "Auto switch between favorited avatars at the end of each game",
-				"MISSING-auto_switch": "Auto Switch",
-				"mode": { "MISSING-random": "Random", "MISSING-off": "Off", "MISSING-cycle": "Cycle" }
+				"description": "เปลี่ยนไปเลือกตัวละครจากที่ตั้งไว้อัตโนมัติเมื่อจบเกม",
+				"auto_switch": "เปลี่ยนอัตโนมัติ",
+				"mode": { "random": "สุ่ม", "off": "ปิด", "cycle": "ตามลำดับ" }
 			}
 		},
 		"filters": {
-			"locked": { "MISSING-title": "Locked", "MISSING-description": "Show content you haven't unlocked" },
-			"unlocked": { "MISSING-title": "Unlocked", "MISSING-description": "Show content you have unlocked" },
+			"locked": { "title": "ยังไม่มี", "description": "โชว์ตัวละครที่ยังไม้มี" },
+			"unlocked": { "title": "มีแล้ว", "description": "โชว์ตัวละครที่มีแล้ว" },
 			"available": {
 				"MISSING-title": "Available",
 				"MISSING-description": "Show content that's available to unlock in the shop"
@@ -884,16 +884,16 @@
 			"standard": { "MISSING-title": "Standard", "MISSING-description": "Show content unlockable with notes" },
 			"MISSING-title": "Filters"
 		},
-		"MISSING-background": "Background",
-		"toggle": { "MISSING-on": "Toggle On", "MISSING-off": "Toggle Off" },
-		"MISSING-poses": "Poses",
+		"background": "พื้นหลัง",
+		"toggle": { "on": "ซ่อน", "off": "โชว์" },
+		"poses": "ท่าโพส",
 		"pose_names": {
-			"MISSING-base": "Base",
-			"MISSING-thinking": "Thinking",
-			"MISSING-waiting": "Waiting",
-			"MISSING-no_answer": "No Answer",
-			"MISSING-correct": "Correct",
-			"MISSING-wrong": "Wrong"
+			"base": "ปกติ",
+			"thinking": "กำลังคิด",
+			"waiting": "รอเฉลย",
+			"no_answer": "ไม่ได้ตอบ",
+			"correct": "ตอบถูก",
+			"wrong": "ตอบผิด"
 		},
 		"avatar_action_button": {
 			"MISSING-missing_skin": "Missing Skin Bonus",
@@ -905,33 +905,33 @@
 			"MISSING-unlock": "Unlock"
 		},
 		"avatar_bonus": {
-			"MISSING-title": "Avatar Bonus",
-			"MISSING-description": "Unlock 10 different skins/versions for this avatar to earn its badge"
+			"title": "โบนัสตัวละคร",
+			"description": "มีสกินของตัวละครนี้ 10 สกินเพื่อรับตราตัวละคร"
 		},
 		"skin_bonus": {
-			"MISSING-title": "Skin Bonus",
-			"MISSING-description": "Unlock 10 different versions of this skin to unlock its backgrounds for other avatars"
+			"title": "โบนัสสกิน",
+			"description": "มีสกินนี้ 10 แบบเพื่อทำให้ตัวละครอื่นใช้พื้นหลังนี้ได้"
 		},
 		"MISSING-world": "World",
 		"MISSING-artist": "Artist",
 		"MISSING-version_artist": "Version Artist",
 		"MISSING-background_story": "Background Story",
 		"ticket_system": {
-			"menu": { "MISSING-use": "Use", "MISSING-history": "History", "MISSING-buy": "Buy", "MISSING-gift": "Gift" },
-			"MISSING-redeem_code": "Redeem Ticket Code",
+			"menu": { "use": "ใช้", "history": "ประวัติ", "buy": "ซื้อตั๋ว", "gift": "ให้ของขวัญ" },
+			"redeem_code": "ใช้โค้ด",
 			"patreon_promo": {
-				"MISSING-line_one": "Back the Patreon to get",
-				"MISSING-line_two": "the Most Tickets for Your Money!"
+				"line_one": "สนับสนุน Patreon",
+				"line_two": "เพื่อรับตั๋วคุ้มราคาที่สุด"
 			},
-			"MISSING-gift_target": "Gift Target",
-			"MISSING-gift_no_target_message": "Select Friend to Gift",
-			"MISSING-gift_clear": "Clear",
-			"MISSING-no_past_rolls": "No Past _BREAK_ Ticket Rolls",
-			"MISSING-one_roll": "1 Roll",
-			"ten_roll": { "MISSING-title": "10 Rolls", "MISSING-description": "Rare or Higher Item Guaranteed!" },
-			"MISSING-token_description": "Select an avatar for _BREAK_ 50% chance for it _BREAK_ on all rolls",
-			"MISSING-token_description_dropdown": "Select an avatar above and all rolls will have a 50% chance of being of that avatar",
-			"MISSING-roll": "Roll",
+			"gift_target": "ผู้เล่นที่จะให้",
+			"gift_no_target_message": "เลือกเพื่อนที่จะให้",
+			"gift_clear": "เปลี่ยน",
+			"no_past_rolls": "ไม่มีประวัติการสุ่ม",
+			"one_roll": "1 รอบ",
+			"ten_roll": { "title": "10 รอบ", "description": "ได้ระดับ Rare หรือสูงกว่าอย่างน้อย 1 ครั้ง" },
+			"token_description": "เลือกตัวละคร _BREAK_ เพื่อเพิ่มโอกาส _BREAK_ ในการออก",
+			"token_description_dropdown": "เลือกตัวละครเพื่อทำให้ทุกๆการสุ่มมีโอกาส 50% ในการได้ตัวละครที่เลือก",
+			"roll": "สุ่ม",
 			"animated_promo": {
 				"MISSING-title": "Animated Promo",
 				"MISSING-description": "Rollable without base skin",
@@ -939,19 +939,19 @@
 				"MISSING-extended_description": "Promo event that allows you to roll the animated _NAME_ alt. version in the ticket system without first unlocking the base _NAME2_ legendary skin."
 			},
 			"info": {
-				"MISSING-title": "Ticket System",
-				"MISSING-description": "The Ticket System allows players to spend tickets to unlock exclusive skins, skin versions, emotes, avatar backgrounds and decorations.",
+				"title": "ระบบตั๋ว",
+				"description": "ระบบตั๋วคือระบบที่ทำให้ผู้เล่นได้ตัวละคร, สกิน, พื้นหลัง และของตกแต่งต่างๆโดยการสุ่มด้วยการใช้ตั๋ว",
 				"how_to_earn": {
-					"MISSING-title": "How to Earn Tickets",
-					"MISSING-text": "Players receive one ticket each time they level up, with a bonus 5 tickets every 10th level. Tickets can also be bought directly or be earned by backing the games Patreon."
+					"title": "วิธีได้ตั๋ว",
+					"text": "จะได้รับ 1 ตั๋วทุกครั้งที่เลเวลผู้เล่นเพิ่มขึ้นและได้รับ 5 ตั๋วทุกๆ 10 เลเวล นอกจากนี้ยังสามารถหาได้โดยการสนับสนุน Patreon หรือซื้อโดยตรง"
 				},
 				"how_do_rolls_work": {
-					"MISSING-title": "How Do Rolls Work?",
-					"MISSING-text": "You can spend tickets to roll for exclusive rewards in the ticket system. Each roll costs 2 tickets. Rewards are split into 4 rarities, with different chances of being rolled:",
-					"MISSING-common": "(Common) 85% chance: Simple skin recolors and Emotes.",
-					"MISSING-rare": "(Rare) 10% chance: Advanced skin versions and decorations.",
-					"MISSING-epic": "(Epic) 4.5% chance: Major skin version, seasonal skins and unique backgrounds.",
-					"MISSING-legendary": "(Legendary) 0.5% chance: Unique skins and animated versions.",
+					"title": "การสุ่ม",
+					"text": "การสุ่มแต่ละครั้งต้องใช้ตั๋ว 2 ใบ _BREAK_ ของที่ได้จะแบ่งออกเป็น 4 ระดับดังนี้",
+					"common": "Common โอกาส 85%: สกินธรรมดาและ Emote",
+					"MISSING-rare": "Rare โอกาส 10%: Advanced skin versions and decorations.",
+					"MISSING-epic": "Epic โอกาส 4.5%: Major skin version, seasonal skins and unique backgrounds.",
+					"MISSING-legendary": "Legendary โอกาส 0.5%: Unique skins and animated versions.",
 					"MISSING-info_footer": "Skin versions for a ticket reward skin can’t be rolled until the skin has been unlocked."
 				},
 				"how_does_rhythm_work": {
@@ -1267,10 +1267,10 @@
 		}
 	},
 	"song_library": {
-		"MISSING-title": "Song Library",
-		"MISSING-expand": "Expand",
-		"MISSING-expand_count": "Count: _SPAN_ _NUMBER_ _SPAN_",
-		"MISSING-expand_count_description": "The number of songs you have uploaded",
+		"title": "ลิสต์เพลง",
+		"expand": "แก้ไข",
+		"expand_count": "จำนวน: _SPAN_ _NUMBER_ _SPAN_",
+		"expand_count_description": "จำนวนเพลงที่ทำการอัปโหลด",
 		"expand_level_requirement": {
 			"MISSING-title": "Level 5+ required",
 			"MISSING-description": "The Expand feature allows players to help add missing video/mp3 sources for songs, and isn't available for accounts below level 5"
