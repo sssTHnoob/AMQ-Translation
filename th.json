@@ -809,7 +809,7 @@
 		},
 		"resonance_system": {
 			"target": "เป้าหมาย",
-			"title": "ระบบ Resonance",
+			"title": "Resonance",
 			"no_target": "ยังไม่ได้เลือกเป้าหมาย",
 			"no_target_description": "เลือกสกินหรือตัวละครเป็นเป้าหมายได้จากในร้านค้า",
 			"how_it_works": {
