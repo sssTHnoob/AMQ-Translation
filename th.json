@@ -339,9 +339,8 @@
 			"faq_button": "FAQ",
 			"faq_header": "FAQ",
 			"title": "Avatar Drive",
-			"MISSING-approx_dollars_2": "Approx. $_SPAN_ _NUMBER_ _SPAN_",
-			"donation_choice_text": { "MISSING-nomination": "Nomination", "MISSING-secondary_choice": "Secondary Choice" },
-			"DELETED-approx_dollars": "ประมาณ $"
+			"approx_dollars_2": "ประมาณ $_SPAN_ _NUMBER_ _SPAN_",
+			"donation_choice_text": { "nomination": "ตัวละคร", "secondary_choice": "ตัวละครสำรอง" }
 		},
 		"social_rewards": {
 			"title": "รางวัลการติดตาม",
@@ -404,8 +403,7 @@
 			"options": { "report": "รายงาน", "remove_friend": "ลบเพื่อน", "join_game": "เข้าเกม" },
 			"popout_messages": {
 				"not_in_game": "ไม่ได้อยู่ในเกมตอนนี้",
-				"MISSING-solo_game_invite": "Can't invite players to solo games",
-				"DELETED-game_invite": "ไม่สามารถชวนผู้เล่นในโหมดเล่นคนเดียวได้"
+				"solo_game_invite": "ไม่สามารถชวนผู้เล่นในโหมดเล่นคนเดียวได้"
 			}
 		},
 		"menu": {
@@ -419,19 +417,18 @@
 			"MISSING-guidelines": "Guidelines",
 			"MISSING-about": "About",
 			"logout": "ออกจากระบบ",
-			"MISSING-song_history": "Song History",
-			"DELETED-Msong_history": "ประวัติเพลง"
+			"song_history": "ประวัติเพลง"
 		},
 		"video_host": {
-			"MISSING-title": "Video Host Connections",
-			"MISSING-description": "Connection status to the different video servers",
-			"MISSING-click_to_retest": "Click to retest connection",
-			"MISSING-speed": "Speed: _SPANC_ _NUMBER_  _SPANC_",
+			"title": "การเชื่อมต่อ",
+			"description": "สถานะการเชื่อมต่อกับแต่ละเซิฟเวอร์",
+			"click_to_retest": "กดเพื่อทดลองอีกครั้ง",
+			"speed": "ความเร็ว: _SPANC_ _NUMBER_  _SPANC_",
 			"connection_status": {
-				"MISSING-good": "Good",
-				"MISSING-okay": "Okay",
-				"MISSING-poor": "Poor",
-				"MISSING-bad": "Bad"
+				"good": "ดี",
+				"okay": "ปกติ",
+				"poor": "ค่อนข้างแย่",
+				"bad": "แย่"
 			}
 		}
 	},
@@ -456,26 +453,26 @@
 			"description": "สามารถเปลี่ยนชื่อที่แสดงในเกมได้โดยการใช้หนึ่งโทเคน จะได้รับหนึ่งโทเคนทุกๆปีและได้รับหนึ่งโทเคนเพิ่มเติมทุกๆเดือนเมื่อสนับสนุน Patreon ระดับ 4 หรือมากกว่า _BREAK_ เมื่อเปลี่ยนชื่อแล้วนอื่นๆจะสามารถใช้ชื่อเก่าได้แม้ว่าจะเป็นชื่อแรกก็ตาม _BREAK_ ชื่อแรกสุดจะยังสามารถเห็นได้ในโปรไฟล์",
 			"current_tokens": "จำนวนโทเคนที่มี: _SPAN_ _NUMBER_ _SPAN_",
 			"check_availability": "ตรวจสอบชื่อ",
-			"MISSING-new_nickname": "New Nickname",
+			"new_nickname": "ชื่อใหม่",
 			"change_message": {
-				"MISSING-title": "Change Nickname to _NAME_",
-				"MISSING-text": "Ones changed you can't go back to your current name without using a name change token"
+				"title": "เปลี่ยนชื่อเป็น _NAME_",
+				"text": "เมื่อเปลี่ยนชื่อแล้วถ้าจะเปลี่ยนกลับจำเป็นต้องใช้โทเคน"
 			},
-			"MISSING-nickname_available": "Nickname Available",
+			"nickname_available": "ชื่อนี้สามารถใช้ได้",
 			"nickname_not_available": {
-				"MISSING-title": "Nickname Not Available",
-				"MISSING-already_in_use": "This nickname is already in use",
-				"MISSING-banned": "This nickname is banned"
+				"title": "ไม่สามารถใช้ได้",
+				"already_in_use": "ชื่อนี้มีคนใช้แล้ว",
+				"banned": "ชื่อนี้ถูกห้ามใช้"
 			},
 			"change_nickname_messages": {
-				"MISSING-banned": "Your Account is Banned from Changing Nickname",
-				"MISSING-success": "Nickname Changed",
-				"MISSING-no_token": "No Name Change Tokens Available"
+				"banned": "บัญชีนี้ถูกห้ามไม่ให้เปลี่ยนชื่อ",
+				"success": "เปลี่ยนชื่อสำเร็จ",
+				"no_token": "ไม่มีโทเคนสำหรับการเปลี่ยนชื่อ"
 			}
 		},
 		"alerts": {
-			"MISSING-error_getting_profile": "Error Getting Player Profile",
-			"MISSING-unknown_player": "Unknown Player"
+			"error_getting_profile": "เกิดปัญหาในการเปิดโปรไฟล์",
+			"unknown_player": "ไม่มีผู้เล่นนี้"
 		},
 		"name_effects_entries": {
 			"challenger_color": {
@@ -495,7 +492,7 @@
 	},
 	"badges": {
 		"ranked": {
-			"name": "จันดันดับระดับ _TIER_ ปี _YEAR_ ซีซั่นที่ _NUMBER_",
+			"name": "จัดอันดับระดับ _TIER_ ปี _YEAR_ ซีซั่นที่ _NUMBER_",
 			"name_result": "จันดันดับระดับ _TIER_ ปี _YEAR_",
 			"description": "โหมดจัดอันดับได้ระดับ _TIER_ ในปี _YEAR_ ซีซั่นที่ _NUMBER_",
 			"description_result": "โหมดจัดอันดับได้ระดับ _TIER_ ในปี _YEAR_",
@@ -503,25 +500,25 @@
 		},
 		"champion": {
 			"name": {
-				"MISSING-first": "Ranked Champion _YEAR_ _NUMBER_",
-				"MISSING-second": "Ranked Second Place _YEAR_ _NUMBER_",
-				"MISSING-third": "Ranked Third Place _YEAR_ _NUMBER_"
+				"first": "ผู้ชนะโหมดชิงแชมป์ ปี _YEAR_ ซีซั่นที่ _NUMBER_",
+				"second": "โหมดชิงแชมป์อันดับที่ 2 ปี _YEAR_ ซีซั่นที่ _NUMBER_",
+				"third": "โหมดชิงแชมป์อันดับที่ 3 ปี _YEAR_ ซีซั่นที่ _NUMBER_"
 			},
 			"description": {
-				"MISSING-first": "Won the _YEAR_ season _NUMBER_ championship",
-				"MISSING-second": "Ranked Second Place in the _YEAR_ season _NUMBER_ championship",
-				"MISSING-third": "Ranked Third Place in the _YEAR_ season _NUMBER_ championship"
+				"first": "ชนะในโหมดชิงแชมป์ปี _YEAR_ ซีซั่นที่ _NUMBER_",
+				"second": "ได้อันดับที่ 2 ในโหมดชิงแชมป์ปี _YEAR_ ซีซั่นที่ _NUMBER_",
+				"third": "ได้อันดับที่ 3 ในโหมดชิงแชมป์ปี _YEAR_ ซีซั่นที่ _NUMBER_"
 			}
 		},
 		"challenger": {
 			"name": {
 				"MISSING-top": "Ranked Expert _YEAR_ _NUMBER_",
 				"MISSING-mid": "Ranked Up-and-Coming _YEAR_ _NUMBER_",
-				"MISSING-qualified": "Ranked Challenger _YEAR_ _NUMBER_"
+				"qualified": "ผู้ท้าชิงโหมดชิงแชมป์ปี _YEAR_ ซีซั่นที่ _NUMBER_"
 			},
 			"description": {
-				"MISSING-qualified": "Qualified for the _YEAR_ season _NUMBER_ championship",
-				"MISSING-top": "Got top _TOP_ in the _YEAR_ season _NUMBER_ ranked championship"
+				"qualified": "ได้สิทธิในการเล่นโหมดชิงแชมป์ปี _YEAR_ ซีซั่นที่ _NUMBER_",
+				"top": "อยู่ใน _TOP_ อันดับแรกของโหมดชิงแชมป์ปี _YEAR_ ซีซั่นที่ _NUMBER_"
 			}
 		},
 		"patreon": {
@@ -535,28 +532,28 @@
 		},
 		"avatar": { "name": "ตรา _NAME_", "description": "มีสกินของ _NAME_ 10 สกิน" },
 		"mod": {
-			"name": { "MISSING-game": "AMQ Moderator", "MISSING-jam": "AMQ Jam Mode Moderator" },
+			"name": { "game": "ผู้ดูแล", "jam": "ผู้ดูและโหมด Jam" },
 			"description": {
-				"MISSING-game": "Part of the AMQ Moderator team",
-				"MISSING-jam": "Part of the AMQ Jam Mode Moderator team"
+				"game": "อยู่ในทีมผู้ดูแล AMQ",
+				"jam": "อยู่ในทีมผู้ดูแลโหมด Jam"
 			}
 		},
 		"aragaimu": {
 			"name": {
 				"participant": "ผู้เข้าร่วม Aragaimu ปี _YEAR_",
-				"MISSING-top32": "Aragaimu _YEAR_ Top 32",
-				"MISSING-top4": "Aragaimu _YEAR_ Top 4"
+				"top32": "32 อันดับแรกของ Aragaimu ปี _YEAR_",
+				"top4": "4 อันดับแรกของ Aragaimu ปี _YEAR_"
 			},
 			"description": {
 				"participant": "เข้าร่วมในการแข่งขัน Aragaimu ปี _YEAR_",
-				"MISSING-top32": "Got Top 32 in the Aragaimu _YEAR_ tournament",
-				"MISSING-top4": "Got Top 4 in the Aragaimu _YEAR_ tournament"
+				"top32": "อยู่ใน 32 อันดับแรกของ Aragaimu ปี _YEAR_",
+				"top4": "อยู่ใน 4 อันดับแรกของ Aragaimu ปี _YEAR_"
 			}
 		}
 	},
 	"patreon_window": {
 		"title": "Patreon",
-		"MISSING-description": "Help support the operation and development of AMQ by backing the game on Patreon. Working on and sharing AMQ with you all has been and is an amazing experience, and I have so much more I want to do with the game. By backing the Patreon you'll help me not only cover the costs of running the game, but also continue its development! As a special thanks, you'll get several exclusive rewards!",
+		"description": "ช่วยสนับสนุน AMQ ด้วยการสมัครสมาชิก Patreon การสนับสนุนผ่านทาง Patreon นอกจากจะช่วยในเรื่องค่าใช้จ่ายในการดูแลเกมแล้วยังสามารถทำให้การพัฒนาไปต่อได้ด้วยและเพื่อเป็นการขอบคุณในการสนับสนุนจะมีของตอบแทนพิเศษให้ด้วย",
 		"reward_examples": {
 			"title": "รางวัลส่วนหนึ่ง",
 			"sneak_peeks": "รู้ข่าวล่วงหน้า",
@@ -569,29 +566,29 @@
 		"become_a_backer": "มาเป็นผู้สนับสนุน",
 		"patreon_linked": "เชื่อมต่อ Patreon แล้ว",
 		"backer_level": {
-			"MISSING-title": "Backer Level",
-			"MISSING-tier": "Level _NUMBER_",
-			"rewards": { "MISSING-emotes": "_NUMBER_ Emotes", "MISSING-tickets": "_NUMBER_ Tickets" }
+			"title": "ระดับการสนับสนุน",
+			"tier": "ระดับ _NUMBER_",
+			"rewards": { "emotes": "_NUMBER_ Emotes", "tickets": "_NUMBER_ ตั๋ว" }
 		},
-		"MISSING-badge_level": "Badge Level",
-		"MISSING-badge_level_info": "Your badge level is equal to the concurrent months you've been a level 2 or higher backer of the Patreon",
-		"MISSING-patreon_page": "Patreon Page",
+		"badge_level": "ตราระดับ",
+		"badge_level_info": "ระดับของตราเท่ากับจำนวนเดือนที่ทำการสนับสนุน Patreon ระดับ 2 หรือสูงกว่าติดต่อกัน",
+		"patreon_page": "ไปที่ Patreon",
 		"MISSING-relink": "Relink",
-		"MISSING-update_info": "Update Info",
-		"MISSING-unlink_account": "Unlink Account",
-		"MISSING-linked_account": "Linked Account",
+		"update_info": "อัปเดตข้อมูล",
+		"MISSING-unlink_account": "ยกเลิกการเชื่อมต่อ",
+		"linked_account": "เชื่อมต่อบัญชี",
 		"emotes": {
-			"MISSING-title": "Emotes",
-			"MISSING-upload": "Upload",
+			"title": "Emote",
+			"upload": "เพิ่ม",
 			"MISSING-close": "Close",
-			"MISSING-manage": "Manage",
+			"manage": "แก้ไข",
 			"MISSING-empty": "Empty",
 			"states": {
 				"waiting_approval": { "MISSING-name": "Waiting Approval", "MISSING-shorthand": "W" },
 				"active": { "MISSING-name": "Active", "MISSING-shorthand": "A" },
 				"disabled": { "MISSING-name": "Disabled", "MISSING-shorthand": "D" }
 			},
-			"MISSING-error_deleting": "Error Deleting Emote",
+			"error_deleting": "เกิดปัญหาในการลบ Emote",
 			"upload_emote": {
 				"MISSING-title": "Upload Emote",
 				"description": {
@@ -706,7 +703,7 @@
 				"MISSING-list_removed": "List Removed",
 				"unknown_username": "ไม่พบชื่อผู้ใช้นี้",
 				"MISSING-mal_private": "MAL List set to private, only public lists can be synced to the game",
-				"MISSING-mal_error": "Error from MAL, please try again later",
+				"mal_error": "เกิดปัญหาจากฝั่ง MAL โปรดลองใหม่อีกครั้ง",
 				"MISSING-anilist_error": "Unable to Retrieve List from AniList"
 			},
 			"included_entries": {
@@ -738,11 +735,11 @@
 	"change_password_window": {
 		"title": "เปลี่ยนรหัสผ่าน",
 		"current_password": "รหัสผ่านตอนนี้",
-		"MISSING-no_current_password": "You must provide your current password",
+		"no_current_password": "ยังไม่ได้ใส่รหัสผ่านตอนนี้",
 		"MISSING-unexpected_error": "Unexpected error, please try again",
-		"MISSING-error_contacting_server": "Error contacting server, please try again later",
-		"MISSING-password_updated": "Password updated successfully",
-		"MISSING-wrong_password": "Current password is incorrect"
+		"error_contacting_server": "เกิดปัญหาในการติดต่อเซิฟเวอร์ โปรดลองใหม่อีกครั้ง",
+		"password_updated": "เปลี่ยนรหัสผ่านสำเร็จ",
+		"wrong_password": "ใส่รหัสตอนนี้ไม่ถูกต้อง"
 	},
 	"leaderboard_window": {
 		"title": "ตารางอันดับ",
@@ -756,12 +753,12 @@
 	},
 	"tutorial_window": {
 		"title": "วิธีเล่น",
-		"MISSING-start": "Start",
+		"MISSING-start": "เริ่ม",
 		"MISSING-reset": "Reset",
 		"nexus_tutorials": "วิธีเล่น Nexus",
 		"tutorials": {
-			"MISSING-gameplay": "Gameplay",
-			"MISSING-avatars": "Avatars",
+			"gameplay": "การเล่น",
+			"avatars": "ตัวละคร",
 			"MISSING-social": "Social",
 			"MISSING-dungeon": "Dungeon",
 			"MISSING-workshop": "Workshop",
@@ -795,53 +792,53 @@
 	},
 	"about_window": {
 		"MISSING-title": "About",
-		"MISSING-developed_by": "Developed by _NAME_",
+		"developed_by": "สร้างโดย by _NAME_",
 		"MISSING-development": "Development",
-		"MISSING-art": "Art",
-		"MISSING-sound_and_audio": "Sound and Audio",
+		"art": "รูปภาพ",
+		"sound_and_audio": "เสียง",
 		"MISSING-special_thanks": "Special Thanks",
 		"MISSING-credits": "Credits"
 	},
 	"avatar_window": {
 		"MISSING-nothing_selected": "Nothing Selected _BREAK_ Select Above",
-		"MISSING-collapse_all": "Collapse All",
+		"collapse_all": "ย่อทั้งหมด",
 		"rhythm": {
-			"MISSING-title": "Rhythm",
-			"MISSING-description": "Currency gained by rolling duplicates in the Ticket System. Can be used to unlock ticket rewards.",
+			"title": "โน้ต",
+			"description": "ได้รับจากการสุ่มได้ตัวละครหรือของที่มีอยู่แล้ว ใช้ในการซื้อสกินหรือของต่างๆได้",
 			"MISSING-duplicate": "Duplicate, rhythm awarded"
 		},
 		"resonance_system": {
-			"MISSING-target": "Target",
-			"MISSING-title": "Resonance System",
-			"MISSING-no_target": "No Target Selected",
-			"MISSING-no_target_description": "Target a skin/avatar by targeting it from the shop",
+			"target": "เป้าหมาย",
+			"title": "ระบบ Resonance",
+			"no_target": "ยังไม่ได้เลือกเป้าหมาย",
+			"no_target_description": "เลือกสกินหรือตัวละครเป็นเป้าหมายได้จากในร้านค้า",
 			"how_it_works": {
-				"MISSING-title": "How It Works",
+				"title": "ระบบ Resonance คือ",
 				"MISSING-description": "Target an epic or legendary avatar/skin in the shop, and gain points towards it every time you roll in the Ticket System, double points if you use an avatar token for the target. _BREAK_ Once you’ve gained enough points (200 for epic, 500 for legendary) the target is unlocked! _BREAK_ You can swap your target at any time, but it halves your point. _BREAK_ You can target seasonal/limited-time avatars, but you can only gain points towards them while they are in rotation."
 			},
 			"target_messages": {
-				"MISSING-target_message": "Target in Resonance System",
+				"target_message": "เลือกเป็นเป้าหมาย",
 				"MISSING-require_base_skin": "Require Base Skin to Target",
-				"MISSING-rare_common": "Rare/Common skins cannot be targeted"
+				"rare_common": "Rare และ Common ไม่สามารถเลือกเป็นเป้าหมายได้"
 			},
 			"set_target_prompt": {
-				"MISSING-title": "Set Skin as Resonance Target?",
-				"MISSING-description": "Ticket rolls will earn points towards guaranteeing unlocking this avatar/skin. Targets can be changed, at the cost of 50% of gathered resonance points.",
-				"MISSING-confirm_button": "Set Target"
+				"title": "เลือกสกินนี้เป็นเป้าหมาย",
+				"description": "ทุกการสุ่มจะได้รับแต้มเพื่อการันตีสกินที่เลือก สามารถเปลี่ยนเป้าหมายระหว่างทางได้แต่จะเสียแต้มที่มีไปครึ่งหนึ่ง",
+				"confirm_button": "ยืนยัน"
 			},
 			"seasonal_target_prompt": {
-				"MISSING-title": "Seasonal Target",
-				"MISSING-description": "Resonance points can only be earned towards it while it's in rotation. Target anyway?",
-				"MISSING-confirm_button": "Yes"
+				"title": "สกินฤดูกาล",
+				"description": "การเลือกสกินฤดูกาลเป็นเป้าหมายจะทำให้ได้รับแต้มแค่ในช่วงที่สกินเปิดขายเท่านั้น โปรดยืนยันการเลือก",
+				"confirm_button": "ยืนยัน"
 			},
 			"swap_target_prompt": {
-				"MISSING-title": "Swap Resonance Target?",
-				"MISSING-description": "This will cost 50% of your current resonance points.",
-				"MISSING-confirm_button": "Swap Target"
+				"title": "เปลี่ยนเป้าหมาย",
+				"description": "เมื่อเปลี่ยนเป้าหมายจะทำให้เสียแต้มตอนนี้ไปครึ่งหนึ่ง",
+				"confirm_button": "ยืนยัน"
 			},
 			"target_no_active_warning": {
-				"MISSING-title": "Resonance Target Not Active",
-				"MISSING-description": "Resonance points can’t be earned towards inactive targets, so roll won’t award resonance points."
+				"title": "ไม่มีเป้าหมาย",
+				"description": "ไม่สามารถได้รับแต้มถ้าไม่มีเป้าหมาย"
 			},
 			"resonance_limit_warning": {
 				"MISSING-title": "Resonance Limit Reached",
