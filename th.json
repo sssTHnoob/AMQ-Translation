@@ -189,7 +189,8 @@
 				"christmas": "โปรโมชั่นวันคริสต์มาส",
 				"lunar": "โปรโมชั่นวันตรุษจีน",
 				"valentine": "โปรโมชั่นวันวาเลนไทน์",
-				"summer_games": "โปรโมชั่นกีฬาฤดูร้อน"
+				"summer_games": "โปรโมชั่นกีฬาฤดูร้อน",
+				"MISSING-anniversary": "Anniversary Sale!"
 			},
 			"sale_text": "ซื้อตั๋วในราคาที่คุ้มค่า",
 			"skin_header": "พิเศษ",
@@ -350,7 +351,10 @@
 			"title": "โหมด",
 			"solo": { "title": "เล่นคนเดียว", "description": "ท้าทายตัวเองด้วยเพลงที่มีไม่จำกัดและไม่ซ้ำกันในแต่ละรอบ" },
 			"multiplayer": { "title": "เล่นหลายคน", "description": "เล่นไปพร้อมกับผู้เล่นคนอื่นๆ" },
-			"community": { "MISSING-title": "Community", "description": "เล่นเพลงที่ผู้เล่นคนอื่นๆเลือกมาหรือจะสร้างเองก็ได้" },
+			"community": {
+				"MISSING-title": "Community",
+				"description": "เล่นเพลงที่ผู้เล่นคนอื่นๆเลือกมาหรือจะสร้างเองก็ได้"
+			},
 			"jam": { "title": "Jam", "description": "ห้องที่เปิดตลอดเวลาเพื่อให้ผู้เล่นทุกคนเข้ามาตอนไหนก็ได้" },
 			"nexus": {
 				"title": "Nexus",
@@ -424,12 +428,7 @@
 			"description": "สถานะการเชื่อมต่อกับแต่ละเซิฟเวอร์",
 			"click_to_retest": "กดเพื่อทดลองอีกครั้ง",
 			"speed": "ความเร็ว: _SPANC_ _NUMBER_  _SPANC_",
-			"connection_status": {
-				"good": "ดี",
-				"okay": "ปกติ",
-				"poor": "ค่อนข้างแย่",
-				"bad": "แย่"
-			}
+			"connection_status": { "good": "ดี", "okay": "ปกติ", "poor": "ค่อนข้างแย่", "bad": "แย่" }
 		}
 	},
 	"player_profile": {
@@ -470,10 +469,7 @@
 				"no_token": "ไม่มีโทเคนสำหรับการเปลี่ยนชื่อ"
 			}
 		},
-		"alerts": {
-			"error_getting_profile": "เกิดปัญหาในการเปิดโปรไฟล์",
-			"unknown_player": "ไม่มีผู้เล่นนี้"
-		},
+		"alerts": { "error_getting_profile": "เกิดปัญหาในการเปิดโปรไฟล์", "unknown_player": "ไม่มีผู้เล่นนี้" },
 		"name_effects_entries": {
 			"challenger_color": {
 				"name": "Challenger",
@@ -533,10 +529,7 @@
 		"avatar": { "name": "ตรา _NAME_", "description": "มีสกินของ _NAME_ 10 สกิน" },
 		"mod": {
 			"name": { "game": "ผู้ดูแล", "jam": "ผู้ดูและโหมด Jam" },
-			"description": {
-				"game": "อยู่ในทีมผู้ดูแล AMQ",
-				"jam": "อยู่ในทีมผู้ดูแลโหมด Jam"
-			}
+			"description": { "game": "อยู่ในทีมผู้ดูแล AMQ", "jam": "อยู่ในทีมผู้ดูแลโหมด Jam" }
 		},
 		"aragaimu": {
 			"name": {
@@ -749,7 +742,8 @@
 		"top": "สูงสุด",
 		"ranked": "โหมดจัดอันดับ",
 		"all": "ทั้งหมด",
-		"champs": "แชมป์"
+		"champs": "แชมป์",
+		"regions": { "MISSING-west": "West Region", "MISSING-central": "Central Region", "MISSING-east": "East Region" }
 	},
 	"tutorial_window": {
 		"title": "วิธีเล่น",
@@ -836,10 +830,7 @@
 				"description": "เมื่อเปลี่ยนเป้าหมายจะทำให้เสียแต้มตอนนี้ไปครึ่งหนึ่ง",
 				"confirm_button": "ยืนยัน"
 			},
-			"target_no_active_warning": {
-				"title": "ไม่มีเป้าหมาย",
-				"description": "ไม่สามารถได้รับแต้มถ้าไม่มีเป้าหมาย"
-			},
+			"target_no_active_warning": { "title": "ไม่มีเป้าหมาย", "description": "ไม่สามารถได้รับแต้มถ้าไม่มีเป้าหมาย" },
 			"resonance_limit_warning": {
 				"MISSING-title": "Resonance Limit Reached",
 				"MISSING-description": "Earn points from your rolls towards guaranteeing unlocks, by targeting a roll-able epic or legendary avatar/skin. Points are lost without a target. For details, hover the target tab to the left."
@@ -904,14 +895,8 @@
 			"MISSING-unavailable": "Unavailable",
 			"MISSING-unlock": "Unlock"
 		},
-		"avatar_bonus": {
-			"title": "โบนัสตัวละคร",
-			"description": "มีสกินของตัวละครนี้ 10 สกินเพื่อรับตราตัวละคร"
-		},
-		"skin_bonus": {
-			"title": "โบนัสสกิน",
-			"description": "มีสกินนี้ 10 แบบเพื่อทำให้ตัวละครอื่นใช้พื้นหลังนี้ได้"
-		},
+		"avatar_bonus": { "title": "โบนัสตัวละคร", "description": "มีสกินของตัวละครนี้ 10 สกินเพื่อรับตราตัวละคร" },
+		"skin_bonus": { "title": "โบนัสสกิน", "description": "มีสกินนี้ 10 แบบเพื่อทำให้ตัวละครอื่นใช้พื้นหลังนี้ได้" },
 		"MISSING-world": "World",
 		"MISSING-artist": "Artist",
 		"MISSING-version_artist": "Version Artist",
@@ -919,10 +904,7 @@
 		"ticket_system": {
 			"menu": { "use": "ใช้", "history": "ประวัติ", "buy": "ซื้อตั๋ว", "gift": "ให้ของขวัญ" },
 			"redeem_code": "ใช้โค้ด",
-			"patreon_promo": {
-				"line_one": "สนับสนุน Patreon",
-				"line_two": "เพื่อรับตั๋วคุ้มราคาที่สุด"
-			},
+			"patreon_promo": { "line_one": "สนับสนุน Patreon", "line_two": "เพื่อรับตั๋วคุ้มราคาที่สุด" },
 			"gift_target": "ผู้เล่นที่จะให้",
 			"gift_no_target_message": "เลือกเพื่อนที่จะให้",
 			"gift_clear": "เปลี่ยน",
@@ -1530,7 +1512,8 @@
 			"no_plays": "ไม่เคยเล่น",
 			"score": "คะแนน",
 			"name": "ชื่อผู้เล่น",
-			"MISSING-multiple_choice_toggle": "Toggle Displaying Multiple Choice Entries"
+			"MISSING-multiple_choice_toggle": "Toggle Displaying Multiple Choice Entries",
+			"MISSING-multiple_choice": "Multiple Choice"
 		},
 		"quiz_buttons": {
 			"MISSING-delete": "ลบ",
@@ -1648,7 +1631,8 @@
 			"diamond": { "MISSING-title": "Diamond Medal", "MISSING-description": "Got 100% correct on this quiz!" }
 		},
 		"create_new_quiz_tile": { "MISSING-message": "Create New Quiz", "MISSING-title": "New Quiz" },
-		"unlock_at_tile": { "MISSING-message": "Unlock at Level _NUMBER_", "MISSING-title": "Locked" }
+		"unlock_at_tile": { "MISSING-message": "Unlock at Level _NUMBER_", "MISSING-title": "Locked" },
+		"shared_states": { "MISSING-friends": "Quiz shared with friends", "MISSING-public": "Public Quiz" }
 	},
 	"community_quiz_tags": {
 		"MISSING-training": "Training",
@@ -1661,12 +1645,7 @@
 		"setup_game": "ตั้งค่า",
 		"MISSING-select_settings_to_load": "Select Settings to Load",
 		"MISSING-load_from_code": "Load from Code",
-		"tabs": {
-			"MISSING-quick": "Quick",
-			"MISSING-advanced": "Advanced",
-			"save": "บันทึก",
-			"load": "ที่บันทึกไว้"
-		},
+		"tabs": { "MISSING-quick": "Quick", "MISSING-advanced": "Advanced", "save": "บันทึก", "load": "ที่บันทึกไว้" },
 		"categories": {
 			"MISSING-mode": "Mode",
 			"MISSING-general": "General",
@@ -1694,7 +1673,8 @@
 			"MISSING-jam": "Jam",
 			"MISSING-themed": "Themed",
 			"MISSING-solo": "Solo",
-			"MISSING-multiplayer": "Multiplayer"
+			"MISSING-multiplayer": "Multiplayer",
+			"MISSING-community": "Community"
 		},
 		"MISSING-game_mode_display": "_NAME_ Mode",
 		"MISSING-game_mode_settings_display": "_NAME_ Game Settings",
@@ -1957,10 +1937,7 @@
 		"filter_types": { "MISSING-include": "Include", "MISSING-exclude": "Exclude", "MISSING-optional": "Optional" },
 		"alerts": {
 			"room_name_missing": "ต้องมีชื่อห้อง",
-			"room_name_too_long": {
-				"title": "ชื่อห้องยาวเกินไป",
-				"description": "ชื่อห้องห้ามเกิน 20 ตัวอักษร"
-			},
+			"room_name_too_long": { "title": "ชื่อห้องยาวเกินไป", "description": "ชื่อห้องห้ามเกิน 20 ตัวอักษร" },
 			"MISSING-password_missing": "Password is required for private rooms",
 			"MISSING-one_player_score_required": "At least one player score must be toggled on",
 			"MISSING-one_anime_score_required": "At least one anime score must be toggled on",
@@ -1994,7 +1971,8 @@
 			"MISSING-max_saved_settings": "Max number of _NUMBER_ saved settings reached"
 		},
 		"delete_saved_setting": { "MISSING-title": "Delete Saved Setting", "MISSING-confirm_button": "Delete" },
-		"get_code": { "MISSING-title": "Get Code for Settings", "MISSING-setting_code": "Setting Code" }
+		"get_code": { "MISSING-title": "Get Code for Settings", "MISSING-setting_code": "Setting Code" },
+		"MISSING-loading_disabled": "Loading Disabled"
 	},
 	"room_browser": {
 		"filters": {
@@ -2252,5 +2230,1000 @@
 			}
 		},
 		"MISSING-page_close_warning": "Leaving the page will cause you to lose any unsaved progress."
+	},
+	"game_chat": {
+		"MISSING-game_chat": "Game Chat",
+		"MISSING-spectators": "Spectators",
+		"MISSING-spectate_button": "Spectate",
+		"MISSING-queue": "Queue",
+		"MISSING-join_queue_button": "Join Queue",
+		"MISSING-leave_queue_button": "Leave Queue",
+		"MISSING-team_switch": "Team",
+		"MISSING-player_only_mode": "Player Only Chat",
+		"MISSING-message": "Message",
+		"MISSING-slowmode": "Chat in slowmode",
+		"MISSING-repeat_message_warning": "Repeated message too soon",
+		"MISSING-ranked_chat_level_warning": "Level _NUMBER_ required to use ranked chat",
+		"MISSING-new_spectator_message": "_NAME_ has started spectating.",
+		"MISSING-emotes_disabled_warning": "Emotes disabled doing ranked guessing",
+		"MISSING-emote_only_mode_warning": "Chat in emote only mode",
+		"MISSING-event_chat_level_warning": "Level _NUMBER_ required to use chat in event room",
+		"MISSING-emote_locked_in": "Emote Locked In",
+		"MISSING-kicked_message": "_NAME_ was kicked from the room.",
+		"MISSING-new_host_message": "_NAME_ is now the host.",
+		"MISSING-stopped_spectating_message": "_NAME_ has stopped spectating.",
+		"MISSING-disconnected_message": "_NAME_ has disconnected.",
+		"MISSING-reconnect_message": "_NAME_ has reconnected.",
+		"MISSING-left_room_message": "_NAME_ has left the room.",
+		"MISSING-joined_room_message": "_NAME_ has joined the room.",
+		"MISSING-changed_to_player_message": "_NAME_ changed to player.",
+		"MISSING-changed_to_spectator_message": "_NAME_ changed to spectator.",
+		"MISSING-all_players_disconnect_message": "All players have disconnected, pausing while waiting for reconnects",
+		"MISSING-paused_game_message": "_NAME_ has paused the game.",
+		"MISSING-unpaused_game_message": "_NAME_ has unpaused the game.",
+		"MISSING-chat_normal_mode_message": "Moderator joined, chat in normal mode",
+		"MISSING-chat_in_emote_only_mode_message": "No moderator, chat in emote only mode",
+		"MISSING-promoted_host_message": "_NAME_ has been promoted to host.",
+		"MISSING-kicked_from_room_alert": "You have been kicked from the room",
+		"emotes": {
+			"MISSING-locked_in_emote_description": "Locked in emote, will be displayed when guessing ends",
+			"MISSING-recent": "Recent",
+			"MISSING-all": "All"
+		},
+		"kick_player": {
+			"MISSING-title": "Kick _NAME_?",
+			"MISSING-description": "Kicked players will be unable to rejoin the game",
+			"MISSING-kick_button": "Kick"
+		},
+		"MISSING-page_close_warning": "Leaving the page will leave the game. Sure you want to continue?",
+		"MISSING-error_leaving_queue": "Unexpected Error Leaving Queue",
+		"error_joining_queue": {
+			"MISSING-title": "Error Joining Queue",
+			"MISSING-not_a_spectator": "You must be a spectator to join the queue",
+			"MISSING-already_in_queue": "You are already in the queue",
+			"MISSING-disabled": "Queueing is disabled in this room"
+		},
+		"kicked_from_jam_game_alert": {
+			"MISSING-title": "Kicked from Jam Quiz",
+			"MISSING-description": "You have been kicked from the jam quiz by a moderator and cannot rejoin the room for an hour"
+		},
+		"jam_quiz_ban_alert": {
+			"MISSING-title": "Banned from Jam Quizzes",
+			"MISSING-description": "Your jam quiz expires in _NUMBER_ minutes"
+		}
+	},
+	"lobby": {
+		"MISSING-leave_button": "Leave",
+		"MISSING-room": "Room",
+		"MISSING-quiz_rules": "Quiz Rules",
+		"MISSING-stats_in": "Stats In",
+		"MISSING-room_settings": "Room Settings",
+		"MISSING-shuffle_teams": "Shuffle Teams",
+		"MISSING-team_shuffled_message": "Teams Shuffled",
+		"MISSING-team": "Team",
+		"MISSING-host": "Host",
+		"MISSING-team_unset": "Unset",
+		"MISSING-team_members": "Team Members",
+		"join_themed_team": {
+			"MISSING-title": "Join Team",
+			"MISSING-placeholder": "Enter a team code",
+			"MISSING-join_button": "Join"
+		},
+		"main_button": {
+			"MISSING-start": "Start",
+			"MISSING-join": "Join",
+			"MISSING-ready": "Ready",
+			"MISSING-unready": "Unready",
+			"MISSING-room_is_full": "Room is Full",
+			"MISSING-closing_in": "Closing In",
+			"MISSING-starts_in": "Starts In",
+			"MISSING-starting_soon": "Starting Soon"
+		},
+		"blocked_join_messages": { "MISSING-ranked_championship": "Only top 150 players in the region can join" },
+		"community_quiz": {
+			"MISSING-click_to_select": "Click here to Select a Quiz",
+			"MISSING-click_to_change": "Selected Community Quiz _BREAK_ Click to Change",
+			"MISSING-no_quiz_selected": "No Community Quiz Selected",
+			"MISSING-selected_quiz": "Selected Community Quiz:",
+			"MISSING-enabled": "Community Quiz Mode Enabled",
+			"MISSING-disabled": "Community Quiz Mode Disabled"
+		},
+		"ranked_team": {
+			"MISSING-no_team": "No Team",
+			"MISSING-team_code": "Team Code",
+			"MISSING-create": "Create",
+			"MISSING-join": "Join",
+			"MISSING-leave": "Leave"
+		},
+		"rule_window": {
+			"MISSING-title": "Game Mode Overview",
+			"MISSING-previous_button": "Previous",
+			"MISSING-next_button": "Next",
+			"categories": {
+				"team_mode": {
+					"MISSING-title": "Team Mode",
+					"MISSING-team_selection": "Team Selection",
+					"MISSING-answering": "Answering",
+					"MISSING-scoring": "Scoring",
+					"MISSING-chat": "Chat"
+				},
+				"speed_scoring": {
+					"MISSING-title": "Speed Scoring",
+					"MISSING-answer_ranking": "Answer Ranking",
+					"MISSING-scoring": "Scoring",
+					"MISSING-correct_answers": "Correct Answers"
+				},
+				"lives": {
+					"MISSING-title": "Lives",
+					"MISSING-losing_lives_1": "Losing Lives 1",
+					"MISSING-losing_lives_2": "Losing Lives 2",
+					"MISSING-winning": "Winning",
+					"MISSING-reviving": "Reviving"
+				},
+				"looting": {
+					"MISSING-title": "Looting",
+					"MISSING-dropping": "Dropping",
+					"MISSING-looting": "Looting",
+					"MISSING-containers": "Containers",
+					"MISSING-changing_zones": "Changing Zones",
+					"MISSING-inventory": "Inventory"
+				},
+				"boss_mode": {
+					"MISSING-title": "Boss Mode",
+					"MISSING-bosses": "Bosses",
+					"MISSING-scoring": "Scoring",
+					"MISSING-power_ups": "Power-Ups",
+					"MISSING-victory": "Victory",
+					"MISSING-defeat": "Defeat"
+				}
+			}
+		},
+		"room_closed": {
+			"MISSING-title": "Room Closed",
+			"MISSING-lobby_closed": "Lobby Closed",
+			"MISSING-mod_left": "Mod Left",
+			"MISSING-host_left": "Host Left",
+			"MISSING-all_players_left": "All Players Left",
+			"MISSING-host_afk": "Host AFK",
+			"MISSING-no_players": "No Players"
+		},
+		"mode_ids": { "MISSING-ranked": "#Ranked", "MISSING-themed": "#Themed", "MISSING-event": "#Event" },
+		"too_many_custom_settings": {
+			"MISSING-title": "Too Many Custom Settings",
+			"MISSING-description": "Too many custom settings, try removing some tags and/or custom vintages"
+		},
+		"answering_mode": {
+			"MISSING-title": "Answering Mode",
+			"MISSING-typing": "Typing",
+			"MISSING-multiple_choice": "Multiple Choice",
+			"selection": {
+				"MISSING-title": "Select Answer Mode",
+				"MISSING-description": "Select the answer mode you want to use. You can change it later at the top right of the lobby."
+			}
+		},
+		"player_options": {
+			"MISSING-profile": "Profile",
+			"MISSING-promote_host": "Promote to Host",
+			"MISSING-change_to_spectator": "Change to Spectator",
+			"MISSING-kick": "Kick from Room"
+		},
+		"errors": {
+			"MISSING-error_changing_to_player": "Error Changing to Player",
+			"no_players_ready": {
+				"MISSING-title": "No Players Ready",
+				"MISSING-description": "At least one player must be ready to start the game"
+			},
+			"no_community_quiz": {
+				"MISSING-title": "No Community Quiz Selected",
+				"MISSING-description": "You must select a community quiz to start the game"
+			}
+		},
+		"all_players_not_ready_warning": {
+			"MISSING-title": "Not All Players Ready",
+			"MISSING-description": "Not all players are ready. All players not ready will be changed to spectators",
+			"MISSING-start_button": "Start"
+		},
+		"game_settings": {
+			"MISSING-changed_header": "Game settings have changed",
+			"MISSING-more": "+ _NUMBER_ more...",
+			"MISSING-none": "None",
+			"MISSING-on": "On",
+			"MISSING-off": "Off",
+			"song_selection": {
+				"MISSING-watched": "Watched",
+				"MISSING-unwatched": "Unwatched",
+				"MISSING-random": "Random",
+				"MISSING-mainly_watched": "Mainly Watched",
+				"MISSING-only_watched": "Only Watched"
+			},
+			"show_selection": { "MISSING-auto": "Auto", "MISSING-looting": "Looting" },
+			"answering_mode": {
+				"MISSING-typing": "Typing",
+				"MISSING-multiple_choice": "Multiple Choice",
+				"MISSING-mix": "Mix"
+			},
+			"watched_distribution": { "MISSING-random": "Random", "MISSING-weighted": "Weighted", "MISSING-equal": "Equal" },
+			"sample_point": {
+				"MISSING-start": "Start",
+				"MISSING-middle": "Middle",
+				"MISSING-end": "End",
+				"MISSING-random": "Random"
+			},
+			"score_type": {
+				"MISSING-count": "Count",
+				"MISSING-speed": "Speed",
+				"MISSING-hint": "Hint",
+				"MISSING-lives": "Lives",
+				"MISSING-boss": "Boss"
+			},
+			"song_type": {
+				"MISSING-openings": "Openings",
+				"MISSING-endings": "Endings",
+				"MISSING-inserts": "Inserts",
+				"MISSING-random": "Random"
+			},
+			"vintage_seasons": {
+				"MISSING-winter": "Winter",
+				"MISSING-spring": "Spring",
+				"MISSING-summer": "Summer",
+				"MISSING-fall": "Fall"
+			},
+			"titles": {
+				"MISSING-vintage": "Vintage",
+				"MISSING-anime_score": "Anime Score",
+				"MISSING-player_score": "Player Score",
+				"MISSING-sample_point": "Sample Point",
+				"MISSING-guess_time": "Guess Time",
+				"MISSING-inventory_size": "Inventory Size",
+				"MISSING-looting_time": "Looting Time",
+				"MISSING-song_selection": "Song Selection",
+				"MISSING-show_selection": "Show Selection",
+				"MISSING-number_of_songs": "Number of Songs",
+				"MISSING-number_of_players": "Number of Players",
+				"MISSING-song_popularity": "Song Popularity",
+				"MISSING-song_difficulty": "Song Difficulty",
+				"MISSING-song_types": "Song Types",
+				"MISSING-opening_categories": "Opening Categories",
+				"MISSING-ending_categories": "Ending Categories",
+				"MISSING-insert_categories": "Insert Categories",
+				"MISSING-room_name": "Room Name",
+				"MISSING-room_private": "Room Private",
+				"MISSING-password": "Password",
+				"MISSING-playback_speed": "Playback Speed",
+				"MISSING-game_mode": "Game Mode",
+				"MISSING-modifiers": "Modifiers",
+				"MISSING-type": "Type",
+				"MISSING-genre": "Genre",
+				"MISSING-tags": "Tags",
+				"MISSING-lives": "Lives",
+				"MISSING-boss_lives": "Boss Lives",
+				"MISSING-boss_power_ups": "Boss Power Ups",
+				"MISSING-boss_max_songs": "Boss Max Songs",
+				"MISSING-scoring": "Scoring",
+				"MISSING-team_size": "Team Size",
+				"MISSING-watched_distribution": "Watched Distribution",
+				"MISSING-answering": "Answering",
+				"MISSING-extra_guess_time": "Extra Guess Time",
+				"MISSING-skip_guessing": "Skip Guessing",
+				"MISSING-skip_replay": "Skip Replay",
+				"MISSING-duplicates": "Duplicates",
+				"MISSING-loot_dropping": "Loot Dropping",
+				"MISSING-rebroadcast_songs": "Rebroadcast Songs",
+				"MISSING-dub_songs": "Dub Songs",
+				"MISSING-full_song_range": "Full Song Range",
+				"MISSING-ova": "OVA",
+				"MISSING-ona": "ONA",
+				"MISSING-queueing": "Queueing",
+				"MISSING-tv": "TV",
+				"MISSING-movie": "Movie",
+				"MISSING-special": "Special"
+			}
+		},
+		"ranked_rules": {
+			"MISSING-title": "Ranked Rules",
+			"MISSING-description": "Ranked matches are a place where players can test their individual skills up against the rest of the community. _BREAK_ In a ranked match, you compete against all the other players in guessing the most songs, which ranges from the easiest to the hardest in the game. _BREAK_ At the end of the match, you’ll get points based on how well you did. Gather points throughout the season to unlock unique badges and earn a spot in the championship match at the end of the season! _BREAK_ To ensure the integrity of ranked matches, it’s important you follow the rules below, as breaking these rules can lead to your account getting banned and/or excluded from playing ranked.",
+			"MISSING-themed_title": "Themed Quiz Rules",
+			"MISSING-themed_description": "Themed quizzes are a place where players can test their skills in specific themes selected for the day against the rest of the community! _BREAK_ Each themed quiz will feature a unique themed song pool, and is meant to be a fun way a and fresh way to challenge yourself against the community in a less competitive and more fun focused environment. _BREAK_ While not as competitive focused as ranked matches, it’s important that you follow the rules, to not ruin the experience of other players. Breaking the rules can lead to your account getting banned and/or excluded from Quiz of the Day.",
+			"play_solo": {
+				"MISSING-title": "Play Solo",
+				"MISSING-description": "Ranked is a test of individual skills, so giving hints and/or answer to other players, as well as receiving them, goes against the rules."
+			},
+			"themed_team_play": {
+				"MISSING-title": "Team Play",
+				"MISSING-description": "It’s possible to play themed quizzes as a team, to do so set up or join your team from the top right option in the lobby. While in a team, you are allowed to work together to guess the answers, and will share the same score. _BREAK_ It’s not allowed to share any answers or hints with people not on your team."
+			},
+			"no_cheating": {
+				"MISSING-title": "No Cheating",
+				"MISSING-description": "Using any kind of tool that gives an unfair advantage over other players is strictly prohibited. This includes using external tools to get additional information about the song, googling lyrics, and in general any external tool and/or method that gives an unfair advantage over other players."
+			},
+			"mod_instructions": {
+				"MISSING-title": "Follow Instructions from Moderators",
+				"MISSING-description": "The games moderators work hard to keep ranked fair for all players, so it’s important you follow any instructions issued by them so that they can ensure this.  _BREAK_ You can recognize moderators by the mod badge next to their name."
+			},
+			"english_chat": {
+				"MISSING-title": "Use English in the Chat",
+				"MISSING-description": "It isn’t possible to moderate every language, so keep messages in the ranked chat to English and emotes."
+			}
+		}
+	},
+	"quiz": {
+		"boss_mode": {
+			"MISSING-boss": "Boss",
+			"MISSING-defeat": "Defeat",
+			"MISSING-victory": "Victory",
+			"MISSING-correct": "_SPAN_ _NUMBER_ _SPAN_ Correct",
+			"MISSING-lives": "_SPAN_ _NUMBER_ _SPAN_ / _SPAN2_ _NUMBER2_ _SPAN2_ Lives",
+			"MISSING-points": "_SPAN_ _NUMBER_ _SPAN_ Points",
+			"MISSING-players_left": "Boss Players Left",
+			"MISSING-powers_left": "_SPAN_ _NUMBER_ _SPAN_ Powers Left",
+			"powers": {
+				"name_hint": {
+					"MISSING-title": "Name Hint",
+					"MISSING-description": "Reveal the length of the answers, and 4 of its characters"
+				},
+				"song_hint": {
+					"MISSING-title": "Song Hint",
+					"MISSING-description": "Reveal some of the song info for the current song"
+				},
+				"peek_answers": {
+					"MISSING-title": "Peek Answers",
+					"MISSING-description": "Reveal the answers already submitted by other players"
+				},
+				"more_time": { "MISSING-title": "More Time", "MISSING-description": "Increase guessing time by 10 seconds" },
+				"end_guessing": {
+					"MISSING-title": "End Guessing",
+					"MISSING-description": "End the guessing phase immediately"
+				},
+				"multiple_choice": {
+					"MISSING-title": "Multiple Choice",
+					"MISSING-description": "Get multiple choice answers for the current song"
+				}
+			}
+		},
+		"MISSING-leave_button": "Leave",
+		"leave_quiz_option": { "MISSING-title": "Leave Quiz?", "MISSING-stay": "Stay" },
+		"return_to_lobby": {
+			"MISSING-popover": "Start a vote for returning to the lobby",
+			"MISSING-vote_message": "Return to Lobby?",
+			"MISSING-yes": "Yes",
+			"MISSING-no": "No",
+			"MISSING-start_vote": "Start Return to Lobby Vote?",
+			"MISSING-start_button": "Start"
+		},
+		"MISSING-join_button": "Join",
+		"video_quality": { "MISSING-720p": "720p", "MISSING-480p": "480p", "MISSING-sound": "Sound" },
+		"MISSING-settings_popover": "Settings",
+		"MISSING-song_history_popover": "Song History",
+		"MISSING-vote_skip": "Vote Skip",
+		"vote_states": {
+			"MISSING-voted_skip": "Voted _BREAK_ Skip",
+			"MISSING-no_votes": "No _BREAK_ Votes",
+			"MISSING-waiting_answers": "Waiting _BREAK_ Answers",
+			"MISSING-waiting_buffering": "Waiting _BREAK_ Buffering",
+			"MISSING-ending_soon": "Ending _BREAK_ Soon",
+			"MISSING-votes_needed": "_NUMBER_/_NUMBER2_ _BREAK_ Votes"
+		},
+		"MISSING-no_songs_matching_settings": "No songs match the quiz settings, returning to lobby",
+		"MISSING-team_answer": "_NAME_ answered: _MESSAGE_",
+		"MISSING-current_answer": "Current Answer",
+		"pause_button_popovers": {
+			"MISSING-pause": "Pause the game at the end of this song. All players can end the pause.",
+			"MISSING-unpause": "Unpause the game"
+		},
+		"anime_names": {
+			"MISSING-alternative_names": "Alternative Names",
+			"MISSING-alternative_answers": "Alternative Answers"
+		},
+		"avatar": {
+			"MISSING-loot": "Loot",
+			"MISSING-host": "Host",
+			"MISSING-hidden": "Hidden",
+			"MISSING-hidden_description": "Hidden from other players",
+			"MISSING-answer_time": "Answer Time",
+			"MISSING-answer_time_number": "_NUMBER_s",
+			"MISSING-answering_mode": "Answering Mode",
+			"MISSING-multiple_choice": "Multiple Choice",
+			"answer_status": {
+				"MISSING-watching": "W",
+				"MISSING-completed": "C",
+				"MISSING-on_hold": "H",
+				"MISSING-dropped": "D",
+				"MISSING-plan_to_watch": "P"
+			},
+			"hint_used": {
+				"MISSING-name": "Name Hint Used",
+				"MISSING-info": "Info Hint Used",
+				"MISSING-multiple_choice": "Multiple Choice Hint Used"
+			}
+		},
+		"song_info": {
+			"MISSING-title": "Song Info",
+			"MISSING-song_name": "Song Name",
+			"MISSING-arranger": "Arranger",
+			"MISSING-artist": "Artist",
+			"MISSING-composer": "Composer",
+			"MISSING-type": "Type",
+			"MISSING-video": "Video",
+			"MISSING-anime": "Anime",
+			"MISSING-report": "Report",
+			"MISSING-report_reason": "Report Reason",
+			"report_reasons": {
+				"MISSING-wrong_song": "Wrong Song",
+				"MISSING-bad_quality": "Bad Quality",
+				"MISSING-background_noise": "Background Noise",
+				"MISSING-broken_video": "Broken Video"
+			},
+			"extra_info": {
+				"MISSING-title": "Extra Info",
+				"MISSING-type": "Type",
+				"MISSING-vintage": "Vintage",
+				"MISSING-anime_rating": "Anime Rating",
+				"MISSING-difficulty": "Difficulty",
+				"MISSING-genre": "Genre",
+				"MISSING-tags": "Tags"
+			},
+			"song_type": {
+				"MISSING-opening": "Opening _NUMBER_",
+				"MISSING-ending": "Ending _NUMBER_",
+				"MISSING-insert": "Insert Song",
+				"MISSING-rebroadcast": "(Rebroadcast)",
+				"MISSING-dub": "(Dub)",
+				"MISSING-type_text": "_NAME_ _DESCRIPTION_"
+			}
+		},
+		"standings": {
+			"MISSING-title": "Standings",
+			"MISSING-number_of_correct_guesses_popover": "Number of Correct Guesses",
+			"MISSING-correct_guesses": "Correct Guesses",
+			"MISSING-list_number": "List Number",
+			"hide_team_messages": {
+				"MISSING-mod": "Mods can't hide teams",
+				"MISSING-in_team": "Can't hide teams while in a team",
+				"MISSING-hide_teams": "Show/hide teams in the quiz"
+			},
+			"MISSING-points": "Points",
+			"MISSING-lives": "Lives"
+		},
+		"video_player": {
+			"MISSING-sound_only": "Sound Only",
+			"video_hidden": { "MISSING-title": "Video Hidden", "MISSING-click_to_reveal": "Click to Reveal" },
+			"MISSING-click_to_hide_video": "Click to Hide Video",
+			"MISSING-loading": "Loading",
+			"MISSING-answers": "Answers",
+			"MISSING-waiting_buffering": "Waiting Buffering",
+			"MISSING-returning_to_lobby": "Returning to Lobby",
+			"MISSING-pausing_after_this_song": "Pausing After This Song",
+			"MISSING-continuing_in": "Continuing in: _SPAN_ _NUMBER_ _SPAN_",
+			"hints": {
+				"MISSING-title": "Hints",
+				"MISSING-point_value": "The point value of the current song",
+				"name": {
+					"MISSING-title": "Name",
+					"MISSING-description": "Reveal the length of the answer, and 4 of its characters"
+				},
+				"info": { "MISSING-title": "Info", "MISSING-description": "Reveal some of the song info for this song" },
+				"multiple_choice": {
+					"MISSING-title": "MC",
+					"MISSING-description": "Get multiple choice options for this song"
+				},
+				"MISSING-hint_popover": "_DESCRIPTION_ - Point cost: _NUMBER_"
+			},
+			"skip_messages": {
+				"MISSING-answers": "Skipping to Answers",
+				"MISSING-lobby": "Skipping to Lobby",
+				"MISSING-next_song": "Skipping to Next Song",
+				"MISSING-final_standings": "Skipping to Final Standings",
+				"MISSING-rewards": "Skipping to Rewards",
+				"MISSING-end": "Skipping to End"
+			}
+		},
+		"jam_mode": {
+			"MISSING-next_round_vote": "Next Round Vote",
+			"MISSING-theme": "Theme",
+			"MISSING-active_theme": "Active Theme",
+			"MISSING-select_one": "Select One",
+			"MISSING-none": "None",
+			"MISSING-song_types": "Song Types",
+			"MISSING-select_one_or_more": "Select One or More",
+			"MISSING-openings": "Openings",
+			"MISSING-endings": "Endings",
+			"MISSING-inserts": "Inserts"
+		},
+		"looting": {
+			"MISSING-players": "Players",
+			"MISSING-time_left": "Time Left",
+			"MISSING-map_button": "Map",
+			"MISSING-collected_shows": "Collected Shows",
+			"MISSING-select_drop_zone": "Select Drop Zone",
+			"full_inventory": {
+				"MISSING-title": "Inventory Full",
+				"MISSING-description": "Drop shows from your inventory (top left) to continue looting"
+			},
+			"MISSING-players_in_tile": "Players in Tile",
+			"MISSING-data_store": "Data Store",
+			"MISSING-active_spectators": "Active Spectators",
+			"MISSING-no_active_spectators": "No Active Spectators"
+		},
+		"alerts": {
+			"fatal_error": { "MISSING-title": "Fatal Server Error During Quiz", "MISSING-description": "Returning to lobby" },
+			"joining_game": {
+				"MISSING-title": "Joining Game",
+				"MISSING-description": "You will be added to the game during the next result phase"
+			},
+			"join_team": {
+				"MISSING-title": "Join a Team?",
+				"MISSING-description": "Enter team code to join a team, leave blank to join solo",
+				"MISSING-join_button": "Join"
+			}
+		},
+		"nexus": {
+			"MISSING-target_attack": "Target Attack",
+			"MISSING-target_swap": "Target Swap",
+			"MISSING-fuwagi_shop": "Fuwagi's Shop",
+			"MISSING-fuwagi_item_popover": "_DESCRIPTION_ _BREAK_ Cooldown: _NUMBER_",
+			"genre_icon": {
+				"MISSING-damage_done": "Increase damage done during _NAME_ shows",
+				"MISSING-damage_taken": "Reduce damage taken during _NAME_ shows"
+			}
+		}
+	},
+	"anime_tags": {
+		"MISSING-4-koma": "4-koma",
+		"MISSING-4k": "4k",
+		"MISSING-achromatic": "Achromatic",
+		"MISSING-achronological_order": "Achronological Order",
+		"MISSING-acrobatics": "Acrobatics",
+		"MISSING-acting": "Acting",
+		"MISSING-adoption": "Adoption",
+		"MISSING-advertisement": "Advertisement",
+		"MISSING-afterlife": "Afterlife",
+		"MISSING-age_gap": "Age Gap",
+		"MISSING-age_regression": "Age Regression",
+		"MISSING-agender": "Agender",
+		"MISSING-agriculture": "Agriculture",
+		"MISSING-airsoft": "Airsoft",
+		"MISSING-alchemy": "Alchemy",
+		"MISSING-aliens": "Aliens",
+		"MISSING-alternate_universe": "Alternate Universe",
+		"MISSING-american_football": "American Football",
+		"MISSING-amnesia": "Amnesia",
+		"MISSING-anachronism": "Anachronism",
+		"MISSING-ancient_china": "Ancient China",
+		"MISSING-angels": "Angels",
+		"MISSING-animals": "Animals",
+		"MISSING-anthology": "Anthology",
+		"MISSING-anthropomorphism": "Anthropomorphism",
+		"MISSING-anti-hero": "Anti-Hero",
+		"MISSING-archery": "Archery",
+		"MISSING-aromantic": "Aromantic",
+		"MISSING-arranged_marriage": "Arranged Marriage",
+		"MISSING-artificial_intelligence": "Artificial Intelligence",
+		"MISSING-asexual": "Asexual",
+		"MISSING-assassins": "Assassins",
+		"MISSING-astronomy": "Astronomy",
+		"MISSING-athletics": "Athletics",
+		"MISSING-augmented_reality": "Augmented Reality",
+		"MISSING-autobiographical": "Autobiographical",
+		"MISSING-aviation": "Aviation",
+		"MISSING-badminton": "Badminton",
+		"MISSING-ballet": "Ballet",
+		"MISSING-band": "Band",
+		"MISSING-bar": "Bar",
+		"MISSING-baseball": "Baseball",
+		"MISSING-basketball": "Basketball",
+		"MISSING-battle_royale": "Battle Royale",
+		"MISSING-biographical": "Biographical",
+		"MISSING-bisexual": "Bisexual",
+		"MISSING-blackmail": "Blackmail",
+		"MISSING-board_game": "Board Game",
+		"MISSING-boarding_school": "Boarding School",
+		"MISSING-body_horror": "Body Horror",
+		"MISSING-body_image": "Body Image",
+		"MISSING-body_swapping": "Body Swapping",
+		"MISSING-bowling": "Bowling",
+		"MISSING-boxing": "Boxing",
+		"MISSING-boys_love": "Boys' Love",
+		"MISSING-bullying": "Bullying",
+		"MISSING-butler": "Butler",
+		"MISSING-calligraphy": "Calligraphy",
+		"MISSING-camping": "Camping",
+		"MISSING-cannibalism": "Cannibalism",
+		"MISSING-card_battle": "Card Battle",
+		"MISSING-cars": "Cars",
+		"MISSING-centaur": "Centaur",
+		"MISSING-cgi": "CGI",
+		"MISSING-cheerleading": "Cheerleading",
+		"MISSING-chibi": "Chibi",
+		"MISSING-chimera": "Chimera",
+		"MISSING-chuunibyou": "Chuunibyou",
+		"MISSING-circus": "Circus",
+		"MISSING-class_struggle": "Class Struggle",
+		"MISSING-classic_literature": "Classic Literature",
+		"MISSING-classical_music": "Classical Music",
+		"MISSING-clone": "Clone",
+		"MISSING-coastal": "Coastal",
+		"MISSING-cohabitation": "Cohabitation",
+		"MISSING-college": "College",
+		"MISSING-coming_of_age": "Coming of Age",
+		"MISSING-conspiracy": "Conspiracy",
+		"MISSING-cosmic_horror": "Cosmic Horror",
+		"MISSING-cosplay": "Cosplay",
+		"MISSING-cowboys": "Cowboys",
+		"MISSING-creature_taming": "Creature Taming",
+		"MISSING-crime": "Crime",
+		"MISSING-criminal_organization": "Criminal Organization",
+		"MISSING-crossdressing": "Crossdressing",
+		"MISSING-crossover": "Crossover",
+		"MISSING-cult": "Cult",
+		"MISSING-cultivation": "Cultivation",
+		"MISSING-curses": "Curses",
+		"MISSING-cute_boys_doing_cute_things": "Cute Boys Doing Cute Things",
+		"MISSING-cute_girls_doing_cute_things": "Cute Girls Doing Cute Things",
+		"MISSING-cyberpunk": "Cyberpunk",
+		"MISSING-cyborg": "Cyborg",
+		"MISSING-cycling": "Cycling",
+		"MISSING-dancing": "Dancing",
+		"MISSING-death_game": "Death Game",
+		"MISSING-delinquents": "Delinquents",
+		"MISSING-demons": "Demons",
+		"MISSING-denpa": "Denpa",
+		"MISSING-desert": "Desert",
+		"MISSING-detective": "Detective",
+		"MISSING-dinosaurs": "Dinosaurs",
+		"MISSING-disability": "Disability",
+		"MISSING-dissociative_identities": "Dissociative Identities",
+		"MISSING-dragons": "Dragons",
+		"MISSING-drawing": "Drawing",
+		"MISSING-drugs": "Drugs",
+		"MISSING-dullahan": "Dullahan",
+		"MISSING-dungeon": "Dungeon",
+		"MISSING-dystopian": "Dystopian",
+		"MISSING-e-sports": "E-Sports",
+		"MISSING-eco-horror": "Eco-Horror",
+		"MISSING-economics": "Economics",
+		"MISSING-educational": "Educational",
+		"MISSING-elderly_protagonist": "Elderly Protagonist",
+		"MISSING-elf": "Elf",
+		"MISSING-ensemble_cast": "Ensemble Cast",
+		"MISSING-environmental": "Environmental",
+		"MISSING-episodic": "Episodic",
+		"MISSING-ero_guro": "Ero Guro",
+		"MISSING-espionage": "Espionage",
+		"MISSING-estranged_family": "Estranged Family",
+		"MISSING-exorcism": "Exorcism",
+		"MISSING-fairy": "Fairy",
+		"MISSING-fairy_tale": "Fairy Tale",
+		"MISSING-fake_relationship": "Fake Relationship",
+		"MISSING-family_life": "Family Life",
+		"MISSING-fashion": "Fashion",
+		"MISSING-female_harem": "Female Harem",
+		"MISSING-female_protagonist": "Female Protagonist",
+		"MISSING-femboy": "Femboy",
+		"MISSING-fencing": "Fencing",
+		"MISSING-filmmaking": "Filmmaking",
+		"MISSING-firefighters": "Firefighters",
+		"MISSING-fishing": "Fishing",
+		"MISSING-fitness": "Fitness",
+		"MISSING-flash": "Flash",
+		"MISSING-food": "Food",
+		"MISSING-football": "Football",
+		"MISSING-foreign": "Foreign",
+		"MISSING-found_family": "Found Family",
+		"MISSING-fugitive": "Fugitive",
+		"MISSING-full_cgi": "Full CGI",
+		"MISSING-full_color": "Full Color",
+		"MISSING-gambling": "Gambling",
+		"MISSING-gangs": "Gangs",
+		"MISSING-gender_bending": "Gender Bending",
+		"MISSING-ghost": "Ghost",
+		"MISSING-go": "Go",
+		"MISSING-goblin": "Goblin",
+		"MISSING-gods": "Gods",
+		"MISSING-golf": "Golf",
+		"MISSING-gore": "Gore",
+		"MISSING-guns": "Guns",
+		"MISSING-gyaru": "Gyaru",
+		"MISSING-handball": "Handball",
+		"MISSING-henshin": "Henshin",
+		"MISSING-heterosexual": "Heterosexual",
+		"MISSING-hikikomori": "Hikikomori",
+		"MISSING-hip-hop_music": "Hip-hop Music",
+		"MISSING-historical": "Historical",
+		"MISSING-homeless": "Homeless",
+		"MISSING-horticulture": "Horticulture",
+		"MISSING-ice_skating": "Ice Skating",
+		"MISSING-idol": "Idol",
+		"MISSING-impersonation": "Impersonation",
+		"MISSING-indigenous_cultures": "Indigenous Cultures",
+		"MISSING-inn": "Inn",
+		"MISSING-isekai": "Isekai",
+		"MISSING-iyashikei": "Iyashikei",
+		"MISSING-jazz_music": "Jazz Music",
+		"MISSING-josei": "Josei",
+		"MISSING-judo": "Judo",
+		"MISSING-kabuki": "Kabuki",
+		"MISSING-kaiju": "Kaiju",
+		"MISSING-karuta": "Karuta",
+		"MISSING-kemonomimi": "Kemonomimi",
+		"MISSING-kids": "Kids",
+		"MISSING-kingdom_management": "Kingdom Management",
+		"MISSING-konbini": "Konbini",
+		"MISSING-kuudere": "Kuudere",
+		"MISSING-lacrosse": "Lacrosse",
+		"MISSING-language_barrier": "Language Barrier",
+		"MISSING-lgbtq_themes": "LGBTQ+ Themes",
+		"MISSING-long_strip": "Long Strip",
+		"MISSING-lost_civilization": "Lost Civilization",
+		"MISSING-love_triangle": "Love Triangle",
+		"MISSING-mafia": "Mafia",
+		"MISSING-magic": "Magic",
+		"MISSING-mahjong": "Mahjong",
+		"MISSING-maids": "Maids",
+		"MISSING-makeup": "Makeup",
+		"MISSING-male_harem": "Male Harem",
+		"MISSING-male_protagonist": "Male Protagonist",
+		"MISSING-manzai": "Manzai",
+		"MISSING-marriage": "Marriage",
+		"MISSING-martial_arts": "Martial Arts",
+		"MISSING-masturbating": "Masturbating",
+		"MISSING-matchmaking": "Matchmaking",
+		"MISSING-matriarchy": "Matriarchy",
+		"MISSING-medicine": "Medicine",
+		"MISSING-medieval": "Medieval",
+		"MISSING-memory_manipulation": "Memory Manipulation",
+		"MISSING-mermaid": "Mermaid",
+		"MISSING-metal_music": "Metal Music",
+		"MISSING-military": "Military",
+		"MISSING-mixed_gender_harem": "Mixed Gender Harem",
+		"MISSING-mixed_media": "Mixed Media",
+		"MISSING-modeling": "Modeling",
+		"MISSING-monster_boy": "Monster Boy",
+		"MISSING-monster_girl": "Monster Girl",
+		"MISSING-mopeds": "Mopeds",
+		"MISSING-motorcycles": "Motorcycles",
+		"MISSING-mountaineering": "Mountaineering",
+		"MISSING-musical_theater": "Musical Theater",
+		"MISSING-mythology": "Mythology",
+		"MISSING-natural_disaster": "Natural Disaster",
+		"MISSING-necromancy": "Necromancy",
+		"MISSING-nekomimi": "Nekomimi",
+		"MISSING-ninja": "Ninja",
+		"MISSING-no_dialogue": "No Dialogue",
+		"MISSING-noir": "Noir",
+		"MISSING-non-fiction": "Non-fiction",
+		"MISSING-none": "none",
+		"MISSING-nudity": "Nudity",
+		"MISSING-nun": "Nun",
+		"MISSING-office": "Office",
+		"MISSING-office_lady": "Office Lady",
+		"MISSING-oiran": "Oiran",
+		"MISSING-ojou-sama": "Ojou-sama",
+		"MISSING-open_to_interpretation": "Open to Interpretation",
+		"MISSING-orphan": "Orphan",
+		"MISSING-otaku_culture": "Otaku Culture",
+		"MISSING-outdoor_activities": "Outdoor Activities",
+		"MISSING-pandemic": "Pandemic",
+		"MISSING-parenthood": "Parenthood",
+		"MISSING-parkour": "Parkour",
+		"MISSING-parody": "Parody",
+		"MISSING-philosophy": "Philosophy",
+		"MISSING-photography": "Photography",
+		"MISSING-pirates": "Pirates",
+		"MISSING-poker": "Poker",
+		"MISSING-police": "Police",
+		"MISSING-politics": "Politics",
+		"MISSING-polyamorous": "Polyamorous",
+		"MISSING-post-apocalyptic": "Post-Apocalyptic",
+		"MISSING-pov": "POV",
+		"MISSING-pregnancy": "Pregnancy",
+		"MISSING-primarily_adult_cast": "Primarily Adult Cast",
+		"MISSING-primarily_animal_cast": "Primarily Animal Cast",
+		"MISSING-primarily_child_cast": "Primarily Child Cast",
+		"MISSING-primarily_female_cast": "Primarily Female Cast",
+		"MISSING-primarily_male_cast": "Primarily Male Cast",
+		"MISSING-primarily_teen_cast": "Primarily Teen Cast",
+		"MISSING-prison": "Prison",
+		"MISSING-proxy_battle": "Proxy Battle",
+		"MISSING-psychosexual": "Psychosexual",
+		"MISSING-puppetry": "Puppetry",
+		"MISSING-rakugo": "Rakugo",
+		"MISSING-real_robot": "Real Robot",
+		"MISSING-rehabilitation": "Rehabilitation",
+		"MISSING-reincarnation": "Reincarnation",
+		"MISSING-religion": "Religion",
+		"MISSING-rescue": "Rescue",
+		"MISSING-restaurant": "Restaurant",
+		"MISSING-revenge": "Revenge",
+		"MISSING-reverse_isekai": "Reverse Isekai",
+		"MISSING-robots": "Robots",
+		"MISSING-rock_music": "Rock Music",
+		"MISSING-rotoscoping": "Rotoscoping",
+		"MISSING-royal_affairs": "Royal Affairs",
+		"MISSING-rugby": "Rugby",
+		"MISSING-rural": "Rural",
+		"MISSING-samurai": "Samurai",
+		"MISSING-satire": "Satire",
+		"MISSING-school": "School",
+		"MISSING-school_club": "School Club",
+		"MISSING-scuba_diving": "Scuba Diving",
+		"MISSING-seinen": "Seinen",
+		"MISSING-shapeshifting": "Shapeshifting",
+		"MISSING-ships": "Ships",
+		"MISSING-shogi": "Shogi",
+		"MISSING-shoujo": "Shoujo",
+		"MISSING-shoujo_ai": "Shoujo Ai",
+		"MISSING-shounen": "Shounen",
+		"MISSING-shounen_ai": "Shounen Ai",
+		"MISSING-shrine_maiden": "Shrine Maiden",
+		"MISSING-skateboarding": "Skateboarding",
+		"MISSING-skeleton": "Skeleton",
+		"MISSING-slapstick": "Slapstick",
+		"MISSING-slavery": "Slavery",
+		"MISSING-snowscape": "Snowscape",
+		"MISSING-software_development": "Software Development",
+		"MISSING-space": "Space",
+		"MISSING-space_opera": "Space Opera",
+		"MISSING-spearplay": "Spearplay",
+		"MISSING-steampunk": "Steampunk",
+		"MISSING-stop_motion": "Stop Motion",
+		"MISSING-succubus": "Succubus",
+		"MISSING-suicide": "Suicide",
+		"MISSING-sumo": "Sumo",
+		"MISSING-super_power": "Super Power",
+		"MISSING-super_robot": "Super Robot",
+		"MISSING-superhero": "Superhero",
+		"MISSING-surfing": "Surfing",
+		"MISSING-surreal_comedy": "Surreal Comedy",
+		"MISSING-survival": "Survival",
+		"MISSING-swimming": "Swimming",
+		"MISSING-swordplay": "Swordplay",
+		"MISSING-table_tennis": "Table Tennis",
+		"MISSING-tada_banri": "Tada Banri",
+		"MISSING-tanks": "Tanks",
+		"MISSING-tanned_skin": "Tanned Skin",
+		"MISSING-teacher": "Teacher",
+		"MISSING-teens_love": "Teens' Love",
+		"MISSING-tennis": "Tennis",
+		"MISSING-terrorism": "Terrorism",
+		"MISSING-time_loop": "Time Loop",
+		"MISSING-time_manipulation": "Time Manipulation",
+		"MISSING-time_skip": "Time Skip",
+		"MISSING-tokusatsu": "Tokusatsu",
+		"MISSING-tomboy": "Tomboy",
+		"MISSING-torture": "Torture",
+		"MISSING-tragedy": "Tragedy",
+		"MISSING-trains": "Trains",
+		"MISSING-transgender": "Transgender",
+		"MISSING-travel": "Travel",
+		"MISSING-triads": "Triads",
+		"MISSING-tsundere": "Tsundere",
+		"MISSING-twins": "Twins",
+		"MISSING-unrequited_love": "Unrequited Love",
+		"MISSING-urban": "Urban",
+		"MISSING-urban_fantasy": "Urban Fantasy",
+		"MISSING-vampire": "Vampire",
+		"MISSING-vertical_video": "Vertical Video",
+		"MISSING-veterinarian": "Veterinarian",
+		"MISSING-video_games": "Video Games",
+		"MISSING-vikings": "Vikings",
+		"MISSING-villainess": "Villainess",
+		"MISSING-virtual_world": "Virtual World",
+		"MISSING-vocal_synth": "Vocal Synth",
+		"MISSING-volleyball": "Volleyball",
+		"MISSING-vtuber": "VTuber",
+		"MISSING-war": "War",
+		"MISSING-werewolf": "Werewolf",
+		"MISSING-wilderness": "Wilderness",
+		"MISSING-witch": "Witch",
+		"MISSING-work": "Work",
+		"MISSING-wrestling": "Wrestling",
+		"MISSING-writing": "Writing",
+		"MISSING-wuxia": "Wuxia",
+		"MISSING-yakuza": "Yakuza",
+		"MISSING-yandere": "Yandere",
+		"MISSING-youkai": "Youkai",
+		"MISSING-yuri": "Yuri",
+		"MISSING-zombie": "Zombie"
+	},
+	"genre_tags": {
+		"MISSING-action": "Action",
+		"MISSING-adventure": "Adventure",
+		"MISSING-comedy": "Comedy",
+		"MISSING-drama": "Drama",
+		"MISSING-ecchi": "Ecchi",
+		"MISSING-fantasy": "Fantasy",
+		"MISSING-horror": "Horror",
+		"MISSING-mahou_shoujo": "Mahou Shoujo",
+		"MISSING-mecha": "Mecha",
+		"MISSING-music": "Music",
+		"MISSING-mystery": "Mystery",
+		"MISSING-psychological": "Psychological",
+		"MISSING-romance": "Romance",
+		"MISSING-sci-fi": "Sci-Fi",
+		"MISSING-slice_of_life": "Slice of Life",
+		"MISSING-sports": "Sports",
+		"MISSING-supernatural": "Supernatural",
+		"MISSING-thriller": "Thriller"
+	},
+	"song_history": {
+		"MISSING-title": "Song History",
+		"MISSING-no_songs": "No Songs",
+		"MISSING-load_songs": "Load Songs",
+		"tabs": {
+			"MISSING-current_game": "Current Game",
+			"MISSING-last_game": "Last Game",
+			"MISSING-games": "Past Games",
+			"MISSING-options": "Options"
+		},
+		"columns": {
+			"MISSING-title": "Columns",
+			"MISSING-anime": "Anime",
+			"MISSING-ann_id": "ANN ID",
+			"MISSING-type": "Type",
+			"MISSING-season": "Season",
+			"MISSING-name": "Name",
+			"MISSING-artist": "Artist",
+			"MISSING-answer": "Answer",
+			"MISSING-guesses": "Guesses",
+			"MISSING-difficulty": "Difficulty",
+			"MISSING-sample": "Sample"
+		},
+		"options": {
+			"MISSING-info": "Info",
+			"show_names": {
+				"MISSING-title": "Show Names",
+				"ticks": { "MISSING-english": "English", "MISSING-default": "Default", "MISSING-romaji": "Romaji" }
+			},
+			"anime_link": {
+				"MISSING-title": "Anime Link",
+				"ticks": {
+					"MISSING-anilist": "Anilist",
+					"MISSING-kitsu": "Kitsu",
+					"MISSING-default": "Default",
+					"MISSING-mal": "MAL",
+					"MISSING-ann": "ANN"
+				}
+			}
+		},
+		"song_window": {
+			"MISSING-title": "Song Info",
+			"MISSING-anime_english": "Anime English",
+			"MISSING-anime_romaji": "Anime Romaji",
+			"columns": {
+				"MISSING-composer": "Composer",
+				"MISSING-arranger": "Arranger",
+				"MISSING-all_working_titles": "All Working Titles",
+				"MISSING-sample_point": "Sample Point",
+				"MISSING-anime_type": "Anime Type",
+				"MISSING-season_info": "Season Info",
+				"MISSING-vintage": "Vintage",
+				"MISSING-anime_rating": "Anime Rating",
+				"MISSING-genres": "Genres",
+				"MISSING-tags": "Tags",
+				"MISSING-video": "Video",
+				"MISSING-list_sites": "List Sites",
+				"MISSING-player_lists": "Player Lists"
+			},
+			"anime_type": {
+				"MISSING-tv": "TV",
+				"MISSING-movie": "Movie",
+				"MISSING-ova": "OVA",
+				"MISSING-ona": "ONA",
+				"MISSING-special": "Special"
+			},
+			"list_status": {
+				"MISSING-watching": "Watching",
+				"MISSING-completed": "Completed",
+				"MISSING-on_hold": "On Hold",
+				"MISSING-dropped": "Dropped",
+				"MISSING-planning": "Planning",
+				"MISSING-looted": "Looted"
+			}
+		},
+		"popovers": {
+			"MISSING-download_json": "Download as JSON",
+			"MISSING-copy_setting_code": "Copy the setting code for this game",
+			"MISSING-copied": "Copied!"
+		}
 	}
 }
