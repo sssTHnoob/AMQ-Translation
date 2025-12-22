@@ -336,7 +336,7 @@
 			"complete_registration_message": "ในการลงทะเบียนให้สมบูรณ์ ทำการยืนยันอีเมลโดยการกดลิงค์ที่ส่งไปที่ _BOLD_ _EMAIL_ _BOLD_"
 		},
 		"MISSING-cookie_disclaimer": "This website uses cookies to store local settings, such as music volume and last used login name. Third party services used by the site may also set cookies. For more details see the Cookie Section of the Privacy Policy. By continuing to use the site, you agree that the site may set these cookies.",
-		"MISSING-cookie_learn_more": "Learn More"
+		"cookie_learn_more": "เพิ่มเติม"
 	},
 	"login_page": {
 		"ui": {
@@ -356,8 +356,7 @@
 				"title": "สร้างบัญชีชั่วคราว",
 				"error_title": "เกิดปัญหาในการสร้างบัญชีชั่วคราว",
 				"error_disabled": "Guest accounts are disabled",
-				"MISSING-text2": "By creating a guest account you agree to the _LINK_ Terms of Service _LINK_ and _LINK2_ Privacy Policy _LINK2_.",
-				"DELETED-text": "ในการสร้างบัญชีชั่วคราวคุณได้ยอมรับ _LINK_ ข้อตกลงในการใช้งาน _LINK_ และ _LINK_ นโยบายความเป็นส่วนตัว _LINK_"
+				"text2": "ในการสร้างบัญชีชั่วคราวคุณได้ยอมรับ _LINK_ ข้อตกลงในการใช้งาน _LINK_ และ _LINK2_ นโยบายความเป็นส่วนตัว _LINK2_"
 			},
 			"select_country": "โปรดเลือกประเทศ",
 			"country_error": "มีปัญหาในการบันทึกประเทศ",
@@ -426,8 +425,7 @@
 			"stay_connected": "ช่องทางติดตาม",
 			"song_library": "ลิสต์เพลง",
 			"leaderboard": "ตารางอันดับ",
-			"MISSING-merch": "Merch",
-			"DELETED-merch_store": "ร้านสินค้า"
+			"merch": "ร้านสินค้า"
 		},
 		"carousel": {
 			"social_promo": "ติดตาม AMQ บน Discord และ Patreon เพื่อรับตั๋วฟรี",
@@ -689,8 +687,8 @@
 			"change_password": "เปลี่ยนรหัส",
 			"leaderboard": "ตารางอันดับ",
 			"tutorial": "วิธีเล่น",
-			"MISSING-guidelines": "Guidelines",
-			"MISSING-about": "About",
+			"guidelines": "ข้อกำหนด",
+			"about": "เกี่ยวกับ",
 			"logout": "ออกจากระบบ",
 			"song_history": "ประวัติเพลง"
 		},
@@ -716,7 +714,7 @@
 		"account_creation": "วันที่สมัคร",
 		"songs_played": "จำนวนเพลงที่เล่น",
 		"guess_rate": "ตอบถูก",
-		"MISSING-options": "Options",
+		"options": "ตัวเลือก",
 		"edit": "แก้ไข",
 		"change_nickname": "เปลี่ยนชื่อ",
 		"change_nickname_modal": {
@@ -839,7 +837,7 @@
 		"patreon_page": "ไปที่ Patreon",
 		"MISSING-relink": "Relink",
 		"update_info": "อัปเดตข้อมูล",
-		"MISSING-unlink_account": "ยกเลิกการเชื่อมต่อ",
+		"unlink_account": "ยกเลิกการเชื่อมต่อ",
 		"linked_account": "เชื่อมต่อบัญชี",
 		"emotes": {
 			"title": "Emote",
@@ -898,7 +896,7 @@
 	},
 	"setting_window": {
 		"title": "ตั้งค่า",
-		"tabs": { "game": "เกม", "anime_list": "อนิเมะ", "MISSING-graphics": "Graphics", "audio": "เสียง" },
+		"tabs": { "game": "เกม", "anime_list": "อนิเมะ", "graphics": "ภาพ", "audio": "เสียง" },
 		"language": "ภาษา",
 		"auto_submit": { "title": "ส่งอัตโนมัติ", "description": "ส่งคำตอบที่มีอยู่ให้อัตโนมัติเมื่อหมดเวลาตอบ" },
 		"list_numbering": { "title": "จำนวนเพลง", "description": "แสดงจำนวนเพลงที่มาจากผู้เล่นแต่ละคนในตารางคะแนน" },
@@ -1018,7 +1016,7 @@
 	},
 	"tutorial_window": {
 		"title": "วิธีเล่น",
-		"MISSING-start": "เริ่ม",
+		"start": "เริ่ม",
 		"MISSING-reset": "Reset",
 		"nexus_tutorials": "วิธีเล่น Nexus",
 		"tutorials": {
@@ -1032,7 +1030,7 @@
 		"status": { "MISSING-locked": "Locked", "MISSING-unlocked": "Unlocked", "MISSING-completed": "Completed" }
 	},
 	"guidelines_window": {
-		"MISSING-title": "Guidelines",
+		"title": "ข้อกำหนด",
 		"MISSING-description": "Anime Music Quiz is meant to be fair and enjoyable for everyone. To ensure this it’s important you follow the below guidelines, as well as any instructions from moderators. Failure to follow these guidelines will result in chat or game bans depending on the case.",
 		"dont_cheat": {
 			"MISSING-title": "Don't Cheat",
@@ -1056,7 +1054,7 @@
 		}
 	},
 	"about_window": {
-		"MISSING-title": "About",
+		"title": "เกี่ยวกับ",
 		"developed_by": "สร้างโดย by _NAME_",
 		"MISSING-development": "Development",
 		"art": "รูปภาพ",
@@ -1516,9 +1514,6 @@
 		"MISSING-unknown": "Unknown",
 		"kiku": {
 			"MISSING-standard": "Kiku's family disagreed with her pursuing an education in music, but Kiku still enrolled in the music program at a large university. A decision she hasn't regretted, as she spends her days studying and playing the music she loves."
-		},
-		"DELETED-kiki": {
-			"MISSING-standard": "Kiki’s family disagreed with her pursuing an education in music, but Kiku still enrolled in the music program at a large university. A decision she hasn’t regretted, as she spends her days studying and playing the music she loves."
 		}
 	},
 	"song_library": {
@@ -1527,14 +1522,14 @@
 		"expand_count": "จำนวน: _SPAN_ _NUMBER_ _SPAN_",
 		"expand_count_description": "จำนวนเพลงที่ทำการอัปโหลด",
 		"expand_level_requirement": {
-			"MISSING-title": "Level 5+ required",
+			"title": "ต้องมีเลเวลอย่างน้อย 5",
 			"MISSING-description": "The Expand feature allows players to help add missing video/mp3 sources for songs, and isn't available for accounts below level 5"
 		},
 		"expand_confirmation": {
 			"MISSING-title": "Expand Video/MP3 Library",
 			"MISSING-description": "Help expanding the library by adding missing mp3 or video links. Songs missing from the library can be requested on the AMQ Discord"
 		},
-		"MISSING-video_preview": "Video Preview",
+		"video_preview": "ตัวอย่าง",
 		"MISSING-views": "Views:",
 		"library": "ทั้งหมด",
 		"library_description": "ดูเพลงทั้งหมด",
@@ -1653,7 +1648,7 @@
 			"MISSING-anime_header": "Anime:"
 		},
 		"faq": {
-			"MISSING-shorthand": "FAQ",
+			"shorthand": "FAQ",
 			"MISSING-title": "Expand Library FAQ",
 			"what_version": {
 				"MISSING-title": "What version of a song should I use?",
@@ -1752,7 +1747,7 @@
 			"last_month": "เดือนนี้",
 			"all_time": "ทั้งหมด"
 		},
-		"play_state": { "MISSING-played": "เล่นแล้ว", "unplayed": "ยังไม่ได้เล่น" },
+		"play_state": { "played": "เล่นแล้ว", "unplayed": "ยังไม่ได้เล่น" },
 		"MISSING-slots_available": "Slots Available",
 		"MISSING-buy_slots": "Buy Slots",
 		"MISSING-buy_quiz_slots": "Buy Quiz Slots",
@@ -1926,17 +1921,17 @@
 		"setup_game": "ตั้งค่า",
 		"MISSING-select_settings_to_load": "Select Settings to Load",
 		"MISSING-load_from_code": "Load from Code",
-		"tabs": { "MISSING-quick": "Quick", "MISSING-advanced": "Advanced", "save": "บันทึก", "load": "ที่บันทึกไว้" },
+		"tabs": { "quick": "พื้นฐาน", "advanced": "ละเอียด", "save": "บันทึก", "load": "ที่บันทึกไว้" },
 		"categories": {
-			"MISSING-mode": "Mode",
+			"mode": "โหมด",
 			"MISSING-general": "General",
 			"MISSING-quiz": "Quiz",
-			"MISSING-anime": "Anime"
+			"anime": "อนิเมะ"
 		},
 		"quiz_mode": { "MISSING-standard_quiz": "Standard Quiz", "MISSING-community_quiz": "Community Quiz" },
 		"buttons": {
-			"MISSING-exit": "Exit",
-			"MISSING-host": "Host",
+			"exit": "ยกเลิก",
+			"host": "สร้าง",
 			"MISSING-create": "Create",
 			"MISSING-update": "Update",
 			"MISSING-change": "Change",
@@ -2163,7 +2158,7 @@
 			"MISSING-end": "End",
 			"MISSING-percent_range_display": "_NUMBER_%-_NUMBER2_% Into Song"
 		},
-		"playback_speed": { "MISSING-title": "Playback Speed", "MISSING-description": "The speed songs are played at" },
+		"playback_speed": { "title": "ความเร็ว", "description": "ความเร็วของเพลง" },
 		"song_difficulty": {
 			"title": "ความยาก",
 			"description": "ความยากของเพลง",
@@ -2172,7 +2167,7 @@
 			"hard": "ยาก",
 			"percent_guessed_correct": "% ตอบถูก",
 			"percent_range_display": "ตอบถูก _NUMBER_%-_NUMBER2_%",
-			"MISSING-one_difficulty_must_be_selected": "At least one difficulty must be selected"
+			"one_difficulty_must_be_selected": "ต้องเลิอกอย่างน้อย 1 ความยาก"
 		},
 		"song_popularity": {
 			"MISSING-title": "Song Popularity",
@@ -2312,7 +2307,6 @@
 				"MISSING-tag": "Tag",
 				"MISSING-popularity": "Popularity"
 			},
-			"DELETED-search_placeholder": "Search",
 			"MISSING-search_placeholder": "Search rooms"
 		},
 		"MISSING-host_room": "Host Room",
@@ -3082,8 +3076,7 @@
 			"MISSING-fuwagi_item_popover": "_DESCRIPTION_ _BREAK_ Cooldown: _NUMBER_",
 			"genre_icon": {
 				"MISSING-damage_done": "Increase damage done during _NAME_ shows",
-				"MISSING-damage_taken_2": "Increase damage taken during _NAME_ shows",
-				"DELETED-damage_taken": "Reduce damage taken during _NAME_ shows"
+				"MISSING-damage_taken_2": "Increase damage taken during _NAME_ shows"
 			}
 		},
 		"MISSING-anime_name_placeholder": "Anime Name",
@@ -3442,14 +3435,7 @@
 		"MISSING-yandere": "Yandere",
 		"MISSING-youkai": "Youkai",
 		"MISSING-yuri": "Yuri",
-		"MISSING-zombie": "Zombie",
-		"DELETED-4k": "4k",
-		"DELETED-impersonation": "Impersonation",
-		"DELETED-masturbating": "Masturbating",
-		"DELETED-none": "none",
-		"DELETED-shoujo_ai": "Shoujo Ai",
-		"DELETED-shounen_ai": "Shounen Ai",
-		"DELETED-tada_banri": "Tada Banri"
+		"MISSING-zombie": "Zombie"
 	},
 	"genre_tags": {
 		"MISSING-action": "Action",
@@ -3537,13 +3523,6 @@
 				"MISSING-dropped": "Dropped",
 				"MISSING-planning": "Planning",
 				"MISSING-looted": "Looted"
-			},
-			"DELETED-anime_type": {
-				"MISSING-tv": "TV",
-				"MISSING-movie": "Movie",
-				"MISSING-ova": "OVA",
-				"MISSING-ona": "ONA",
-				"MISSING-special": "Special"
 			}
 		},
 		"popovers": {
@@ -5402,7 +5381,7 @@
 		"MISSING-yan": "Yan"
 	},
 	"daily_quests": {
-		"MISSING-title": "Daily Quests",
+		"title": "ภารกิจประจำวัน",
 		"description": {
 			"MISSING-title": "Daily Quests",
 			"MISSING-description": "Complete daily quests to earn bonus notes, and earn an avatar token for every 7 quest completed! A new quest becomes available every day at 12:00 CET, and you’ll have 7 days to complete it."
