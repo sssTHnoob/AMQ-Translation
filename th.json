@@ -43,7 +43,7 @@
 			"delete": "ลบ",
 			"report": "รายงาน",
 			"close_button": "ปิด",
-			"MISSING-not_applicable": "N/A",
+			"not_applicable": "N/A",
 			"MISSING-claimed_button": "Claimed",
 			"MISSING-search_placeholder": "Search",
 			"MISSING-server_restart": "Server Restart"
@@ -335,7 +335,7 @@
 			"complete_registration": "ลงทะเบียนเรียบร้อย",
 			"complete_registration_message": "ในการลงทะเบียนให้สมบูรณ์ ทำการยืนยันอีเมลโดยการกดลิงค์ที่ส่งไปที่ _BOLD_ _EMAIL_ _BOLD_"
 		},
-		"MISSING-cookie_disclaimer": "This website uses cookies to store local settings, such as music volume and last used login name. Third party services used by the site may also set cookies. For more details see the Cookie Section of the Privacy Policy. By continuing to use the site, you agree that the site may set these cookies.",
+		"cookie_disclaimer": "เว็บไซต์นี้มีการใช้คุกกี้เพื่อเก็บข้อมูลต่างๆเช่น ระดับเสียง การล็อกอินครั้งล่าสุด บริการจากบุคคลที่สามที่ใช้โดยเว็บไซต์นี้อาจมีการใช้คุกกี้ด้วย สามารถดูรายละเอียดเพิ่มเติมได้ที่นโยบายความเป็นส่วนตัว การใช้เว็บไซต์ต่อถือเป็นการยอมรับการใช้คุกกี้",
 		"cookie_learn_more": "เพิ่มเติม"
 	},
 	"login_page": {
@@ -546,11 +546,11 @@
 		"avatar_drive": {
 			"standings": "อันดับ",
 			"recent": "ล่าสุด",
-			"MISSING-weekly": "Weekly",
+			"weekly": "สัปดาห์นี้",
 			"weekly_short": "W",
-			"MISSING-monthly": "Monthly",
+			"monthly": "เดือนนี้",
 			"monthly_short": "M",
-			"MISSING-all_time": "All Time",
+			"all_time": "ตลอดเวลา",
 			"all_time_short": "AT",
 			"donate": "สนับสนุน",
 			"amount": "จำนวน",
@@ -628,7 +628,7 @@
 				"december": "ธันวาคม"
 			},
 			"yearly": "ทั้งปี",
-			"MISSING-description": "The funding results from last month and overall for the year. AMQ is completely community funded which pays for the server and development costs. All money earned goes to continue improving and expanding the game, thanks for all the support!"
+			"description": "รายได้ของเกมในเดือนที่แล้วและจลอดทั้งปีที่ผ่านมา รายได้ของ AMQ ทั้งหมดมาจากการสนับสนุนของผู้เล่นเพื่อเป็นค่าใช้จ่ายเซิฟเวอร์และการพัฒนาเกม เงินที่ได้ทั้งหมดนำไปใช้ในการพัฒนาเกม ขอบคุณสำหรับทุกการสนับสนุน"
 		}
 	},
 	"menu_bar": {
@@ -751,8 +751,8 @@
 			"patreon_color": { "name": "Patreon", "description": "ปลดล็อกสำหรับผู้ที่สนับสนุน Patreon ระดับ 3 หรือสูงกว่า" },
 			"patreon_glow": { "name": "Patreon", "description": "ปลดล็อกสำหรับผู้ที่สนับสนุน Patreon ระดับ 4 หรือสูงกว่า" },
 			"month_patreon_current": "ปลดล็อกสำหรับผู้ที่สนับสนุน Patreon ระดับ 5 ในเดือนนี้และผู้ที่สนับสนุนระดับ 6",
-			"MISSING-month_patreon_previous": "Unlocked for level 5 Patreons who backed during the release month, and level 6 backers",
-			"MISSING-month_patreon_previous_unlocked": "Unlocked for level 5 Patreons who backed during the release month, and level 6 backers. You backed during the release month."
+			"month_patreon_previous": "ปลดล็อกสำหรับผู้ที่สนับสนุน Patreon ระดับ 5 ในเดือนที่ปล่อยและผู้ที่สนับสนุนระดับ 6",
+			"month_patreon_previous_unlocked": "ปลดล็อกสำหรับผู้ที่สนับสนุน Patreon ระดับ 5 ในเดือนที่ปล่อยและผู้ที่สนับสนุนระดับ 6 คุณสนับสนุนในเดือนที่ปล่อย"
 		}
 	},
 	"badges": {
@@ -983,13 +983,13 @@
 			"particle_effects": {
 				"MISSING-title": "Particle Effects",
 				"MISSING-description": "Controls the number of particles used in effects, such as the XP animation.",
-				"levels": { "MISSING-off": "Off", "MISSING-low": "Low", "MISSING-high": "High" }
+				"levels": { "off": "ปิด", "low": "น้อย", "high": "มาก" }
 			},
 			"disable_floating_text": {
-				"MISSING-title": "Disable Floating Text",
-				"MISSING-description": "Floating text won't appear when gaining xp and notes"
+				"title": "ปิดตัวอักษรลอย",
+				"description": "ตัวอักษรลอยจะไม่โผล่มาตอนได้รับค่าประสบการณ์และโน้ต"
 			},
-			"MISSING-name_effects_friend_list": "Name Effects in Friend List"
+			"name_effects_friend_list": "สีชื่อในรายชื่อเพื่อน"
 		},
 		"audio": { "nexus": "Nexus", "master": "เสียงหลัก", "music": "ดนตรี", "effects": "เอฟเฟค" }
 	},
