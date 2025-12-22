@@ -1919,12 +1919,12 @@
 	},
 	"game_settings": {
 		"setup_game": "ตั้งค่า",
-		"MISSING-select_settings_to_load": "Select Settings to Load",
-		"MISSING-load_from_code": "Load from Code",
+		"select_settings_to_load": "เลือกการตั้งค่า",
+		"load_from_code": "โหลดจากโค้ด",
 		"tabs": { "quick": "พื้นฐาน", "advanced": "ละเอียด", "save": "บันทึก", "load": "ที่บันทึกไว้" },
 		"categories": {
 			"mode": "โหมด",
-			"MISSING-general": "General",
+			"general": "ทั่วไป",
 			"MISSING-quiz": "Quiz",
 			"anime": "อนิเมะ"
 		},
@@ -1939,7 +1939,7 @@
 			"MISSING-spectate": "Spectate",
 			"MISSING-invite_link": "Invite Link",
 			"MISSING-invite_link_copied": "Copied!",
-			"MISSING-reset_to_default": "Reset to Default"
+			"reset_to_default": "กลับสู่ค่าตั้งต้น"
 		},
 		"room_name": "ชื่อห้อง",
 		"private_room": "ห้องส่วนตัว",
@@ -1988,22 +1988,22 @@
 		},
 		"player_score": {
 			"title": "คะแนนผู้เล่น",
-			"MISSING-description": "Limit songs to anime that players have scored on their list within the given range."
+			"description": "คะแนนของอนิเมะในที่ผู้เล่นให้ที่จะมีให้เล่น"
 		},
 		"anime_score": {
 			"title": "คะแนนอนิเมะ",
-			"MISSING-description": "Limit songs to anime with a score on Anime News Network within the given range."
+			"description": "คะแนนของอนิเมะใน AniList ที่จะมีให้เล่น"
 		},
 		"vintage": {
 			"title": "ปีที่ฉาย",
-			"MISSING-description": "Year and season the anime was released.",
+			"description": "ปีและฤดูที่อนิเมะเริ่มฉาย",
 			"MISSING-add_to_advanced": "Add to Advanced Filter"
 		},
 		"season_selector": {
-			"winter": { "MISSING-title": "Winter", "shorthand": "W" },
-			"spring": { "MISSING-title": "Spring", "shorthand": "S" },
-			"summer": { "MISSING-title": "Summer", "shorthand": "S" },
-			"fall": { "MISSING-title": "Fall", "shorthand": "F" }
+			"winter": { "title": "ฤดูหนาว", "shorthand": "W" },
+			"spring": { "title": "ฤดูใบไม้ผลิ", "shorthand": "S" },
+			"summer": { "title": "ฤดูร้อน", "shorthand": "S" },
+			"fall": { "title": "ฤดูใบไม้ร่วง", "shorthand": "F" }
 		},
 		"anime_type": {
 			"MISSING-title": "Type",
@@ -2139,24 +2139,24 @@
 		},
 		"guess_time": {
 			"title": "เวลาตอบ",
-			"MISSING-description": "Time players have, with the song playing, to submit their answer",
+			"description": "เวลาในการตอบระหว่างที่เพลงกำลังเล่นอยู่",
 			"time_display": "_NUMBER_ วินาที",
 			"time_range_display": "_NUMBER_-_NUMBER2_ วินาที"
 		},
 		"extra_guess_time": {
 			"title": "เวลาตอบเพิ่มเติม",
-			"MISSING-description": "Additional time players have to submit their answer after the song has finished playing",
+			"description": "เวลาเพิ่มเติมในการตอบหลังจากเล่นเพลงเสร็จแล้ว",
 			"time_display": "_NUMBER_ วินาที",
 			"time_range_display": "_NUMBER_-_NUMBER2_ วินาที"
 		},
 		"sample_point": {
-			"MISSING-title": "Sample Point",
-			"MISSING-description": "The point songs are played from",
-			"MISSING-percent_into_song": "% Into Song",
-			"MISSING-start": "Start",
-			"MISSING-middle": "Middle",
-			"MISSING-end": "End",
-			"MISSING-percent_range_display": "_NUMBER_%-_NUMBER2_% Into Song"
+			"title": "ตำแหน่งที่เล่น",
+			"description": "จุดที่เพลงเริ่มเล่น",
+			"percent_into_song": "% ของเพลง",
+			"start": "เริ่ม",
+			"middle": "ตรงกลาง",
+			"end": "จบ",
+			"percent_range_display": "_NUMBER_%-_NUMBER2_% ของเพลง"
 		},
 		"playback_speed": { "title": "ความเร็ว", "description": "ความเร็วของเพลง" },
 		"song_difficulty": {
@@ -2172,30 +2172,30 @@
 		"song_popularity": {
 			"MISSING-title": "Song Popularity",
 			"MISSING-description": "Popularity of songs selected",
-			"MISSING-disliked": "Disliked",
-			"MISSING-mixed": "Mixed",
-			"MISSING-liked": "Liked",
-			"MISSING-percent_liked": "% Liked",
+			"disliked": "ไม่ชอบ",
+			"mixed": "ผสม",
+			"liked": "ชอบ",
+			"MISSING-percent_liked": "% ที่ชอบ",
 			"MISSING-percent_range_display": "_NUMBER_%-_NUMBER2_% Liked Songs",
 			"MISSING-one_popularity_must_be_selected": "At least one popularity must be selected"
 		},
 		"modifiers": {
-			"MISSING-title": "Modifiers",
+			"title": "อื่นๆ",
 			"skip_guessing": {
-				"MISSING-title": "Skip Guessing",
-				"MISSING-description": "Allow voting skip during the guessing phase"
+				"title": "ข้ามการทาย",
+				"description": "ให้ผู้เล่นสามารถโหวตข้ามช่วงทายได้"
 			},
 			"skip_results": {
-				"MISSING-title": "Skip Results",
-				"MISSING-description": "Allow voting skip during the results phase"
+				"-title": "ข้ามเฉลย",
+				"description": "ให้ผู้เล่นสามารถโหวตข้ามช่วงเฉลยได้"
 			},
 			"queueing": {
-				"MISSING-title": "Queueing",
-				"MISSING-description": "Allow spectators to queue up for joining the game"
+				"title": "คิว",
+				"description": "ให้ผู้ชมเข้าคิวรอได้"
 			},
 			"duplicate_shows": {
-				"MISSING-title": "Duplicate Shows",
-				"MISSING-description": "Allow shows to have multiple of their songs selected in the same game"
+				"title": "อนิเมะซ้ำ",
+				"description": "ให้อนิเมะเรื่องเดียวกันโผล่ในเกมเดียวกันได้"
 			},
 			"rebroadcast_songs": {
 				"MISSING-title": "Rebroadcast Songs",
@@ -2257,7 +2257,7 @@
 				"MISSING-public": "Public",
 				"MISSING-in_lobby": "In Lobby",
 				"MISSING-open": "Open",
-				"MISSING-friends": "Friends"
+				"friends": "เพื่อน"
 			},
 			"show_selection": { "MISSING-title": "Show Selection", "MISSING-auto": "Auto", "MISSING-looting": "Looting" },
 			"answering_mode": {
@@ -2309,23 +2309,23 @@
 			},
 			"MISSING-search_placeholder": "Search rooms"
 		},
-		"MISSING-host_room": "Host Room",
-		"MISSING-games": " Games",
+		"host_room": "สร้างห้อง",
+		"games": " ห้อง",
 		"room_tile": {
-			"MISSING-host": "Host: _SPANC_ _NAME_ _SPANC_",
+			"host": "เจ้าของห้อง: _SPANC_ _NAME_ _SPANC_",
 			"popovers": {
-				"MISSING-spectators": "Spectators",
-				"MISSING-songs_left": "Songs Left",
-				"MISSING-players": "Players",
-				"MISSING-game_mode": "Game Mode",
-				"MISSING-guess_time": "Guess Time",
-				"MISSING-number_of_songs": "Number of Songs",
+				"spectators": "คนดู",
+				"songs_left": "จำนวนเพลงที่เหลือ",
+				"players": "ผู้เล่น",
+				"game_mode": "โหมด",
+				"guess_time": "เวลาในการตอบ",
+				"number_of_songs": "จำนวนเพลง",
 				"MISSING-song_selection": "Song Selection",
-				"MISSING-all_settings": "All Settings",
-				"MISSING-song_types": "Song Types",
-				"MISSING-friends": "Friends"
+				"all_settings": "ตั้งค่า",
+				"song_types": "ประเภทเพลง",
+				"friends": "เพื่อน"
 			},
-			"song_types": { "MISSING-opening": "Opening", "MISSING-ending": "Ending", "MISSING-insert": "Insert" },
+			"song_types": { "opening": "เพลงเปิด", "ending": "เพลงปิด", "MISSING-insert": "Insert" },
 			"MISSING-join": "Join",
 			"MISSING-spectate": "Spectate",
 			"game_mode": {
@@ -2346,10 +2346,10 @@
 			},
 			"MISSING-room_closed": "Room Closed",
 			"password": {
-				"MISSING-title": "Password Required",
-				"MISSING-placeholder": "Enter Password",
+				"title": "รหัสผ่าน",
+				"placeholder": "ใส่รหัสผ่าน",
 				"MISSING-confirm_button": "Join",
-				"MISSING-wrong_password": "Wrong Password",
+				"wrong_password": "รหัสผ่านผิด",
 				"MISSING-game_closed": "Game Doesn't Exist Anymore"
 			}
 		},
@@ -2377,8 +2377,8 @@
 	},
 	"quiz_builder": {
 		"MISSING-title": "Quiz Builder",
-		"MISSING-save": "Save",
-		"MISSING-name": "Name",
+		"save": "บันทึก",
+		"name": "ชื่อ",
 		"MISSING-quiz_name": "Quiz Name",
 		"rule_button": {
 			"MISSING-title": "Rule Block",
@@ -2429,9 +2429,9 @@
 		},
 		"anime_block": {
 			"song_type": {
-				"MISSING-opening": "OP _NUMBER_",
-				"MISSING-ending": "ED _NUMBER_",
-				"MISSING-insert": "IN _NUMBER_"
+				"opening": "OP _NUMBER_",
+				"ending": "ED _NUMBER_",
+				"insert": "IN _NUMBER_"
 			},
 			"number_of_songs_selected": {
 				"MISSING-description": "Number of Songs Selected from this Anime Block",
@@ -3458,58 +3458,58 @@
 		"MISSING-thriller": "Thriller"
 	},
 	"song_history": {
-		"MISSING-title": "Song History",
-		"MISSING-no_songs": "No Songs",
-		"MISSING-load_songs": "Load Songs",
+		"title": "ประวัติเพลง",
+		"no_songs": "ไม่มีเพลง",
+		"load_songs": "โหลด",
 		"tabs": {
-			"MISSING-current_game": "Current Game",
-			"MISSING-last_game": "Last Game",
-			"MISSING-games": "Past Games",
-			"MISSING-options": "Options"
+			"current_game": "เกมนี้",
+			"last_game": "เกมที่แล้ว",
+			"games": "เกมทั้งหมด",
+			"options": "ตั้งค่า"
 		},
 		"columns": {
-			"MISSING-title": "Columns",
-			"MISSING-anime": "Anime",
-			"MISSING-ann_id": "ANN ID",
-			"MISSING-type": "Type",
-			"MISSING-season": "Season",
-			"MISSING-name": "Name",
+			"title": "หัวข้อ",
+			"anime": "อนิเมะ",
+			"ann_id": "ANN ID",
+			"type": "ประเภท",
+			"season": "ซีซั่น",
+			"name": "ชื่อเพลง",
 			"MISSING-artist": "Artist",
-			"MISSING-answer": "Answer",
-			"MISSING-guesses": "Guesses",
-			"MISSING-difficulty": "Difficulty",
-			"MISSING-sample": "Sample"
+			"answer": "คำตอบ",
+			"guesses": "จำนวนตอบถูก",
+			"difficulty": "ความยาก",
+			"sample": "จุดที่เริ่มเพลง"
 		},
 		"options": {
-			"MISSING-info": "Info",
+			"info": "ข้อมูล",
 			"show_names": {
-				"MISSING-title": "Show Names",
-				"ticks": { "MISSING-english": "English", "MISSING-default": "Default", "MISSING-romaji": "Romaji" }
+				"title": "ชื่ออนิเมะ",
+				"ticks": { "english": "อังกฤษ", "MISSING-default": "Default", "romaji": "โรมาจิ" }
 			},
 			"anime_link": {
-				"MISSING-title": "Anime Link",
+				"title": "ลิงก์อนิเมะ",
 				"ticks": {
-					"MISSING-anilist": "Anilist",
-					"MISSING-kitsu": "Kitsu",
+					"anilist": "Anilist",
+					"kitsu": "Kitsu",
 					"MISSING-default": "Default",
-					"MISSING-mal": "MAL",
-					"MISSING-ann": "ANN"
+					"mal": "MAL",
+					"ann": "ANN"
 				}
 			}
 		},
 		"song_window": {
-			"MISSING-title": "Song Info",
-			"MISSING-anime_english": "Anime English",
-			"MISSING-anime_romaji": "Anime Romaji",
+			"title": "ข้อมูล",
+			"anime_english": "ชื่ออังกฤษ",
+			"anime_romaji": "ชื่อโรมาจิ",
 			"columns": {
 				"MISSING-composer": "Composer",
 				"MISSING-arranger": "Arranger",
-				"MISSING-all_working_titles": "All Working Titles",
-				"MISSING-sample_point": "Sample Point",
-				"MISSING-anime_type": "Anime Type",
+				"all_working_titles": "คำตอบที่ตอบได้",
+				"sample_point": "ตำแหน่งที่เล่น",
+				"anime_type": "ประเภทอนิเมะ",
 				"MISSING-season_info": "Season Info",
-				"MISSING-vintage": "Vintage",
-				"MISSING-anime_rating": "Anime Rating",
+				"vintage": "ซีซั่น",
+				"anime_rating": "คะแนนอนิเมะ",
 				"MISSING-genres": "Genres",
 				"MISSING-tags": "Tags",
 				"MISSING-video": "Video",
@@ -5383,22 +5383,22 @@
 	"daily_quests": {
 		"title": "ภารกิจประจำวัน",
 		"description": {
-			"MISSING-title": "Daily Quests",
-			"MISSING-description": "Complete daily quests to earn bonus notes, and earn an avatar token for every 7 quest completed! A new quest becomes available every day at 12:00 CET, and you’ll have 7 days to complete it."
+			"title": "ภารกิจประจำวัน",
+			"description": "ทำภารกิจให้สำเร็จเพื่อรับโน้ตและทุกๆ 7 ภารกิจที่สำเร็จจะได้รับโทเคนสำหรับการสุ่ม ภารกิจใหม่จะมาทุกๆ 6 โมงเย็นและมีเวลา 7 วันในการทำภารกิจ"
 		},
 		"MISSING-event_quest": "Event Quest",
-		"MISSING-weekly_quest": "Weekly Quest",
+		"weekly_quest": "ภารกิจรายสัปดาห์",
 		"category": {
-			"MISSING-monday": "Mon",
-			"MISSING-tuesday": "Tue",
-			"MISSING-wednesday": "Wed",
-			"MISSING-thursday": "Thu",
-			"MISSING-friday": "Fri",
-			"MISSING-saturday": "Sat",
-			"MISSING-sunday": "Sun",
+			"monday": "จ",
+			"tuesday": "อ",
+			"wednesday": "พ",
+			"thursday": "พฤ",
+			"friday": "ศ",
+			"saturday": "ส",
+			"sunday": "อา",
 			"MISSING-event": "Eve"
 		},
-		"MISSING-quest_description": "_DESCRIPTION_ _BREAK_ Reward: _NUMBER_ notes _BREAK_ Resets _DATE_",
+		"quest_description": "_DESCRIPTION_ _BREAK_ รางวัล: _NUMBER_ โน้ต _BREAK_ จบ _DATE_",
 		"quests": {
 			"br_flex": {
 				"MISSING-title": "BR Flex",
@@ -5512,7 +5512,7 @@
 				"MISSING-title": "Thriller Fan",
 				"MISSING-description": "Guess 20 songs from thriller shows, in non-team games"
 			},
-			"just_jamming": { "MISSING-title": "Just Jamming", "MISSING-description": "Guess 20 songs in the Jam Quiz" }
+			"just_jamming": { "title": "Just Jamming", "description": "ตอบถูก 20 เพลงในโหมด Jam" }
 		}
 	}
 }
