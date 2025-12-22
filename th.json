@@ -612,22 +612,22 @@
 			}
 		},
 		"amq_funding": {
-			"MISSING-title": "AMQ Funding",
+			"title": "รายได้ AMQ",
 			"month": {
-				"MISSING-january": "January Result",
-				"MISSING-february": "February Result",
-				"MISSING-march": "March Result",
-				"MISSING-april": "April Result",
-				"MISSING-may": "May Result",
-				"MISSING-june": "June Result",
-				"MISSING-july": "July Result",
-				"MISSING-august": "August Result",
-				"MISSING-september": "September Result",
-				"MISSING-october": "October Result",
-				"MISSING-november": "November Result",
-				"MISSING-december": "December Result"
+				"january": "มกราคม",
+				"february": "กุมภาพันธ์",
+				"march": "มีนาคม",
+				"april": "เมษายน",
+				"may": "พฤษภาคม",
+				"june": "มิถุนายน",
+				"july": "กรกฎาคม",
+				"august": "สิงหาคม",
+				"september": "กันยายน",
+				"october": "ตุลาคม",
+				"november": "พฤศจิกายน",
+				"december": "ธันวาคม"
 			},
-			"MISSING-yearly": "Yearly Result",
+			"yearly": "ทั้งปี",
 			"MISSING-description": "The funding results from last month and overall for the year. AMQ is completely community funded which pays for the server and development costs. All money earned goes to continue improving and expanding the game, thanks for all the support!"
 		}
 	},
@@ -852,11 +852,11 @@
 			},
 			"error_deleting": "เกิดปัญหาในการลบ Emote",
 			"upload_emote": {
-				"MISSING-title": "Upload Emote",
+				"title": "เพิ่ม Emote",
 				"description": {
-					"MISSING-line_one": "_BOLD_ Slots Left _BOLD_",
-					"MISSING-line_two": "Standard: _NUMBER_",
-					"MISSING-line_three": "Animated: _NUMBER_"
+					"line_one": "_BOLD_ จำนวนที่เหลือ _BOLD_",
+					"line_two": "ธรรมดา: _NUMBER_",
+					"line_three": "เคลื่อนไหว: _NUMBER_"
 				},
 				"MISSING-confirm_button": "Select File",
 				"MISSING-footer": "Accepted File Formats: png (Standard), gif (Animated). Max Filesize: 256kb",
@@ -946,12 +946,12 @@
 		"anime_list": {
 			"MISSING-description": "Connect your AniList, MyAnimeList or Kitsu list, and the game will use your anime list when picking songs with the “watched” setting. _BREAK_ Lists are updated weekly or when clicking update. To remove a list, update it without a username.",
 			"share_entries": {
-				"MISSING-title": "Share Entries",
-				"MISSING-description": "Show when a show is from your list"
+				"title": "แสดงอนิเมะ",
+				"description": "แสดงอนิเมะที่มาจากลิสต์ของคุณ"
 			},
 			"show_scores": {
-				"MISSING-title": "Show Scores",
-				"MISSING-description": "Show your anime score for shows on your list"
+				"title": "แสดงคะแนน",
+				"description": "แสดงคะแนนอนิเมะที่ให้จากลิสต์ของคุณ"
 			},
 			"anilist_username": "ชื่อผู้ใช้ AniList",
 			"mal_username": "ชื่อผู้ใช้ MyAnimeList",
@@ -961,12 +961,12 @@
 			"update_messages": {
 				"update_successful": "อัปเดตสำเร็จ",
 				"update_failed": "อัปเดตผิดพลาด",
-				"MISSING-list_updated": "List Updated",
-				"MISSING-list_removed": "List Removed",
+				"list_updated": "อัปเดตลิสต์เรียบร้อย",
+				"list_removed": "ลบลิสต์เรียบร้อย",
 				"unknown_username": "ไม่พบชื่อผู้ใช้นี้",
-				"MISSING-mal_private": "MAL List set to private, only public lists can be synced to the game",
+				"mal_private": "MAL ถูกตั้งเป็นส่วนตัว ต้องตั้งเป็นสาธารณะเพื่อเชื่อมต่อ",
 				"mal_error": "เกิดปัญหาจากฝั่ง MAL โปรดลองใหม่อีกครั้ง",
-				"MISSING-anilist_error": "Unable to Retrieve List from AniList"
+				"anilist_error": "ไม่สามารถอัปเดตลิสต์จาก AniList ได้"
 			},
 			"included_entries": {
 				"MISSING-title": "Included Entries",
@@ -998,7 +998,7 @@
 		"title": "เปลี่ยนรหัสผ่าน",
 		"current_password": "รหัสผ่านตอนนี้",
 		"no_current_password": "ยังไม่ได้ใส่รหัสผ่านตอนนี้",
-		"MISSING-unexpected_error": "Unexpected error, please try again",
+		"unexpected_error": "เกิดปัญหาไม่คาดคิด กรุณาลองใหม่อีกครั้ง",
 		"error_contacting_server": "เกิดปัญหาในการติดต่อเซิฟเวอร์ โปรดลองใหม่อีกครั้ง",
 		"password_updated": "เปลี่ยนรหัสผ่านสำเร็จ",
 		"wrong_password": "ใส่รหัสตอนนี้ไม่ถูกต้อง"
@@ -1017,7 +1017,7 @@
 	"tutorial_window": {
 		"title": "วิธีเล่น",
 		"start": "เริ่ม",
-		"MISSING-reset": "Reset",
+		"reset": "รีเซ็ต",
 		"nexus_tutorials": "วิธีเล่น Nexus",
 		"tutorials": {
 			"gameplay": "การเล่น",
@@ -1056,7 +1056,7 @@
 	"about_window": {
 		"title": "เกี่ยวกับ",
 		"developed_by": "สร้างโดย by _NAME_",
-		"MISSING-development": "Development",
+		"development": "ผู้สร้าง",
 		"art": "รูปภาพ",
 		"sound_and_audio": "เสียง",
 		"MISSING-special_thanks": "Special Thanks",
@@ -2532,9 +2532,9 @@
 		"MISSING-game_chat": "Game Chat",
 		"MISSING-spectators": "Spectators",
 		"MISSING-spectate_button": "Spectate",
-		"MISSING-queue": "Queue",
-		"MISSING-join_queue_button": "Join Queue",
-		"MISSING-leave_queue_button": "Leave Queue",
+		"queue": "คิว",
+		"join_queue_button": "เข้าคิว",
+		"leave_queue_button": "ออกจากคิว",
 		"MISSING-team_switch": "Team",
 		"MISSING-player_only_mode": "Player Only Chat",
 		"MISSING-message": "Message",
@@ -2590,7 +2590,7 @@
 		}
 	},
 	"lobby": {
-		"MISSING-leave_button": "Leave",
+		"leave_button": "ออก",
 		"MISSING-room": "Room",
 		"MISSING-quiz_rules": "Quiz Rules",
 		"MISSING-stats_in": "Stats In",
@@ -2607,16 +2607,16 @@
 			"MISSING-join_button": "Join"
 		},
 		"main_button": {
-			"MISSING-start": "Start",
+			"start": "เริ่ม",
 			"MISSING-join": "Join",
-			"MISSING-ready": "Ready",
-			"MISSING-unready": "Unready",
-			"MISSING-room_is_full": "Room is Full",
-			"MISSING-closing_in": "Closing In",
-			"MISSING-starts_in": "Starts In",
-			"MISSING-starting_soon": "Starting Soon"
+			"ready": "เตรียมพร้อม",
+			"unready": "ยกเลิกการเตรียมพร้อม",
+			"room_is_full": "ห้องเต็มแล้ว",
+			"closing_in": "ปิดใน",
+			"starts_in": "เริ่มใน",
+			"starting_soon": "กำลังจะเริ่ม"
 		},
-		"blocked_join_messages": { "MISSING-ranked_championship": "Only top 150 players in the region can join" },
+		"blocked_join_messages": { "ranked_championship": "ต้องเป็นผู้เล่น 150 อันดับแรกจึงจะมีสิทธิเข้าร่วม" },
 		"community_quiz": {
 			"MISSING-click_to_select": "Click here to Select a Quiz",
 			"MISSING-click_to_change": "Selected Community Quiz _BREAK_ Click to Change",
