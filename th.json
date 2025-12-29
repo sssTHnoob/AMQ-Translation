@@ -1566,8 +1566,8 @@
 			"MISSING-mp3_before_video": "Mp3 must be uploaded after a video version is approved"
 		},
 		"filters": {
-			"MISSING-watched": "Watched",
-			"MISSING-unwatched": "Unwatched",
+			"watched": "ในลิสต์",
+			"unwatched": "นอกลิสต์",
 			"openings": "เพลงเปิด",
 			"endings": "เพลงปิด",
 			"MISSING-inserts": "Inserts",
@@ -2261,21 +2261,21 @@
 			},
 			"show_selection": { "MISSING-title": "Show Selection", "MISSING-auto": "Auto", "MISSING-looting": "Looting" },
 			"answering_mode": {
-				"MISSING-title": "Answering Mode",
-				"MISSING-typing": "Typing",
-				"MISSING-multiple_choice": "Multiple Choice"
+				"title": "การตอบ",
+				"typing": "พิมพ์",
+				"multiple_choice": "ตัวเลือก"
 			},
 			"song_type": {
-				"MISSING-title": "Song Types",
-				"MISSING-openings": "Openings",
-				"MISSING-endings": "Endings",
+				"title": "ประเภทเพลง",
+				"openings": "เพลงเปิด",
+				"endings": "เพลงปิด",
 				"MISSING-inserts": "Inserts"
 			},
 			"song_selection": {
-				"MISSING-title": "Song Selection",
-				"MISSING-watched": "Watched",
-				"MISSING-unwatched": "Unwatched",
-				"MISSING-random": "Random"
+				"title": "ประเภทอนิเมะ",
+				"watched": "ในลิสต์",
+				"unwatched": "นอกลิสต์",
+				"random": "สุ่ม"
 			},
 			"scoring": {
 				"MISSING-title": "Scoring",
@@ -2285,10 +2285,10 @@
 				"MISSING-lives": "Lives",
 				"MISSING-boss": "Boss"
 			},
-			"MISSING-number_of_players": "Number of Players",
-			"MISSING-number_of_songs": "Number of Songs",
-			"MISSING-guess_time": "Guess Time",
-			"MISSING-difficulty": "Difficulty",
+			"number_of_players": "จำนวนผู้เล่น",
+			"number_of_songs": "จำนวนเพลง",
+			"guess_time": "เวลาตอบ",
+			"difficulty": "ความยาก",
 			"anime_type": {
 				"MISSING-title": "Anime Type",
 				"MISSING-tv": "TV",
@@ -2320,7 +2320,7 @@
 				"game_mode": "โหมด",
 				"guess_time": "เวลาในการตอบ",
 				"number_of_songs": "จำนวนเพลง",
-				"MISSING-song_selection": "Song Selection",
+				"song_selection": "ประเภทอนิเมะ",
 				"all_settings": "ตั้งค่า",
 				"song_types": "ประเภทเพลง",
 				"friends": "เพื่อน"
@@ -2339,9 +2339,9 @@
 				"MISSING-standard": "Standard"
 			},
 			"song_selection": {
-				"MISSING-random": "Random",
-				"MISSING-mix": "Mix",
-				"MISSING-watched": "Watched",
+				"random": "สุ่ม",
+				"mix": "ผสม",
+				"watched": "ในลิสต์",
 				"MISSING-custom": "Custom"
 			},
 			"MISSING-room_closed": "Room Closed",
@@ -2529,9 +2529,9 @@
 		"MISSING-page_close_warning": "Leaving the page will cause you to lose any unsaved progress."
 	},
 	"game_chat": {
-		"MISSING-game_chat": "Game Chat",
-		"MISSING-spectators": "Spectators",
-		"MISSING-spectate_button": "Spectate",
+		"ING-game_chat": "แชท",
+		"spectators": "คนดู",
+		"spectate_button": "เปลี่ยนเป็นคนดู",
 		"queue": "คิว",
 		"join_queue_button": "เข้าคิว",
 		"leave_queue_button": "ออกจากคิว",
