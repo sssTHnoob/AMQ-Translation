@@ -44,7 +44,7 @@
 			"report": "รายงาน",
 			"close_button": "ปิด",
 			"not_applicable": "N/A",
-			"MISSING-claimed_button": "Claimed",
+			"claimed_button": "รับแล้ว",
 			"MISSING-search_placeholder": "Search",
 			"MISSING-server_restart": "Server Restart"
 		},
@@ -944,7 +944,7 @@
 			"high_risk": { "title": "สุ่มเสี่ยง", "description": "วีดิโอที่อาจมีการสปอยล์หรือมีภาพที่ล่อแหลม" }
 		},
 		"anime_list": {
-			"MISSING-description": "Connect your AniList, MyAnimeList or Kitsu list, and the game will use your anime list when picking songs with the “watched” setting. _BREAK_ Lists are updated weekly or when clicking update. To remove a list, update it without a username.",
+			"description": "เชื่อมต่อกับ AniList, MyAnimeList หรือ Kitsu เพื่อเล่นเฉพาะเพลงจากอนิเมะที่อยู่ในลิสต์ _BREAK_ ลิสต์จะทำการอัปเดตอัตโนมัติทุกๆ อาทิตย์ ในการยกเลิกการเชื่อมต่อให้กดอัปเดตหลังจากลบชื่อผู้ใช้ออก",
 			"share_entries": {
 				"title": "แสดงอนิเมะ",
 				"description": "แสดงอนิเมะที่มาจากลิสต์ของคุณ"
@@ -969,7 +969,7 @@
 				"anilist_error": "ไม่สามารถอัปเดตลิสต์จาก AniList ได้"
 			},
 			"included_entries": {
-				"MISSING-title": "Included Entries",
+				"title": "ส่วนที่ใช้",
 				"types": {
 					"MISSING-watching": "Watching",
 					"MISSING-completed": "Completed",
@@ -1167,7 +1167,7 @@
 		"avatar_bonus": { "title": "โบนัสตัวละคร", "description": "มีสกินของตัวละครนี้ 10 สกินเพื่อรับตราตัวละคร" },
 		"skin_bonus": { "title": "โบนัสสกิน", "description": "มีสกินนี้ 10 แบบเพื่อทำให้ตัวละครอื่นใช้พื้นหลังนี้ได้" },
 		"MISSING-world": "World",
-		"MISSING-artist": "Artist",
+		"artist": "ศิลปิน",
 		"MISSING-version_artist": "Version Artist",
 		"MISSING-background_story": "Background Story",
 		"ticket_system": {
@@ -1215,45 +1215,45 @@
 				}
 			},
 			"ticket_code_input": {
-				"MISSING-title": "Enter Ticket Code",
-				"MISSING-placeholder": "Ticket Code",
-				"MISSING-redeem": "Redeem"
+				"title": "ใส่โค้ดแลก",
+				"placeholder": "โค้ดแลก",
+				"redeem": "ยืนยัน"
 			},
-			"MISSING-invalid_ticket_code": "Invalid Ticket Code",
+			"invalid_ticket_code": "โค้ดไม่ถูกต้อง",
 			"ticket_code_redeemed_message": {
-				"MISSING-title": "Ticket Code Redeemed!",
-				"MISSING-description": "_NUMBER_ tickets and _NUMBER2_ tokens claimed."
+				"title": "แลกโค้ดสำเร็จ",
+				"description": "ได้รับ _NUMBER_ ตั๋วและ _NUMBER2_ โทเคน"
 			},
-			"MISSING-approx_dollar": "Approx. $_NUMBER_",
-			"MISSING-one_ticket": "1 Ticket",
-			"MISSING-ticket_pack": "_NUMBER_ Pack",
-			"MISSING-ticket": "Ticket",
-			"MISSING-tickets": "Tickets",
-			"MISSING-avatar_token": "Avatar Token",
-			"MISSING-avatar_tokens": "Avatar Tokens",
+			"approx_dollar": "ประมาณ $_NUMBER_",
+			"one_ticket": "1 ตั๋ว",
+			"ticket_pack": "แพค _NUMBER_",
+			"ticket": "ตั๋ว",
+			"tickets": "ตั๋ว",
+			"avatar_token": "โทเคน",
+			"avatar_tokens": "โทเคน",
 			"gift_message": {
-				"MISSING-title": "Buying Ticket Gift for _NAME_",
-				"MISSING-placeholder": "Gift message: _MESSAGE_"
+				"title": "ซื้อตั๋วให้ _NAME_",
+				"placeholder": "ข้อความที่ฝาก: _MESSAGE_"
 			},
 			"no_gift_target_message": {
-				"MISSING-title": "No Gift Target Selected",
-				"MISSING-description": "Select one below"
+				"title": "ยังไม่ได้เลือกคนที่จะให้",
+				"description": "เลือกได้ข้างล่าง"
 			},
 			"gift_no_friends": {
-				"MISSING-title": "No Friends in Friend List",
-				"MISSING-description": "You're only able to gift tickets to friends in your friend list."
+				"title": "ไม่มีเพื่อนในรายชื่อเพื่อน",
+				"description": "สามารถให้ของขวัญกับเพื่อนได้เท่านั้น"
 			},
 			"sale_text": {
-				"MISSING-unlocks_remaining": "_SPANC_ _NUMBER _SPANC_ Unlock(s) Remaining",
-				"MISSING-days_remaining": "_SPANC_ _NUMBER_ _SPANC_ Days Remaining",
-				"MISSING-getting_started_pack": "Getting Started Pack",
+				"unlocks_remaining": "ซื้อได้อีก _SPANC_ _NUMBER _SPANC_ รอบ",
+				"days_remaining": "เหลือเวลา _SPANC_ _NUMBER_ _SPANC_ วัน",
+				"getting_started_pack": "แพคเริ่มต้น",
 				"MISSING-promo": "Promo",
 				"MISSING-sale": "Sale"
 			},
 			"MISSING-subtotal": "Subtotal",
-			"MISSING-sales_tax": "Sales Tax",
+			"sales_tax": "ภาษี",
 			"MISSING-total": "Total",
-			"MISSING-gift_message_placeholder": "Enter a gift message (optional)"
+			"gift_message_placeholder": "ข้อความฝากถึงคนรับ(ไม่จำเป็นต้องมี)"
 		},
 		"avatar_tokens": {
 			"MISSING-title": "Avatar Tokens",
@@ -1293,18 +1293,18 @@
 			"MISSING-unique": "Unique"
 		},
 		"decoration_buttons": { "MISSING-front": "Front", "MISSING-back": "Back" },
-		"MISSING-open_all": "Open All",
+		"open_all": "แสดงทั้งหมด",
 		"item_types": {
-			"MISSING-emote": "Emote",
-			"MISSING-background": "Background",
-			"MISSING-decoration": "Decoration",
-			"MISSING-skin": "Skin"
+			"Memote": "Emote",
+			"background": "พื้นหลัง",
+			"decoration": "ของตกแต่ง",
+			"skin": "สกิน"
 		},
 		"MISSING-ticket_reward_tier": "Ticket Reward Tier _TIER_",
 		"MISSING-rhythm_price": "Rhythm Price",
 		"MISSING-silver_hibike_description": "Unique launch recolor unlocked by having joined the game doing the launch week or by unlocking all non unique recolors for all avatars.",
 		"emote_previews": { "MISSING-chat": "Chat", "MISSING-profile": "Profile" },
-		"MISSING-emote_category_misc": "Misc"
+		"emote_category_misc": "อื่นๆ"
 	},
 	"avatar_lore": {
 		"hibiki": {
@@ -1963,7 +1963,7 @@
 		"MISSING-invite_description": "Create an invite link to this room",
 		"MISSING-swap_button_description": "Swap between community and standard quiz",
 		"game_mode": {
-			"MISSING-title": "Game Mode",
+			"title": "โหมด",
 			"standard": { "MISSING-title": "Standard Quiz", "MISSING-description": "Compete in guessing the most songs" },
 			"hint": {
 				"MISSING-title": "Hint",
@@ -2095,43 +2095,43 @@
 			}
 		},
 		"answering": {
-			"MISSING-title": "Answering",
-			"MISSING-description": "How players submit answers.",
+			"title": "การตอบ",
+			"description": "วิธีในการตอบของผู้เล่น",
 			"typing": {
-				"MISSING-title": "Typing",
-				"MISSING-description": "Players write their answers, with dropdown suggestions to select from"
+				"title": "พิมพ์",
+				"description": "ผู้เล่นแต่ละคนต้องพิมพ์ชื่ออนิเมะในการตอบ"
 			},
 			"mix": {
-				"MISSING-title": "Mix",
-				"MISSING-description": "All players can choose between typing and multiple choice answering"
+				"title": "เลือกได้",
+				"description": "ผู้เล่นแต่ละคนสามารถเลือกได้ว่าจะใช้การพิมพ์หรือเลือกจากตัวเลือก"
 			},
 			"multiple_choice": {
-				"MISSING-title": "Multiple Choice",
-				"MISSING-description": "Players get possible 4 answers to choose from"
+				"title": "ตัวเลือก",
+				"description": "ผู้เล่นเลือกอนิเมะจาก 4 ตัวเลือกที่มีให้"
 			}
 		},
-		"lives": { "MISSING-title": "Lives", "MISSING-description": "The amount of lives players start with." },
+		"lives": { "title": "จำนวนชีวิต", "description": "จำนวนชีวิตเริ่มต้นที่ผู้เล่นแต่ละคนมี" },
 		"boss_lives": {
-			"MISSING-title": "Boss Lives",
-			"MISSING-description": "The amount of lives boss players start with."
+			"title": "จำนวนชีวิตบอส",
+			"description": "จำนวนชีวิตเริ่มต้นที่ผู้เล่นที่เป็นบอสมี"
 		},
 		"boss_power_ups": {
-			"MISSING-title": "Boss Power-ups",
-			"MISSING-description": "The amount of different power-ups the boss players can use."
+			"title": "จำนวนพลังบอส",
+			"description": "จำนวนครั้งที่บอสแต่ละคนสามารถใช้พลังได้"
 		},
 		"boss_max_song_count": {
-			"MISSING-title": "Boss Max Song Count",
-			"MISSING-description": "The max number of songs a boss player can get. If they survive all songs, they earn bonus points based on the amount of lives they have left."
+			"title": "จำนวนเพลงของบอส",
+			"description": "จำนวนเพลงที่เล่นได้มากที่สุดต่อผู้เล่นบอสหนึ่งคน ถ้าบอสมีชีวิตรอดจนครบจำนวนเพลงจะได้รับคะแนนพิเศษตามจำนวนเพลงที่ตอบได้"
 		},
 		"inventory_size": {
-			"MISSING-title": "Inventory Size",
-			"MISSING-description": "Number of shows players can carry during the looting phase"
+			"title": "จำนวนอนิเมะต่อผู้เล่น",
+			"description": "จำนวนอนิเมะที่ผู้เล่นสามารถเลือกได้"
 		},
 		"looting_time": {
-			"MISSING-title": "Looting Time",
-			"MISSING-description": "Time players have to spend looting",
-			"MISSING-time_display": "_NUMBER_ seconds",
-			"MISSING-time_range_display": "_NUMBER_-_NUMBER2_ seconds"
+			"title": "เวลาหาอนิเมะ",
+			"description": "เวลาที่ผู้เล่นใช้ในการเลือกอนิเมะ",
+			"time_display": "_NUMBER_ วินาที",
+			"time_range_display": "_NUMBER_-_NUMBER2_ วินาที"
 		},
 		"loot_dropping": {
 			"MISSING-title": "Loot Dropping",
@@ -2253,7 +2253,7 @@
 	"room_browser": {
 		"filters": {
 			"only": {
-				"MISSING-title": "Only:",
+				"title": "แสดงเฉพาะ:",
 				"MISSING-public": "Public",
 				"MISSING-in_lobby": "In Lobby",
 				"MISSING-open": "Open",
