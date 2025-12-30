@@ -861,8 +861,8 @@
 				"MISSING-confirm_button": "Select File",
 				"MISSING-footer": "Accepted File Formats: png (Standard), gif (Animated). Max Filesize: 256kb",
 				"file_too_large": {
-					"MISSING-title": "File Too Big",
-					"MISSING-description": "Max filesize is 256kb. Provided file is _NUMBER_kb"
+					"title": "ไฟล์ใหญ่เกินไป",
+					"description": "ไฟล์ต้องมีขนาดไม่เกิน 256kb ไฟล์ที่แนบมามีขนาด _NUMBER_kb"
 				},
 				"no_standard_slot": {
 					"MISSING-title": "No Standard Slot Available",
@@ -939,7 +939,7 @@
 			"description": "ซ่อนวีดิโอในหมวดหมู่ที่เลือกให้โดยอัตโนมัติโดยยังสามารถกดเปิดดูเองได้ในช่วงเฉลย",
 			"openings": "เพลงเปิด",
 			"endings": "เพลงปิด",
-			"MISSING-inserts": "Inserts",
+			"inserts": "เพลงประกอบ",
 			"unwatched": { "title": "ไม่ได้ดู", "description": "อนิเมะที่ไม่ได้ดู" },
 			"high_risk": { "title": "สุ่มเสี่ยง", "description": "วีดิโอที่อาจมีการสปอยล์หรือมีภาพที่ล่อแหลม" }
 		},
@@ -1012,7 +1012,7 @@
 		"ranked": "โหมดจัดอันดับ",
 		"all": "ทั้งหมด",
 		"champs": "แชมป์",
-		"regions": { "MISSING-west": "West Region", "MISSING-central": "Central Region", "MISSING-east": "East Region" }
+		"regions": { "west": "West", "central": "Central", "east": "East" }
 	},
 	"tutorial_window": {
 		"title": "วิธีเล่น",
@@ -1027,17 +1027,17 @@
 			"MISSING-workshop": "Workshop",
 			"MISSING-rune_setup": "Rune Setup"
 		},
-		"status": { "MISSING-locked": "Locked", "MISSING-unlocked": "Unlocked", "MISSING-completed": "Completed" }
+		"status": { "locked": "ยังไม่เล่น", "unlocked": "ยังเล่นไม่ได้", "completed": "เล่นแล้ว" }
 	},
 	"guidelines_window": {
 		"title": "ข้อกำหนด",
-		"MISSING-description": "Anime Music Quiz is meant to be fair and enjoyable for everyone. To ensure this it’s important you follow the below guidelines, as well as any instructions from moderators. Failure to follow these guidelines will result in chat or game bans depending on the case.",
+		"description": "เพื่อให้ทุกคนสามารถเล่น AMQ ได้อย่างสนุกและเท่าเทียม การทำตามข้อกำหนดต่อไปนี้รวมถึงคำขอจากผู้ดูแลจึงเป็นสิ่งสำคัญ หากไม่ทำตามจะส่งผลให้ถูกแบน",
 		"dont_cheat": {
-			"MISSING-title": "Don't Cheat",
+			"title": "ห้ามโกง",
 			"MISSING-text": "Using any type of external software or tool that gives an unfair advantage is considered cheating. This in general covers, but is not limited to tools that reveal extra information about the song, video or show."
 		},
 		"no_teaming": {
-			"MISSING-title": "No Teaming in Ranked",
+			"title": "ห้ามร่วมมือกันในโหมดจัดอันดับ",
 			"MISSING-text": "Ranked is meant to be a test of individual skill, teaming or sharing answers with other players is therefore strictly prohibited. Outside of ranked (and jam mode) you are more than welcome to share answers with friends if the hosts of the room are okay with it, but keep the sharing out of ranked."
 		},
 		"no_automated_grind": {
@@ -1055,12 +1055,12 @@
 	},
 	"about_window": {
 		"title": "เกี่ยวกับ",
-		"developed_by": "สร้างโดย by _NAME_",
+		"developed_by": "สร้างโดย _NAME_",
 		"development": "ผู้สร้าง",
 		"art": "รูปภาพ",
 		"sound_and_audio": "เสียง",
-		"MISSING-special_thanks": "Special Thanks",
-		"MISSING-credits": "Credits"
+		"special_thanks": "ขอบคุณ",
+		"credits": "อื่นๆ"
 	},
 	"avatar_window": {
 		"MISSING-nothing_selected": "Nothing Selected _BREAK_ Select Above",
@@ -1570,7 +1570,7 @@
 			"unwatched": "นอกลิสต์",
 			"openings": "เพลงเปิด",
 			"endings": "เพลงปิด",
-			"MISSING-inserts": "Inserts",
+			"inserts": "เพลงประกอบ",
 			"MISSING-missing_versions": "Missing Versions",
 			"MISSING-player_state": "Player State",
 			"MISSING-liked": "Liked",
@@ -1578,7 +1578,7 @@
 			"MISSING-disliked": "Disliked",
 			"vintage": "ปีที่ฉาย",
 			"song_categories": {
-				"MISSING-title": "Song Categories",
+				"title": "ประเภทเพลง",
 				"MISSING-standard": "Standard",
 				"MISSING-chanting": "Chanting",
 				"MISSING-instrumental": "Instrumental",
@@ -1611,7 +1611,7 @@
 				"MISSING-fall": "Fall _YEAR_"
 			},
 			"MISSING-genre": "Genre",
-			"MISSING-names": "Names",
+			"names": "ชื่ออนิเมะ",
 			"MISSING-tags": "Tags",
 			"songs": "เพลง",
 			"more_info": "เพิ่มเติม"
@@ -1622,19 +1622,19 @@
 			"MISSING-rebroadcast": "Rebroad",
 			"MISSING-composer": "Composer",
 			"MISSING-arranger": "Arranger",
-			"MISSING-song_category": "Song Category",
+			"song_category": "ประเภทเพลง",
 			"guess_percent": {
-				"MISSING-title": "Guess Percent",
-				"MISSING-global": "Global: _SPANC_ X _SPANC_%",
-				"MISSING-recent": "Recent: _SPANC_ X _SPANC_%",
-				"MISSING-description": "The overall correct guess percentage for this song and your own correct guess percentage counting your last 8 answers. Only includes typed answers in quizzes with larger song pools."
+				"title": "ตอบถูก",
+				"global": "ทั้งหมด: _SPANC_ X _SPANC_%",
+				"recent": "ส่วนตัว: _SPANC_ X _SPANC_%",
+				"description": "จำนวนเปอร์เซ็นต์ที่ทำการตอบถูกของทุกคนในเพลงนี้และจำนวนเปอร์เซ็นต์ที่ทำการตอบถูกส่วนตัวใน 8 ครั้งล่าสุด นับเฉพาะการตอบแบบพิมพ์และห้องที่สามารถตอบได้หลายอนิเมะเท่านั้น"
 			},
-			"MISSING-play_count": "Play Count",
-			"MISSING-play_count_correct": "(_SPANC_ X _SPANC_% Correct)",
-			"MISSING-play_count_description": "The total number of times this song has played for you, and your correct guess percent for it.",
+			"play_count": "จำนวนครั้งที่เล่น",
+			"play_count_correct": "(ถูก _SPANC_ X _SPANC_%)",
+			"play_count_description": "จำนวนครั้งที่เพลงนี้ทำการเล่นและเปอร์เซ็นต์ที่ตอบถูก",
 			"play_count_expanded_description": {
-				"MISSING-line_one": "Typed Answers: _NUMBER_ (_NUMBER2_% Correct)",
-				"MISSING-line_two": "Multiple Choice: _NUMBER_ (_NUMBER2_% Correct)"
+				"line_one": "พิมพ์ตอบ: _NUMBER_ (ถูก _NUMBER2_%)",
+				"line_two": "ตัวเลือก: _NUMBER_ (ถูก _NUMBER2_%)"
 			},
 			"MISSING-submit": "Submit",
 			"MISSING-insert_litterbox_url": "Insert Litterbox URL",
@@ -2026,19 +2026,19 @@
 		"number_of_songs": { "title": "จำนวนเพลง" },
 		"team_size": { "title": "ขนาดทีม", "solo": "1" },
 		"song_selection": {
-			"MISSING-title": "Song Selection",
-			"MISSING-description": "How songs are chosen for the quiz. Watched covers all anime watched by any player.",
-			"MISSING-watched": "Watched",
-			"MISSING-unwatched": "Unwatched",
-			"MISSING-random": "Random",
-			"MISSING-mix": "Mix"
+			"title": "ประเภทอนิเมะ",
+			"description": "เลือกว่าเพลงที่เล่นจะมาจากอนิเมะที่อยู่ในหรือนอกลิสต์",
+			"watched": "ในลิสต์",
+			"unwatched": "นอกลิสต์",
+			"random": "สุ่ม",
+			"mix": "ผสม"
 		},
 		"watched_distribution": {
 			"MISSING-title": "Watched Distribution",
 			"MISSING-description": "How watched songs are chosen between players, either at random, weighted where larger lists gets more songs or an equal amount from each list.",
-			"MISSING-random": "Random",
-			"MISSING-weighted": "Weighted",
-			"MISSING-equal": "Equal"
+			"random": "สุ่ม",
+			"weighted": "ถ่วงน้ำหนัก",
+			"equal": "เท่ากัน"
 		},
 		"song_types": {
 			"title": "ประเภทเพลง",
@@ -2058,8 +2058,8 @@
 				"MISSING-description": "Songs sung by characters without being part of a musical performance"
 			},
 			"MISSING-inserts": "Inserts",
-			"MISSING-one_opening_type_must_be_selected": "At least one opening category must be selected",
-			"MISSING-one_ending_type_must_be_selected": "At least one ending category must be selected",
+			"one_opening_type_must_be_selected": "ต้องเลือกเพลงเปิดอย่างน้อย 1 ประเภท",
+			"one_ending_type_must_be_selected": "ต้องเลือกเพลงปิดอย่างน้อย 1 ประเภท",
 			"MISSING-one_insert_type_must_be_selected": "At least one insert category must be selected"
 		},
 		"scoring": {
