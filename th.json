@@ -1572,10 +1572,10 @@
 			"endings": "เพลงปิด",
 			"inserts": "เพลงประกอบ",
 			"MISSING-missing_versions": "Missing Versions",
-			"MISSING-player_state": "Player State",
-			"MISSING-liked": "Liked",
+			"player_state": "ความชอบผู้เล่น",
+			"liked": "ชอบ",
 			"MISSING-unrated": "Unrated",
-			"MISSING-disliked": "Disliked",
+			"disliked": "ไม่ชอบ",
 			"vintage": "ปีที่ฉาย",
 			"song_categories": {
 				"title": "ประเภทเพลง",
@@ -1585,9 +1585,9 @@
 				"MISSING-character": "Character"
 			},
 			"upload_status": {
-				"MISSING-title": "Upload Status",
-				"MISSING-uploaded": "Uploaded",
-				"MISSING-missing": "Missing"
+				"title": "สถานะเพลง",
+				"uploaded": "มีแล้ว",
+				"missing": "ยังไม่มี"
 			},
 			"more_filters": "เพิ่มเติม"
 		},
@@ -1601,14 +1601,14 @@
 		},
 		"MISSING-strict": "Strict",
 		"MISSING-strict_description": "Do not include groups that artists belong to when searching for artists/composers/arrangers.",
-		"MISSING-search": "Search",
+		"search": "ค้นหา",
 		"anime_entry": {
 			"song_counts": { "op": "OP _NUMBER_", "ed": "ED _NUMBER_", "insert": "IN _NUMBER_" },
 			"vintage": {
-				"MISSING-winter": "Winter _YEAR_",
-				"MISSING-spring": "Spring _YEAR_",
-				"MISSING-summer": "Summer _YEAR_",
-				"MISSING-fall": "Fall _YEAR_"
+				"winter": "ฤดูหนาว _YEAR_",
+				"spring": "ฤดูใบไม้ผลิ _YEAR_",
+				"summer": "ฤดูร้อน _YEAR_",
+				"fall": "ฤดูใบไม้ร่วง _YEAR_"
 			},
 			"MISSING-genre": "Genre",
 			"names": "ชื่ออนิเมะ",
@@ -1636,14 +1636,14 @@
 				"line_one": "พิมพ์ตอบ: _NUMBER_ (ถูก _NUMBER2_%)",
 				"line_two": "ตัวเลือก: _NUMBER_ (ถูก _NUMBER2_%)"
 			},
-			"MISSING-submit": "Submit",
-			"MISSING-insert_litterbox_url": "Insert Litterbox URL",
-			"like_options": { "MISSING-like": "Like", "MISSING-dislike": "Dislike", "MISSING-unset": "Unset" },
+			"submit": "ยืนยัน",
+			"insert_litterbox_url": "ใส่ลิงก์ Litterbox",
+			"like_options": { "like": "ชอบ", "dislike": "ไม่ชอบ", "MISSING-unset": "Unset" },
 			"upload_state_messages": {
-				"MISSING-missing": "Missing",
+				"missing": "ยังไม่มี",
 				"MISSING-pending": "Pending Approval",
 				"MISSING-uploaded": "Click to View",
-				"uploaded": { "MISSING-title": "Uploaded", "MISSING-description": "Click to View" }
+				"uploaded": { "title": "มีแล้ว", "description": "กดเพื่อดู" }
 			},
 			"MISSING-anime_header": "Anime:"
 		},
@@ -1697,16 +1697,16 @@
 		}
 	},
 	"anime_types": {
-		"MISSING-tv": "TV _NUMBER_",
-		"MISSING-season": "Season _NUMBER_",
-		"MISSING-movie": "Movie _NUMBER_",
-		"MISSING-ova": "OVA _NUMBER_",
-		"MISSING-ona": "ONA _NUMBER_",
-		"MISSING-tv_special": "TV Special _NUMBER_",
-		"MISSING-special": "Special _NUMBER_",
-		"MISSING-music_video": "Music Video _NUMBER_",
-		"MISSING-doujin": "Doujin _NUMBER_",
-		"MISSING-game_cutscene_compilation": "Game Cutscene Compilation _NUMBER_"
+		"tv": "TV _NUMBER_",
+		"season": "ซีซัน _NUMBER_",
+		"movie": "หนัง _NUMBER_",
+		"ova": "OVA _NUMBER_",
+		"ona": "ONA _NUMBER_",
+		"tv_special": "TV Special _NUMBER_",
+		"special": "Special _NUMBER_",
+		"music_video": "MV _NUMBER_",
+		"doujin": "โดจิน _NUMBER_",
+		"game_cutscene_compilation": "คัทซีนเกม _NUMBER_"
 	},
 	"song_catagory": {
 		"MISSING-none": "None",
@@ -1760,18 +1760,18 @@
 		},
 		"MISSING-patreon_promo": "Become a level 3+ Patreon Backer to _BREAK_ unlock unlimited slots and more perks",
 		"creator": "คนสร้าง",
-		"MISSING-description": "Description",
+		"description": "รายละเอียด",
 		"MISSING-tags": "Tags",
 		"quiz_stats": {
 			"MISSING-title": "Quiz Stats",
-			"MISSING-plays": "Plays:",
-			"MISSING-likes": "Likes:",
-			"MISSING-songs": "Songs:",
-			"age": "สร้างมาแล้ว:",
+			"plays": "เล่น:",
+			"likes": "ชอบ:",
+			"songs": "จำนวนเพลง:",
+			"age": "สร้างแล้ว:",
 			"song_types": "ประเภทเพลง:",
 			"difficulty": "ความยาก:",
-			"MISSING-selection": "Selection:",
-			"selection_types": { "MISSING-random": "Random", "MISSING-watched": "Watched" }
+			"selection": "ประเภทอนิเมะ:",
+			"selection_types": { "random": "สุ่ม", "watched": "ในลิสต์" }
 		},
 		"highscores": {
 			"title": "คะแนนสูงสุด",
@@ -1780,20 +1780,20 @@
 			"no_plays": "ไม่เคยเล่น",
 			"score": "คะแนน",
 			"name": "ชื่อผู้เล่น",
-			"MISSING-multiple_choice_toggle": "Toggle Displaying Multiple Choice Entries",
-			"MISSING-multiple_choice": "Multiple Choice"
+			"multiple_choice_toggle": "แสดงคนที่เล่นแบบตัวเลือก",
+			"multiple_choice": "ตัวเลือก"
 		},
 		"quiz_buttons": {
-			"MISSING-delete": "ลบ",
-			"MISSING-edit": "แก้ไข",
+			"delete": "ลบ",
+			"edit": "แก้ไข",
 			"MISSING-clone": "Clone",
 			"MISSING-share": "Share",
 			"MISSING-unshare": "Unshare",
-			"MISSING-publish": "Publish",
-			"MISSING-play": "Play",
+			"publish": "ตั้งเป็นสาธารณะ",
+			"play": "เล่น",
 			"MISSING-select": "Select"
 		},
-		"MISSING-no_quiz_selected": "No Quiz Selected",
+		"no_quiz_selected": "ยังไม่ได้เลือก",
 		"messages": {
 			"error_cloning": {
 				"MISSING-title": "Error Cloning Quiz",
@@ -1886,7 +1886,7 @@
 			"MISSING-room_info": "Room Info",
 			"MISSING-optional_password": "Optional Password"
 		},
-		"MISSING-browse": "Browse",
+		"browse": "ค้นหา",
 		"medal_descriptions": {
 			"unearned": {
 				"MISSING-title": "Quiz Medals",
@@ -1964,25 +1964,25 @@
 		"MISSING-swap_button_description": "Swap between community and standard quiz",
 		"game_mode": {
 			"title": "โหมด",
-			"standard": { "MISSING-title": "Standard Quiz", "MISSING-description": "Compete in guessing the most songs" },
+			"standard": { "title": "ปกติ", "MISSING-description": "Compete in guessing the most songs" },
 			"hint": {
-				"MISSING-title": "Hint",
+				"title": "คำใบ้",
 				"MISSING-description": "Get hints for songs, but earn fewer points when hints are used"
 			},
 			"quick_draw": {
-				"MISSING-title": "Quick Draw",
+				"title": "ความเร็ว",
 				"MISSING-description": "Earn more points the quicker you guessed the song"
 			},
 			"lives": {
-				"MISSING-title": "Lives",
+				"title": "ชีวิต",
 				"MISSING-description": "Start with lives, losing one each time you miss a show"
 			},
 			"battle_royale": {
-				"MISSING-title": "Battle Royale",
+				"title": "แบทเทิลรอยัล",
 				"MISSING-description": "Start in a looting phase, collecting the shows that will appear in the quiz"
 			},
 			"boss_fight": {
-				"MISSING-title": "Boss Fight",
+				"title": "บอส",
 				"MISSING-description": "Players take turns being the boss, playing with only their songs and power-ups the boss can use against the other players"
 			}
 		},
@@ -2090,8 +2090,8 @@
 			"description": "วิธีการเลือกอนิเมะที่จะนำมาเล่น",
 			"auto": { "title": "อัตโนมัติ", "description": "สุ่มเพลงให้อัติโนมัติตามที่ตั้งค่าไว้" },
 			"looting": {
-				"MISSING-title": "Looting",
-				"MISSING-description": "Play a looting phase before the quiz, where players move around collecting the shows used for the quiz"
+				"title": "เก็บอนิเมะ",
+				"description": "เพิ่มช่วงก่อนเริ่มเกมที่ให้ผู้เล่นสามารถเดินหาอนิเมะที่ต้องการและเก็บเพื่อนำมาเล่นได้"
 			}
 		},
 		"answering": {
@@ -2134,8 +2134,8 @@
 			"time_range_display": "_NUMBER_-_NUMBER2_ วินาที"
 		},
 		"loot_dropping": {
-			"MISSING-title": "Loot Dropping",
-			"MISSING-description": "Allow players to drop collected shows during the looting phase"
+			"title": "ปล่อยอนิเมะ",
+			"description": "ให้ผู้เล่นสามารถปล่อยอนิเมะที่เก็บมาแล้วได้"
 		},
 		"guess_time": {
 			"title": "เวลาตอบ",
@@ -2170,14 +2170,14 @@
 			"one_difficulty_must_be_selected": "ต้องเลิอกอย่างน้อย 1 ความยาก"
 		},
 		"song_popularity": {
-			"MISSING-title": "Song Popularity",
-			"MISSING-description": "Popularity of songs selected",
+			"title": "ความชอบ",
+			"description": "ความชอบของผู้เล่นทั้งหมด",
 			"disliked": "ไม่ชอบ",
 			"mixed": "ผสม",
 			"liked": "ชอบ",
-			"MISSING-percent_liked": "% ที่ชอบ",
-			"MISSING-percent_range_display": "_NUMBER_%-_NUMBER2_% Liked Songs",
-			"MISSING-one_popularity_must_be_selected": "At least one popularity must be selected"
+			"percent_liked": "% ที่ชอบ",
+			"percent_range_display": "_NUMBER_%-_NUMBER2_% ที่ชอบ",
+			"one_popularity_must_be_selected": "ต้องเลือกอย่างน้อย 1 ความชอบ"
 		},
 		"modifiers": {
 			"title": "อื่นๆ",
@@ -2198,16 +2198,16 @@
 				"description": "ให้อนิเมะเรื่องเดียวกันโผล่ในเกมเดียวกันได้"
 			},
 			"rebroadcast_songs": {
-				"MISSING-title": "Rebroadcast Songs",
-				"MISSING-description": "Allow songs from rebroadcasts to be selected"
+				"title": "ฉายซ้ำ",
+				"description": "ให้เพลงที่เล่นเฉพาะในการฉายซ้ำเท่านั้นโผล่ในเกมได้"
 			},
 			"dub_songs": {
-				"MISSING-title": "Dub Songs",
-				"MISSING-description": "Allow songs from dubbed versions to be selected (legacy setting with limited songs)"
+				"title": "พากย์อื่นๆ",
+				"description": "ให้เพลงที่มีเฉพาะในการพากย์ภาษาที่ไม่ใช่ต้นฉบับโหล่ในเกมได้ (ไม่มีการเพิ่มเพลงเพิ่มเติมแล้ว)"
 			},
 			"full_song_range": {
-				"MISSING-title": "Full Song Range",
-				"MISSING-description": "Allow songs to play up to the very ending of the song, can cause silence while answers are revealed"
+				"title": "เต็มระยะ",
+				"description": "ให้เพลงสามารถเริ่มที่ช่วงท้ายของเพลงได้ อาจทำให้ไม่มีเสียงช่วงเฉลย"
 			}
 		},
 		"filter_types": { "MISSING-include": "Include", "MISSING-exclude": "Exclude", "MISSING-optional": "Optional" },
@@ -2594,11 +2594,11 @@
 		"MISSING-room": "Room",
 		"MISSING-quiz_rules": "Quiz Rules",
 		"MISSING-stats_in": "Stats In",
-		"MISSING-room_settings": "Room Settings",
-		"MISSING-shuffle_teams": "Shuffle Teams",
-		"MISSING-team_shuffled_message": "Teams Shuffled",
+		"room_settings": "ตั้งค่า",
+		"shuffle_teams": "สุ่มทีม",
+		"team_shuffled_message": "สุ่มทีมสำเร็จ",
 		"MISSING-team": "Team",
-		"MISSING-host": "Host",
+		"host": "เจ้าของห้อง",
 		"MISSING-team_unset": "Unset",
 		"MISSING-team_members": "Team Members",
 		"join_themed_team": {
@@ -2721,37 +2721,37 @@
 			"start_button": "เริ่ม"
 		},
 		"game_settings": {
-			"MISSING-changed_header": "Game settings have changed",
-			"MISSING-more": "+ _NUMBER_ more...",
-			"MISSING-none": "None",
-			"MISSING-on": "On",
-			"MISSING-off": "Off",
+			"changed_header": "การตั้งค่าของห้องเปลี่ยนแล้ว",
+			"more": "และอีก _NUMBER_ อย่าง",
+			"none": "ไม่กำหนด",
+			"on": "เปิด",
+			"off": "ปิด",
 			"song_selection": {
-				"MISSING-watched": "Watched",
-				"MISSING-unwatched": "Unwatched",
-				"MISSING-random": "Random",
+				"watched": "ในลิสต์",
+				"unwatched": "นอกลิสต์",
+				"random": "สุ่ม",
 				"MISSING-mainly_watched": "Mainly Watched",
 				"MISSING-only_watched": "Only Watched"
 			},
-			"show_selection": { "MISSING-auto": "Auto", "MISSING-looting": "Looting" },
+			"show_selection": { "auto": "อัตโนมัติ", "looting": "เก็บอนิเมะ" },
 			"answering_mode": {
-				"MISSING-typing": "Typing",
-				"MISSING-multiple_choice": "Multiple Choice",
-				"MISSING-mix": "Mix"
+				"typing": "พิมพ์",
+				"multiple_choice": "ตัวเลือก",
+				"mix": "เลือกได้"
 			},
-			"watched_distribution": { "MISSING-random": "Random", "MISSING-weighted": "Weighted", "MISSING-equal": "Equal" },
+			"watched_distribution": { "random": "สุ่ม", "weighted": "ถ่วงน้ำหนัก", "equal": "เท่ากัน" },
 			"sample_point": {
-				"MISSING-start": "Start",
-				"MISSING-middle": "Middle",
-				"MISSING-end": "End",
-				"MISSING-random": "Random"
+				"start": "เริ่มต้น",
+				"middle": "ตรงกลาง",
+				"end": "จบ",
+				"random": "สุ่ม"
 			},
 			"score_type": {
-				"MISSING-count": "Count",
-				"MISSING-speed": "Speed",
-				"MISSING-hint": "Hint",
-				"MISSING-lives": "Lives",
-				"MISSING-boss": "Boss"
+				"count": "ปกติ",
+				"speed": "ความเร็ว",
+				"hint": "คำใบ้",
+				"lives": "ชีวิต",
+				"boss": "บอส"
 			},
 			"song_type": {
 				"openings": "เพลงเปิด",
@@ -2767,59 +2767,59 @@
 			},
 			"titles": {
 				"vintage": "ปีที่ฉาย",
-				"MISSING-anime_score": "Anime Score",
-				"MISSING-player_score": "Player Score",
-				"MISSING-sample_point": "Sample Point",
-				"MISSING-guess_time": "Guess Time",
-				"MISSING-inventory_size": "Inventory Size",
-				"MISSING-looting_time": "Looting Time",
-				"MISSING-song_selection": "Song Selection",
-				"MISSING-show_selection": "Show Selection",
-				"MISSING-number_of_songs": "Number of Songs",
-				"MISSING-number_of_players": "Number of Players",
-				"MISSING-song_popularity": "Song Popularity",
-				"MISSING-song_difficulty": "Song Difficulty",
-				"MISSING-song_types": "Song Types",
-				"MISSING-opening_categories": "Opening Categories",
-				"MISSING-ending_categories": "Ending Categories",
-				"MISSING-insert_categories": "Insert Categories",
-				"MISSING-room_name": "Room Name",
+				"anime_score": "คะแนนอนิเมะ",
+				"player_score": "คะแนนผู้เล่น",
+				"sample_point": "ตำแหน่งที่เล่น",
+				"guess_time": "เวลาตอบ",
+				"inventory_size": "จำนวนอนิเมะต่อผู้เล่น",
+				"looting_time": "เวลาหาอนิเมะ",
+				"song_selection": "ประเภทเพลง",
+				"show_selection": "ประเภทอนิเมะ",
+				"number_of_songs": "จำนวนเพลง",
+				"number_of_players": "จำนวนผู้เล่น",
+				"song_popularity": "ความชอบ",
+				"song_difficulty": "ความยาก",
+				"song_types": "ประเภทเพลง",
+				"opening_categories": "เพลงเปิด",
+				"ending_categories": "เพลงปิด",
+				"insert_categories": "เพลงประกอบ",
+				"room_name": "ชื่อห้อง",
 				"MISSING-room_private": "Room Private",
-				"MISSING-password": "Password",
-				"MISSING-playback_speed": "Playback Speed",
+				"password": "รหัส",
+				"playback_speed": "ความเร็ว",
 				"MISSING-game_mode": "Game Mode",
-				"MISSING-modifiers": "Modifiers",
+				"modifiers": "อื่นๆ",
 				"MISSING-type": "Type",
 				"MISSING-genre": "Genre",
 				"MISSING-tags": "Tags",
-				"MISSING-lives": "Lives",
-				"MISSING-boss_lives": "Boss Lives",
-				"MISSING-boss_power_ups": "Boss Power Ups",
-				"MISSING-boss_max_songs": "Boss Max Songs",
-				"MISSING-scoring": "Scoring",
-				"MISSING-team_size": "Team Size",
+				"lives": "จำนวนชีวิต",
+				"boss_lives": "จำนวนชีวิตบอส",
+				"boss_power_ups": "จำนวนพลังบอส",
+				"boss_max_songs": "จำนวนเพลงของบอส",
+				"scoring": "การให้คะแนน",
+				"team_size": "ขนาดทีม",
 				"MISSING-watched_distribution": "Watched Distribution",
-				"MISSING-answering": "Answering",
-				"MISSING-extra_guess_time": "Extra Guess Time",
-				"MISSING-skip_guessing": "Skip Guessing",
-				"MISSING-skip_replay": "Skip Replay",
-				"MISSING-duplicates": "Duplicates",
-				"MISSING-loot_dropping": "Loot Dropping",
-				"MISSING-rebroadcast_songs": "Rebroadcast Songs",
-				"MISSING-dub_songs": "Dub Songs",
-				"MISSING-full_song_range": "Full Song Range",
-				"MISSING-ova": "OVA",
-				"MISSING-ona": "ONA",
-				"MISSING-queueing": "Queueing",
-				"MISSING-tv": "TV",
-				"MISSING-movie": "Movie",
-				"MISSING-special": "Special",
-				"MISSING-easy": "Easy",
-				"MISSING-medium": "Medium",
-				"MISSING-hard": "Hard",
-				"MISSING-openings": "Openings",
-				"MISSING-endings": "Endings",
-				"MISSING-inserts": "Inserts",
+				"answering": "การตอบ",
+				"extra_guess_time": "เวลาตอบเพิ่มเติม",
+				"skip_guessing": "ข้ามการทาย",
+				"skip_replay": "ข้ามเฉลย",
+				"duplicates": "อนิเมะซ้ำ",
+				"loot_dropping": "ปล่อยอนิเมะ",
+				"rebroadcast_songs": "ฉายซ้ำ",
+				"dub_songs": "พากย์อื่นๆ",
+				"full_song_range": "เต็มระยะ",
+				"ova": "OVA",
+				"ona": "ONA",
+				"queueing": "คิว",
+				"tv": "TV",
+				"movie": "หนัง",
+				"special": "Special",
+				"easy": "ง่าย",
+				"medium": "ปานกลาง",
+				"hard": "ยาก",
+				"openings": "เพลงเปิด",
+				"endings": "เพลงปิด",
+				"inserts": "เพลงประกอบ",
 				"MISSING-standard": "Standard",
 				"MISSING-character": "Character",
 				"MISSING-chanting": "Chanting",
@@ -3527,8 +3527,8 @@
 		},
 		"popovers": {
 			"download_json": "โหลด JSON",
-			"MISSING-copy_setting_code": "Copy the setting code for this game",
-			"MISSING-copied": "Copied!"
+			"copy_setting_code": "คัดลอกโค้ดสำหรับการตั้งค่า",
+			"copied": "คัดลอกสำเร็จ"
 		},
 		"default_game_names": {
 			"MISSING-quiz_of_the_day": "Quiz of the Day",
@@ -3545,9 +3545,9 @@
 			"opening": "เพลงเปิด _NUMBER_",
 			"ending": "เพลงปิด _NUMBER_",
 			"insert": "เพลงประกอบ",
-			"MISSING-rebroadcast": "(Rebroadcast)",
-			"MISSING-dub": "(Dub)",
-			"MISSING-type_text": "_NAME_ _DESCRIPTION_"
+			"rebroadcast": "(ฉายซ้ำ)",
+			"dub": "(พากย์อื่น)",
+			"type_text": "_NAME_ _DESCRIPTION_"
 		}
 	},
 	"anime_types_base": {
