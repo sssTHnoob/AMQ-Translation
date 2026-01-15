@@ -878,9 +878,9 @@
 					"MISSING-resulting_emote": "Resulting Emote",
 					"MISSING-placeholder": "Emote Name",
 					"errors": {
-						"MISSING-no_name": "You must provide an emote name",
-						"MISSING-name_format": "Emote names can only contain letters and numbers",
-						"MISSING-name_length": "Emote names must be at most _NUMBER_ characters"
+						"no_name": "ต้องมีชื่อ Emote",
+						"name_format": "ชื่อ Emote สามารถมีได้แค่ตัวอักษรและตัวเลข",
+						"name_length": "ชื่อ Emote สามารถมีได้ไม่เกิน _NUMBER_ ตัวอักษร"
 					}
 				},
 				"server_rejected": {
@@ -1034,23 +1034,23 @@
 		"description": "เพื่อให้ทุกคนสามารถเล่น AMQ ได้อย่างสนุกและเท่าเทียม การทำตามข้อกำหนดต่อไปนี้รวมถึงคำขอจากผู้ดูแลจึงเป็นสิ่งสำคัญ หากไม่ทำตามจะส่งผลให้ถูกแบน",
 		"dont_cheat": {
 			"title": "ห้ามโกง",
-			"MISSING-text": "Using any type of external software or tool that gives an unfair advantage is considered cheating. This in general covers, but is not limited to tools that reveal extra information about the song, video or show."
+			"text": "การใช้โปรแกรมหรือเครื่องมือทุกรูปแบบที่ทำให้เกิดความไม่ยุติธรรมถือว่าเป็นการโกง"
 		},
 		"no_teaming": {
 			"title": "ห้ามร่วมมือกันในโหมดจัดอันดับ",
-			"MISSING-text": "Ranked is meant to be a test of individual skill, teaming or sharing answers with other players is therefore strictly prohibited. Outside of ranked (and jam mode) you are more than welcome to share answers with friends if the hosts of the room are okay with it, but keep the sharing out of ranked."
+			"text": "โหมดจัดอันดับมีไว้เพื่อทดสอบความสามารถแต่ละคนดังนั้นการช่วยเหลือหรือการบอกคำตอบให้กันและกันเป็นสิ่งต้องห้าม นอกเหนือจากโหมดจัดอันดับและ Jam ตราบใดที่เจ้าของห้องไม่มีปัญหาสามารถทำการบอกคำตอบกันได้"
 		},
 		"no_automated_grind": {
-			"MISSING-title": "No (Semi-)Automated Grind",
-			"MISSING-text": "It’s okay to grind for notes and tickets, as long as you put in the work for it. But using any tools or method to automate or semi automate the grind is strictly against the rules, and will resolve in a perma ban. This includes AFK grinding in team lobbies."
+			"title": "ห้ามการเล่น(กึ่ง)อัตโนมัติ",
+			"text": "การใช้เครื่องมือหริอวิธีที่ทำให้เล่นได้อัตโนมัติหรื่อกึ่งอัตโนมัติเป็นสิ่งต้องห้าม การกระทำดังกล่าวอาจส่งผลให้เกิดการแบนถาวร"
 		},
 		"dont_harass": {
-			"MISSING-title": "Don't Harass Other Players",
-			"MISSING-text": "The game is for everyone, so harassment of others is not tolerated. It’s of course okay to banter between friends, but make sure everyone is in on it."
+			"title": "ห้ามคุกคามผู้เล่นอื่น",
+			"text": "การคุกคามผู้เล่นอื่นเป็นสิ่งต้องห้าม การหยอกล้อกันระหว่างเพื่อนสามารถทำได้แต่ขอให้มั่นใจว่าทุกคนไม่มีปัญหา"
 		},
 		"no_hate_speech": {
-			"MISSING-title": "No Hate Speech or Racism",
-			"MISSING-text": "This goes without saying, be nice to each other and don’t go throwing around racial slurs."
+			"title": "ห้ามใช้คำพูดที่แสดงความเกลียดชังหรือการเหยียด",
+			"text": "พยายามพูดดีต่อกันและระวังคำพูดที่ใช้เพื่อไม่ให้กระทบคนอื่น"
 		}
 	},
 	"about_window": {
@@ -1063,12 +1063,12 @@
 		"credits": "อื่นๆ"
 	},
 	"avatar_window": {
-		"MISSING-nothing_selected": "Nothing Selected _BREAK_ Select Above",
+		"nothing_selected": "เลือกตัวละครหรือเมนูที่ต้องการได้ข้างบน",
 		"collapse_all": "ย่อทั้งหมด",
 		"rhythm": {
 			"title": "โน้ต",
 			"description": "ได้รับจากการสุ่มได้ตัวละครหรือของที่มีอยู่แล้ว ใช้ในการซื้อสกินหรือของต่างๆได้",
-			"MISSING-duplicate": "Duplicate, rhythm awarded"
+			"duplicate": "มีอยู่แล้ว ได้รับเป็นโน้ตแทน"
 		},
 		"resonance_system": {
 			"target": "เป้าหมาย",
@@ -1108,7 +1108,7 @@
 				"title": "ไม่ใช่เป้าหมาย Resonance",
 				"description": "การใช้โทเคนกับตัวละครที่ไม่ใช่เป้าหมาย Resonance จะไม่ทำให้ได้แต้ม Resonance พิเศษเพิ่ม"
 			},
-			"MISSING-target_set": "Resonance Target Set"
+			"target_set": "ตั้งเป็นเป้าหมายแล้ว"
 		},
 		"favorites": {
 			"no_favorite_selected": "ไม่ได้เลือกตัวละครที่ชอบไว้ _BREAK_ สามารถเลือกได้โดยการกด _BREAK_ _ICON_ ที่ตัวละครที่มีแล้ว",
@@ -1122,26 +1122,26 @@
 			"locked": { "title": "ยังไม่มี", "description": "โชว์ตัวละครที่ยังไม้มี" },
 			"unlocked": { "title": "มีแล้ว", "description": "โชว์ตัวละครที่มีแล้ว" },
 			"available": {
-				"MISSING-title": "Available",
-				"MISSING-description": "Show content that's available to unlock in the shop"
+				"title": "ปลดล็อกได้",
+				"description": "แสดงสกินหรือของที่สามารถปลดล็อกได้"
 			},
 			"unavailable": {
-				"MISSING-title": "Unavailable",
-				"MISSING-description": "Show content that's not currently available to unlock in the shop"
+				"title": "ปลดล็อกไม่ได้",
+				"description": "แสดงสกินหรือของที่ไม่สามารถปลดล็อกได้ในตอนนี้"
 			},
 			"limited": {
 				"MISSING-title": "Limited",
-				"MISSING-description": "Show content that's only available for a limited time"
+				"description": "แสดงสกินหรือของที่ปลดล็อกได้เฉพาะช่วงเวลาที่กำหนด"
 			},
 			"unlimited": {
 				"MISSING-title": "Unlimited",
-				"MISSING-description": "Show content that's always available to unlock"
+				"description": "แสดงสกินหรือของที่สามารถปลดล็อกได้ตลอกเวลา"
 			},
 			"exclusive": {
 				"MISSING-title": "Exclusive",
-				"MISSING-description": "Show content unlockable through the ticket systems"
+				"description": "แสดงสกินหรือของที่ปลดล็อกได้ด้วยระบบสุ่ม"
 			},
-			"standard": { "MISSING-title": "Standard", "MISSING-description": "Show content unlockable with notes" },
+			"standard": { "MISSING-title": "Standard", "description": "แสดงสกินหรือของที่ปลดล็อกได้ด้วยโน้ต" },
 			"MISSING-title": "Filters"
 		},
 		"background": "พื้นหลัง",
@@ -1158,18 +1158,18 @@
 		"avatar_action_button": {
 			"MISSING-missing_skin": "Missing Skin Bonus",
 			"MISSING-background_locked": "Background Locked",
-			"MISSING-use": "Use",
+			"use": "ใช้",
 			"MISSING-decoration_not_unlocked": "Decoration Not Unlocked",
-			"MISSING-active": "Active",
-			"MISSING-unavailable": "Unavailable",
-			"MISSING-unlock": "Unlock"
+			"active": "ใช้อยู่",
+			"unavailable": "ไม่สามารถซิ้อได้",
+			"unlock": "ซื้อ"
 		},
 		"avatar_bonus": { "title": "โบนัสตัวละคร", "description": "มีสกินของตัวละครนี้ 10 สกินเพื่อรับตราตัวละคร" },
 		"skin_bonus": { "title": "โบนัสสกิน", "description": "มีสกินนี้ 10 แบบเพื่อทำให้ตัวละครอื่นใช้พื้นหลังนี้ได้" },
 		"MISSING-world": "World",
-		"artist": "ศิลปิน",
+		"artist": "นักวาด",
 		"MISSING-version_artist": "Version Artist",
-		"MISSING-background_story": "Background Story",
+		"background_story": "เนื้อเรื่องตัวละคร",
 		"ticket_system": {
 			"menu": { "use": "ใช้", "history": "ประวัติ", "buy": "ซื้อตั๋ว", "gift": "ให้ของขวัญ" },
 			"redeem_code": "ใช้โค้ด",
@@ -1595,9 +1595,9 @@
 			"all": "ทั้งหมด",
 			"anime": "อนิเมะ",
 			"song": "ชื่อเพลง",
-			"MISSING-artist": "Artist",
-			"MISSING-composer": "Composer",
-			"MISSING-arranger": "Arranger"
+			"artist": "ศิลปิน",
+			"composer": "ผู้แต่ง",
+			"arranger": "ผู้เรียบเรียง"
 		},
 		"MISSING-strict": "Strict",
 		"MISSING-strict_description": "Do not include groups that artists belong to when searching for artists/composers/arrangers.",
@@ -1620,8 +1620,8 @@
 			"type": { "op": "OP_NUMBER_", "ed": "ED_NUMBER_", "in": "IN" },
 			"MISSING-dub": "Dub",
 			"MISSING-rebroadcast": "Rebroad",
-			"MISSING-composer": "Composer",
-			"MISSING-arranger": "Arranger",
+			"composer": "ผู้แต่ง",
+			"arranger": "ผู้เรียบเรียง",
 			"song_category": "ประเภทเพลง",
 			"guess_percent": {
 				"title": "ตอบถูก",
@@ -2044,7 +2044,7 @@
 			"title": "ประเภทเพลง",
 			"openings": "เพลงเปิด",
 			"endings": "เพลงปิด",
-			"MISSING-inserts": "Insert Songs",
+			"inserts": "เพลงประกอบ",
 			"one_type_must_be_selected": "ต้องเลือกอย่างน้อย 1 ประเภท"
 		},
 		"song_categories": {
@@ -2057,7 +2057,7 @@
 				"MISSING-title": "Character",
 				"MISSING-description": "Songs sung by characters without being part of a musical performance"
 			},
-			"MISSING-inserts": "Inserts",
+			"inserts": "เพลงประกอบ",
 			"one_opening_type_must_be_selected": "ต้องเลือกเพลงเปิดอย่างน้อย 1 ประเภท",
 			"one_ending_type_must_be_selected": "ต้องเลือกเพลงปิดอย่างน้อย 1 ประเภท",
 			"MISSING-one_insert_type_must_be_selected": "At least one insert category must be selected"
@@ -2269,7 +2269,7 @@
 				"title": "ประเภทเพลง",
 				"openings": "เพลงเปิด",
 				"endings": "เพลงปิด",
-				"MISSING-inserts": "Inserts"
+				"MISSING-inserts": "เพลงประกอบ"
 			},
 			"song_selection": {
 				"title": "ประเภทอนิเมะ",
@@ -2325,7 +2325,7 @@
 				"song_types": "ประเภทเพลง",
 				"friends": "เพื่อน"
 			},
-			"song_types": { "opening": "เพลงเปิด", "ending": "เพลงปิด", "MISSING-insert": "Insert" },
+			"song_types": { "opening": "เพลงเปิด", "ending": "เพลงปิด", "insert": "เพลงประกอบ" },
 			"MISSING-join": "Join",
 			"MISSING-spectate": "Spectate",
 			"game_mode": {
@@ -2367,10 +2367,10 @@
 			},
 			"room_settings": {
 				"type": { "MISSING-endless": "Endless", "MISSING-standard": "Standard" },
-				"song_type": { "MISSING-opening": "OP", "MISSING-ending": "ED", "MISSING-insert": "IN" },
-				"difficulty": { "MISSING-easy": "Easy", "MISSING-medium": "Medium", "MISSING-hard": "Hard" },
-				"song_selection": { "MISSING-watched": "Watched", "MISSING-random": "Random" },
-				"answering_mode": { "MISSING-typing": "Typing", "MISSING-multiple_choice": "Multiple Choice" },
+				"song_type": { "opening": "OP", "ending": "ED", "insert": "IN" },
+				"difficulty": { "easy": "ง่าย", "medium": "ปานกลาง", "hard": "ยาก" },
+				"song_selection": { "watched": "ในลิสต์", "random": "สุ่ม" },
+				"answering_mode": { "typing": "พิมพ์", "multiple_choice": "ตัวเลือก" },
 				"MISSING-floor": "Floor _NUMBER_"
 			}
 		}
@@ -2951,10 +2951,10 @@
 		},
 		"song_info": {
 			"MISSING-title": "Song Info",
-			"MISSING-song_name": "Song Name",
-			"MISSING-arranger": "Arranger",
-			"MISSING-artist": "Artist",
-			"MISSING-composer": "Composer",
+			"song_name": "ชื่อเพลง",
+			"arranger": "ผู้เรียบเรียง",
+			"artist": "ศิลปิน",
+			"composer": "ผู้แต่ง",
 			"MISSING-type": "Type",
 			"MISSING-video": "Video",
 			"MISSING-anime": "Anime",
@@ -3474,7 +3474,7 @@
 			"type": "ประเภท",
 			"season": "ซีซั่น",
 			"name": "ชื่อเพลง",
-			"MISSING-artist": "Artist",
+			"artist": "ศิลปิน",
 			"answer": "คำตอบ",
 			"guesses": "จำนวนตอบถูก",
 			"difficulty": "ความยาก",
@@ -3502,8 +3502,8 @@
 			"anime_english": "ชื่ออังกฤษ",
 			"anime_romaji": "ชื่อโรมาจิ",
 			"columns": {
-				"MISSING-composer": "Composer",
-				"MISSING-arranger": "Arranger",
+				"composer": "ผู้แต่ง",
+				"arranger": "ผู้เรียบเรียง",
 				"all_working_titles": "คำตอบที่ตอบได้",
 				"sample_point": "ตำแหน่งที่เล่น",
 				"anime_type": "ประเภทอนิเมะ",
