@@ -1066,9 +1066,9 @@
 		"nothing_selected": "เลือกตัวละครหรือเมนูที่ต้องการได้ข้างบน",
 		"collapse_all": "ย่อทั้งหมด",
 		"rhythm": {
-			"title": "โน้ต",
+			"title": "Rhythm",
 			"description": "ได้รับจากการสุ่มได้ตัวละครหรือของที่มีอยู่แล้ว ใช้ในการซื้อสกินหรือของต่างๆได้",
-			"duplicate": "มีอยู่แล้ว ได้รับเป็นโน้ตแทน"
+			"duplicate": "มีอยู่แล้ว ได้รับเป็น Rhythm แทน"
 		},
 		"resonance_system": {
 			"target": "เป้าหมาย",
@@ -1200,18 +1200,18 @@
 					"title": "การสุ่ม",
 					"text": "การสุ่มแต่ละครั้งต้องใช้ตั๋ว 2 ใบ _BREAK_ ของที่ได้จะแบ่งออกเป็น 4 ระดับดังนี้",
 					"common": "Common โอกาส 85%: สกินธรรมดาและ Emote",
-					"MISSING-rare": "Rare โอกาส 10%: Advanced skin versions and decorations.",
-					"MISSING-epic": "Epic โอกาส 4.5%: Major skin version, seasonal skins and unique backgrounds.",
-					"MISSING-legendary": "Legendary โอกาส 0.5%: Unique skins and animated versions.",
-					"MISSING-info_footer": "Skin versions for a ticket reward skin can’t be rolled until the skin has been unlocked."
+					"rare": "Rare โอกาส 10%: สกิน Advanced และของตกแต่ง",
+					"epic": "Epic โอกาส 4.5%: สกิน Major, Seasonal และ พื้นหลัง",
+					"legendary": "Legendary โอกาส 0.5%: สกิน Unique และ Animated",
+					"info_footer": "สกินรูปแบบต่างๆ ต้องได้รับสกินแบบพื้นฐานก่อนถึงจะมีโอกาสสุ่มได้"
 				},
 				"how_does_rhythm_work": {
-					"MISSING-title": "How Does Rhythm Work?",
-					"MISSING-text": "If you roll a reward you have already unlocked, you earn an amount of rhythm based on the reward's rarity. Rhythm can be spent to unlock any specific reward item once enough of it has been collected."
+					"title": "Rhythm",
+					"text": "เมื่อทำการสุ่มได้ของที่มีอยู่แล้วจะได้รับเป็น Rhythm ตามระดับความหายากของของที่สุ่มได้แทน Rhythm สามารถนำไปซื้อของต่างๆตามที่กำหนดไว้ได้"
 				},
 				"how_does_avatar_tokens_work": {
-					"MISSING-title": "How Do Avatar Tokens Work?",
-					"MISSING-text": "When buying tickets or backing the Patron, you’ll receive avatar tokens. These tokens can be used to focus ticket rolls towards specific avatars or seasonal skins, by selecting a target before doing a roll. When an avatar/season is focused, each individual roll will have a 50% chance of being a non duplicate (if any available) of that avatar/season. _BREAK_ The rarity pull ratio remains the same when using avatar tokens."
+					"title": "โทเคน",
+					"text": "เมื่อซื้อตั๋วหรือสมัคร Patreon จะได้รับโทเคนซึ่งสามารถนำไปใช้ร่วมกับการสุ่มด้วยตั๋วได้ เมื่อทำการสุ่มสามารถเลือกตัวละครหรือฤดูได้เพื่อทำให้มีโอกาส 50% ในการที่จะไม่ได้ของซ้ำ _BREAK_ โอกาสในการออกแต่ละอย่างยังเท่าเดิมอยู่"
 				}
 			},
 			"ticket_code_input": {
@@ -1250,9 +1250,9 @@
 				"promo": "โปรโมชัน",
 				"MISSING-sale": "Sale"
 			},
-			"MISSING-subtotal": "Subtotal",
+			"subtotal": "รวม",
 			"sales_tax": "ภาษี",
-			"MISSING-total": "Total",
+			"total": "รวมทั้งหมด",
 			"gift_message_placeholder": "ข้อความฝากถึงคนรับ(ไม่จำเป็นต้องมี)"
 		},
 		"avatar_tokens": {
@@ -1265,26 +1265,26 @@
 			"not_enough_tickets": "ตั๋วไม่พอ"
 		},
 		"unlock_checkout": {
-			"MISSING-title": "Unlock",
-			"MISSING-buy": "Buy",
-			"MISSING-open_checkout": "Open Checkout",
-			"MISSING-skin_entry": "Skin (Default: _NAME_)",
-			"MISSING-version_entry": "Version: _NAME_",
-			"MISSING-location_background": "Location Background",
-			"MISSING-decorations": "Decorations",
+			"title": "ซื้อ",
+			"buy": "ยืนยัน",
+			"open_checkout": "ยืนยัน",
+			"skin_entry": "สกินพื้นฐาน: _NAME_",
+			"version_entry": "รูปแบบ: _NAME_",
+			"location_background": "พื้นหลัง",
+			"decorations": "ของตกแต่ง",
 			"errors": {
 				"MISSING-failed_to_create_payment": "Failed to create payment, please try again.",
 				"MISSING-unlimited_slots_already_unlocked": "Unlimited slots already unlocked",
-				"MISSING-insufficient_notes": "Insufficient Notes",
-				"MISSING-insufficient_notes_message": "You don't have enough notes to unlock this item.",
-				"MISSING-insufficient_rhythm": "Insufficient Rhythm",
-				"MISSING-insufficient_rhythm_message": "You don't have enough rhythm to unlock this item.",
+				"insufficient_notes": "โน้ตไม่พอ",
+				"insufficient_notes_message": "มีโน้ตไม่เพียงพอที่จะซื้อ",
+				"insufficient_rhythm": "Rhythm ไม่พอ",
+				"insufficient_rhythm_message": "มี Rhythm ไม่เพียงพอที่จะซื้อ",
 				"MISSING-error_unlocking": "Error Unlocking"
 			},
-			"MISSING-gift": "Gift",
-			"MISSING-tickets": "Tickets"
+			"gift": "ให้ของขวัญ",
+			"tickets": "ตั๋วและโทเคน"
 		},
-		"MISSING-toggle_favorite": "Toggle Favorite",
+		"toggle_favorite": "ตั้งเป็นสกินที่ชอบ",
 		"avatar_states": {
 			"MISSING-unavailable": "Unavailable",
 			"MISSING-limited": "Limited",
@@ -1292,7 +1292,7 @@
 			"MISSING-standard": "Standard",
 			"MISSING-unique": "Unique"
 		},
-		"decoration_buttons": { "MISSING-front": "Front", "MISSING-back": "Back" },
+		"decoration_buttons": { "front": "ด้านหน้า", "back": "ด้านหลัง" },
 		"open_all": "แสดงทั้งหมด",
 		"item_types": {
 			"Memote": "Emote",
@@ -1303,7 +1303,7 @@
 		"MISSING-ticket_reward_tier": "Ticket Reward Tier _TIER_",
 		"MISSING-rhythm_price": "Rhythm Price",
 		"MISSING-silver_hibike_description": "Unique launch recolor unlocked by having joined the game doing the launch week or by unlocking all non unique recolors for all avatars.",
-		"emote_previews": { "MISSING-chat": "Chat", "MISSING-profile": "Profile" },
+		"emote_previews": { "chat": "แชท", "profile": "โปรไฟล์" },
 		"emote_category_misc": "อื่นๆ"
 	},
 	"avatar_lore": {
@@ -1956,11 +1956,11 @@
 		"MISSING-game_mode_settings_display": "_NAME_ Game Settings",
 		"MISSING-algorithm_block_settings": "Algorithm Block Settings",
 		"MISSING-randomize": "Randomize",
-		"MISSING-custom": "Custom",
-		"MISSING-empty": "Empty",
-		"MISSING-search": "Search",
-		"MISSING-random": "Random",
-		"MISSING-invite_description": "Create an invite link to this room",
+		"custom": "ละเอียด",
+		"empty": "ไม่ได้กำหนด",
+		"search": "ค้นหา",
+		"random": "สุ่ม",
+		"invite_description": "สร้างลิงก์สำหรับชวนเข้าห้องนี้",
 		"MISSING-swap_button_description": "Swap between community and standard quiz",
 		"game_mode": {
 			"title": "โหมด",
@@ -1997,7 +1997,7 @@
 		"vintage": {
 			"title": "ปีที่ฉาย",
 			"description": "ปีและฤดูที่อนิเมะเริ่มฉาย",
-			"MISSING-add_to_advanced": "Add to Advanced Filter"
+			"add_to_advanced": "เพิ่มเข้าโหมดละเอียด"
 		},
 		"season_selector": {
 			"winter": { "title": "ฤดูหนาว", "shorthand": "W" },
@@ -2006,13 +2006,13 @@
 			"fall": { "title": "ฤดูใบไม้ร่วง", "shorthand": "F" }
 		},
 		"anime_type": {
-			"MISSING-title": "Type",
-			"MISSING-tv": "TV",
-			"MISSING-movie": "Movie",
-			"MISSING-ova": "OVA",
-			"MISSING-ona": "ONA",
-			"MISSING-special": "Special",
-			"MISSING-one_must_be_selected": "At least one anime type must be selected"
+			"title": "ประเภทอนิเมะ",
+			"tv": "TV",
+			"movie": "หนัง",
+			"ova": "OVA",
+			"ona": "ONA",
+			"special": "Special",
+			"one_must_be_selected": "ต้องมีอย่างน้อย 1 ประเภท"
 		},
 		"genre": {
 			"MISSING-title": "Genre",
@@ -2048,7 +2048,7 @@
 			"one_type_must_be_selected": "ต้องเลือกอย่างน้อย 1 ประเภท"
 		},
 		"song_categories": {
-			"MISSING-title": "Song Categories",
+			"title": "ประเภทเพลง",
 			"MISSING-description": "Filter what category of songs is selected for each song type. Hover over the categories below to get a description of them.",
 			"standard": { "MISSING-title": "Standard", "MISSING-description": "Songs not in any of the other categories" },
 			"chanting": { "MISSING-title": "Chanting", "MISSING-description": "Songs with chanting as the only main vocals" },
@@ -2060,35 +2060,35 @@
 			"inserts": "เพลงประกอบ",
 			"one_opening_type_must_be_selected": "ต้องเลือกเพลงเปิดอย่างน้อย 1 ประเภท",
 			"one_ending_type_must_be_selected": "ต้องเลือกเพลงปิดอย่างน้อย 1 ประเภท",
-			"MISSING-one_insert_type_must_be_selected": "At least one insert category must be selected"
+			"one_insert_type_must_be_selected": "ต้องเลือกเพลงประกอบอย่างน้อย 1 ประเภท"
 		},
 		"scoring": {
-			"MISSING-title": "Scoring",
+			"title": "การให้คะแนน",
 			"count": {
-				"MISSING-title": "Count",
-				"MISSING-description": "Players earn 1 point for each show they guess correctly"
+				"title": "ปกติ",
+				"description": "ได้รับ 1 แต้มต่อจำนวนเพลงที่ตอบถูก"
 			},
 			"hint": {
-				"MISSING-title": "Hint",
-				"MISSING-description": "Players can get hints for songs, but earn fewer points when hints are used."
+				"title": "คำใบ้",
+				"description": "สามารถใช้คำใบ้ในการตอบได้แต่จะได้รับแต้มลดลงตามคำใบ้ที่ใช้"
 			},
 			"speed": {
-				"MISSING-title": "Speed",
-				"MISSING-description": "Players earn more points the quicker they guessed the song"
+				"title": "ความเร็ว",
+				"description": "ผู้เล่นที่ตอบเร็วกว่าจะได้คะแนนมากกว่า"
 			},
 			"lives": {
-				"MISSING-title": "Lives",
-				"MISSING-description": "Players start with a set amount of lives, and lose 1 each time they get a song wrong another player guessed"
+				"title": "ชีวิต",
+				"description": "ผู้เล่นเริ่มต้นด้วยจำนวนชีวิตที่กำหนดไว้และจะเสีย 1 ชีวิต้มื่อตอบผิดในเพลงที่ผู้เล่นอื่นตอบถูก"
 			},
 			"boss": {
-				"MISSING-title": "Boss",
-				"MISSING-description": "Players take turns being the boss, playing with only their songs and a set amount of lives. The boss earns points the more songs they guess before they’re outed by the other players."
+				"title": "บอส",
+				"description": "ผู้เล่นแต่ละคนผลัดกันเป็นบอสและจะเล่นเฉพาะอนิเมะของผู้เล่นที่เป็นบอสเท่านั้น บอสจะได้รับแต้มพิเศษตามจำนวนเพลงที่ตอบถูก"
 			}
 		},
 		"show_selection": {
-			"MISSING-title": "Show Selection",
-			"MISSING-description": "How shows are selected for the quiz",
-			"auto": { "MISSING-title": "Auto", "MISSING-description": "Game randomly picks shows from within the settings" },
+			"title": "การเลือกอนิเมะ",
+			"description": "วิธีการเลือกอนิเมะที่จะนำมาเล่น",
+			"auto": { "title": "อัตโนมัติ", "description": "สุ่มเพลงให้อัติโนมัติตามที่ตั้งค่าไว้" },
 			"looting": {
 				"MISSING-title": "Looting",
 				"MISSING-description": "Play a looting phase before the quiz, where players move around collecting the shows used for the quiz"
@@ -2536,32 +2536,32 @@
 		"join_queue_button": "เข้าคิว",
 		"leave_queue_button": "ออกจากคิว",
 		"team_switch": "แชททีม",
-		"MISSING-player_only_mode": "Player Only Chat",
+		"player_only_mode": "พิมพ์ได้เฉพาะผู้เล่น",
 		"MISSING-message": "Message",
 		"MISSING-slowmode": "Chat in slowmode",
 		"MISSING-repeat_message_warning": "Repeated message too soon",
-		"MISSING-ranked_chat_level_warning": "Level _NUMBER_ required to use ranked chat",
-		"MISSING-new_spectator_message": "_NAME_ has started spectating.",
-		"MISSING-emotes_disabled_warning": "Emotes disabled doing ranked guessing",
-		"MISSING-emote_only_mode_warning": "Chat in emote only mode",
+		"ranked_chat_level_warning": "ต้องมีเลเวลอย่างน้อย _NUMBER_ เพื่อแชทในโหมดจัดอันดับ",
+		"new_spectator_message": "_NAME_ เข้ามาเป็นผู้ชมแล้ว",
+		"emotes_disabled_warning": "ไม่สามารถใช้ Emote ในช่วงทายคำตอบของโหมดจัดอันดับได้",
+		"emote_only_mode_warning": "แชทอยู่ในโหมด Emote เท่านั้น",
 		"MISSING-event_chat_level_warning": "Level _NUMBER_ required to use chat in event room",
 		"MISSING-emote_locked_in": "Emote Locked In",
-		"MISSING-kicked_message": "_NAME_ was kicked from the room.",
-		"MISSING-new_host_message": "_NAME_ is now the host.",
-		"MISSING-stopped_spectating_message": "_NAME_ has stopped spectating.",
+		"kicked_message": "_NAME_ โดนไล่ออกจากห้อง",
+		"new_host_message": "_NAME_ เป็นเจ้าของห้องแล้ว",
+		"stopped_spectating_message": "_NAME_ หยุดรับชมแล้ว",
 		"MISSING-disconnected_message": "_NAME_ has disconnected.",
 		"MISSING-reconnect_message": "_NAME_ has reconnected.",
-		"MISSING-left_room_message": "_NAME_ has left the room.",
+		"left_room_message": "_NAME_ ออกจากห้องแล้ว",
 		"MISSING-joined_room_message": "_NAME_ has joined the room.",
-		"MISSING-changed_to_player_message": "_NAME_ changed to player.",
-		"MISSING-changed_to_spectator_message": "_NAME_ changed to spectator.",
+		"changed_to_player_message": "_NAME_ เปลี่ยนเป็นผู้เล่นแล้ว",
+		"changed_to_spectator_message": "_NAME_ เปลี่ยนเป็นผู้ชมแล้ว",
 		"MISSING-all_players_disconnect_message": "All players have disconnected, pausing while waiting for reconnects",
-		"MISSING-paused_game_message": "_NAME_ has paused the game.",
+		"paused_game_message": "_NAME_ ทำการหยุดเกม",
 		"MISSING-unpaused_game_message": "_NAME_ has unpaused the game.",
-		"MISSING-chat_normal_mode_message": "Moderator joined, chat in normal mode",
-		"MISSING-chat_in_emote_only_mode_message": "No moderator, chat in emote only mode",
-		"MISSING-promoted_host_message": "_NAME_ has been promoted to host.",
-		"MISSING-kicked_from_room_alert": "You have been kicked from the room",
+		"hat_normal_mode_message": "มีผู้ดูแลแล้ว สามารถแชทได้ปกติ",
+		"chat_in_emote_only_mode_message": "ไม่มีผู้ดูแล สามารถใช้ Emote ได้เท่านั้น",
+		"promoted_host_message": "_NAME_ เป็นเจ้าของห้องแล้ว",
+		"kicked_from_room_alert": "คุณถูกไล่ออกจากห้อง",
 		"emotes": {
 			"MISSING-locked_in_emote_description": "Locked in emote, will be displayed when guessing ends",
 			"MISSING-recent": "Recent",
@@ -2569,20 +2569,20 @@
 		},
 		"kick_player": {
 			"title": "ไล่ _NAME_ ออกจากห้อง?",
-			"MISSING-description": "Kicked players will be unable to rejoin the game",
-			"MISSING-kick_button": "Kick"
+			"description": "คนที่ถูกไล่ออกจากห้องไม่สามารถเข้าร่วมใหม่ได้",
+			"kick_button": "ยืนยัน"
 		},
 		"MISSING-page_close_warning": "Leaving the page will leave the game. Sure you want to continue?",
 		"MISSING-error_leaving_queue": "Unexpected Error Leaving Queue",
 		"error_joining_queue": {
 			"MISSING-title": "Error Joining Queue",
 			"MISSING-not_a_spectator": "You must be a spectator to join the queue",
-			"MISSING-already_in_queue": "You are already in the queue",
-			"MISSING-disabled": "Queueing is disabled in this room"
+			"already_in_queue": "อยู่ในคิวอยู่แล้ว",
+			"disabled": "ห้องนี้ไม่สามารถเข้าคิวได้"
 		},
 		"kicked_from_jam_game_alert": {
-			"MISSING-title": "Kicked from Jam Quiz",
-			"MISSING-description": "You have been kicked from the jam quiz by a moderator and cannot rejoin the room for an hour"
+			"title": "ถูกไล่ออกจากห้อง Jam",
+			"description": "คุณถูกไล่ออกจากห้อง Jam โดยผู้ดูแลและไม่สามารถเข้าใหม่ได้เป็นเวลา 1 ชั่วโมง"
 		},
 		"jam_quiz_ban_alert": {
 			"MISSING-title": "Banned from Jam Quizzes",
@@ -2608,7 +2608,7 @@
 		},
 		"main_button": {
 			"start": "เริ่ม",
-			"MISSING-join": "Join",
+			"join": "เล่น",
 			"ready": "เตรียมพร้อม",
 			"unready": "ยกเลิกการเตรียมพร้อม",
 			"room_is_full": "ห้องเต็มแล้ว",
@@ -2690,19 +2690,19 @@
 			"MISSING-description": "Too many custom settings, try removing some tags and/or custom vintages"
 		},
 		"answering_mode": {
-			"MISSING-title": "Answering Mode",
-			"MISSING-typing": "Typing",
-			"MISSING-multiple_choice": "Multiple Choice",
+			"title": "การตอบ",
+			"typing": "พิมพ์",
+			"multiple_choice": "ตัวเลือก",
 			"selection": {
 				"MISSING-title": "Select Answer Mode",
 				"MISSING-description": "Select the answer mode you want to use. You can change it later at the top right of the lobby."
 			}
 		},
 		"player_options": {
-			"MISSING-profile": "Profile",
-			"MISSING-promote_host": "Promote to Host",
-			"MISSING-change_to_spectator": "Change to Spectator",
-			"MISSING-kick": "Kick from Room"
+			"profile": "โปรไฟล์",
+			"promote_host": "ตั้งเป็นเจ้าของห้อง",
+			"change_to_spectator": "เปลี่ยนเป็นผู้ชม",
+			"kick": "ไล่ออกจากห้อง"
 		},
 		"errors": {
 			"MISSING-error_changing_to_player": "Error Changing to Player",
@@ -2716,9 +2716,9 @@
 			}
 		},
 		"all_players_not_ready_warning": {
-			"MISSING-title": "Not All Players Ready",
-			"MISSING-description": "Not all players are ready. All players not ready will be changed to spectators",
-			"MISSING-start_button": "Start"
+			"title": "มีผู้เล่นที่ยังไม่พร้อม",
+			"description": "มีผู้เล่นที่ยังไม่พร้อม ผู้เล่นที่ยังไม่พร้อมจะโดนเปลี่ยนเป็นผู้ชม",
+			"start_button": "เริ่ม"
 		},
 		"game_settings": {
 			"MISSING-changed_header": "Game settings have changed",
@@ -2754,19 +2754,19 @@
 				"MISSING-boss": "Boss"
 			},
 			"song_type": {
-				"MISSING-openings": "Openings",
-				"MISSING-endings": "Endings",
-				"MISSING-inserts": "Inserts",
-				"MISSING-random": "Random"
+				"openings": "เพลงเปิด",
+				"endings": "เพลงปิด",
+				"inserts": "เพลงประกอบ",
+				"random": "สุ่ม"
 			},
 			"vintage_seasons": {
-				"MISSING-winter": "Winter",
-				"MISSING-spring": "Spring",
-				"MISSING-summer": "Summer",
-				"MISSING-fall": "Fall"
+				"winter": "ฤดูหนาว",
+				"spring": "ฤดูใบไม้ผลิ",
+				"summer": "ฤดูร้อน",
+				"fall": "ฤดูใบไม้ร่วง"
 			},
 			"titles": {
-				"MISSING-vintage": "Vintage",
+				"vintage": "ปีที่ฉาย",
 				"MISSING-anime_score": "Anime Score",
 				"MISSING-player_score": "Player Score",
 				"MISSING-sample_point": "Sample Point",
@@ -2897,17 +2897,17 @@
 			"MISSING-start_vote": "Start Return to Lobby Vote?",
 			"MISSING-start_button": "Start",
 			"results": {
-				"MISSING-vote_passed": "Vote Passed",
-				"MISSING-vote_failed": "Vote Failed",
-				"MISSING-waiting_votes": "Waiting Votes",
+				"vote_passed": "โหวตสำเร็จ",
+				"vote_failed": "โหวตไม่สำเร็จ",
+				"waiting_votes": "รอผลโหวต",
 				"MISSING-on_last_song": "On Last Song"
 			}
 		},
 		"MISSING-join_button": "Join",
-		"video_quality": { "MISSING-720p": "720p", "MISSING-480p": "480p", "MISSING-sound": "Sound" },
+		"video_quality": { "720p": "720p", "480p": "480p", "sound": "mp3" },
 		"MISSING-settings_popover": "Settings",
 		"MISSING-song_history_popover": "Song History",
-		"MISSING-vote_skip": "Vote Skip",
+		"vote_skip": "โหวตข้าม",
 		"vote_states": {
 			"MISSING-voted_skip": "Voted _BREAK_ Skip",
 			"MISSING-no_votes": "No _BREAK_ Votes",
@@ -3478,20 +3478,20 @@
 			"answer": "คำตอบ",
 			"guesses": "จำนวนตอบถูก",
 			"difficulty": "ความยาก",
-			"sample": "จุดที่เริ่มเพลง"
+			"sample": "จุดที่เพลงเริ่ม"
 		},
 		"options": {
 			"info": "ข้อมูล",
 			"show_names": {
 				"title": "ชื่ออนิเมะ",
-				"ticks": { "english": "อังกฤษ", "MISSING-default": "Default", "romaji": "โรมาจิ" }
+				"ticks": { "english": "อังกฤษ", "default": "ค่าพื้นฐาน", "romaji": "โรมาจิ" }
 			},
 			"anime_link": {
 				"title": "ลิงก์อนิเมะ",
 				"ticks": {
 					"anilist": "Anilist",
 					"kitsu": "Kitsu",
-					"MISSING-default": "Default",
+					"default": "ค่าพื้นฐาน",
 					"mal": "MAL",
 					"ann": "ANN"
 				}
@@ -3514,7 +3514,7 @@
 				"MISSING-tags": "Tags",
 				"MISSING-video": "Video",
 				"MISSING-list_sites": "List Sites",
-				"MISSING-player_lists": "Player Lists"
+				"player_lists": "ผู้เล่นที่มีอนิเมะนี้"
 			},
 			"list_status": {
 				"MISSING-watching": "Watching",
@@ -3526,7 +3526,7 @@
 			}
 		},
 		"popovers": {
-			"MISSING-download_json": "Download as JSON",
+			"download_json": "โหลด JSON",
 			"MISSING-copy_setting_code": "Copy the setting code for this game",
 			"MISSING-copied": "Copied!"
 		},
@@ -3542,25 +3542,25 @@
 			"MISSING-tutorial": "Tutorial"
 		},
 		"song_type": {
-			"MISSING-opening": "Opening _NUMBER_",
-			"MISSING-ending": "Ending _NUMBER_",
-			"MISSING-insert": "Insert Song",
+			"opening": "เพลงเปิด _NUMBER_",
+			"ending": "เพลงปิด _NUMBER_",
+			"insert": "เพลงประกอบ",
 			"MISSING-rebroadcast": "(Rebroadcast)",
 			"MISSING-dub": "(Dub)",
 			"MISSING-type_text": "_NAME_ _DESCRIPTION_"
 		}
 	},
 	"anime_types_base": {
-		"MISSING-tv": "TV",
-		"MISSING-season": "Season",
-		"MISSING-movie": "Movie",
-		"MISSING-ova": "OVA",
-		"MISSING-ona": "ONA",
-		"MISSING-tv_special": "TV Special",
-		"MISSING-special": "Special",
-		"MISSING-music_video": "Music Video",
-		"MISSING-doujin": "Doujin",
-		"MISSING-game_cutscene_compilation": "Game Cutscene Compilation"
+		"tv": "TV",
+		"season": "ซีซัน",
+		"movie": "หนัง",
+		"ova": "OVA",
+		"ona": "ONA",
+		"tv_special": "TV Special",
+		"special": "Special",
+		"music_video": "MV",
+		"doujin": "โดจิน",
+		"game_cutscene_compilation": "คัทซีนเกม"
 	},
 	"nexus": {
 		"city": {
@@ -5406,7 +5406,7 @@
 			},
 			"master_rigger": {
 				"MISSING-title": "Master Rigger",
-				"MISSING-description": "Guess 20 songs from your anime list, in non-team games"
+				"description": "ตอบเพลงจากในลิสต์ตัวเองถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"survivor": {
 				"MISSING-title": "Survivor",
@@ -5414,31 +5414,31 @@
 			},
 			"master_sniper": {
 				"MISSING-title": "Master Sniper",
-				"MISSING-description": "Guess 20 songs not from your anime list, in non-team games"
+				"description": "ตอบเพลงจากนอกลิสต์ตัวเองถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"lightning_fast": {
 				"MISSING-title": "Lightning Fast",
-				"MISSING-description": "Guess 20 songs within the first 7 seconds of it, in non-team games"
+				"description": "ตอบเพลงถูกภายใน 7 วินาที 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"i_love_that_show": {
 				"MISSING-title": "I Love That Show",
-				"MISSING-description": "Guess 20 songs from shows you've scored 8+ in your anime list, in non-team games"
+				"description": "ตอบเพลงจากอนิเมะที่ให้ 8 คะแนนหรือมากกว่าถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"keeping_up_to_date": {
 				"MISSING-title": "Keeping Up To Date",
-				"MISSING-description": "Guess 20 songs from shows released in the 4 latest anime seasons, in non-team games"
+				"description": "ตอบเพลงจากอนิเมะใน 4 ซีซันล่าสุดถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"dont_skip_openings": {
 				"MISSING-title": "Don't Skip Openings",
-				"MISSING-description": "Guess 20 opening songs, in non-team games"
+				"description": "ตอบเพลงเปิดถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"dont_skip_endings": {
 				"MISSING-title": "Don't Skip Endings",
-				"MISSING-description": "Guess 20 ending songs, in non-team games"
+				"description": "ตอบเพลงปิดถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"dont_skip_inserts": {
 				"MISSING-title": "Don't Skip Inserts",
-				"MISSING-description": "Guess 20 insert songs, in non-team games"
+				"description": "ตอบเพลงประกอบถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"action_fan": {
 				"MISSING-title": "Action Fan",
