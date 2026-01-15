@@ -1244,10 +1244,10 @@
 				"description": "สามารถให้ของขวัญกับเพื่อนได้เท่านั้น"
 			},
 			"sale_text": {
-				"unlocks_remaining": "ซื้อได้อีก _SPANC_ _NUMBER _SPANC_ รอบ",
+				"unlocks_remaining": "ซื้อได้อีก _SPANC_ _NUMBER_ _SPANC_ รอบ",
 				"days_remaining": "เหลือเวลา _SPANC_ _NUMBER_ _SPANC_ วัน",
 				"getting_started_pack": "แพคเริ่มต้น",
-				"MISSING-promo": "Promo",
+				"promo": "โปรโมชัน",
 				"MISSING-sale": "Sale"
 			},
 			"MISSING-subtotal": "Subtotal",
@@ -1256,13 +1256,13 @@
 			"gift_message_placeholder": "ข้อความฝากถึงคนรับ(ไม่จำเป็นต้องมี)"
 		},
 		"avatar_tokens": {
-			"MISSING-title": "Avatar Tokens",
-			"MISSING-description": "Tokens used to roll for specific avatars, gained by purchasing tickets or being a Patreon backer.",
+			"title": "โทเคน",
+			"description": "ใช้ร่วมกับตั๋วเพื่อกำหนดตัวละครที่ค้องการ ได้รับจากการซื้อตั๋วหรือสมัคร Patreon",
 			"not_enough_tokens": {
-				"MISSING-title": "Not Enough Avatar Tokens",
-				"MISSING-description": "You're missing _NUMBER_ avatar token to be able to perform the roll with an avatar target. Avatar tokens are obtained by buying tickets or supporting the Patreon"
+				"title": "โทเคนไม่พอ",
+				"description": "ขาด _NUMBER_ โทเคนในการสุ่ม สามารถได้รับจากการซื้อตั๋วหรือสมัคร Patreon"
 			},
-			"MISSING-not_enough_tickets": "Not Enough Tickets"
+			"not_enough_tickets": "ตั๋วไม่พอ"
 		},
 		"unlock_checkout": {
 			"MISSING-title": "Unlock",
