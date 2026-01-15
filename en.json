@@ -44,7 +44,9 @@
 			"none": "None",
 			"default": "Default",
 			"delete": "Delete",
-			"not_applicable": "N/A"
+			"not_applicable": "N/A",
+			"search_placeholder": "Search",
+			"server_restart": "Server Restart"
 		},
 		"popout_messages": {
 			"unexpected_error": "Unexpected Error",
@@ -59,6 +61,18 @@
 				"text": "You won't see messages or get friend/game invites from blocked players",
 				"confirm": "Block",
 				"cancel": "Cancel"
+			},
+			"detected_afk": {
+				"title": "You have been detected as AFK",
+				"text": "You'll be disconnected in _SPAN_ 60 _SPAN_ seconds",
+				"text_host": "You'll lose host status (and be changed to spectator, if you aren't already) in _SPAN_ 10 _SPAN_ seconds",
+				"stay_online": "Stay Online",
+				"stay_host": "Stay Host"
+			},
+			"disconnected_for_inactivity": {
+				"title": "Disconnected for inactivity",
+				"text": "Reload the game to reconnect",
+				"reload": "Reload"
 			}
 		},
 		"registration": {
@@ -79,14 +93,262 @@
 			"email_taken": "Email is already registered",
 			"email_sent": "Verification email has been successfully sent to _EMAIL_",
 			"email_length": "Email must be at most 255 characters",
-			"account_created": "Account _NAME_ was successfully created"
+			"account_created": "Account _NAME_ was successfully created",
+			"country": {
+				"afghanistan": "Afghanistan",
+				"aland_islands": "Åland Islands",
+				"albania": "Albania",
+				"algeria": "Algeria",
+				"american_samoa": "American Samoa",
+				"andorra": "Andorra",
+				"angola": "Angola",
+				"anguilla": "Anguilla",
+				"antarctica": "Antarctica",
+				"antigua_and_barbuda": "Antigua and Barbuda",
+				"argentina": "Argentina",
+				"armenia": "Armenia",
+				"aruba": "Aruba",
+				"australia": "Australia",
+				"austria": "Austria",
+				"azerbaijan": "Azerbaijan",
+				"bahamas": "Bahamas",
+				"bahrain": "Bahrain",
+				"bangladesh": "Bangladesh",
+				"barbados": "Barbados",
+				"belarus": "Belarus",
+				"belgium": "Belgium",
+				"belize": "Belize",
+				"benin": "Benin",
+				"bermuda": "Bermuda",
+				"bhutan": "Bhutan",
+				"bolivia": "Bolivia",
+				"bosnia_and_herzegovina": "Bosnia and Herzegovina",
+				"botswana": "Botswana",
+				"bouvet_island": "Bouvet Island",
+				"brazil": "Brazil",
+				"british_indian_ocean_territory": "British Indian Ocean Territory",
+				"brunei_darussalam": "Brunei Darussalam",
+				"bulgaria": "Bulgaria",
+				"burkina_faso": "Burkina Faso",
+				"burundi": "Burundi",
+				"cambodia": "Cambodia",
+				"cameroon": "Cameroon",
+				"canada": "Canada",
+				"cape_verde": "Cape Verde",
+				"cayman_islands": "Cayman Islands",
+				"central_african_republic": "Central African Republic",
+				"chad": "Chad",
+				"chile": "Chile",
+				"china": "China",
+				"christmas_island": "Christmas Island",
+				"cocos_keeling_islands": "Cocos (Keeling) Islands",
+				"colombia": "Colombia",
+				"comoros": "Comoros",
+				"congo": "Congo",
+				"congo_the_democratic_republic_of_the": "Congo, The Democratic Republic of The",
+				"cook_islands": "Cook Islands",
+				"costa_rica": "Costa Rica",
+				"cote_divoire": "Cote D'ivoire",
+				"croatia": "Croatia",
+				"cuba": "Cuba",
+				"cyprus": "Cyprus",
+				"czech_republic": "Czech Republic",
+				"denmark": "Denmark",
+				"djibouti": "Djibouti",
+				"dominica": "Dominica",
+				"dominican_republic": "Dominican Republic",
+				"ecuador": "Ecuador",
+				"egypt": "Egypt",
+				"el_salvador": "El Salvador",
+				"equatorial_guinea": "Equatorial Guinea",
+				"eritrea": "Eritrea",
+				"estonia": "Estonia",
+				"ethiopia": "Ethiopia",
+				"falkland_islands_malvinas": "Falkland Islands (Malvinas)",
+				"faroe_islands": "Faroe Islands",
+				"fiji": "Fiji",
+				"finland": "Finland",
+				"france": "France",
+				"french_guiana": "French Guiana",
+				"french_polynesia": "French Polynesia",
+				"french_southern_territories": "French Southern Territories",
+				"gabon": "Gabon",
+				"gambia": "Gambia",
+				"georgia": "Georgia",
+				"germany": "Germany",
+				"ghana": "Ghana",
+				"gibraltar": "Gibraltar",
+				"greece": "Greece",
+				"greenland": "Greenland",
+				"grenada": "Grenada",
+				"guadeloupe": "Guadeloupe",
+				"guam": "Guam",
+				"guatemala": "Guatemala",
+				"guernsey": "Guernsey",
+				"guinea": "Guinea",
+				"guinea_bissau": "Guinea-bissau",
+				"guyana": "Guyana",
+				"haiti": "Haiti",
+				"heard_island_and_mcdonald_islands": "Heard Island and Mcdonald Islands",
+				"holy_see_vatican_city_state": "Holy See (Vatican City State)",
+				"honduras": "Honduras",
+				"hong_kong": "Hong Kong",
+				"hungary": "Hungary",
+				"iceland": "Iceland",
+				"india": "India",
+				"indonesia": "Indonesia",
+				"iran_islamic_republic_of": "Iran, Islamic Republic of",
+				"iraq": "Iraq",
+				"ireland": "Ireland",
+				"isle_of_man": "Isle of Man",
+				"israel": "Israel",
+				"italy": "Italy",
+				"jamaica": "Jamaica",
+				"japan": "Japan",
+				"jersey": "Jersey",
+				"jordan": "Jordan",
+				"kazakhstan": "Kazakhstan",
+				"kenya": "Kenya",
+				"kiribati": "Kiribati",
+				"north_korea": "North Korea",
+				"south_korea": "South Korea",
+				"kuwait": "Kuwait",
+				"kyrgyzstan": "Kyrgyzstan",
+				"lao_peoples_democratic_republic": "Lao People's Democratic Republic",
+				"latvia": "Latvia",
+				"lebanon": "Lebanon",
+				"lesotho": "Lesotho",
+				"liberia": "Liberia",
+				"libyan": "Libyan",
+				"liechtenstein": "Liechtenstein",
+				"lithuania": "Lithuania",
+				"luxembourg": "Luxembourg",
+				"macao": "Macao",
+				"macedonia_republic_of_north": "Macedonia, Republic of North",
+				"madagascar": "Madagascar",
+				"malawi": "Malawi",
+				"malaysia": "Malaysia",
+				"maldives": "Maldives",
+				"mali": "Mali",
+				"malta": "Malta",
+				"marshall_islands": "Marshall Islands",
+				"martinique": "Martinique",
+				"mauritania": "Mauritania",
+				"mauritius": "Mauritius",
+				"mayotte": "Mayotte",
+				"mexico": "Mexico",
+				"micronesia_federated_states_of": "Micronesia, Federated States of",
+				"moldova_republic_of": "Moldova, Republic of",
+				"monaco": "Monaco",
+				"mongolia": "Mongolia",
+				"montenegro": "Montenegro",
+				"montserrat": "Montserrat",
+				"morocco": "Morocco",
+				"mozambique": "Mozambique",
+				"myanmar": "Myanmar",
+				"namibia": "Namibia",
+				"nauru": "Nauru",
+				"nepal": "Nepal",
+				"netherlands": "Netherlands",
+				"netherlands_antilles": "Netherlands Antilles",
+				"new_caledonia": "New Caledonia",
+				"new_zealand": "New Zealand",
+				"nicaragua": "Nicaragua",
+				"niger": "Niger",
+				"nigeria": "Nigeria",
+				"niue": "Niue",
+				"norfolk_island": "Norfolk Island",
+				"northern_mariana_islands": "Northern Mariana Islands",
+				"norway": "Norway",
+				"oman": "Oman",
+				"pakistan": "Pakistan",
+				"palau": "Palau",
+				"palestinian_territory": "Palestinian Territory",
+				"panama": "Panama",
+				"papua_new_guinea": "Papua New Guinea",
+				"paraguay": "Paraguay",
+				"peru": "Peru",
+				"philippines": "Philippines",
+				"pitcairn": "Pitcairn",
+				"poland": "Poland",
+				"portugal": "Portugal",
+				"puerto_rico": "Puerto Rico",
+				"qatar": "Qatar",
+				"reunion": "Reunion",
+				"romania": "Romania",
+				"russian_federation": "Russian Federation",
+				"rwanda": "Rwanda",
+				"saint_helena": "Saint Helena",
+				"saint_kitts_and_nevis": "Saint Kitts and Nevis",
+				"saint_lucia": "Saint Lucia",
+				"saint_pierre_and_miquelon": "Saint Pierre and Miquelon",
+				"saint_vincent_and_the_grenadines": "Saint Vincent and The Grenadines",
+				"samoa": "Samoa",
+				"san_marino": "San Marino",
+				"sao_tome_and_principe": "Sao Tome and Principe",
+				"saudi_arabia": "Saudi Arabia",
+				"senegal": "Senegal",
+				"serbia": "Serbia",
+				"seychelles": "Seychelles",
+				"sierra_leone": "Sierra Leone",
+				"singapore": "Singapore",
+				"slovakia": "Slovakia",
+				"slovenia": "Slovenia",
+				"solomon_islands": "Solomon Islands",
+				"somalia": "Somalia",
+				"south_africa": "South Africa",
+				"south_georgia_and_the_south_sandwich_islands": "South Georgia and The South Sandwich Islands",
+				"spain": "Spain",
+				"sri_lanka": "Sri Lanka",
+				"sudan": "Sudan",
+				"suriname": "Suriname",
+				"svalbard_and_jan_mayen": "Svalbard and Jan Mayen",
+				"swaziland": "Swaziland",
+				"sweden": "Sweden",
+				"switzerland": "Switzerland",
+				"syrian_arab_republic": "Syrian Arab Republic",
+				"taiwan": "Taiwan",
+				"tajikistan": "Tajikistan",
+				"tanzania_united_republic_of": "Tanzania, United Republic of",
+				"thailand": "Thailand",
+				"timor_leste": "Timor-leste",
+				"togo": "Togo",
+				"tokelau": "Tokelau",
+				"tonga": "Tonga",
+				"trinidad_and_tobago": "Trinidad and Tobago",
+				"tunisia": "Tunisia",
+				"turkey": "Turkey",
+				"turkmenistan": "Turkmenistan",
+				"turks_and_caicos_islands": "Turks and Caicos Islands",
+				"tuvalu": "Tuvalu",
+				"uganda": "Uganda",
+				"ukraine": "Ukraine",
+				"united_arab_emirates": "United Arab Emirates",
+				"united_kingdom": "United Kingdom",
+				"united_states": "United States",
+				"united_states_minor_outlying_islands": "United States Minor Outlying Islands",
+				"uruguay": "Uruguay",
+				"uzbekistan": "Uzbekistan",
+				"vanuatu": "Vanuatu",
+				"venezuela": "Venezuela",
+				"viet_nam": "Viet Nam",
+				"virgin_islands_british": "Virgin Islands, British",
+				"virgin_islands_us": "Virgin Islands, U.S.",
+				"wallis_and_futuna": "Wallis and Futuna",
+				"western_sahara": "Western Sahara",
+				"yemen": "Yemen",
+				"zambia": "Zambia",
+				"zimbabwe": "Zimbabwe"
+			}
 		},
 		"guest_account": {
 			"title": "Guest Account",
 			"click_to_register": "Click here to complete registration",
 			"complete_registration": "Complete Registration",
 			"complete_registration_message": "To complete registration, please verify your email by clicking the link sent to _BOLD_ _EMAIL_ _BOLD_"
-		}
+		},
+		"cookie_disclaimer": "This website uses cookies to store local settings, such as music volume and last used login name. Third party services used by the site may also set cookies. For more details see the Cookie Section of the Privacy Policy. By continuing to use the site, you agree that the site may set these cookies.",
+		"cookie_learn_more": "Learn More"
 	},
 	"login_page": {
 		"ui": {
@@ -104,7 +366,7 @@
 		"popout_messages": {
 			"create_guest_account": {
 				"title": "Create Guest Account",
-				"text": "By creating a guest account you agree to the _LINK_ Terms of Service _LINK_ and _LINK2_ Privacy Policy _LINK2_.",
+				"text2": "By creating a guest account you agree to the _LINK_ Terms of Service _LINK_ and _LINK2_ Privacy Policy _LINK2_.",
 				"error_title": "Error creating guest account",
 				"error_disabled": "Guest accounts are disabled"
 			},
@@ -176,9 +438,28 @@
 		"ui": {
 			"news": "News",
 			"stay_connected": "Stay Connected",
-			"merch_store": "Merch Store",
+			"merch": "Merch",
 			"song_library": "Song Library",
 			"leaderboard": "Leaderboard"
+		},
+		"amq_funding": {
+			"title": "AMQ Funding",
+			"month": {
+				"january": "January Result",
+				"february": "February Result",
+				"march": "March Result",
+				"april": "April Result",
+				"may": "May Result",
+				"june": "June Result",
+				"july": "July Result",
+				"august": "August Result",
+				"september": "September Result",
+				"october": "October Result",
+				"november": "November Result",
+				"december": "December Result"
+			},
+			"yearly": "Yearly Result",
+			"description": "The funding results from last month and overall for the year. AMQ is completely community funded which pays for the server and development costs. All money earned goes to continue improving and expanding the game, thanks for all the support!"
 		},
 		"carousel": {
 			"social_promo": "Earn Free Tickets by Following AMQ on Discord and Patreon!",
@@ -809,6 +1090,7 @@
 		"nothing_selected": "Nothing Selected _BREAK_ Select Above",
 		"collapse_all": "Collapse All",
 		"open_all": "Open All",
+		"emote_category_misc": "Misc",
 		"rhythm": {
 			"title": "Rhythm",
 			"description": "Currency gained by rolling duplicates in the Ticket System. Can be used to unlock ticket rewards.",
@@ -979,7 +1261,8 @@
 				"unlocks_remaining": "_SPANC_ _NUMBER_ _SPANC_ Unlock(s) Remaining",
 				"days_remaining": "_SPANC_ _NUMBER_ _SPANC_ Days Remaining",
 				"getting_started_pack": "Getting Started Pack",
-				"promo": "Promo"
+				"promo": "Promo",
+				"sale": "Sale"
 			},
 			"subtotal": "Subtotal",
 			"sales_tax": "Sales Tax",
@@ -1004,6 +1287,7 @@
 			"version_entry": "Version: _NAME_",
 			"location_background": "Location Background",
 			"decorations": "Decorations",
+			"transaction_complete": "Transaction Complete",
 			"errors": {
 				"failed_to_create_payment": "Failed to create payment, please try again.",
 				"unlimited_slots_already_unlocked": "Unlimited slots already unlocked",
@@ -1426,6 +1710,18 @@
 		"doujin": "Doujin _NUMBER_",
 		"game_cutscene_compilation": "Game Cutscene Compilation _NUMBER_"
 	},
+	"anime_types_base": {
+		"tv": "TV",
+		"season": "Season",
+		"movie": "Movie",
+		"ova": "OVA",
+		"ona": "ONA",
+		"tv_special": "TV Special",
+		"special": "Special",
+		"music_video": "Music Video",
+		"doujin": "Doujin",
+		"game_cutscene_compilation": "Game Cutscene Compilation"
+	},
 	"song_catagory": {
 		"none": "None",
 		"standard": "Standard",
@@ -1563,7 +1859,12 @@
 			"share": "Share this quiz with friends",
 			"unshare": "Unshare this quiz with friends",
 			"creation_date": "Creation Date",
-			"quiz_id": "Quiz ID"
+			"quiz_id": "Quiz ID",
+			"recently_published": { "title": "Recently Published", "description": "Slot locked until: _DATE_" },
+			"locked_slot": {
+				"title": "Locked Slot",
+				"description": "A locked slot doesn’t use an available slot, but can only be cloned or deleted. To unlock, get unlimited slots again."
+			}
 		},
 		"checkout": { "unlock": "Unlock Community Quiz Slots", "one_slot": "1 Slot", "unlimited": "Unlimited Slots" },
 		"host_community_quiz": {
@@ -1603,12 +1904,7 @@
 		"title": "Song History",
 		"no_songs": "No Songs",
 		"load_songs": "Load Songs",
-		"tabs": {
-			"current_game": "Current Game",
-			"last_game": "Last Game",
-			"games": "Past Games",
-			"options": "Options"
-		},
+		"tabs": { "current_game": "Current Game", "last_game": "Last Game", "games": "Past Games", "options": "Options" },
 		"columns": {
 			"title": "Columns",
 			"anime": "Anime",
@@ -1622,25 +1918,26 @@
 			"difficulty": "Difficulty",
 			"sample": "Sample"
 		},
+		"default_game_names": {
+			"quiz_of_the_day": "Quiz of the Day",
+			"solo": "Solo",
+			"jam_quiz": "Jam Quiz",
+			"amq_awards": "AMQ Awards",
+			"annivesarry_event": "Anniversary Event",
+			"ranked_expert": "Ranked Expert",
+			"ranked_novice": "Ranked Novice",
+			"nexus": "Nexus",
+			"tutorial": "Tutorial"
+		},
 		"options": {
 			"info": "Info",
 			"show_names": {
 				"title": "Show Names",
-				"ticks": {
-					"english": "English",
-					"default": "Default",
-					"romaji": "Romaji"
-				}
+				"ticks": { "english": "English", "default": "Default", "romaji": "Romaji" }
 			},
 			"anime_link": {
 				"title": "Anime Link",
-				"ticks": {
-					"anilist": "Anilist",
-					"kitsu": "Kitsu",
-					"default": "Default",
-					"mal": "MAL",
-					"ann": "ANN"
-				}
+				"ticks": { "anilist": "Anilist", "kitsu": "Kitsu", "default": "Default", "mal": "MAL", "ann": "ANN" }
 			}
 		},
 		"song_window": {
@@ -1657,17 +1954,10 @@
 				"vintage": "Vintage",
 				"anime_rating": "Anime Rating",
 				"genres": "Genres",
-				"tags": "Tags", 
+				"tags": "Tags",
 				"video": "Video",
 				"list_sites": "List Sites",
 				"player_lists": "Player Lists"
-			},
-			"anime_type": {
-				"tv": "TV",
-				"movie": "Movie",
-				"ova": "OVA",
-				"ona": "ONA",
-				"special": "Special"
 			},
 			"list_status": {
 				"watching": "Watching",
@@ -1682,6 +1972,14 @@
 			"download_json": "Download as JSON",
 			"copy_setting_code": "Copy the setting code for this game",
 			"copied": "Copied!"
+		},
+		"song_type": {
+			"opening": "Opening _NUMBER_",
+			"ending": "Ending _NUMBER_",
+			"insert": "Insert Song",
+			"rebroadcast": "(Rebroadcast)",
+			"dub": "(Dub)",
+			"type_text": "_NAME_ _DESCRIPTION_"
 		}
 	},
 	"game_settings": {
@@ -1979,10 +2277,10 @@
 	"room_browser": {
 		"filters": {
 			"only": { "title": "Only:", "public": "Public", "in_lobby": "In Lobby", "open": "Open", "friends": "Friends" },
-			"search_placeholder": "Search",
 			"show_selection": { "title": "Show Selection", "auto": "Auto", "looting": "Looting" },
 			"answering_mode": { "title": "Answering Mode", "typing": "Typing", "multiple_choice": "Multiple Choice" },
 			"song_type": { "title": "Song Types", "openings": "Openings", "endings": "Endings", "inserts": "Inserts" },
+			"search_placeholder": "Search rooms",
 			"song_selection": {
 				"title": "Song Selection",
 				"watched": "Watched",
@@ -2057,6 +2355,27 @@
 				"confirm_button": "Join",
 				"wrong_password": "Wrong Password",
 				"game_closed": "Game Doesn't Exist Anymore"
+			}
+		},
+		"nexus_lobbies": {
+			"title": "Nexus Lobbies",
+			"open": "_NUMBER_ Open",
+			"no_lobbies": "No Open Lobbies",
+			"slot_name": "Slot _NUMBER_",
+			"players_popover_header": "Players in Lobby",
+			"click_to_join": "Click to Join",
+			"lobby_full_message": "Lobby is Full",
+			"unknown_lobby": {
+				"title": "Couldn't Find Nexus Lobby",
+				"description": "The Nexus Lobby you are trying to join doesn't exist or has been closed."
+			},
+			"room_settings": {
+				"type": { "endless": "Endless", "standard": "Standard" },
+				"song_type": { "opening": "OP", "ending": "ED", "insert": "IN" },
+				"difficulty": { "easy": "Easy", "medium": "Medium", "hard": "Hard" },
+				"song_selection": { "watched": "Watched", "random": "Random" },
+				"answering_mode": { "typing": "Typing", "multiple_choice": "Multiple Choice" },
+				"floor": "Floor _NUMBER_"
 			}
 		}
 	},
@@ -2235,7 +2554,7 @@
 		},
 		"jam_quiz_ban_alert": {
 			"title": "Banned from Jam Quizzes",
-			"description": "Your jam quiz expires in _NUMBER_ minutes"
+			"description": "Your jam quiz ban expires in _NUMBER_ minutes"
 		},
 		"emotes": {
 			"locked_in_emote_description": "Locked in emote, will be displayed when guessing ends",
@@ -2292,6 +2611,7 @@
 			"no_team": "No Team",
 			"team_code": "Team Code",
 			"create": "Create",
+			"create_team": "Create Team",
 			"join": "Join",
 			"leave": "Leave"
 		},
@@ -2451,7 +2771,17 @@
 				"ona": "ONA",
 				"tv": "TV",
 				"movie": "Movie",
-				"special": "Special"
+				"special": "Special",
+				"easy": "Easy",
+				"medium": "Medium",
+				"hard": "Hard",
+				"openings": "Openings",
+				"endings": "Endings",
+				"inserts": "Inserts",
+				"standard": "Standard",
+				"character": "Character",
+				"chanting": "Chanting",
+				"instrumental": "Instrumental"
 			}
 		},
 		"ranked_rules": {
@@ -2490,7 +2820,13 @@
 			"yes": "Yes",
 			"no": "No",
 			"start_vote": "Start Return to Lobby Vote?",
-			"start_button": "Start"
+			"start_button": "Start",
+			"results": {
+				"vote_passed": "Vote Passed",
+				"vote_failed": "Vote Failed",
+				"waiting_votes": "Waiting Votes",
+				"on_last_song": "On Last Song"
+			}
 		},
 		"join_button": "Join",
 		"video_quality": { "720p": "720p", "480p": "480p", "sound": "Sound" },
@@ -2512,10 +2848,8 @@
 			"pause": "Pause the game at the end of this song. All players can end the pause.",
 			"unpause": "Unpause the game"
 		},
-		"anime_names": {
-			"alternative_names": "Alternative Names",
-			"alternative_answers": "Alternative Answers"
-		},
+		"anime_name_placeholder": "Anime Name",
+		"anime_names": { "alternative_names": "Alternative Names", "alternative_answers": "Alternative Answers" },
 		"avatar": {
 			"loot": "Loot",
 			"host": "Host",
@@ -2525,18 +2859,17 @@
 			"answer_time_number": "_NUMBER_s",
 			"answering_mode": "Answering Mode",
 			"multiple_choice": "Multiple Choice",
-			"answer_status": {
-				"watching": "W",
-				"completed": "C",
-				"on_hold": "H",
-				"dropped": "D",
-				"plan_to_watch": "P"
-			},
+			"answer_status": { "watching": "W", "completed": "C", "on_hold": "H", "dropped": "D", "plan_to_watch": "P" },
 			"hint_used": {
 				"name": "Name Hint Used",
 				"info": "Info Hint Used",
 				"multiple_choice": "Multiple Choice Hint Used"
 			}
+		},
+		"rejoin_prompt": {
+			"title": "Rejoin Disconnect Game",
+			"description": "You were disconnected from your last game, want to rejoin it?",
+			"rejoin_button": "Rejoin"
 		},
 		"song_info": {
 			"title": "Song Info",
@@ -2588,10 +2921,7 @@
 		},
 		"video_player": {
 			"sound_only": "Sound Only",
-			"video_hidden": {
-				"title": "Video Hidden",
-				"click_to_reveal": "Click to Reveal"
-			},
+			"video_hidden": { "title": "Video Hidden", "click_to_reveal": "Click to Reveal" },
 			"click_to_hide_video": "Click to Hide Video",
 			"loading": "Loading",
 			"answers": "Answers",
@@ -2602,18 +2932,9 @@
 			"hints": {
 				"title": "Hints",
 				"point_value": "The point value of the current song",
-				"name": {
-					"title": "Name",
-					"description": "Reveal the length of the answer, and 4 of its characters"
-				},
-				"info": {
-					"title": "Info",
-					"description": "Reveal some of the song info for this song"
-				},
-				"multiple_choice": {
-					"title": "MC",
-					"description": "Get multiple choice options for this song"
-				},
+				"name": { "title": "Name", "description": "Reveal the length of the answer, and 4 of its characters" },
+				"info": { "title": "Info", "description": "Reveal some of the song info for this song" },
+				"multiple_choice": { "title": "MC", "description": "Get multiple choice options for this song" },
 				"hint_popover": "_DESCRIPTION_ - Point cost: _NUMBER_"
 			},
 			"skip_messages": {
@@ -2680,10 +3001,7 @@
 			}
 		},
 		"alerts": {
-			"fatal_error": {
-				"title": "Fatal Server Error During Quiz",
-				"description": "Returning to lobby"
-			},
+			"fatal_error": { "title": "Fatal Server Error During Quiz", "description": "Returning to lobby" },
 			"joining_game": {
 				"title": "Joining Game",
 				"description": "You will be added to the game during the next result phase"
@@ -2701,13 +3019,1661 @@
 			"fuwagi_item_popover": "_DESCRIPTION_ _BREAK_ Cooldown: _NUMBER_",
 			"genre_icon": {
 				"damage_done": "Increase damage done during _NAME_ shows",
-				"damage_taken": "Reduce damage taken during _NAME_ shows"
+				"damage_taken_2": "Increase damage taken during _NAME_ shows"
 			}
 		}
 	},
+	"quiz_of_the_day": {
+		"starting_messages": {
+			"championship_starting_in": "_NAME_ Championship Match Starting in _NUMBER_ min",
+			"themed_starting_in": "Themed Quiz Starting in _NUMBER_ min",
+			"ranked_starting_in": "Ranked Match Starting in _NUMBER_ min",
+			"amq_awards_starting_in": "AMQ Awards Starting in _NUMBER_ min",
+			"join_lobby_instruction": "Lobby can be joined from the main menu"
+		},
+		"championship_winner_message": {
+			"solo": {
+				"title": "New _NAME_ Region Champion Found!",
+				"message": "_NAME_ is the new champion!"
+			},
+			"multiple": {
+				"title": "New _NAME_ Region Champions Found!",
+				"message": "_NAMELIST_ are the new champions!"
+			}
+		},
+		"region_names": {
+			"east" : "East",
+			"west" : "West",
+			"central": "Central"
+		}
+	},
+	"nexus": {
+		"city": {
+			"back_button": "Back",
+			"exit_button": "Exit",
+			"dungeon": {
+				"title": "Dungeon",
+				"co_op_save_created": "Created",
+				"tabs": { "mode": "Mode", "co_op_saves": "Co-Op Saves", "lobby": "Lobby", "avatars": "Avatars" },
+				"mode": {
+					"standard": "Standard",
+					"standard_description": "Clear a single floor of the dungeon, powering up your team as you progress, before challenging the boss at the end.",
+					"endless": "Endless",
+					"endless_description": "Continue challenging an endless number of floors, bringing only a limited amount of artifacts from one to the other.",
+					"tutorial": "Tutorial",
+					"solo": "Solo",
+					"co_op": "Co-Op",
+					"continue": "(Continue)",
+					"host": "Host",
+					"join": "Join",
+					"load": "Load",
+					"join_lobby": {
+						"lobby_id": "Lobby ID",
+						"join_button": "Join",
+						"description": "Enter the id for the lobby you want to join",
+						"missing_id": "You must provide a lobby ID",
+						"invalid_id": "Invalid lobby ID",
+						"full": "The lobby is full",
+						"unavailable_guest": {
+							"title": "Unavailable for Guest Accounts",
+							"description": "Co-op mode is not available for guest accounts, please create an account to access this feature."
+						}
+					},
+					"dungeon_mode": "Dungeon Modes",
+					"description_start": "Decide how to challenge the dungeon.",
+					"rejoin_game": {
+						"title": "Rejoin Nexus Co-op Game?",
+						"description": "If you start another game, you won't be able to rejoin the co-op game.",
+						"rejoin": "Rejoin"
+					}
+				},
+				"lobby": {
+					"slot": "Slot",
+					"slot_number": "Slot _NUMBER_",
+					"level": "Lv _SPANC_ _NUMBER_ _SPANC_",
+					"empty": "Empty",
+					"load_team": "Load Team",
+					"lobby_id": "ID",
+					"start_button": "Start",
+					"load_button": "Load",
+					"public_description": {
+						"make_public": "Make lobby public, so anyone can join",
+						"make_private": "Make lobby private, so only people with the ID can join"
+					},
+					"settings": {
+						"song_types": {
+							"title": "Song Types",
+							"description": "Type of songs selected in the dungeon",
+							"op": "OP",
+							"ed": "ED",
+							"ins": "IN"
+						},
+						"difficulty": {
+							"title": "Song Difficulty",
+							"description": "Difficulty of songs selected in the dungeon",
+							"easy": "Easy",
+							"medium": "Medium",
+							"hard": "Hard"
+						},
+						"song_selection": {
+							"title": "Song Selection",
+							"description": "If songs should be selected from player lists or at random",
+							"random": "Random",
+							"watched": "Watched",
+							"unwatched": "Unwatched"
+						},
+						"answering": {
+							"title": "Answering Mode",
+							"description": "If quiz answers are submitted by typing or multiple choice",
+							"typing": "Typing",
+							"choice": "Choice"
+						},
+						"rating": {
+							"title": "Rating",
+							"description": "Difficulty of the quiz questions. The higher the rating, the more xp and better runes are rewarded in the dungeon."
+						},
+						"floor": {
+							"title": "Floor",
+							"description": "Higher floors are tougher, but rewards more runes and XP. Unlock floors by completing the previous floor on the current or higher rating."
+						},
+						"mode": {
+							"title": "Mode",
+							"description": "The dungeon type, standard explores a single floor, while endless continues to the next floor until the party is defeated."
+						}
+					},
+					"no_badge_unlocked_alert": {
+						"title": "No Avatar Badges Unlocked",
+						"description": "Unlock avatar badges by leveling up avatars, and use them to power up other avatars"
+					},
+					"leave_lobby_alert": { "title": "Leave Dungeon Lobby?", "leave_button": "Leave" },
+					"start_alerts": {
+						"at_least_one_song_type": "At Least One Song Type Must be Selected",
+						"at_least_one_difficulty": "At Least One Difficulty Must be Selected",
+						"at_least_one_song_selection": "At Least One Song Selection Option Must be Selected",
+						"all_avatars": "All Slots Must Have an Avatar Assigned"
+					},
+					"no_team_alert": {
+						"title": "No Teams Saved",
+						"description": "Teams can be setup at the inn, and quickly loaded here."
+					},
+					"breakthrough_popover": {
+						"title": "Breakthrough",
+						"description": "Break the floor limit, by beating the 5 next floors in endless mode!"
+					}
+				},
+				"co_op_saves": {
+					"filters": "Filters",
+					"standard": "Standard",
+					"endless": "Endless",
+					"no_saves": "No Saves",
+					"loading": "Loading"
+				}
+			},
+			"inn": {
+				"title": "Inn",
+				"new_team": "New Team",
+				"tabs": { "avatars": "Avatars", "teams": "Teams", "avatar_setup": "Avatar Setup", "team_setup": "Team Setup" },
+				"avatar_setup": {
+					"change_skin": "Change Skin",
+					"change_decorations": "Change Decorations",
+					"change_background": "Change Background",
+					"toggle": "Toggle _NAME_",
+					"no_toggle": "No Toggle",
+					"set_default": "Set as Default",
+					"add_to_team": "Add to Team",
+					"locked": "Locked",
+					"background_locked": "Unlock 10 versions of this skin _BREAK_ to unlock the backgrounds"
+				},
+				"team_setup": {
+					"rename": "Rename Team",
+					"create": "Create Team",
+					"delete": "Delete Team",
+					"team_name": "Team Name",
+					"create_button": "Create",
+					"delete_button": "Delete",
+					"no_name": "You must provide a team name",
+					"name_too_long": "Name must be at most _NUMBER_ characters long"
+				}
+			},
+			"workshop": {
+				"title": "Workshop",
+				"empty_slots_filter": "Empty Slots",
+				"avatar": "Avatar",
+				"tabs": { "select_avatar": "Select Avatar", "rune_setup": "Rune Setup", "reformat_rune": "Reformat Rune" },
+				"rune_selector": {
+					"filter": {
+						"title": "Filter",
+						"category": "Category",
+						"offensive": "Offensive",
+						"defensive": "Defensive",
+						"type": "Type",
+						"advanced": "Advanced",
+						"standard": "Standard",
+						"quality": "Quality",
+						"minor": "Minor",
+						"lesser": "Lesser",
+						"greater": "Greater",
+						"major": "Major",
+						"superior": "Superior",
+						"ability": "Ability"
+					},
+					"show_more": "Show More",
+					"show_less": "Show Less"
+				},
+				"rune_setup": {
+					"unequip_all_runes": "Unequip All Runes",
+					"save_rune_setup": "Save Rune Setup",
+					"lock_in_description": "Lock in the current rune layout",
+					"unequip_runes": {
+						"title": "Unequip Runes?",
+						"description": "All runes will be unequipped from this avatar, and will be available to use again. Cost: 1 Ticket",
+						"unequip_button": "Unequip",
+						"not_enough_tickets": "Not Enough Tickets"
+					},
+					"unsaved_changes": {
+						"title": "Unsaved Changes",
+						"description": "Rune page has unsaved changes, discard changes?",
+						"discard_button": "Leave"
+					},
+					"destroy_rune": { "title": "Destroy Rune?", "destroy_button": "Destroy" },
+					"tooltips": {
+						"all_slots_in_use": "All rune slots in use, level up avatar to unlock more",
+						"no_rune_selected": "No rune selected. Select the rune you want to equip above.",
+						"wrong_rune_slot": "_NAME_ _NAME2_ rune slot. Only runes matching the slot can be equiped in it",
+						"invalid_setup": "Invalid rune setup. Make sure all used containers are powered",
+						"duplicate_advanced_rune": "Duplicate advanced rune. Only one advanced rune of each ability can be equiped"
+					}
+				},
+				"reformat_rune": {
+					"duplicate_button": "Duplicate",
+					"duplicate_description": "Attempt to duplicate the target rune",
+					"duplicate_success": "Rune Duplicate Succeeded!",
+					"duplicate_failure": "Rune Duplicate Failed",
+					"upgrade_button": "Upgrade",
+					"upgrade_description": "Attempt to level up the target rune",
+					"upgrade_success": "Rune Upgrade Succeeded!",
+					"upgrade_failure": "Rune Upgrade Failed",
+					"success_rate": "_SPAN_ _NUMBER_ _SPAN_ Success Rate",
+					"description": {
+						"title": "Reformat Rune",
+						"text": "Upgrade or duplicate a rune, using the reformatter. _BREAK_ Select a target rune, then up to 5 additional runes to power the reformatter (the higher the level, the higher the success rate). The additional runes will be consumed."
+					}
+				}
+			},
+			"avatar_selector": {
+				"name_filter": "Name",
+				"level_filter": "Level",
+				"search_placeholder": "Search name...",
+				"level": "Level _SPANC_ _NUMBER_ _SPANC_",
+				"team_slot": "Slot _NUMBER_",
+				"free_rotation": "Free Rotation",
+				"select_badge_popover": "Select an avatar badge to power up the avatar",
+				"early_access": "In early access for level 4+ Patreons until _DATE_",
+				"character_locked_popover": "Not Unlocked",
+				"character_already_in_party": "Character Already in Party",
+				"clear": "Clear"
+			},
+			"building_names": { "dungeon": "Dungeon", "inn": "Inn", "workshop": "Workshop", "locked": "Locked" }
+		},
+		"dungeon": {
+			"exit_button": "Exit",
+			"exit_alert": {
+				"title": "Exit Run?",
+				"description_coop": "As the host, exiting the run will close it for all players. You can promote another player to host before exiting from the player in tab in the game chat.",
+				"description_solo": "If you exit doing an enemy encounter, the encounter will be reset",
+				"exit_button": "Exit",
+				"exit_save_button": "Save & Exit",
+				"abandon_run_button": "Abandon Run"
+			},
+			"runes": {
+				"rune_count": "_SPAN_ _NUMBER_ _SPAN_ Runes",
+				"rune_inventory": "Rune Inventory",
+				"win_to_earn": "Win one combat to unlock runes at the end of run",
+				"unlock_end_of_run": "Runes unlocks at the end of the run",
+				"no_runes": "No Runes Found"
+			},
+			"tile_types": {
+				"floor_entrance": "Floor Entrance",
+				"boss_chamber": "Boss Chamber",
+				"enemy_encounter": "Enemy Encounter",
+				"unknown_event": "Unknown Event",
+				"crafting_station": "Crafting Station"
+			},
+			"genre_zone": "_NAME_ Zone",
+			"standard_zone": "Standard",
+			"avatars": { "no_artifacts": "No Artifacts" },
+			"floor_number": "Floor _SPAN_ _NUMBER_ _SPAN_",
+			"reward_window": {
+				"title": "Rewards",
+				"continue_button": "Continue",
+				"select_one_artifact": "Select 1 Artifact",
+				"runes": "Runes",
+				"no_drops": "No Drops",
+				"select_avatar": "Select Avatar",
+				"skip_artifact": {
+					"text": "Skip Artifact?",
+					"skip_button": "Skip"
+				}
+			},
+			"abandon_run_vote": {
+				"title": "Abandon Run?",
+				"yes_button": "Yes",
+				"no_button": "No"
+			},
+			"event_window": { "title": "Event", "volume": "Volume" },
+			"store_window": {
+				"title": "Store",
+				"description": "Materialize Fragments into Artifacts and/or Runes",
+				"artifacts": "Artifacts",
+				"runes": "Runes",
+				"bought": "Bought",
+				"no_items_bought": {
+					"title": "No Items Bought",
+					"description": "Continue without buying anything?",
+					"continue_button": "Continue"
+				}
+			},
+			"result_window": {
+				"xp": "XP",
+				"runes": "Runes",
+				"continue_button": "Continue",
+				"level_number": "Level _SPANC_ _NUMBER_ _SPANC_",
+				"party_wipe": "Party Wipe",
+				"floor_cleared": "Floor Cleared",
+				"xp_reward_types": {
+					"combat": "Combat",
+					"clear": "Floor Clear"
+				},
+				"unlocks": {
+					"ability_level": "Ability Up",
+					"badge": "Badge",
+					"badge_level": "Badge Up",
+					"genre_power": "Genre Power",
+					"rune_slot": "Rune Slot"
+				}
+			},
+			"next_floor_window": {
+				"title": "Next floor: _SPAN_ _NUMBER_ _SPAN_",
+				"floor_tax": "Floor Tax 50%",
+				"continue_button": "Continue",
+				"heal_option": "Heal 20%",
+				"lock_artifact_option": "Lock Artifact",
+				"no_artifacts": "No Artifacts",
+				"no_locking_warning": { "title": "Continue Without Locking in Artifact?", "continue_button": "Continue" },
+				"heal_this_avatar": "Heal this avatar",
+				"lock_artifact_description": "Lock in an artifact to bring it to the next floor. Each avatar can only lock in one artifact"
+			}
+		},
+		"rejoin_prompt": {
+			"title": "Rejoin Disconnect Nexus Game",
+			"description": "You where disconnected from your last nexus game, want to rejoin it?",
+			"rejoin_button": "Rejoin"
+		},
+		"avatar": {
+			"genre": "Genre",
+			"strong": "Strong",
+			"weak": "Weak",
+			"rune_buffs": "Rune Buffs",
+			"stats": {
+				"constitution": { "title": "Constitution", "description": "Increase max health" },
+				"defence": { "title": "Defence", "description": "Reduce damage taken from attacks" },
+				"dodge": {
+					"title": "Dodge",
+					"description": "Increase chance to dodge attacks, halving the damage taken and gaining a random buff"
+				},
+				"attack": { "title": "Attack", "description": "Increase attack damage" },
+				"accuracy": {
+					"title": "Accuracy",
+					"description": "Increase chance to crit, dealing 50% extra damage and inflicting a random debuff"
+				}
+			}
+		},
+		"rune": {
+			"type": { "standard": "Standard", "advanced": "Advanced" },
+			"category": { "offensive": "Offensive", "defensive": "Defensive", "any": "Any" }
+		},
+		"hover_display_commons": {
+			"cooldown": "Cooldown",
+			"total_unlocked": "Total Unlocked",
+			"in_use": "In Use",
+			"level": "Level",
+			"stat_boost": "Stat Boost",
+			"genre_boost": "Genre Boost",
+			"header": {
+				"ability": "Ability",
+				"artifact": "Artifact",
+				"avatar": "Avatar",
+				"avatar_badge": "Avatar Badge",
+				"buff": "Buff",
+				"debuff": "Debuff",
+				"standard_rune": "Standard Rune",
+				"advanced_rune": "Advanced Rune"
+			}
+		},
+		"chat": {
+			"chat": "Chat",
+			"players": "Players - _SPAN_ _NUMBER_ _SPAN_",
+			"placeholder": "Chat message",
+			"host": "Host",
+			"disconnected": "Disconnected",
+			"drag_hover": "Drag to move, click to reset",
+			"profile": "Profile",
+			"promote_to_host": "Promote to Host",
+			"kick": "Kick",
+			"promote_host": { "title": "Promote _NAME_ to Host?", "promote_button": "Promote" },
+			"kick_player": {
+				"title": "Kick _NAME_ from Lobby?",
+				"description": "They won't be able to join again",
+				"kick_button": "Kick"
+			}
+		},
+		"tutorial": {
+			"end_tutorial": "End Tutorial",
+			"yes": "Yes",
+			"no": "No",
+			"exit_tutorial_warning": {
+				"title": "Exit Tutorial?",
+				"description": "You can always find it again in the tutorial menu",
+				"exit_button": "Exit"
+			},
+			"city_overview": {
+				"message_one": "Welcome to the Nexus! Do you want a tutorial?",
+				"message_two": "That's alright, you can always find it in the tutorial menu.",
+				"message_three": "Great! Let's get you started by entering the dungeon!"
+			},
+			"dungeon_lobby": {
+				"message_one": "This is the dungeon lobby! Here you pick your dungeoneering team!",
+				"message_two": "Start by clicking on 'slot 1' to see your available avatars.",
+				"message_three": "Here we have all your available avatars. For now, let's pick Hibiki.",
+				"message_four": "Allow me to finish picking the rest of your team!",
+				"message_five": "There! Don't worry I'll explain their abilities later. Now let's get into the dungeon!"
+			},
+			"dungeon_map": {
+				"message_one": "Here we have the dungeon map, for the tutorial we're keeping it short and simple! Let's start by selecting the first tile."
+			},
+			"dungeon_combat": {
+				"message_one": "Here we have the combat encounter, where you fight monsters for rewards.",
+				"message_two": "These are the enemies! When you guess a song correctly the character whose turn it is will attack the targeted monster.",
+				"message_three": "This is your party. The enemies will target your party members and attack after enough wrong guesses.",
+				"message_four": "First off let's use Hibiki's ability to power up her attacks!",
+				"message_five": "Now she has a bunch of buffs! You can hover over the icons to see what they do!",
+				"message_six": "Now we have to answer the quiz! Hint: This is the correct answer!"
+			},
+			"post_attack": { "message_one": "Great hit! Now, let's see what happens if you answer incorrectly!" },
+			"post_damage": {
+				"message_one": "When you guess wrong the enemies' attack counters go down, one more wrong answer and they'll attack!",
+				"message_two": "Noel has low defense so we have to defend her! Luckily, Yumemi is the turn character, so we can swap her in by doing a target swap with Noel!",
+				"message_three": "Great! Now you just have to answer correctly to swap the two avatars!"
+			},
+			"post_swap": {
+				"message_one": "Swap completed! Keep in mind that swapping avatars doesn't change their turn order.",
+				"message_two": "Now that Yumemi is in position to take a hit, use her ability to soften the blow!",
+				"message_three": "And a wrong answer to send the enemies attacking!"
+			},
+			"post_enemy_attack": {
+				"message_one": "There, that wasn't so bad was it? Yumemi is very tanky!",
+				"message_two": "Positioning is very important! Pay attention to who's attacking who and when and use swapping to defend!",
+				"message_three": "Now I'll let you finish these enemies off on your own! Remember that Chika and Noel still have abilities you can use! Good luck!",
+				"message_four": "(Oh and don't worry, I used a little trick to make sure you can't actually die)"
+			},
+			"combat_reward": {
+				"message_one": "Congratulations! Defeating enemies gives you fragments and also some times artifacts.",
+				"message_two": "Artifacts are equipped to one of your avatars to give them power ups. Equip this artifact by clicking on it!",
+				"message_three": "Now choose one of your avatars to equip it to.",
+				"message_four": "Great! Now you can see the artifact equipped to your avatar. Let's move on!"
+			},
+			"event": {
+				"message_one": "This is an event! Events are special encounters that can give you rewards or challenges.",
+				"message_two": "This event is a Transmutation Circle! Here you can sacrifice things for a reward.",
+				"message_three": "Click on the button to sacrifice your artifact!",
+				"message_four": "Great! You got some fragments! We'll be able to use those soon."
+			},
+			"crafting_station": {
+				"message_one": "This is the crafting station! Here you can craft your fragments into artifacts and runes!",
+				"message_two": "We can afford this artifact with the fragments we got earlier, so let's buy it!",
+				"message_three": "Now choose one of your avatars to equip it to.",
+				"message_four": "There's also a rune here that you can't afford right now, so let's carry on!"
+			},
+			"boss_combat": {
+				"message_one": "This is a boss encounter! Bosses are much tougher than normal enemies and have special abilities that can be very dangerous!",
+				"message_two": "I'll debuff it for you, then you take it down! I believe in you!"
+			},
+			"boss_dungeon_reward": {
+				"message_one": "Congratulations! Defeating the boss gives you rune rewards.",
+				"message_two": "Runes do nothing when looted in the dungeon, but when we get back to the city you can use the workshop to equip them and power up!",
+				"message_three": "It also gives you a ton of xp for your avatars!",
+				"message_four": "Leveling up avatars allows them to equip more runes, empowers their abilities, and let's them share their powers with other avatars!",
+				"message_five": "That's it for the tutorial! Enjoy the Nexus!"
+			},
+			"workshop": {
+				"message_one": "Welcome to the workshop! As you level up your avatars, they’ll unlock rune slots, which you can equip powerful runes in.",
+				"message_two": "Runes are found throughout the Nexus dungeon, and grants stats boost and unique effects when equipped to an avatar.",
+				"message_three": "If one of your avatars have empty rune slots, the amount is displayed on their tiles.",
+				"message_four": "Finally, you can also use the rune reformatter to transform or upgrade your runes.",
+				"message_five": "That's it for the tutorial! Enjoy the Nexus!"
+			},
+			"rune_setup": {
+				"message_one": "Here we have the rune setup for your avatars.",
+				"message_two": "At the top, you have all unused runes you’ve found in the Nexus dungeon.",
+				"message_three": "Runes are divided into the two categories, offensive (red) and defensive (blue).",
+				"message_four": "Beside their category, runes also comes in two types, standard (triangle and square) and advanced (circles).",
+				"message_five": "Standard runes give stacking stat or genre boosts, whereas advanced runes give a unique effect.",
+				"message_six": "Each rune category have 20 standard slots and 1 advanced slot.",
+				"message_seven": "To unlock the advanced slot for a category, you first have to equip 12 standard runes of that category.",
+				"message_eight": "Equipping an advanced rune, then, unlocks the last 8 standard slots for the category.",
+				"message_nine": "Finally, if you fill up all the category rune slots, you’re able to equip one additional advanced rune.",
+				"message_ten": "This final advanced rune can be from any category, but can’t have the same power as the other advanced runes.",
+				"message_eleven": "The counter above me show how many empty rune slots the avatar have.",
+				"message_twelve": "To equip runes, simply click the rune you want to equip, then an empty slot of the same type.",
+				"message_thirteen": "After changing your rune setup, remember to save it at the bottom.",
+				"message_fourteen": "Unequipping all your equipped runes is also possible, but costs one ticket.",
+				"message_fifteen": "Instead of unequipping runes, you can also destroy an equipped rune to clear up the slot by clicking it.",
+				"message_sixteen": "The rune is first lost when you save the page after destroying it, so feel free to experiment with different setup.",
+				"message_seventeen": "Finally, more rune pages are planned, so you can have different setups. But they will first be added in the future."
+			}
+		},
+		"artifact": {
+			"ancestor": { "title": "Ancestor", "description": "Gain a buff to all stats for 6 turns after being attacked" },
+			"berserker_star": {
+				"title": "Berserker Star",
+				"description": "Increase damage of all attacks until not landing an attack"
+			},
+			"bounty_bracelet": { "title": "Bounty Bracelet", "description": "Combat victories rewards additional fragments" },
+			"charge_staff": { "title": "Charge Staff", "description": "Landing 2 attacks in a row gives a shield" },
+			"comfy_scarf": { "title": "Comfy Scarf", "description": "Counter the first common debuff received in combat" },
+			"computation_orb": { "title": "Computation Orb", "description": "Deal additional damage when below 50% hp" },
+			"corruption_seal": {
+				"title": "Corruption Seal",
+				"description": "Reduce damage taken from debuffed enemies by 30%"
+			},
+			"cross_shield": { "title": "Cross Shield", "description": "Gain a small shield after moving" },
+			"dark_nights_imitation": {
+				"title": "Dark Night's Imitation",
+				"description": "Gain a shield at the start of combat"
+			},
+			"detective_loupe": {
+				"title": "Detective Loupe",
+				"description": "Reveal the length of the answer during the guessing phase"
+			},
+			"energy_jar": {
+				"title": "Energy Jar",
+				"description": "Gain a shield at the start of combat, this shield carries over between combats"
+			},
+			"hornet_stinger": {
+				"title": "Hornet Stinger",
+				"description": "Landing two attacks in a row, makes the second attack a guaranteed critical hit"
+			},
+			"legends_shield": {
+				"title": "Legend's Shield",
+				"description": "Gain a shield the first time you take damage each combat"
+			},
+			"midas_favor": {
+				"title": "Midas Favor",
+				"description": "Crafting stations require fewer fragments to craft items"
+			},
+			"mystery_food": {
+				"title": "Mystery Food",
+				"description": "When inflicting a debuff, apply another random debuff to the target"
+			},
+			"noble_favour": { "title": "Noble Favour", "description": "Gain 150 fragments on pick-up" },
+			"pipe_of_the_golden_fairy": {
+				"title": "Pipe of the Golden Fairy",
+				"description": "Deals 50% more damage when attacking debuffed enemies"
+			},
+			"ruler_piece": { "title": "Ruler Piece", "description": "Gain a random buff when ability is used" },
+			"sealed_watch": { "title": "Sealed Watch", "description": "Reduce cooldown of avatar ability by 2 turns" },
+			"song_euphonium": {
+				"title": "Song Euphonium",
+				"description": "Increase the chance of getting targeted by enemy attacks"
+			},
+			"soul_container": {
+				"title": "Soul Container",
+				"description": "Instantly revive with 50% hp when killed or equipped to a dead avatar, but lose the Soul Container"
+			},
+			"spiked_guards": {
+				"title": "Spiked Guards",
+				"description": "Return some of the damage taken, back to the attacker"
+			},
+			"stealth_bunny_hat": {
+				"title": "Stealth Bunny Hat",
+				"description": "Reduce the chance of getting targeted by enemy attacks"
+			},
+			"stone_mask": { "title": "Stone Mask", "description": "Heal a small amount when landing a killing blow" },
+			"sugoi_bun": { "title": "Sugoi Bun", "description": "Heal a small amount at the end of combat if below 50% hp" },
+			"swords_of_truth_and_light": {
+				"title": "Swords of Truth and Light",
+				"description": "Attacking 3 times in a row causes the third attack to do double damage"
+			},
+			"time_disk": { "title": "Time Disk", "description": "Gain an additional 5 seconds during the guessing phase" },
+			"unexpected_supporter": {
+				"title": "Unexpected Supporter",
+				"description": "Combat rewards have an additional artifact to choose from"
+			},
+			"villains_glasses": {
+				"title": "Villain's Glasses",
+				"description": "Deal additional damage for each debuff on the attack target"
+			},
+			"wise_wolf_pouch": {
+				"title": "Wise Wolf Pouch",
+				"description": "Crafting stations have more items to choose from"
+			}
+		},
+		"events": {
+			"enemy_turf": {
+				"title": "Enemy Turf",
+				"base": {
+					"text": "A sketchy man, in a purple suit and green hair styled over his head, greets the party as they enter the room. _BREAK_ “Hey, you can’t just pass through here, this is my turf. I can make an exception if you leave all your _HIGHLIGHT2_ fragments _HIGHLIGHT2_, else you’ll _HIGHLIGHT_ have to take it up with the boys _HIGHLIGHT_”. _BREAK_ The man signals towards _HIGHLIGHT_ 4 enemy cores _HIGHLIGHT_ floating next to him.",
+					"options": { "pay": "Pay _NUMBER_ fragments", "ignore": "Ignore the warning" }
+				},
+				"pay": { "text": "The man grabs the fragments as you throw them to him. _BREAK_ “Pleasure doing business”" },
+				"ignore": {
+					"text": "“You’ll regret that, don’t hold me responsible for what happens” _BREAK_ The man yells as he runs out of the door while the enemy cores start activating."
+				}
+			},
+			"gift_game": {
+				"genre": {
+					"title": "Gift Game - Genre",
+					"base": {
+						"text": "As the party enters the room, they are greeted by a blue haired bunny girl. _BREAK_ “Greetings players, you have been invited to _HIGHLIGHT_ partake in a simple genre quiz game _HIGHLIGHT_ by our benevolent host. _BREAK_ “You’ll earn _HIGHLIGHT2_ fragments _HIGHLIGHT2_ for each _HIGHLIGHT_ correct guess _HIGHLIGHT_, but if you _HIGHLIGHT_ get one wrong _HIGHLIGHT_, you'll have to _HIGHLIGHT_ leave without any prize _HIGHLIGHT_. _HIGHLIGHT_ Guess all 5 _HIGHLIGHT_ questions and you’ll also _HIGHLIGHT_ win the grand prize _HIGHLIGHT_ of _ARTIFACT_.”",
+						"options": { "accept": "Accept the invitation", "decline": "Decline the invitation" }
+					},
+					"accept": {
+						"text": "The bunny pulls out a stack of cards. _BREAK_ “Each of these cards have the name of an _HIGHLIGHT_ anime and 4 genres _HIGHLIGHT_. Once I flip the card, _HIGHLIGHT_ you'll have 10 seconds _HIGHLIGHT_ to guess which _HIGHLIGHT_ genre belongs to the anime _HIGHLIGHT_.”",
+						"options": { "first_question": "First question" }
+					},
+					"question": { "text": "Which genre belongs to the following anime. _BREAK_ _NAME_ _BREAK_ _NAME2_" },
+					"wrong_guess": {
+						"text": "“I’m sorry to say, but “_NAME_” _HIGHLIGHT_ isn’t the genre _HIGHLIGHT_ for _HIGHLIGHT2_ _NAME2_ _HIGHLIGHT2_. The _HIGHLIGHT_ correct answer _HIGHLIGHT_ is _HIGHLIGHT2_ _NAME3_ _HIGHLIGHT2_. _BREAK_ “I wish you the best of luck in your future games, and hope you will participate again in the future” _BREAK_ The bunny bows to the party, and signals them to continue through the room."
+					},
+					"time_out": {
+						"text": "A buzzer sounds in the room. _BREAK_ “I'm sorry to say, but _HIGHLIGHT_ your time is up _HIGHLIGHT_. The correct genre for _HIGHLIGHT2_ _NAME_ _HIGHLIGHT2_, was _HIGHLIGHT2_ _NAME2_ _HIGHLIGHT2_. _BREAK_ “I wish you the best of luck in your future games, and hope you will participate again in the future”. _BREAK_ The bunny bows to the party, and signals them to continue through the room."
+					}
+				},
+				"song_type": {
+					"title": "Gift Game - Song Type",
+					"base": {
+						"text": "As the party enter the room, they are greeted by a blue haired bunny girl. _BREAK_ “Greetings players, you have been invited to _HIGHLIGHT_ partake in a simple song type quiz game _HIGHLIGHT_ by our benevolent host. _BREAK_ “You’ll earn _HIGHLIGHT2_ fragments _HIGHLIGHT2_ for each _HIGHLIGHT_ correct guess _HIGHLIGHT_, but if you get one wrong, you'll have to _HIGHLIGHT_ leave without any prize _HIGHLIGHT_. _HIGHLIGHT_ Guess all 5 _HIGHLIGHT_ questions and you’ll also _HIGHLIGHT_ win the grand prize _HIGHLIGHT_ of _ARTIFACT_.”",
+						"options": { "accept": "Accept the invitation", "decline": "Decline the invitation" }
+					},
+					"accept": {
+						"text": "The bunny pulls out a small buzzer. _BREAK_ “When I click the buzzer _HIGHLIGHT_ a song will start playing _HIGHLIGHT_, and you’ll have _HIGHLIGHT_ 15 seconds to guess _HIGHLIGHT_ if it’s an _HIGHLIGHT_ opening, ending or insert song _HIGHLIGHT_. _BREAK_ “Just give me a second to get everything ready”",
+						"options": { "first_question": "First question" }
+					},
+					"question": {
+						"text": "Which song type is this?",
+						"options": { "opening": "Opening", "ending": "Ending", "insert_song": "Insert Song" }
+					},
+					"correct": {
+						"text": "“You are _HIGHLIGHT_ correct! _HIGHLIGHT_ The song was _HIGHLIGHT2_ _NAME_ _HIGHLIGHT2_ from _HIGHLIGHT_ _NAME2_ _HIGHLIGHT_. And with that, _HIGHLIGHT_ your current winnings are at _NUMBER_ _HIGHLIGHT2_ fragments _HIGHLIGHT2_ _HIGHLIGHT_. _BREAK_ Would you like to continue to the next question, or cash out?”",
+						"options": { "next_question": "Next Question", "cash_out": "Cash Out" }
+					},
+					"all_correct": {
+						"text": "“Amazing, you managed to _HIGHLIGHT_ guess all 5 correct _HIGHLIGHT_! The final song was _HIGHLIGHT2_ _NAME_ _HIGHLIGHT2_ from _HIGHLIGHT2_ _NAME2_ _HIGHLIGHT2_. I'm happy to reward you not only the _NUMBER_ _HIGHLIGHT2_ fragments _HIGHLIGHT2_, but the _ARTIFACT_ as well!”, the bunny says before cheerfully handing over the rewards. _BREAK_ “Congrats on winning the quiz, I hope you'll play again in the future.” _BREAK_ The bunny bows to the party, and signals them to continue through the room."
+					},
+					"wrong_guess": {
+						"text": "“I’m sorry to say, but _HIGHLIGHT2_ _NAME_ _HIGHLIGHT2_ _HIGHLIGHT_ isn't the correct answer _HIGHLIGHT_. The song was _HIGHLIGHT2_ _NAME2_ _HIGHLIGHT2_ from _HIGHLIGHT2_ _NAME3_ _HIGHLIGHT2_. _BREAK_ “I wish you the best of luck in your future games, and hope you will participate again in the future.” _BREAK_ The bunny bows to the party, and signals them to continue through the room."
+					},
+					"time_out": {
+						"text": "A buzzer sounds in the room. _BREAK_ “I’m sorry to say, but _HIGHLIGHT_ your time is up _HIGHLIGHT_. The song was _HIGHLIGHT2_ _NAME_ _HIGHLIGHT2_ from _HIGHLIGHT2_ _NAME2_ _HIGHLIGHT2_. _BREAK_ “I wish you the best of luck in your future games, and hope you will participate again in the future”. _BREAK_ The bunny bows to the party, and signals them to continue through the room."
+					},
+					"type_numbered": {
+						"opening": "Opening _NUMBEREXTRA_",
+						"ending": "Ending _NUMBEREXTRA_",
+						"insert_song": "Insert Song"
+					},
+					"type": { "opening": "Opening", "ending": "Ending", "insert_song": "Insert Song" }
+				},
+				"tiny_opening": {
+					"title": "Gift Game - Tiny Opening",
+					"base": {
+						"text": "As the party enter the room, they are greeted by a blue haired bunny girl. _BREAK_ “Greetings players, you have been invited to _HIGHLIGHT_ partake in a simple video quiz game _HIGHLIGHT_ by our benevolent host. “You’ll earn _HIGHLIGHT2_ fragments _HIGHLIGHT2_ for each _HIGHLIGHT_ correct guess _HIGHLIGHT_, but if you _HIGHLIGHT_ get one wrong _HIGHLIGHT_, you'll have to _HIGHLIGHT_ leave without any prize _HIGHLIGHT_. _HIGHLIGHT_ Guess all 5 questions _HIGHLIGHT_ and you’ll also _HIGHLIGHT_ win the grand prize _HIGHLIGHT_ of _ARTIFACT_.”",
+						"options": { "accept": "Accept the invitation", "decline": "Decline the invitation" }
+					},
+					"accept": {
+						"text": "The bunny pulls out a small buzzer. _BREAK_ “When I click the buzzer, _HIGHLIGHT_ a small frame of an anime opening will play _HIGHLIGHT_, and you’ll have _HIGHLIGHT_ 10 seconds to select the correct show _HIGHLIGHT_ from the provided choices. _BREAK_ “Just give me a second to get everything ready”",
+						"options": { "first_question": "First question" }
+					},
+					"question": { "text": "What show is this?" },
+					"correct": {
+						"text": "“_HIGHLIGHT_ You are correct! _HIGHLIGHT_ The video was Opening _NUMBER_ from _HIGHLIGHT2_ _NAME_ _HIGHLIGHT2_. And with that, your current winnings are at _NUMBER2_ _HIGHLIGHT2_ fragments _HIGHLIGHT2_. _BREAK_ Would you like to _HIGHLIGHT_ continue to the next question, or cash out? _HIGHLIGHT_”",
+						"options": { "next_question": "Next Question", "cash_out": "Cash Out" }
+					},
+					"all_correct": {
+						"text": "“Amazing, you managed to _HIGHLIGHT_ guess all 5 correct _HIGHLIGHT_! The final video was _HIGHLIGHT2_ Opening _NUMBER_ _HIGHLIGHT2_ from _HIGHLIGHT2_ _NAME_ _HIGHLIGHT2_. I'm happy to reward you not only the _NUMBER2_ _HIGHLIGHT2_ fragments _HIGHLIGHT2_, but the _ARTIFACT_ as well!”, the bunny says before cheerfully handing over the rewards. _BREAK_ “Congrats on winning the quiz, I hope you'll play again in the future.” _BREAK_ The bunny bows to the party, and signals them to continue through the room."
+					},
+					"wrong_guess": {
+						"text": "“I’m sorry to say, but _NAME_ _HIGHLIGHT_ isn't the correct answer _HIGHLIGHT_. The video was _HIGHLIGHT2_ Opening _NUMBER_ of  _NAME2_ _HIGHLIGHT2_. _BREAK_“I wish you the best of luck in your future games, and hope you will participate again in the future” _BREAK_ The bunny bows to the party, and signals them to continue through the room."
+					},
+					"time_out": {
+						"text": "A buzzer sounds in the room. _BREAK_ “I’m sorry to say, but _HIGHLIGHT_ your time is up _HIGHLIGHT_. The song was _HIGHLIGHT2_ Opening _NUMBER_ from _NAME_ _HIGHLIGHT2_. _BREAK_ “I wish you the best of luck in your future games, and hope you will participate again in the future”. _BREAK_ The bunny bows to the party, and signals them to continue through the room."
+					}
+				},
+				"decline": {
+					"text": "The bunny looks taken aback. _BREAK_ “You really don't want to play? But _HIGHLIGHT_ you have nothing to lose… _HIGHLIGHT_ how am I going to explain this to our host…”, the bunny stammers while looking mildly panicked, before noticing the party's stares. _BREAK_ “If that is your decision then… I hope you'll consider playing the next time we meet”, she manages to say with a half forced smile, before bowing to the party and signals them to continue through the room."
+				},
+				"cash_out": {
+					"text": "“A wise player knows to quit while on top. So I respect your decision”, the bunny says before she hands the party their winnings. _BREAK_ “Congrats on your rewards, I hope you will play again in the future.” _BREAK_ The bunny bows to the party, and signals them to continue through the room."
+				},
+				"correct_guess": {
+					"text": "“You are _HIGHLIGHT_ correct! _HIGHLIGHT_ And with that, _HIGHLIGHT_ your current winnings are at _NUMBER_ _HIGHLIGHT_ _HIGHLIGHT2_ fragments. _HIGHLIGHT2_ _BREAK_ Would you like to continue to the next question, or cash out?”",
+					"options": { "next_question": "Next Question", "cash_out": "Cash Out" }
+				},
+				"win": {
+					"text": "“Amazing, you _HIGHLIGHT_ managed to guess all 5 _HIGHLIGHT_ correct! I'm happy to reward you not only the _NUMBER_ _HIGHLIGHT2_ fragments _HIGHLIGHT2_, but the _ARTIFACT_ as well!”, the bunny says before cheerfully handing over the rewards. _BREAK_ “Congrats on winning the quiz, I hope you'll play again in the future.” _BREAK_ The bunny bows to the party, and signals them to continue through the room."
+				},
+				"video_issue": {
+					"text_one": "The bunny looks flustered as she repeatedly clicks the buzzer. _BREAK_ “I’m sorry, there appears to be an issue with the question. So we’ll have to skip this one. _BREAK_ “I’ll get the next question ready, just give me a moment.”",
+					"text_two": "The bunny starts furiously hitting the buzzer, before looking up at the party with a strained smile. _BREAK_ “It appears the equipment is faulty, so we’ll have to skip this question. I’ll get the next one setup”",
+					"text_three": "The bunny furiously grabs the buzzer and hurls it at the wall. _BREAK_ “It appears we’re _HIGHLIGHT_ experiencing some technical difficulties _HIGHLIGHT_, so we _HIGHLIGHT_ won’t be able to complete the quiz _HIGHLIGHT_. I’m sure our host can afford to _HIGHLIGHT_ give you 100 _HIGHLIGHT2_ fragments _HIGHLIGHT2_ _HIGHLIGHT_ as an apology.” _BREAK_ The bunny hands the party the _HIGHLIGHT2_ fragments _HIGHLIGHT2_, then signals to the door.",
+					"text_four": "“The bunny tries clicking the button several times, but nothing happens. _BREAK_ “The _HIGHLIGHT_ last question doesn’t appear to be working _HIGHLIGHT_. As this is the host's fault, I’ll _HIGHLIGHT_ reward you the question _HIGHLIGHT_. So I’m happy to reward you not only the _NUMBER_ _HIGHLIGHT2_ fragments _HIGHLIGHT2_, but the _ARTIFACT_ as well!”, the bunny says before cheerfully handing over the rewards. _BREAK_ “Congrats on winning the quiz, I hope you'll play again in the future.” _BREAK_ The bunny bows to the party, and signals them to continue through the room.",
+					"options": { "next_question": "Next Question" }
+				}
+			},
+			"glitched_item": {
+				"title": "Glitched Item",
+				"base": {
+					"text": "A weird shape floats in the center of the room. The more the party looks at it the harder it is to see its shape. _BREAK_ As the party gets closer, it flickers and changes into a handful of _HIGHLIGHT2_ fragments _HIGHLIGHT2_, before flickering again turning into an _HIGHLIGHT2_ artifact _HIGHLIGHT2_. With no time to identify the artifact, it flickers again and a _HIGHLIGHT2_ rune _HIGHLIGHT2_ now floats in its place. _BREAK_ The object keeps changing, but with the right timing it should be possible to _HIGHLIGHT_ grab one of the items _HIGHLIGHT_.",
+					"option": { "grab_fragments": "Grab Fragments", "grab_artifact": "Grab Artifact", "grab_rune": "Grab Rune" }
+				},
+				"result": {
+					"text": "With a decisive strike, _NAME_ manages to grab the _HIGHLIGHT2_ _NAME2_ _HIGHLIGHT2_, just as it was about to change. Luckily, it doesn't appear to be changing anymore",
+					"target_type": { "fragments": "fragments", "artifact": "artifact", "rune": "rune" }
+				}
+			},
+			"mystery_container": {
+				"title": "Mystery Container",
+				"base": {
+					"text": "A strange container sits at the center of the room. As the party gets closer, they see it's _HIGHLIGHT_ filled with glitching items _HIGHLIGHT_, changing at random into everything from _HIGHLIGHT2_ knives _HIGHLIGHT2_ and _HIGHLIGHT2_ burning embers _HIGHLIGHT2_ to _HIGHLIGHT2_ flowers _HIGHLIGHT2_ and _HIGHLIGHT2_ plush animals _HIGHLIGHT2_. _BREAK_ Through the chaotic glitch of items an _HIGHLIGHT2_ artifact _HIGHLIGHT2_ pops up from time to time. With the right timing and luck _HIGHLIGHT_ it should be possible to grab one _HIGHLIGHT_.",
+					"option": { "reach_in": "Have _NAME_ reach in", "ignore": "Ignore the container" }
+				},
+				"artifact_result": {
+					"text": "_NAME_ manages to get a firm grasp on something and pulls out an _HIGHLIGHT2_ artifact _HIGHLIGHT2_. With the artifact removed, the glitching items appear to be a lot more aggressive, so _HIGHLIGHT_ none in the party wants to try reaching for another _HIGHLIGHT_."
+				},
+				"nothing_result": {
+					"text": "`After roaming through the container, _NAME_ _HIGHLIGHT_ isn't able to find anything _HIGHLIGHT_ and pulls back their hand."
+				},
+				"damage_result": {
+					"text": "_NAME_ quickly pulls back their hand, now covered in scraps, because _HIGHLIGHT_ the items transformed into less friendly shapes _HIGHLIGHT_."
+				},
+				"wipe_result": {
+					"text": "_NAME_ quickly pulls back their hand, now covered in scraps, because _HIGHLIGHT_ the items in the box transformed into less friendly shapes _HIGHLIGHT_. _BREAK_ With _HIGHLIGHT_ no member of the party left standing, the dungeon has to be cut short _HIGHLIGHT_."
+				},
+				"ignore_result": {
+					"text": "The chaotic nature of the container seems too big a risk. So _HIGHLIGHT_ the party decides to continue on _HIGHLIGHT_."
+				}
+			},
+			"offering_box": {
+				"title": "Offering Box",
+				"base": {
+					"text": "A _HIGHLIGHT_ wooden shrine offering box _HIGHLIGHT_ is oddly placed at the center of the room.",
+					"option": { "fragments": "Throw in _NUMBER_ fragments", "ignore": "Ignore the box" }
+				},
+				"option_one": {
+					"text": "After throwing in the _HIGHLIGHT2_ fragments _HIGHLIGHT2_ the box glows for a moment, before _HIGHLIGHT_ disappearing in a flash of light _HIGHLIGHT_."
+				},
+				"option_two": {
+					"text": "After throwing in the _HIGHLIGHT2_ fragments _HIGHLIGHT2_ the box glows for a bit, before disappearing, leaving in its place the artifact: _ARTIFACT_"
+				},
+				"option_three": {
+					"text": "After throwing in the _HIGHLIGHT2_ fragments _HIGHLIGHT2_ the box starts glowing, _HIGHLIGHT_ enveloping _NAME_ in a strong light. After a moment the light resides, the box is gone, but _NAME2_ is back on their feet _HIGHLIGHT_."
+				},
+				"option_four": {
+					"text": "After throwing in the _HIGHLIGHT2_ fragments _HIGHLIGHT2_ the box starts glowing, bathing the party in its warm light _HIGHLIGHT_ restoring some of their strength _HIGHLIGHT_, before the box disappears."
+				},
+				"ignore_option": {
+					"text": "The party walks past the box paying it no attention. Just as the last person passes by the box, _HIGHLIGHT_ a dark wave of energy _HIGHLIGHT_ rushes out of it engulfing the party. The wave disappears as quickly as it came, the box now gone, but _HIGHLIGHT_ the party feels strangely drained _HIGHLIGHT_."
+				}
+			},
+			"rare_hunter": {
+				"title": "Rare Hunter",
+				"base": {
+					"one_artifact": "As the party enters the room, a pink haired girl wearing a white mage robe rush over to the party. _BREAK_ “Is that a _ARTIFACT_?” _BREAK_ The girl exclaims while bouncing around the party. _BREAK_ _HIGHLIGHT_ “You have to sell it to me!” _HIGHLIGHT_",
+					"two_artifacts": "As the party enters the room, a pink haired girl wearing a white mage robe rush over to the party. _BREAK_ “Is that a _ARTIFACT_? And a _ARTIFACT2_?” _BREAK_ The girl exclaims while bouncing around the party. _BREAK_ “_HIGHLIGHT_ You have to sell them to me _HIGHLIGHT_… But I'm low on fragments… Argh, _HIGHLIGHT_ I'll have to make do with a single one _HIGHLIGHT_!”",
+					"three_artifacts": "As the party enters the room, a pink haired girl wearing a white mage robe rush over to the party. _BREAK_ “Is that a _ARTIFACT_? And a _ARTIFACT2_? Where in the world did you find a _ARTIFACT3_?” _BREAK_ The girl exclaims while bouncing around the party. _BREAK_ “_HIGHLIGHT_ You have to sell them to me _HIGHLIGHT_… But I'm low on fragments… Argh, _HIGHLIGHT_ I'll have to make do with a single one _HIGHLIGHT_!”",
+					"options": {
+						"sell_artifact": "Sell _NAME_ for _NUMBER_ fragments",
+						"sell_all": "Sell all _NUMBER_ artifacts for _NUMBER2_ fragments",
+						"decline": "Decline her offer"
+					}
+				},
+				"sell_one": {
+					"text": "“Thanks, I’ll treasure it forever!” _BREAK_ The girl says, hugging the _ARTIFACT_ before rushing off."
+				},
+				"sell_all": {
+					"text": "“You're selling me all 3!? You guys rock! As thanks for being so awesome, _HIGHLIGHT_ you can have my _HIGHLIGHT_ _ARTIFACT_”. _BREAK_ The girl says, before rushing off with her new stash of artifacts."
+				},
+				"decline": {
+					"text": "“Not even a single one?” _BREAK_ The girl says looking downcast. Before bouncing back, exclaiming “no time for feeling down, there are more artifacts to find!” before rushing off."
+				}
+			},
+			"the_goddess": {
+				"title": "The Goddess",
+				"base": {
+					"text": "As the party enter the room, they're _HIGHLIGHT_ greeted by a girl with long blue hair _HIGHLIGHT_ sitting in a large white chair. _BREAK_ “Greetings adventures, consider yourself blessed as your journey has led you to a place of peace. Step forward, and _HIGHLIGHT_ I'll share my divine powers to restore you. _HIGHLIGHT_”",
+					"options": { "step_forward": "Have _NAME_ step forward" }
+				},
+				"result": {
+					"text": "A _HIGHLIGHT_ divine light covers _NAME_ restoring their strength _HIGHLIGHT_. _BREAK_ As the party looks back to the girl, they're surprised to see that she's lazily snacking from a bag of potato chips. _BREAK_ “You're all still here? _HIGHLIGHT_ I already healed one of you _HIGHLIGHT_, how needy can you be… I've already done my part, so _HIGHLIGHT_ leave and get on with your quest _HIGHLIGHT_ or whatever it is that you're doing”."
+				}
+			},
+			"the_pedestal": {
+				"title": "The Pedestal",
+				"base": {
+					"text": "A _HIGHLIGHT_ lone pedestal _HIGHLIGHT_ sits at the center of the room. As the party gets closer to it some of their _HIGHLIGHT2_ artifacts _HIGHLIGHT2_ _HIGHLIGHT_ start glowing _HIGHLIGHT_, as if drawn to the pedestal.",
+					"options": { "place_artifact": "Place _NAME_ on the pedestal", "ignore": "Ignore the pedestal" }
+				},
+				"ignore": { "text": "The potential prize isn’t worth the artifact, the party continues onwards" },
+				"transform": {
+					"text": "The _ARTIFACT_ _HIGHLIGHT_ explodes into fragments _HIGHLIGHT_ floating above the pedestal, before suddenly swarming back to its center, _HIGHLIGHT_ transforming into the _ARTIFACT2_ artifact. _HIGHLIGHT_"
+				}
+			},
+			"the_ring": {
+				"title": "The Ring",
+				"base": {
+					"text": "As the party enters the room, a _HIGHLIGHT_ sleazy man wearing a cap and an eye patch _HIGHLIGHT_ approaches the party. _BREAK_ “Perfect timing, we just had a slot open up. Any of you _HIGHLIGHT_ fancy a round in the ring _HIGHLIGHT_?” he says while gesturing to a boxing ring with an enemy _HIGHLIGHT2_ core _HIGHLIGHT2_ floating in it.",
+					"options": { "enter_ring": "Have _NAME_ enter the ring", "decline": "Decline the offer" }
+				},
+				"ignore": {
+					"text": "“You ain’t never gonna win big with that attitude” the man grumbles as he heads back towards the ring."
+				}
+			},
+			"transmutation_circle": {
+				"title": "Transmutation Circle",
+				"base": {
+					"text": "A _HIGHLIGHT_ mysterious circle with strange symbols and shapes _HIGHLIGHT_ drawn inside of it, sits at the center of the room. _BREAK_ As the party draws close to the circle _HIGHLIGHT_ a voice echoes across the room _HIGHLIGHT_: _BREAK_ “For something to be obtained, _HIGHLIGHT_ something of equal value must be surrendered _HIGHLIGHT_.”",
+					"no_artifact": "an artifact",
+					"options": {
+						"fragments": "Place _NUMBER_ fragments inside the circle",
+						"artifact": "Place _NAME_ inside the circle",
+						"step_inside": "Step inside the circle",
+						"ignore": "Ignore the circle"
+					}
+				},
+				"ignore": {
+					"text": "The party continues taking a wide swing around the circle, not wanting to take the risk."
+				},
+				"results": {
+					"text_fragment": "A blinding light fills the room. _BREAK_ Once the light subsides the circle is gone together with the _HIGHLIGHT2_ fragments _HIGHLIGHT2_, in its place _NAME_ has appeared",
+					"text_artifact": "A blinding light fills the room. _BREAK_ Once the light subsides the circle is gone together with the _ARTIFACT_, in its place _NAME_ has appeared",
+					"text_life": "A blinding light fills the room and _HIGHLIGHT_ the entire party feels weaker _HIGHLIGHT_. _BREAK_ Once the light subsides the circle is gone, in its place _NAME_ has appeared",
+					"rewards": {
+						"fragment": "a stack of _NUMBER_ _HIGHLIGHT2_ fragments _HIGHLIGHT2_",
+						"artifact": "an _HIGHLIGHT2_ artifact _HIGHLIGHT2_"
+					}
+				}
+			},
+			"wild_inventor": {
+				"title": "Wild Inventor",
+				"base": {
+					"text": "A _HIGHLIGHT_ pink haired girl _HIGHLIGHT_ with a pair of large red goggles sits at a lone workbench, her eyes sparkle for a second when she notices the party, before rushing over. _BREAK_ “I just ran out of data _HIGHLIGHT2_ fragments _HIGHLIGHT2_, but let me _HIGHLIGHT_ break down _HIGHLIGHT_ some of your _HIGHLIGHT2_ artifacts _HIGHLIGHT2_, and I’ll craft you some _HIGHLIGHT2_ runes _HIGHLIGHT2_!”",
+					"options": { "artifact": "Give her the _NAME_", "decline": "Decline her offer" }
+				},
+				"base_decline": { "text": "“Your loss, I’ll save my amazing babies for the next party.”" },
+				"late_decline": {
+					"text": "“Not going for the full set? You’ll regret that once you see how well my babies perform”"
+				},
+				"artifact": {
+					"text": "The girl grabs the _ARTIFACT_, returns to her workbench and starts hitting it with several tools no one has seen before. Within moments, she has the artifact changed into a _HIGHLIGHT2_ _NAME_ rune _HIGHLIGHT2_. _BREAK_ “I’m sure this baby will be a great help, so _HIGHLIGHT_ which _HIGHLIGHT2_ artifact _HIGHLIGHT2_ is next _HIGHLIGHT_?”"
+				},
+				"all_done": {
+					"text": "The girl grabs the _ARTIFACT_, returns to her workbench and starts hitting it with several tools no one has seen before. Within moments, she has the artifact changed into a _HIGHLIGHT2_ _NAME_ rune _HIGHLIGHT2_. _BREAK_ “That’s the last of my babies for now, make sure to drop by again in the future when you need more _HIGHLIGHT2_ runes _HIGHLIGHT2_!”"
+				}
+			}
+		},
+		"avatar_abilities": {
+			"akane": {
+				"standard": {
+					"name": "Snake Charm",
+					"description": "Gain a buff causing attacks to apply the charmed debuff",
+					"badge_description": "Random chance to apply the charmed debuff on attacks"
+				}
+			},
+			"akira": {
+				"standard": {
+					"name": "Encore",
+					"description": "Akira's next attack inflicts the encore debuff",
+					"badge_description": "Random chance to inflict the encore debuff on attacks"
+				}
+			},
+			"alisa": {
+				"standard": {
+					"name": "Weapon Master",
+					"description": "Get a buff that empowers all offensive artifacts",
+					"badge_description": "Random chance to empower offensive artifacts at beginning of turn"
+				}
+			},
+			"asuka": {
+				"standard": {
+					"name": "Reconnaissance in Force",
+					"description": "Become focused and get the Recon in Force buff",
+					"badge_description": "Random chance to get focused and get the Recon in Force buff"
+				}
+			},
+			"chika": {
+				"standard": {
+					"name": "Crazy Concoction",
+					"description": "Give a random buff to target ally, or a random debuff to target enemy",
+					"badge_description": "Random chance to give another avatar a random buff or an enemy a random debuff"
+				}
+			},
+			"etsuko": {
+				"standard": {
+					"name": "Natural Sprinter",
+					"description": "Move one position forward in the party, and gain a buff to attack and accuracy. Can only be used if there’s an avatar ahead of Etsuko who can swap position.",
+					"badge_description": "Random chance to move forward in the party, and get a buff to attack and accuracy"
+				}
+			},
+			"fira": {
+				"standard": {
+					"name": "Dragon Rage",
+					"description": "Gets a buff that boosts attack heavily if hit",
+					"badge_description": "Random chance to boost attack when hit"
+				}
+			},
+			"fuwagi": {
+				"standard": {
+					"name": "Unlucky Lucky Rabbit",
+					"description": "Greatly increase dodge, but increase the chance of getting targeted by enemy attacks.",
+					"badge_description": "Random chance to greatly increase dodge and chance of getting targeted by enemy attacks"
+				},
+				"traveling_merchant": {
+					"name": "Traveling Store",
+					"description": "Open Fuwagi’s store window, allowing you to spend fragments on power-ups for the party",
+					"badge_description": "Open Fuwagi’s store window for a turn, allowing you to buy a single item"
+				}
+			},
+			"haruki": {
+				"standard": {
+					"name": "Nature Frenzy",
+					"description": "Greatly boost attack, but halve defense and dodge for the duration.",
+					"badge_description": "Random chance to greatly increase attack, but halve defense and dodge for the duration"
+				}
+			},
+			"hibiki": {
+				"standard": {
+					"name": "Deep Dive",
+					"description": "Gain buffs for up to _NUMBER_ of the current songs genres, each boosting damage during those genres.",
+					"badge_description": "Random chance to gain a buff boosting damage during one of the current songs genres"
+				}
+			},
+			"hikari": {
+				"scholar": {
+					"name": "Magical Infusion",
+					"description": "Gain a buff that gives Hikari a random buff each time he lands an attack. The buff lasts until Hikari fails an attack.",
+					"badge_description": "Random chance to gain a buff, that cause successful attacks to grant a random buff. The buff is lost when an attack fails."
+				},
+				"fireman": {
+					"name": "Brave the Flames",
+					"description": "Remove all debuffs, and gain a defence buff",
+					"badge_description": "Random chance to remove all debuffs and gain a defence buff"
+				}
+			},
+			"honoka": {
+				"standard": {
+					"name": "Encyclopedia",
+					"description": "Reveals some of the song info for the current song",
+					"badge_description": "Random chance to reveal some of the info for the current song"
+				},
+				"druid": {
+					"name": "Natures Infusion",
+					"description": "Buff target avatar, increasing their attack and reduce the damage they take from the next by consuming the buff",
+					"badge_description": "Random chance to buff a random avatar, increasing their attack and reducing the next attack damage they take by consuming the buff."
+				}
+			},
+			"kasumi": {
+				"standard": {
+					"name": "Shinobi",
+					"description": "Instantly become hidden",
+					"badge_description": "Random chance to get the hidden buff"
+				}
+			},
+			"katsu": {
+				"standard": {
+					"name": "Luck of the Draw",
+					"description": "Gain a random buff, shield, or heal depending on the situation",
+					"badge_description": "Random chance to get either a random buff, shield or heal depending on the situation"
+				}
+			},
+			"komugi": {
+				"standard": {
+					"name": "Fox Fire",
+					"description": "Gain a buff causing all attacks to apply a random debuff",
+					"badge_description": "Random chance to gain a buff that causes all attacks to inflict a random debuff"
+				},
+				"tribal_sorcerer": {
+					"name": "Fiery Onslaught",
+					"description": "Buff accuracy and cause all attacks to apply the virus debuff, but inflict the virus debuff on Komugi if she fails an attack",
+					"badge_description": "Random chance to get a buff causing all attacks to apply the virus debuff and increase accuracy, but get hit by the virus debuff if you miss an attack"
+				},
+				"pirate": {
+					"name": "Plunder",
+					"description": "Komugi gains a random buff and steals some fragments if she hits with her next attack.",
+					"badge_description": "Random chance to get a random buff and some fragments when you hit an enemy with an attack"
+				}
+			},
+			"kumiko": {
+				"standard": {
+					"name": "Spectral Tricks",
+					"description": "Buff target avatar, causing any attack to inflict 0 damage to them this turn. The negated damage is inflicted next turn if the party guesses wrong",
+					"badge_description": "Random chance to buff an avatar about to be attacked, making it, so they take 0 attack damage this turn, but the blocked damage is returned the next turn if the party guesses wrong."
+				}
+			},
+			"kuriko": {
+				"standard": {
+					"name": "Witches Trickery",
+					"description": "Apply the bewitched debuff on the next attack",
+					"badge_description": "Random chance to apply the bewitched debuff on attacks"
+				},
+				"sorceress": {
+					"name": "Cat of Many Faces",
+					"description": "Transform into target ally for one turn, copying their stats, runes, artifacts, buffs and debuffs. Charged buffs and debuffs aren’t copied",
+					"badge_description": "Random chance to transform into an ally for one turn, copying their stats, runes, artifacts, buffs and debuffs. The ally chosen is based on if defensive or offensive stats are needed, and charged buffs and debuffs aren’t copied"
+				}
+			},
+			"kyouko": {
+				"standard": {
+					"name": "Deep Clean",
+					"description": "Clean away all debuffs from target character",
+					"badge_description": "Random chance to clean all debuffs from the avatar"
+				},
+				"knight": {
+					"name": "Knight's Challenge",
+					"description": "Gain a buff causing all new attacks to target Kyouko",
+					"badge_description": "Random chance to get a buff, causing all new attacks to target the avatar"
+				}
+			},
+			"lilith": {
+				"standard": {
+					"name": "Vampire's Kiss",
+					"description": "Heals Lilith if her next attack kills an enemy",
+					"badge_description": "Random chance to heal when killing an enemy"
+				}
+			},
+			"mao": {
+				"standard": {
+					"name": "Dark Flame Strike",
+					"description": "Increase damage on Mao’s next attack. If it fails, receive two debuffs. Can’t be used during Mao's turn.",
+					"badge_description": "Random chance to increase damage of next attack, but inflicts a debuff if the attack fails"
+				},
+				"demon_lord": {
+					"name": "Dark Contract",
+					"description": "Buff target ally, increasing their damage and resurrecting them if killed. If resurrected, an avatar or enemy must die before the buff expires or they die again.",
+					"badge_description": "Random chance to give an ally the Dark Contract buff, increasing their damage and reviving them if killed, but if revived another avatar or enemy must die before the buff expires, or they die again."
+				}
+			},
+			"marine": {
+				"standard": {
+					"name": "Full Barrage",
+					"description": "Buff attack and accuracy, but gets the focused and exposed debuffs as well.",
+					"badge_description": "Random chance to buff attack and accuracy, but get focused and exposed as well"
+				},
+				"buccaneer": {
+					"name": "Full Charge",
+					"description": "Next attack deals double damage, but gain the Crash debuff at the end of the turn.",
+					"badge_description": "Random chance to have next attack deal double damage, but gain the Crash debuff at the end of the turn."
+				}
+			},
+			"miyu": {
+				"standard": {
+					"name": "Buster",
+					"description": "Charge up during allies' turn to boost the damage of Miyu’s next attack for each turn charged. Moving or taking damage interrupts this ability",
+					"badge_description": "Random chance to start charging up during allies turns, boosting the damage of the next attack. Moving or taking interrupts this ability"
+				},
+				"valkyrie": {
+					"name": "Magical Bombardment",
+					"description": "Miyu’s next attack deals reduced damage, but targets all enemies",
+					"badge_description": "Random chance to make the next attack target all enemies, but deal reduced damage"
+				}
+			},
+			"mizuki": {
+				"standard": {
+					"name": "Fox Charm",
+					"description": "Inflict the charmed debuff on target enemy",
+					"badge_description": "Random chance to inflict the charm debuff on a random enemy"
+				},
+				"high_priest": {
+					"name": "Ice Prison",
+					"description": "Debuff target enemy, skipping all their actions for several turns, while also greatly reducing the attack damage they take.",
+					"badge_description": "Random chance to debuff a random enemy, skipping all their actions for several turns, but greatly reduce damage they take from attacks"
+				}
+			},
+			"naomi": {
+				"standard": {
+					"name": "Tough",
+					"description": "Buff defence and become focused",
+					"badge_description": "Random chance to buff defence and become focused"
+				}
+			},
+			"noel": {
+				"standard": {
+					"name": "Master Detective",
+					"description": "Reveal the length of the answer and _NUMBER_ of its characters",
+					"badge_description": "Random chance to reveal the length of the answer and 2 of its characters"
+				},
+				"brawler": {
+					"name": "Martial Strikes",
+					"description": "Gain a buff boosting attack damage until not landing an attack, the damage boost increasing with each successful attack.",
+					"badge_description": "Random chance to get the Martial Strike buff"
+				}
+			},
+			"riku": {
+				"standard": {
+					"name": "Check Chat",
+					"description": "Riku asks chat for help and receives a bunch of sometimes helpful hints",
+					"badge_description": "Random chance to get hints via chat"
+				}
+			},
+			"ritsu": {
+				"standard": {
+					"name": "In the Rhythm",
+					"description": "Buff attack and dodge. Failing an attack or dodge interrupts this ability",
+					"badge_description": "Random chance to get a buff to attack and dodge, that lasts until a failed attack or getting hit by an undodged attack"
+				},
+				"bard": {
+					"name": "Bards Serenade",
+					"description": "Gives everyone in the party a random buff",
+					"badge_description": "Random chance to give everyone in the party a random buff"
+				}
+			},
+			"sachiko": {
+				"standard": {
+					"name": "Swift Maneuver",
+					"description": "Instantly swap position with target ally",
+					"badge_description": "Random chance to get a buff, allowing to instantly swap position with another avatar"
+				}
+			},
+			"sera": {
+				"standard": {
+					"name": "Angel's Grace",
+					"description": "Shields target ally from harm, the lower their health the stronger the shield",
+					"badge_description": "Random chance to get a buff that shields from harm, the lower their health the stronger the shield"
+				}
+			},
+			"shiina": {
+				"standard": {
+					"name": "Center of Attention",
+					"description": "Change all enemy attack targets to Shiina",
+					"badge_description": "Random chance to change all enemy attacks to equipped avatar"
+				},
+				"cheerleader": {
+					"name": "Cheer!",
+					"description": "Gives a buff that lets Shiina's correct guesses greatly power up the target avatar's stats instead of dealing damage",
+					"badge_description": "Random chance to receive a buff to all stats"
+				}
+			},
+			"yin_yan": {
+				"standard": {
+					"name": "Balance of Force",
+					"description": "Switches between a buff that boosts defense and lowers attack, and a buff that lowers defense and boosts attack",
+					"badge_description": "Random chance to get either a buff that ups attack or a buff that ups defense depending on the situation"
+				}
+			},
+			"yukari": {
+				"standard": {
+					"name": "Nine Lives",
+					"description": "Gain a buff causing the next attack taken to inflict 0 damage, but apply a random debuff instead",
+					"badge_description": "Random chance to gain a buff causing the next attack taken to deal 0 damage, but apply a random debuff instead"
+				}
+			},
+			"yuki": {
+				"standard": {
+					"name": "Present",
+					"description": "Give a random buff to target ally",
+					"badge_description": "Random chance to give another avatar a random buff"
+				}
+			},
+			"yumemi": {
+				"standard": {
+					"name": "Hibernate",
+					"description": "Gain a shield and a buff to defence, but gets hit by the crash debuff",
+					"badge_description": "Random chance to gain a shield and buff to defence, but might get hit by the crash debuff as well"
+				}
+			}
+		},
+		"fuwagi_item": {
+			"adventurer_sword": {
+				"title": "Adventurer's Sword",
+				"description": "Equip target avatar with a sword, increasing their damage for 5 turns."
+			},
+			"adventure_shield": {
+				"title": "Adventure's Shield",
+				"description": "Equip target avatar with a shield, reducing damage taken for 5 turns."
+			},
+			"quick_bomb": {
+				"title": "Quick Bomb",
+				"description": "Throw a short fuse bomb at target enemy, dealing damage at the end of the turn."
+			},
+			"healing_potion": { "title": "Healing Potion", "description": "Heal target avatar for 75 HP." },
+			"shield_potion": { "title": "Shield Potion", "description": "Shield target avatar for 100 shield." },
+			"leave_me_alone_potion": {
+				"title": "Leave-Me-Alone Potion",
+				"description": "Change enemy targeting away from target avatar."
+			},
+			"phoenix_feather": { "title": "Phoenix Feather", "description": "Revive target dead avatar with 20% HP." }
+		},
+		"runes": {
+			"rune_name": "_TIER_ _NAME_",
+			"rune_tiers": {
+				"minor": "Minor",
+				"lesser": "Lesser",
+				"greater": "Greater",
+				"major": "Major",
+				"superior": "Superior"
+			},
+			"rune_stats": {
+				"constitution": "Constitution",
+				"defence": "Defence",
+				"dodge": "Dodge",
+				"attack": "Attack",
+				"accuracy": "Accuracy",
+				"crit_damage": "Crit Damage",
+				"crit": "Crit"
+			},
+			"boost_rune": { "description": "Give a _TIER_ boost to _NAME_" },
+			"genre_rune": {
+				"offense_description": "Incrase attack damage during _NAME_ shows",
+				"defense_description": "Reduce damage taken from attacks during _NAME_ shows",
+				"offense_name": "_NAME3_ Damage",
+				"defense_name": "_NAME3_ Defence"
+			},
+			"unique_runes": {
+				"virus_routine": { "name": "Virus Routine", "description": "Have a _TIER_ Chance to Inflict Virus on Attacks" },
+				"crash_routine": { "name": "Crash Routine", "description": "Have a _TIER_ Chance to Inflict Crash on Attacks" },
+				"tortoise": { "name": "Tortoise", "description": "Take Less Damage, but Deal Less Damage" },
+				"mobile_defence": { "name": "Mobile Defence", "description": "Gain a Shield when Swapping Position" },
+				"emergency_shield": {
+					"name": "Emergency Shield",
+					"description": "Gain a Shield Once Per Combat When Hit by an Attack"
+				},
+				"defender": { "name": "Defender", "description": "Give a Shield to the Target When Swapping Position" },
+				"threat_aura": { "name": "Threat Aura", "description": "Increase Chance of Getting Targeted by Attacks" },
+				"bypass_routine": {
+					"name": "Bypass Routine",
+					"description": "Have a _TIER_ Chance to Inflict Bypass on Attacks"
+				},
+				"rampage": { "name": "Rampage", "description": "Deal More Damage, but Take More Damage" },
+				"time_booster": { "name": "Time Booster", "description": "Gain Extra Silent Guess Time on Songs" },
+				"defensive_counter": { "name": "Defensive Counter", "description": "Increase Defense for Each Active Debuff" },
+				"defensive_rush": { "name": "Defensive Rush", "description": "Increase Defense for Each Active Buff" },
+				"offensive_counter": { "name": "Offensive Counter", "description": "Increase Attack for Each Active Debuff" },
+				"offensive_rush": { "name": "Offensive Rush", "description": "Increase Attack for Each Active Buff" }
+			}
+		},
+		"buffs": {
+			"crisis_management_form": { "name": "Crisis Management Form", "description": "Increase all base stats" },
+			"berserker_star": {
+				"name": "Berserker Star",
+				"description": "Increase damage by 20% until not landing an attack"
+			},
+			"charge_staff": { "name": "Charge Staff", "description": "Landing the next attack gives a shield" },
+			"comfy_scarf": { "name": "Comfy Scarf", "description": "Counter the next standard debuff" },
+			"computation_orb": { "name": "Computation Orb", "description": "Increase damage by 20% while below 50% HP" },
+			"hornet_stringer": { "name": "Hornet Stringer", "description": "Next attack guaranteed to critical hit" },
+			"legends_shield": { "name": "Legends Shield", "description": "Gain a shield when hit by the next enemy attack" },
+			"swords_of_truth_and_light": {
+				"name": "Swords Of Truth And Light",
+				"description_one": "Next two attacks deal double damage",
+				"description_two": "Next attack deals double damage"
+			},
+			"adventurers_sword": { "name": "Adventurer's Sword", "description": "Attacks deal increased damage " },
+			"adventurers_shield": { "name": "Adventurer's Shield", "description": "Reduce damage taken" },
+			"angels_grace": { "name": "Angel's Grace", "description": "Shields from damage" },
+			"buster": {
+				"name": "Buster",
+				"description": "Charge up damage for the next attack in each ally's turn. Effect is lost if moved or attacked"
+			},
+			"cats_luck": {
+				"name": "Cat's Luck",
+				"description": "Next attack taken inflicts 0 damage but applies a random debuff instead"
+			},
+			"cheered": { "name": "Cheered", "description": "Being cheered on has granted a massive buff to all stats" },
+			"cheering": {
+				"name": "Cheering",
+				"description": "Empowers another target avatar on correct guesses instead of attacking"
+			},
+			"dark_contract": {
+				"name": "Dark Contract",
+				"description": "Increase damage dealt, and revive if killed. Get the Dark Contract debuff if revived.",
+				"description_debuff": "Increase damage dealt, but die when the debuff expires. The debuff is removed if a character is killed"
+			},
+			"dark_flame_strike": {
+				"name": "Dark Flame Strike",
+				"description": "Deal increased damage on the next attack, but if it fails, receive two debuffs"
+			},
+			"dragon_rage": {
+				"name": "Dragon Rage",
+				"description": "When hit, attack is boosted by 50%",
+				"description_active": "The character is enraged, increasing attack by 50%"
+			},
+			"encore_buff": { "name": "Encore Buff", "description": "Next attack inflicts the encore debuff" },
+			"fiery_onslaught": {
+				"name": "Fiery Onslaught",
+				"description": "Increase accuracy and apply the virus debuff on all attacks, but failed attacks inflict the virus debuff on the attacker"
+			},
+			"fox_fire": { "name": "Fox Fire", "description": "All attacks apply a random debuff" },
+			"full_charge": {
+				"name": "Full Charge",
+				"description": "Next attack deals double damage, but gain the Crash debuff at the end of the turn."
+			},
+			"in_the_rhythm": {
+				"name": "In the Rhythm",
+				"description": "Increase attack and dodge, lasting until you fail to dodge or land an attack"
+			},
+			"knights_challenge": { "name": "Knight's Challenge", "description": "Target of all new enemy attacks" },
+			"magical_bombardment": {
+				"name": "Magical Bombardment",
+				"description": "Next attack deals reduced damage, but hits all enemies"
+			},
+			"magical_infusion": {
+				"name": "Magical Infusion",
+				"description": "Gain a random buff when landing an attack. This buff expires when failing an attack."
+			},
+			"martial_strikes": {
+				"name": "Martial Strikes",
+				"description": "Gain a charge for each successful attack, each charge increasing damage done on future attacks. Last until not landing an attack."
+			},
+			"natural_sprinter": { "name": "Natural Sprinter", "description": "Increase attack and accuracy" },
+			"natures_frenzy": { "name": "Nature Frenzy", "description": "Greatly boost attack, but halve defense and dodge" },
+			"natures_infusion": {
+				"name": "Natures Infusion",
+				"description": "Increase attack, and reduce damage taken from the next attack by consuming this buff"
+			},
+			"plunder": {
+				"name": "Plunder",
+				"description": "Gain a random buff and some fragments if you hit with your next attack"
+			},
+			"quick_bomb": {
+				"name": "Quick Bomb",
+				"description": "Explode at the end of the round, dealing damage to the target"
+			},
+			"recon_in_force": { "name": "Recon in Force", "description": "Boost dodge and attacks apply the bypass debuff" },
+			"snake_charm": { "name": "Snake Charm", "description": "Attacks apply the charmed debuff" },
+			"spectral_tricks_buff": {
+				"name": "Spectral Tricks Buff",
+				"description": "Attacks taken this turn deal zero damage, but the damage is dealt next turn if that turn's guess is wrong"
+			},
+			"spectral_tricks_debuff": {
+				"name": "Spectral Tricks Debuff",
+				"description": "Take damage equal to the negated damage if the next guess is wrong"
+			},
+			"swift_maneuver": { "name": "Swift Maneuver", "description": "Next avatar swap happens instantly" },
+			"unlucky_lucky_rabbit": {
+				"name": "Unlucky Lucky Rabbit",
+				"description": "Greatly increase dodge, but increase the chance of getting targeted by enemy attacks"
+			},
+			"vampires_kiss": { "name": "Vampire's Kiss", "description": "Heal if the next attack kills an enemy" },
+			"weapon_master": { "name": "Weapon Master", "description": "Empowers offensive artifacts' effect" },
+			"witches_trickery": { "name": "Witches Trickery", "description": "Next attack applies the bewitched debuff" },
+			"force_of_yan": { "name": "Force of Yan", "description": "Ups defense and lowers attack" },
+			"force_of_yin": { "name": "Force of Yin", "description": "Ups attack and lowers defense" },
+			"bewitched": {
+				"name": "Bewitched",
+				"description": "At the start of each turn apply the Crash, Virus, or Bypass debuff each lasting 1 turn"
+			},
+			"encore_debuff": {
+				"name": "Encore Debuff",
+				"description": "Next attack from _NAME_ is a guaranteed critical hit",
+				"the_caster": "the caster"
+			},
+			"ice_prison": { "name": "Ice Prison", "description": "Skip all actions, but take greatly reduced attack damage" },
+			"energized": { "name": "Energized", "description": "Increased attack power while the Energizer is alive" },
+			"enhanced": { "name": "Enhanced", "description": "Increase attack by _NUMBER_% for each stack" },
+			"protected": { "name": "Protected", "description": "Defence boost based on the protector's defence" },
+			"protector": {
+				"name": "Protector",
+				"description": "The character behind the buffed character becomes protected"
+			},
+			"trojan_protocol": { "name": "Trojan Protocol", "description": "Attacks inflict a random debuff" },
+			"untargetable": { "name": "Untargetable", "description": "Can't be targeted by attacks or abilities" },
+			"charmed": { "name": "Charmed", "description": "Forced to target attacks at _NAME_, but deal 30% less damage" },
+			"accuracy_buff": { "name": "Accuracy Buff", "description": "Increased Accuracy on Attacks" },
+			"attack_buff": { "name": "Attack Buff", "description": "Increased Attack Power" },
+			"defence_buff": { "name": "Defence Buff", "description": "Increased Defence" },
+			"dodge_buff": { "name": "Dodge Buff", "description": "Increased Dodge Chance" },
+			"attack_debuff": { "name": "Attack Debuff", "description": "Decrease Attack Power" },
+			"bypass": { "name": "Bypass", "description": "Increase damage taken from the next attack by 50%" },
+			"crash": { "name": "Crash", "description": "Next action is skipped" },
+			"defence_debuff": { "name": "Defence Debuff", "description": "Decrease Defence" },
+			"virus": { "name": "Virus", "description": "Take damage at the start of each turn" },
+			"genre_boost": {
+				"name": "_NAME_ Boost",
+				"description": "Increase attack damage when the current anime has the _NAME_ genre."
+			},
+			"hidden": {
+				"name": "Hidden",
+				"description": "Become untargetable by enemies and increase damage on the next attack. Expires after attacking or moving"
+			},
+			"exposed": { "name": "Exposed", "description": "Get a random debuff from all attacks" },
+			"focused": { "name": "Focused", "description": "Increase chance of getting targeted by enemy attacks" },
+			"snared": { "name": "Snared", "description": "Unable to Switch Position" },
+			"genre_protection": {
+				"name": "_NAME_ Protection",
+				"description": "Negate all damage from attacks when the current show doesn’t have the _NAME_ genre."
+			},
+			"data_feedback": {
+				"name": "Data Feedback",
+				"description": "Data shield damage reduction offline"
+			},
+			"data_shield": {
+				"name": "Data Shield",
+				"description": "Greatly reduce all damage taken"
+			}
+		},
+		"enemies": {
+			"assassin": "Assassin",
+			"bit_storm": "Bit Storm",
+			"brute": "Brute",
+			"caster": "Caster",
+			"enemy_core": "Enemy Core",
+			"energizer": "Energizer",
+			"data_storm": "Data Storm",
+			"orb": "Orb",
+			"singularity": "Singularity",
+			"the_creator": "The Creator"
+		},
+		"floor_descriptions": {
+			"enemy_hp": "Enemies have more hp",
+			"enemy_damage": "Enemies deal more damage",
+			"avatar_debuffs_longer": "Debuffs on avatars last longer",
+			"reduced_guessing_time": "Reduced guessing time",
+			"crafting_fewer_artifacts": "Crafting stations have fewer artifacts",
+			"start_damaged": "Party starts damaged",
+			"avatar_buffs_expire_quicker": "Buffs on avatars expire quicker",
+			"enemy_random_buff": "Enemies start with a random buff",
+			"enemy_debuffs_shorter": "Debuffs on enemies expire quicker",
+			"avatar_max_three_artifacts": "Avatars can equip max 3 artifacts",
+			"enemies_quicker": "Enemies attacks quicker",
+			"fewer_combat_reward_artifacts": "Combat rewards have fewer artifacts",
+			"more_enemies": "Enemy encounters can have more enemies"
+		}
+	},
+	"tutorial": {
+		"continue_button": "Continue",
+		"exit_button": "Exit",
+		"welcome": {
+			"title": "Welcome to AMQ",
+			"step_one": {
+				"text": "Hi and welcome to Anime Music Quiz! _BREAK_I suggest taking my quick tutorial to learn the basics of the game. _BREAK_ There might even be rewards at the end of it!",
+				"options": { "play_tutorial": "Play Tutorial", "skip_tutorial": "Skip Tutorial" }
+			},
+			"step_two": { "text": "Awesome, let's get started!" },
+			"step_dismiss": { "text": "You can always find the tutorial in the bottom right menu." }
+		},
+		"welcome_no_list": {
+			"title": "Add Anime List",
+			"step_one": {
+				"text": "To start out I can see that you don't have an AniList, MyAnimeList or Kitsu user connected to your account. _BREAK_ I strongly recommend adding one, as it'll allow the game to pick songs from shows you have watched.",
+				"options": { "no_list": "Don't have one", "add_one": "Ok, let's add one", "skip": "I'll go without" }
+			},
+			"step_two": {
+				"text": "You can easily set up one for free on one of the sites: _LINK_ AniList _LINK_, _LINK2_ MyAnimeList _LINK2_ or _LINK3_ Kitsu _LINK3_. _BREAK_ I'll wait if you want to set one up now.",
+				"options": { "created_one": "Ok, I've created one", "skip": "Maybe another time" }
+			},
+			"step_three": {
+				"text": "Perfect, let's get it connected to your AMQ account then! _BREAK_ Which site do you have a list on?",
+				"options": { "anilist": "AniList", "myanimelist": "MyAnimeList", "kitsu": "Kitsu", "cancel": "Cancel" }
+			},
+			"step_anilist": { "text": "Please type your AniList username or leave it blank if you changed your mind." },
+			"step_kitsu": { "text": "Please type your Kitsu username or leave it blank if you changed your mind." },
+			"step_myanimelist": {
+				"text": "Please type your MyAnimeList username or leave it blank if you changed your mind."
+			},
+			"step_four": { "text": "Now the game will be able to select songs from shows you've watched!" },
+			"step_dismiss": {
+				"text": "That's fine, you can still play without one! _BREAK_ You can add anime lists in the bottom right menu under \"Settings\"."
+			}
+		},
+		"first_game": {
+			"title": "Gameplay",
+			"step_one": {
+				"text": "Let's get you into a game so you can guess some shows! _BREAK_ Select \"Play\" to start."
+			},
+			"step_two": { "text": "Select “Multiplayer”. Don't worry, I'm not going to put you up against other players." },
+			"step_three": {
+				"text": "This is the room browser, where you can see the currently hosted games and set up your own game. _BREAK_ At the top are several filters you can use to filter out rooms."
+			},
+			"step_four": {
+				"text": "I've set up a game for you, the tile shows the most important settings. You can hover over most icons in the game to get more info. _BREAK_ Now click \"Join\"."
+			},
+			"step_five": {
+				"text": "This is the lobby where you can see and chat with other players. Currently I'm just a spectator. _BREAK_ Press \"Ready\" at the top so I can start the game."
+			},
+			"step_six": {
+				"text": "This is the quiz screen. When the song starts you'll have 20 seconds to guess the show. _BREAK_ I'll start the round now. Once you've typed your guess, select it from the suggestion list and submit it by pressing enter."
+			},
+			"step_seven": {
+				"text": "Once the guessing phase ends, all players' answers are revealed, then the correct answer is shown."
+			},
+			"step_eight": {
+				"text": "Correct guesses will earn you xp and notes. _BREAK_ At the end of the quiz, the player with most correct answers wins the quiz."
+			},
+			"step_nine": { "text": "That's it for the basics of the quiz, I'll let you finish up the remaining 4 songs!" },
+			"step_ten": {
+				"text": "You can skip to the end of the answering phase by clicking the skip button to the left of your answer. You can skip the replay phase in the same way."
+			},
+			"step_eleven": {
+				"text": "That was all the songs for this quiz! You'll receive additional xp and notes for finishing a quiz based on your performance."
+			},
+			"step_twelve": {
+				"text": "Now you're ready to play AMQ! Let's return to the main menu by clicking \"Leave\" in the top left corner."
+			},
+			"step_thirteen": { "text": "And that's it for the gameplay tutorial!" },
+			"step_thirteen_first_time": {
+				"text": "That's it for the gameplay tutorial, here's a one-time reward of 3000 notes to help you start unlocking some avatars!"
+			},
+			"step_fourteen": {
+				"text": "Next up would be the avatar tutorial, which will go over how to unlock and use the different avatars in the game. Ready to get started on it?",
+				"options": { "yes": "Yes, let's go!", "no": "No, I'm good for now" }
+			}
+		},
+		"avatar": {
+			"title": "Avatars",
+			"step_one": {
+				"text": "Let's get started on Avatars 101 then! _BREAK_ The game features several avatars and skins you can unlock and use to represent yourself in games."
+			},
+			"step_two": { "text": "You can browse all the avatars by clicking the avatar button at the bottom right." },
+			"step_three": {
+				"text": "Here we have the store window, at the top you can find the bar with all avatars available."
+			},
+			"step_four": {
+				"text": "To the right you have the avatar filters at the top, and below the preview and additional info of the selected avatar. As with the quiz room tiles, you can hover the different icons and text to get a description of them."
+			},
+			"step_five": {
+				"text": "Feel free to have a look at the preview and info, once you're done select Komugi in the avatar list and I'll show you the different types of avatars and skins."
+			},
+			"step_six": {
+				"text": "Avatars can have multiple skins split into one of 3 categories: Standard, exclusive and limited/unavailable."
+			},
+			"step_seven": {
+				"text": "Standard skins can be unlocked using notes, these are earned by playing quizzes and guessing correctly."
+			},
+			"step_eight": {
+				"text": "Exclusive skins can be unlocked by rolling them using tickets in the ticket system. Tickets are earned by leveling up, supporting the game on Patreon or bought directly."
+			},
+			"step_nine": {
+				"text": "Limited skins work like exclusive skins, but are only available during specific times of the year, such as holidays and specific seasons, for the rest of the year they're unavailable and can't be unlocked."
+			},
+			"step_ten": { "text": "With the types out of the way, try selecting the standard Komugi skin." },
+			"step_eleven": {
+				"text": "Here we have the versions you'll actually be unlocking. _BREAK_ Each skin has several different recolors that can be unlocked, and even some more advanced alternative versions of the skin. Feel free to have a look around before we continue."
+			},
+			"step_twelve": {
+				"text": "Each of the skin and each color has a separate cost. So once you've unlocked a skin, all the recolors will become cheaper!"
+			},
+			"step_thirteen": {
+				"text": "The recolors and alternative versions marked with a ticket icon are unlocked through the ticket system. The color of the ticket shows their rarity in the ticket system."
+			},
+			"step_fourteen": {
+				"text": "Besides getting them in the ticket system, they can also be unlocked by using rhythm, a separate currency earned through the ticket system."
+			},
+			"step_fifteen": {
+				"text": "That's it for the avatar basics. If you're interested in knowing more about the Ticket System, check out the Tickets tab. There's also several emotes you can unlock for use in the chat and on your profile which can be found in the Emote tab."
+			},
+			"step_sixteen": {
+				"text": "Speaking of profiles, that's covered in the last tutorial. Let me know if you're up for grabbing it now!",
+				"options": { "yes": "Yes, let's go!", "no": "No, I'm good for now" }
+			},
+			"step_sixteen_first_time": {
+				"text": "Speaking of profiles, that's covered in the last tutorial. Let me know if you're up for grabbing it now! _BREAK_ Also as this was your first time completing the avatar tutorial, here's some notes to help get you towards unlocking your next skin!",
+				"options": { "yes": "Yes, let's go!", "no": "No, I'm good for now" }
+			}
+		},
+		"social": {
+			"title": "Social",
+			"step_one": {
+				"text": "Here we are, the final tutorial! _BREAK_ This one will go over how your profile works and the friend system in the game. So to start out, open the social menu in the bottom left."
+			},
+			"step_two": {
+				"text": "First off we have the friend list, any friends you add while you play will show up here. _BREAK_ This will allow you to see when they're online, check out their profiles and even invite them to games."
+			},
+			"step_three": {
+				"text": "You can also access a list of all online users, by changing to the Online tab at the bottom of the menu."
+			},
+			"step_four": {
+				"text": "But we'll save that for another time, as we'll take a look at your profile now! _BREAK_ Click the profile to the right of the online tab and it should pop right up."
+			},
+			"step_five": {
+				"text": "Here we have your profile! Profiles show stats such as your anime list, age of the account  as well as how much and well you've played. It can also be used to display badges you've earned!"
+			},
+			"step_six": {
+				"text": "At the bottom we have the options you can use on profiles, such as sending the player a message, friend request or game invite. You can even block or report the player if that becomes needed."
+			},
+			"step_seven": {
+				"text": "Most of these options are grayed out for you, as you can't do them on yourself. But if you click the dotted option to the right you will see the one option available to you on profile, editing it. _BREAK_ Try clicking it, and you should see the editing view."
+			},
+			"step_eight": {
+				"text": "Editing your profile allows you to update almost anything about it. You can show/hide the stats by clicking the eye to the left of it. You can change which anime list site is displayed, and even change your profile image to any emote you've unlocked through the ticket system!"
+			},
+			"step_nine": {
+				"text": "Any badges you unlock, for example by unlocking skins and playing the ranked game mode, you will be able to display on your profile as well."
+			},
+			"step_ten": {
+				"text": "By changing to the chat view for badges, you can also set a badge to display beside your name in the in-game chat. _BREAK_ Hovering the badges in the menu will also display how to unlock them."
+			},
+			"step_eleven": {
+				"text": "Finally you can also change your nickname, the name you appear as in-game, by clicking the edit button to the right of your username. This is limited to one change per year, and your original name will be viewable on your profile by hovering your nickname."
+			},
+			"step_twelve": {
+				"text": "And that's all for the final tutorial. With all of them completed I hope you have a blast playing Anime Music Quiz!"
+			},
+			"step_twelve_first_time": {
+				"text": "And that's all for the final tutorial. With all of them completed I hope you have a blast playing Anime Music Quiz! And as a final reward for completing all the tutorials for the first time, here's a final note reward!"
+			}
+		},
+		"dismiss": {
+			"title": "Dismiss Tutorial",
+			"type_one": {
+				"text": "Done for now? _BREAK_ If you want to pick up the tutorial at another time you can find it in the menu at the bottom right. Hope you have a blast playing Anime Music Quiz!"
+			},
+			"type_two": {
+				"text": "That's fine. _BREAK_ If you want to pick up the tutorial at another time you can find it in the menu at the bottom right. Hope you have a blast playing Anime Music Quiz!"
+			}
+		},
+		"start_warning": {
+			"title": "Return to Main Menu?",
+			"text": "The tutorial can only be taken from the main menu. If you return to the main menu you'll stop what you're currently doing.",
+			"return_button": "Return",
+			"stay_button": "Stay"
+		},
+		"exit_tutorial_warning": { "title": "Exit Tutorial?", "exit_button": "Exit" }
+	},
+	"popout_windows": {
+		"close_window_button": "Close Window",
+		"close_window_message": "You can close this window",
+		"patreon": {
+			"link_successful": "Patreon Linked!",
+			"unable_to_link": "Unable to Link Patreon",
+			"please_try_again": "Please try again later",
+			"verified_account_required": "Can only be linked to a verified AMQ account",
+			"linking_aborted": "Patreon Linking Aborted",
+			"already_linked": {
+				"title": "Patreon Account Already Linked",
+				"message": "The provided Patreon account is already linked to another AMQ account. Please unlink the account before using it"
+			},
+			"not_logged_in": "Not Logged Into AMQ"
+		},
+		"social_claims": {
+			"unable_to_claim": {
+				"title": "Unable to Claim Rewards",
+				"message": "Can only be claimed by a verified AMQ account"
+			},
+			"reward_claimed": "Reward Claimed!",
+			"error_claiming_rewards": "Error Claiming Rewards",
+			"unexpected_error": "Unexpected error, please close this window and try again",
+			"already_claimed": "Reward already claimed",
+			"platform_already_claimed": "Reward already claimed by this _NAME_ account",
+			"discord_not_linked": "Not in Discord server, to claim the reward make sure to join the _LINK_  Anime Music Quiz Discord _LINK_ then try again",
+			"patreon_not_linked": "Not a member of the Patreon, to claim the reward make sure to join the _LINK_ Anime Music Quiz Patreon _LINK_ then try again",
+			"claim_aborted": "Claiming Aborted",
+			"not_logged_in": "Not Logged Into AMQ"
+		},
+		"payment": {
+			"cancelled": "Payment Cancelled",
+			"successful": "Payment Successful",
+			"success_message": "Thanks for the support! You can close this window"
+		}
+	},
 	"anime_tags": {
-		"4-koma": "4-koma",
-		"4k": "4k",
 		"achromatic": "Achromatic",
 		"achronological_order": "Achronological Order",
 		"acrobatics": "Acrobatics",
@@ -2760,7 +4726,6 @@
 		"bullying": "Bullying",
 		"butler": "Butler",
 		"calligraphy": "Calligraphy",
-		"camping": "Camping",
 		"cannibalism": "Cannibalism",
 		"card_battle": "Card Battle",
 		"cars": "Cars",
@@ -2826,7 +4791,6 @@
 		"exorcism": "Exorcism",
 		"fairy": "Fairy",
 		"fairy_tale": "Fairy Tale",
-		"fake_relationship": "Fake Relationship",
 		"family_life": "Family Life",
 		"fashion": "Fashion",
 		"female_protagonist": "Female Protagonist",
@@ -2854,7 +4818,6 @@
 		"gore": "Gore",
 		"guns": "Guns",
 		"gyaru": "Gyaru",
-		"handball": "Handball",
 		"henshin": "Henshin",
 		"heterosexual": "Heterosexual",
 		"hikikomori": "Hikikomori",
@@ -2864,7 +4827,6 @@
 		"horticulture": "Horticulture",
 		"ice_skating": "Ice Skating",
 		"idol": "Idol",
-		"impersonation": "Impersonation",
 		"indigenous_cultures": "Indigenous Cultures",
 		"inn": "Inn",
 		"isekai": "Isekai",
@@ -2881,7 +4843,6 @@
 		"kuudere": "Kuudere",
 		"lacrosse": "Lacrosse",
 		"language_barrier": "Language Barrier",
-		"long_strip": "Long Strip",
 		"love_triangle": "Love Triangle",
 		"mafia": "Mafia",
 		"magic": "Magic",
@@ -2889,8 +4850,6 @@
 		"maids": "Maids",
 		"male_protagonist": "Male Protagonist",
 		"martial_arts": "Martial Arts",
-		"masturbating": "Masturbating",
-		"matchmaking": "Matchmaking",
 		"matriarchy": "Matriarchy",
 		"medicine": "Medicine",
 		"medieval": "Medieval",
@@ -2914,7 +4873,6 @@
 		"no_dialogue": "No Dialogue",
 		"noir": "Noir",
 		"non-fiction": "Non-fiction",
-		"none": "none",
 		"nudity": "Nudity",
 		"nun": "Nun",
 		"office": "Office",
@@ -2971,9 +4929,7 @@
 		"ships": "Ships",
 		"shogi": "Shogi",
 		"shoujo": "Shoujo",
-		"shoujo_ai": "Shoujo Ai",
 		"shounen": "Shounen",
-		"shounen_ai": "Shounen Ai",
 		"skateboarding": "Skateboarding",
 		"skeleton": "Skeleton",
 		"slapstick": "Slapstick",
@@ -2996,7 +4952,6 @@
 		"swimming": "Swimming",
 		"swordplay": "Swordplay",
 		"table_tennis": "Table Tennis",
-		"tada_banri": "Tada Banri",
 		"tanks": "Tanks",
 		"tanned_skin": "Tanned Skin",
 		"teacher": "Teacher",
@@ -3019,13 +4974,11 @@
 		"urban": "Urban",
 		"urban_fantasy": "Urban Fantasy",
 		"vampire": "Vampire",
-		"vertical_video": "Vertical Video",
 		"veterinarian": "Veterinarian",
 		"video_games": "Video Games",
 		"vikings": "Vikings",
 		"villainess": "Villainess",
 		"virtual_world": "Virtual World",
-		"vocal_synth": "Vocal Synth",
 		"volleyball": "Volleyball",
 		"vtuber": "VTuber",
 		"war": "War",
@@ -3043,26 +4996,34 @@
 		"zombie": "Zombie",
 		"agender": "Agender",
 		"ancient_china": "Ancient China",
-		"ballet": "Ballet",
 		"boys_love": "Boys' Love",
 		"dissociative_identities": "Dissociative Identities",
 		"female_harem": "Female Harem",
-		"full_color": "Full Color",
-		"kabuki": "Kabuki",
 		"lgbtq_themes": "LGBTQ+ Themes",
 		"lost_civilization": "Lost Civilization",
 		"makeup": "Makeup",
 		"male_harem": "Male Harem",
-		"manzai": "Manzai",
 		"marriage": "Marriage",
-		"modeling": "Modeling",
 		"musical_theater": "Musical Theater",
 		"outdoor_activities": "Outdoor Activities",
-		"reverse_isekai": "Reverse Isekai",
 		"rotoscoping": "Rotoscoping",
 		"shrine_maiden": "Shrine Maiden",
 		"software_development": "Software Development",
-		"teens_love": "Teens' Love"
+		"teens_love": "Teens' Love",
+		"4-koma": "4-koma",
+		"ballet": "Ballet",
+		"camping": "Camping",
+		"fake_relationship": "Fake Relationship",
+		"full_color": "Full Color",
+		"handball": "Handball",
+		"kabuki": "Kabuki",
+		"long_strip": "Long Strip",
+		"manzai": "Manzai",
+		"matchmaking": "Matchmaking",
+		"modeling": "Modeling",
+		"reverse_isekai": "Reverse Isekai",
+		"vertical_video": "Vertical Video",
+		"vocal_synth": "Vocal Synth"
 	},
 	"genre_tags": {
 		"action": "Action",
@@ -3083,5 +5044,184 @@
 		"sports": "Sports",
 		"supernatural": "Supernatural",
 		"thriller": "Thriller"
+	},
+	"avatar_options": {
+		"bandana": "Bandana",
+		"bow": "Bow",
+		"bows": "Bows",
+		"cardigan": "Cardigan",
+		"chain": "Chain",
+		"crown": "Crown",
+		"drums": "Drums",
+		"earmuffs": "Earmuffs",
+		"earpiece": "Earpiece",
+		"flower": "Flower",
+		"glasses": "Glasses",
+		"goggles": "Goggles",
+		"hair_chain": "Hair Chain",
+		"hair_clips": "Hair Clips",
+		"hair_pins": "Hair Pins",
+		"hairband": "Hairband",
+		"hairclip": "Hairclip",
+		"hairpin": "Hairpin",
+		"hairpins": "Hairpins",
+		"hat": "Hat",
+		"headband": "Headband",
+		"headphones": "Headphones",
+		"headpiece": "Headpiece",
+		"headset": "Headset",
+		"helm": "Helm",
+		"helmet": "Helmet",
+		"hood": "Hood",
+		"jacket": "Jacket",
+		"mask": "Mask",
+		"none": "None",
+		"pins": "Pins",
+		"revealed": "Revealed",
+		"ribbon": "Ribbon",
+		"ribbons": "Ribbons",
+		"scarf": "Scarf",
+		"tiara": "Tiara",
+		"veil": "Veil",
+		"whistle": "Whistle",
+		"yan": "Yan"
+	},
+	"daily_quests": {
+		"title": "Daily Quests",
+		"description": {
+			"title": "Daily Quests",
+			"description": "Complete daily quests to earn bonus notes, and earn an avatar token for every 7 quest completed! A new quest becomes available every day at 12:00 CET, and you’ll have 7 days to complete it."
+		},
+		"event_quest": "Event Quest",
+		"weekly_quest": "Weekly Quest",
+		"category": {
+			"monday": "Mon",
+			"tuesday": "Tue",
+			"wednesday": "Wed",
+			"thursday": "Thu",
+			"friday": "Fri",
+			"saturday": "Sat",
+			"sunday": "Sun",
+			"event": "Eve"
+		},
+		"quest_description": "_DESCRIPTION_ _BREAK_ Reward: _NUMBER_ notes _BREAK_ Resets _DATE_",
+		"quests": {
+			"br_flex": {
+				"title": "BR Flex",
+				"description": "Guess 20 songs you didn't loot, in non-team games with looting enabled"
+			},
+			"master_rigger": {
+				"title": "Master Rigger",
+				"description": "Guess 20 songs from your anime list, in non-team games"
+			},
+			"survivor": {
+				"title": "Survivor",
+				"description": "Survive 10 rounds when playing with lives, in non-team games"
+			},
+			"master_sniper": {
+				"title": "Master Sniper",
+				"description": "Guess 20 songs not from your anime list, in non-team games"
+			},
+			"lightning_fast": {
+				"title": "Lightning Fast",
+				"description": "Guess 20 songs within the first 7 seconds of it, in non-team games"
+			},
+			"i_love_that_show": {
+				"title": "I Love That Show",
+				"description": "Guess 20 songs from shows you've scored 8+ in your anime list, in non-team games"
+			},
+			"keeping_up_to_date": {
+				"title": "Keeping Up To Date",
+				"description": "Guess 20 songs from shows released in the 4 latest anime seasons, in non-team games"
+			},
+			"dont_skip_openings": {
+				"title": "Don't Skip Openings",
+				"description": "Guess 20 opening songs, in non-team games"
+			},
+			"dont_skip_endings": {
+				"title": "Don't Skip Endings",
+				"description": "Guess 20 ending songs, in non-team games"
+			},
+			"dont_skip_inserts": {
+				"title": "Don't Skip Inserts",
+				"description": "Guess 20 insert songs, in non-team games"
+			},
+			"action_fan": {
+				"title": "Action Fan",
+				"description": "Guess 20 songs from action shows, in non-team games"
+			},
+			"adventure_fan": {
+				"title": "Adventure Fan",
+				"description": "Guess 20 songs from adventure shows, in non-team games"
+			},
+			"comedy_fan": {
+				"title": "Comedy Fan",
+				"description": "Guess 20 songs from comedy shows, in non-team games"
+			},
+			"drama_fan": {
+				"title": "Drama Fan",
+				"description": "Guess 20 songs from drama shows, in non-team games"
+			},
+			"ecchi_fan": {
+				"title": "Ecchi Fan",
+				"description": "Guess 20 songs from ecchi shows, in non-team games"
+			},
+			"fantasy_fan": {
+				"title": "Fantasy Fan",
+				"description": "Guess 20 songs from fantasy shows, in non-team games"
+			},
+			"horror_fan": {
+				"title": "Horror Fan",
+				"description": "Guess 20 songs from horror shows, in non-team games"
+			},
+			"mahou_shoujo_fan": {
+				"title": "Mahou Shoujo Fan",
+				"description": "Guess 20 songs from mahou shoujo shows, in non-team games"
+			},
+			"mecha_fan": {
+				"title": "Mecha Fan",
+				"description": "Guess 20 songs from mecha shows, in non-team games"
+			},
+			"music_fan": {
+				"title": "Music Fan",
+				"description": "Guess 20 songs from music shows, in non-team games"
+			},
+			"mystery_fan": {
+				"title": "Mystery Fan",
+				"description": "Guess 20 songs from mystery shows, in non-team games"
+			},
+			"psychological_fan": {
+				"title": "Psychological Fan",
+				"description": "Guess 20 songs from psychological shows, in non-team games"
+			},
+			"romance_fan": {
+				"title": "Romance Fan",
+				"description": "Guess 20 songs from romance shows, in non-team games"
+			},
+			"sci-fi_fan": {
+				"title": "Sci-Fi Fan",
+				"description": "Guess 20 songs from sci-fi shows, in non-team games"
+			},
+			"slice_of_life_fan": {
+				"title": "Slice of Life Fan",
+				"description": "Guess 20 songs from slice of fife shows, in non-team games"
+			},
+			"sports_fan": {
+				"title": "Sports Fan",
+				"description": "Guess 20 songs from sports shows, in non-team games"
+			},
+			"supernatural_fan": {
+				"title": "Supernatural Fan",
+				"description": "Guess 20 songs from supernatural shows, in non-team games"
+			},
+			"thriller_fan": {
+				"title": "Thriller Fan",
+				"description": "Guess 20 songs from thriller shows, in non-team games"
+			},
+			"just_jamming": {
+				"title": "Just Jamming",
+				"description": "Guess 20 songs in the Jam Quiz"
+			}
+		}
 	}
 }
