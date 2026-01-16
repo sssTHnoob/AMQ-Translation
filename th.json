@@ -981,8 +981,8 @@
 		},
 		"graphics": {
 			"particle_effects": {
-				"MISSING-title": "Particle Effects",
-				"MISSING-description": "Controls the number of particles used in effects, such as the XP animation.",
+				"title": "เอฟเฟค",
+				"description": "ตั้งค่าความมากน้อยของเอฟเฟคต่างๆ",
 				"levels": { "off": "ปิด", "low": "น้อย", "high": "มาก" }
 			},
 			"disable_floating_text": {
@@ -1081,7 +1081,7 @@
 			},
 			"target_messages": {
 				"target_message": "เลือกเป็นเป้าหมาย",
-				"MISSING-require_base_skin": "Require Base Skin to Target",
+				"require_base_skin": "ต้องมีสกินพื้นฐานก่อนถึงจะเลือกเป็นเป้าหมายได้",
 				"rare_common": "Rare และ Common ไม่สามารถเลือกเป็นเป้าหมายได้"
 			},
 			"set_target_prompt": {
@@ -1142,7 +1142,7 @@
 				"description": "แสดงสกินหรือของที่ปลดล็อกได้ด้วยระบบสุ่ม"
 			},
 			"standard": { "MISSING-title": "Standard", "description": "แสดงสกินหรือของที่ปลดล็อกได้ด้วยโน้ต" },
-			"MISSING-title": "Filters"
+			"title": "ตัวกรอง"
 		},
 		"background": "พื้นหลัง",
 		"toggle": { "on": "ซ่อน", "off": "โชว์" },
@@ -1523,11 +1523,11 @@
 		"expand_count_description": "จำนวนเพลงที่ทำการอัปโหลด",
 		"expand_level_requirement": {
 			"title": "ต้องมีเลเวลอย่างน้อย 5",
-			"MISSING-description": "The Expand feature allows players to help add missing video/mp3 sources for songs, and isn't available for accounts below level 5"
+			"description": "ระบบแก้ไขมีไว้เพิ่มไฟล์วีดิโอหรือเสียงให้กับเพลงที่ยังขาดไฟล์ประเภทนั้นอยู่ ผู้เล่นที่มีเลเวลต่ำกว่า 5 ไม่สามารถใช้ระบบนี้ได้"
 		},
 		"expand_confirmation": {
-			"MISSING-title": "Expand Video/MP3 Library",
-			"MISSING-description": "Help expanding the library by adding missing mp3 or video links. Songs missing from the library can be requested on the AMQ Discord"
+			"title": "เพิ่มไฟล์วีดิโอและเสียง",
+			"description": "ช่วยทำให้ลิสต์เพลงสมบูรณ์มากขึ้นโดยการเพิ่มไฟล์วีดิโอและเสียงให้กับเพลงที่ยังขาดอยู่ เพลงที่ไม่มีสามารถขอเพิ่มได้ใน Discord AMQ"
 		},
 		"video_preview": "ตัวอย่าง",
 		"MISSING-views": "Views:",
@@ -1618,8 +1618,8 @@
 		},
 		"song_entry": {
 			"type": { "op": "OP_NUMBER_", "ed": "ED_NUMBER_", "in": "IN" },
-			"MISSING-dub": "Dub",
-			"MISSING-rebroadcast": "Rebroad",
+			"dub": "พากย์อื่น",
+			"rebroadcast": "ฉายซ้ำ",
 			"composer": "ผู้แต่ง",
 			"arranger": "ผู้เรียบเรียง",
 			"song_category": "ประเภทเพลง",
@@ -1649,22 +1649,22 @@
 		},
 		"faq": {
 			"shorthand": "FAQ",
-			"MISSING-title": "Expand Library FAQ",
+			"title": "คำถามที่พบบ่อยในการเพิ่มไฟล์วีดิโอและเสียง",
 			"what_version": {
 				"MISSING-title": "What version of a song should I use?",
 				"MISSING-text": "You should always use the version that was used in the show. For openings and endings, that's usually the 1:30 minute cut version. In the case that different versions are used throughout the show, you should go with the one most commonly used, if they're used equally go with the first one."
 			},
 			"still_image": {
-				"MISSING-title": "Can I use a still image instead of the video?",
-				"MISSING-text": "No, all uploads require there to be a correct video."
+				"title": "ใช้รูปแทนวีดิโอได้มั้ย",
+				"text": "ไม่ได้ ทุกไฟล์ต้องเป็นวีดิโอที่ถูกต้อง"
 			},
 			"what_to_include": {
 				"MISSING-title": "What should be included in the video?",
 				"MISSING-text": "The opening/ending/scene the song plays in. _BREAK_ If a song plays with talking or other sounds during the scene, replace the audio with a clean version that matches with what was used in the anime."
 			},
 			"file_format": {
-				"MISSING-title": "What file formats are accepted?",
-				"MISSING-text": "Video files should be in webm format, and audio files in mp3. Any other formats will be rejected by the Scan Bot."
+				"title": "ต้องใช้ไฟล์ประเภทไหน",
+				"text": "webm สำหรับวีดิโอและ mp3 สำหรับเสียง ทุกไฟล์นอกเหนือจากนี้จะโดนปฏิเสธอัตโนมัติ"
 			},
 			"quality_requirements": {
 				"MISSING-title": "What are the quality requirements?",
@@ -1719,18 +1719,18 @@
 		"other_names": "ชื่ออื่น",
 		"members": "สมาชิก",
 		"member_of": "เป็นสมาชิกของ",
-		"group": { "MISSING-title": "Group", "MISSING-shorthand": "G" },
-		"artist": { "MISSING-title": "Artist", "MISSING-shorthand": "A" }
+		"group": { "title": "กลุ่ม", "shorthand": "G" },
+		"artist": { "title": "ศิลปิน", "shorthand": "A" }
 	},
 	"community_quiz_window": {
 		"MISSING-title": "Community Quizzes",
 		"build": "สร้าง",
 		"categories": {
-			"MISSING-public": "Public",
+			"public": "สาธารณะ",
 			"MISSING-official": "Official",
-			"MISSING-favorites": "Favorites",
-			"MISSING-friends": "Friends",
-			"MISSING-my_quizzes": "My Quizzes"
+			"favorites": "ที่ชอบไว้",
+			"friends": "เพื่อน",
+			"my_quizzes": "เป็นเจ้าของ"
 		},
 		"sorting": {
 			"trending": "ยอดนิยม",
@@ -1738,7 +1738,7 @@
 			"most_liked": "ชอบมากสุด",
 			"most_played": "เล่นมากสุด"
 		},
-		"MISSING-search_for_quizzes": "Search for Quizzes",
+		"search_for_quizzes": "ค้นหา",
 		"song_types": { "op": "OP", "ed": "ED", "in": "IN" },
 		"difficulties": { "easy": "ง่าย", "medium": "ปานกลาง", "hard": "ยาก" },
 		"upload_time": {
@@ -1748,22 +1748,22 @@
 			"all_time": "ทั้งหมด"
 		},
 		"play_state": { "played": "เล่นแล้ว", "unplayed": "ยังไม่ได้เล่น" },
-		"MISSING-slots_available": "Slots Available",
-		"MISSING-buy_slots": "Buy Slots",
-		"MISSING-buy_quiz_slots": "Buy Quiz Slots",
-		"MISSING-unlimited_slots": "Unlimited",
-		"one_slot_entry": { "MISSING-title": "1 Slot", "MISSING-description": "Permanently unlock a single quiz slot" },
+		"slots_available": "ช่องที่มี",
+		"buy_slots": "ซื้อช่องเพิ่ม",
+		"buy_quiz_slots": "ซื้อช่องเพิ่ม",
+		"unlimited_slots": "ไม่จำกัด",
+		"one_slot_entry": { "title": "1 ช่อง", "description": "ปลดล็อค 1 ช่องเพิ่มเติม" },
 		"unlimited_slot_entry": {
-			"MISSING-title": "Unlimited",
-			"MISSING-description": "Unlock unlimited slots for a one time payment",
-			"MISSING-approx_dollar": "Approx. $_NUMBER_"
+			"title": "ไม่จำกัด",
+			"description": "ทำให้ไม่มีจำนวนจำกัดในการใช้ช่อง",
+			"approx_dollar": "ประมาณ $_NUMBER_"
 		},
-		"MISSING-patreon_promo": "Become a level 3+ Patreon Backer to _BREAK_ unlock unlimited slots and more perks",
+		"patreon_promo": "เป็น Patreon เลเวล 3 หรือสูงกว่า _BREAK_ เพื่อให้มีช่องไม่จำกัดและสิทธิพิเศษอื่นๆ",
 		"creator": "คนสร้าง",
 		"description": "รายละเอียด",
 		"MISSING-tags": "Tags",
 		"quiz_stats": {
-			"MISSING-title": "Quiz Stats",
+			"title": "ข้อมูลเพิ่มเติม",
 			"plays": "เล่น:",
 			"likes": "ชอบ:",
 			"songs": "จำนวนเพลง:",
@@ -1786,7 +1786,7 @@
 		"quiz_buttons": {
 			"delete": "ลบ",
 			"edit": "แก้ไข",
-			"MISSING-clone": "Clone",
+			"clone": "คัดลอก",
 			"MISSING-share": "Share",
 			"MISSING-unshare": "Unshare",
 			"publish": "ตั้งเป็นสาธารณะ",
@@ -1796,16 +1796,16 @@
 		"no_quiz_selected": "ยังไม่ได้เลือก",
 		"messages": {
 			"error_cloning": {
-				"MISSING-title": "Error Cloning Quiz",
-				"MISSING-description": "An error occurred while trying to clone the quiz. Please try again later."
+				"title": "มีปัญหาในการคัดลอก",
+				"description": "มีปัญหาในการคัดลอก โปรดลองใหม่อีกครั้ง"
 			},
 			"quiz_cloned": {
-				"MISSING-title": "Quiz Cloned",
-				"MISSING-description": "The quiz has been successfully cloned."
+				"title": "คัดลอกสำเร็จ",
+				"description": "ทำการคัดลอกสำเร็จ"
 			},
 			"quiz_reported": {
-				"MISSING-title": "Quiz Reported",
-				"MISSING-description": "The quiz has been reported to the moderators for review."
+				"title": "รายงานสำเร็จ",
+				"description": "ทำการรายงานเพื่อให้ผู้ดูแลตรวจสอบแล้ว"
 			},
 			"quiz_deleted": {
 				"MISSING-title": "Quiz Deleted",
@@ -1814,8 +1814,8 @@
 			"MISSING-slot_unlocked": "Quiz Slot Unlocked",
 			"MISSING-unlimited_slots_unlocked": "Unlimited Quiz Slots Unlocked",
 			"no_slots_available": {
-				"MISSING-title": "No Slots Available",
-				"MISSING-description": "All quiz slots are currently in use. Unlock more slots or delete an old quiz before creating a new one."
+				"title": "ไม่มีช่องเหลือแล้ว",
+				"MISSING-description": "ทำการใช้ช่องทั้งหมดแล้ว ทำการลบ Quiz อื่นๆหรือซื้อช่องเพิ่ม"
 			},
 			"delete_quiz_confirmation": {
 				"MISSING-title": "Delete Quiz",
@@ -1881,10 +1881,10 @@
 			"MISSING-unlimited": "Unlimited Slots"
 		},
 		"host_community_quiz": {
-			"MISSING-title": "Host Community Quiz",
+			"title": "สร้างห้อง",
 			"MISSING-room_type": "Room Type",
 			"MISSING-room_info": "Room Info",
-			"MISSING-optional_password": "Optional Password"
+			"optional_password": "รหัสผ่าน(ไม่จำเป็น)"
 		},
 		"browse": "ค้นหา",
 		"medal_descriptions": {
@@ -1955,7 +1955,7 @@
 		"MISSING-game_mode_display": "_NAME_ Mode",
 		"MISSING-game_mode_settings_display": "_NAME_ Game Settings",
 		"MISSING-algorithm_block_settings": "Algorithm Block Settings",
-		"MISSING-randomize": "Randomize",
+		"randomize": "สุ่ม",
 		"custom": "ละเอียด",
 		"empty": "ไม่ได้กำหนด",
 		"search": "ค้นหา",
@@ -2210,18 +2210,18 @@
 				"description": "ให้เพลงสามารถเริ่มที่ช่วงท้ายของเพลงได้ อาจทำให้ไม่มีเสียงช่วงเฉลย"
 			}
 		},
-		"filter_types": { "MISSING-include": "Include", "MISSING-exclude": "Exclude", "MISSING-optional": "Optional" },
+		"filter_types": { "include": "มี", "exclude": "ไม่มี", "optional": "มีอย่างน้อย 1" },
 		"alerts": {
 			"room_name_missing": "ต้องมีชื่อห้อง",
 			"room_name_too_long": { "title": "ชื่อห้องยาวเกินไป", "description": "ชื่อห้องห้ามเกิน 20 ตัวอักษร" },
-			"MISSING-password_missing": "Password is required for private rooms",
-			"MISSING-one_player_score_required": "At least one player score must be toggled on",
-			"MISSING-one_anime_score_required": "At least one anime score must be toggled on",
-			"MISSING-one_playback_speed_required": "At least one playback speed must be selected"
+			"password_missing": "ห้องส่วนตัวต้องมีรหัส",
+			"one_player_score_required": "ต้องเลือกคะแนนผู้เล่นอย่างน้อยหนึ่งคะแนน",
+			"one_anime_score_required": "ต้องเลือกคะแนนอนิเมะอย่างน้อยหนึ่งคะแนน",
+			"one_playback_speed_required": "ต้องเลือกความเร็วอย่างน้อยหนึ่งความเร็ว"
 		},
 		"errors": {
 			"too_many_tag_genre": {
-				"MISSING-title": "Error Saving Settings",
+				"title": "เกิดปัญหาในการบันทึกการตั้งค่า",
 				"MISSING-description": "Vintage/Tag/Genre limit exceeded"
 			},
 			"MISSING-value_already_filter": "Value Already in Filter",
@@ -2238,13 +2238,13 @@
 			"MISSING-loading_disabled": "Loading Disabled"
 		},
 		"select_name_for_setting": {
-			"MISSING-title": "Select Name for Setting",
-			"MISSING-placeholder": "Setting Name",
-			"MISSING-confirm_button": "Save",
-			"MISSING-setting_saved": "Setting Saved",
-			"MISSING-must_provide_name": "You must provide a name",
-			"MISSING-name_too_long": "Name must be at most _NUMBER_ characters",
-			"MISSING-max_saved_settings": "Max number of _NUMBER_ saved settings reached"
+			"title": "ตั้งชื่อการตั้งค่า",
+			"placeholder": "ชื่อ",
+			"confirm_button": "บันทึก",
+			"setting_saved": "บันทึกสำเร็จ",
+			"must_provide_name": "ต้องมีชื่อการตั้งค่า",
+			"name_too_long": "ชื่อมีได้ไม่เกิน _NUMBER_ ตัวอักษร",
+			"max_saved_settings": "การตั้งค่าที่บันทึกเต็มแล้ว บันทึกการตั้งค่าได้ไม่เกิน _NUMBER_ การตั้งค่า"
 		},
 		"delete_saved_setting": { "MISSING-title": "Delete Saved Setting", "MISSING-confirm_button": "Delete" },
 		"get_code": { "MISSING-title": "Get Code for Settings", "MISSING-setting_code": "Setting Code" },
@@ -2259,7 +2259,7 @@
 				"MISSING-open": "Open",
 				"friends": "เพื่อน"
 			},
-			"show_selection": { "MISSING-title": "Show Selection", "MISSING-auto": "Auto", "MISSING-looting": "Looting" },
+			"show_selection": { "title": "การเลือกอนิเมะ", "auto": "อัตโนมัติ", "looting": "เก็บอนิเมะ" },
 			"answering_mode": {
 				"title": "การตอบ",
 				"typing": "พิมพ์",
@@ -2269,7 +2269,7 @@
 				"title": "ประเภทเพลง",
 				"openings": "เพลงเปิด",
 				"endings": "เพลงปิด",
-				"MISSING-inserts": "เพลงประกอบ"
+				"inserts": "เพลงประกอบ"
 			},
 			"song_selection": {
 				"title": "ประเภทอนิเมะ",
@@ -2278,36 +2278,36 @@
 				"random": "สุ่ม"
 			},
 			"scoring": {
-				"MISSING-title": "Scoring",
-				"MISSING-count": "Count",
-				"MISSING-hint": "Hint",
-				"MISSING-speed": "Speed",
-				"MISSING-lives": "Lives",
-				"MISSING-boss": "Boss"
+				"title": "การให้คะแนน",
+				"count": "ปกติ",
+				"hint": "คำใบ้",
+				"speed": "ความเร็ว",
+				"lives": "ชีวิต",
+				"boss": "บอส"
 			},
 			"number_of_players": "จำนวนผู้เล่น",
 			"number_of_songs": "จำนวนเพลง",
 			"guess_time": "เวลาตอบ",
 			"difficulty": "ความยาก",
 			"anime_type": {
-				"MISSING-title": "Anime Type",
-				"MISSING-tv": "TV",
-				"MISSING-movie": "Movie",
-				"MISSING-ova": "OVA",
-				"MISSING-ona": "ONA",
-				"MISSING-special": "Special"
+				"title": "ประเภทอนิเมะ",
+				"tv": "TV",
+				"movie": "หนัง",
+				"ova": "OVA",
+				"ona": "ONA",
+				"special": "Special"
 			},
 			"only_non_default": {
-				"MISSING-title": "Only Non-Default Settings",
-				"MISSING-sample_point": "Sample Point",
-				"MISSING-playback_speed": "Playback Speed",
-				"MISSING-anime_score": "Anime Score",
-				"MISSING-vintage": "Vintage",
+				"title": "ระบุเพิ่มเติม",
+				"sample_point": "จุดเริ่ม",
+				"playback_speed": "ความเร็ว",
+				"anime_score": "คะแนนอนิเมะ",
+				"vintage": "ปีที่ฉาย",
 				"MISSING-genre": "Genre",
 				"MISSING-tag": "Tag",
-				"MISSING-popularity": "Popularity"
+				"popularity": "ความชอบ"
 			},
-			"MISSING-search_placeholder": "Search rooms"
+			"search_placeholder": "ค้นหา"
 		},
 		"host_room": "สร้างห้อง",
 		"games": " ห้อง",
@@ -2342,7 +2342,7 @@
 				"random": "สุ่ม",
 				"mix": "ผสม",
 				"watched": "ในลิสต์",
-				"MISSING-custom": "Custom"
+				"custom": "ประเภทอนิเมะ"
 			},
 			"MISSING-room_closed": "Room Closed",
 			"password": {
@@ -2529,7 +2529,7 @@
 		"MISSING-page_close_warning": "Leaving the page will cause you to lose any unsaved progress."
 	},
 	"game_chat": {
-		"ING-game_chat": "แชท",
+		"game_chat": "แชท",
 		"spectators": "คนดู",
 		"spectate_button": "เปลี่ยนเป็นคนดู",
 		"queue": "คิว",
@@ -2552,20 +2552,20 @@
 		"MISSING-disconnected_message": "_NAME_ has disconnected.",
 		"MISSING-reconnect_message": "_NAME_ has reconnected.",
 		"left_room_message": "_NAME_ ออกจากห้องแล้ว",
-		"MISSING-joined_room_message": "_NAME_ has joined the room.",
+		"joined_room_message": "_NAME_ เข้าห้องแล้ว",
 		"changed_to_player_message": "_NAME_ เปลี่ยนเป็นผู้เล่นแล้ว",
 		"changed_to_spectator_message": "_NAME_ เปลี่ยนเป็นผู้ชมแล้ว",
 		"MISSING-all_players_disconnect_message": "All players have disconnected, pausing while waiting for reconnects",
 		"paused_game_message": "_NAME_ ทำการหยุดเกม",
-		"MISSING-unpaused_game_message": "_NAME_ has unpaused the game.",
+		"unpaused_game_message": "_NAME_ ทำการเริ่มเกมต่อแล้ว",
 		"hat_normal_mode_message": "มีผู้ดูแลแล้ว สามารถแชทได้ปกติ",
 		"chat_in_emote_only_mode_message": "ไม่มีผู้ดูแล สามารถใช้ Emote ได้เท่านั้น",
 		"promoted_host_message": "_NAME_ เป็นเจ้าของห้องแล้ว",
 		"kicked_from_room_alert": "คุณถูกไล่ออกจากห้อง",
 		"emotes": {
 			"MISSING-locked_in_emote_description": "Locked in emote, will be displayed when guessing ends",
-			"MISSING-recent": "Recent",
-			"MISSING-all": "All"
+			"recent": "ที่พึ่งใช้",
+			"all": "ทั้งหมด"
 		},
 		"kick_player": {
 			"title": "ไล่ _NAME_ ออกจากห้อง?",
