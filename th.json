@@ -440,7 +440,7 @@
 				"lunar": "โปรโมชั่นวันตรุษจีน",
 				"valentine": "โปรโมชั่นวันวาเลนไทน์",
 				"summer_games": "โปรโมชั่นกีฬาฤดูร้อน",
-				"MISSING-anniversary": "Anniversary Sale!"
+				"anniversary": "โปรโมชั่นครบรอบปี"
 			},
 			"sale_text": "ซื้อตั๋วในราคาที่คุ้มค่า",
 			"skin_header": "พิเศษ",
@@ -1699,7 +1699,7 @@
 	"anime_types": {
 		"tv": "TV _NUMBER_",
 		"season": "ซีซัน _NUMBER_",
-		"movie": "หนัง _NUMBER_",
+		"movie": "Movie _NUMBER_",
 		"ova": "OVA _NUMBER_",
 		"ona": "ONA _NUMBER_",
 		"tv_special": "TV Special _NUMBER_",
@@ -2008,7 +2008,7 @@
 		"anime_type": {
 			"title": "ประเภทอนิเมะ",
 			"tv": "TV",
-			"movie": "หนัง",
+			"movie": "Movie",
 			"ova": "OVA",
 			"ona": "ONA",
 			"special": "Special",
@@ -2254,9 +2254,9 @@
 		"filters": {
 			"only": {
 				"title": "แสดงเฉพาะ:",
-				"MISSING-public": "Public",
-				"MISSING-in_lobby": "In Lobby",
-				"MISSING-open": "Open",
+				"public": "สาธารณะ",
+				"in_lobby": "ยังไม่เริ่ม",
+				"open": "ยังไม่เต็ม",
 				"friends": "เพื่อน"
 			},
 			"show_selection": { "title": "การเลือกอนิเมะ", "auto": "อัตโนมัติ", "looting": "เก็บอนิเมะ" },
@@ -2292,7 +2292,7 @@
 			"anime_type": {
 				"title": "ประเภทอนิเมะ",
 				"tv": "TV",
-				"movie": "หนัง",
+				"movie": "Movie",
 				"ova": "OVA",
 				"ona": "ONA",
 				"special": "Special"
@@ -2326,8 +2326,8 @@
 				"friends": "เพื่อน"
 			},
 			"song_types": { "opening": "เพลงเปิด", "ending": "เพลงปิด", "insert": "เพลงประกอบ" },
-			"MISSING-join": "Join",
-			"MISSING-spectate": "Spectate",
+			"join": "เล่น",
+			"spectate": "เข้าชม",
 			"game_mode": {
 				"MISSING-community": "Community",
 				"MISSING-battle_royale": "Battle Royale",
@@ -2591,8 +2591,8 @@
 	},
 	"lobby": {
 		"leave_button": "ออก",
-		"MISSING-room": "Room",
-		"MISSING-quiz_rules": "Quiz Rules",
+		"room": "ห้อง",
+		"quiz_rules": "กฎการเล่น",
 		"MISSING-stats_in": "Stats In",
 		"room_settings": "ตั้งค่า",
 		"shuffle_teams": "สุ่มทีม",
@@ -2600,11 +2600,11 @@
 		"MISSING-team": "Team",
 		"host": "เจ้าของห้อง",
 		"MISSING-team_unset": "Unset",
-		"MISSING-team_members": "Team Members",
+		"MISSING-team_members": "สมาชิกทีม",
 		"join_themed_team": {
-			"MISSING-title": "Join Team",
-			"MISSING-placeholder": "Enter a team code",
-			"MISSING-join_button": "Join"
+			"title": "ใส่รหัสทีมเพื่อเข้าร่วมทีม",
+			"placeholder": "รหัสทีม",
+			"join_button": "ยืนยัน"
 		},
 		"main_button": {
 			"start": "เริ่ม",
@@ -2626,11 +2626,11 @@
 			"MISSING-disabled": "Community Quiz Mode Disabled"
 		},
 		"ranked_team": {
-			"MISSING-no_team": "No Team",
-			"MISSING-team_code": "Team Code",
-			"MISSING-create": "Create",
-			"MISSING-join": "Join",
-			"MISSING-leave": "Leave"
+			"no_team": "ทีม",
+			"team_code": "รหัสทีม",
+			"create": "สร้าง",
+			"join": "เข้าร่วม",
+			"leave": "ออก"
 		},
 		"rule_window": {
 			"MISSING-title": "Game Mode Overview",
@@ -2798,7 +2798,7 @@
 				"boss_max_songs": "จำนวนเพลงของบอส",
 				"scoring": "การให้คะแนน",
 				"team_size": "ขนาดทีม",
-				"MISSING-watched_distribution": "Watched Distribution",
+				"watched_distribution": "สัดส่วนแต่ละลิสต์",
 				"answering": "การตอบ",
 				"extra_guess_time": "เวลาตอบเพิ่มเติม",
 				"skip_guessing": "ข้ามการทาย",
@@ -2812,7 +2812,7 @@
 				"ona": "ONA",
 				"queueing": "คิว",
 				"tv": "TV",
-				"movie": "หนัง",
+				"movie": "Movie",
 				"special": "Special",
 				"easy": "ง่าย",
 				"medium": "ปานกลาง",
@@ -3553,7 +3553,7 @@
 	"anime_types_base": {
 		"tv": "TV",
 		"season": "ซีซัน",
-		"movie": "หนัง",
+		"movie": "Movie",
 		"ova": "OVA",
 		"ona": "ONA",
 		"tv_special": "TV Special",
