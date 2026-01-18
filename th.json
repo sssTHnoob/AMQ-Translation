@@ -1248,7 +1248,7 @@
 				"days_remaining": "เหลือเวลา _SPANC_ _NUMBER_ _SPANC_ วัน",
 				"getting_started_pack": "แพคเริ่มต้น",
 				"promo": "โปรโมชัน",
-				"MISSING-sale": "Sale"
+				"sale": "โปรโมชัน"
 			},
 			"subtotal": "รวม",
 			"sales_tax": "ภาษี",
@@ -1274,12 +1274,12 @@
 			"decorations": "ของตกแต่ง",
 			"errors": {
 				"MISSING-failed_to_create_payment": "Failed to create payment, please try again.",
-				"MISSING-unlimited_slots_already_unlocked": "Unlimited slots already unlocked",
+				"unlimited_slots_already_unlocked": "มีช่องไม่จำกัดอยู่แล้ว",
 				"insufficient_notes": "โน้ตไม่พอ",
 				"insufficient_notes_message": "มีโน้ตไม่เพียงพอที่จะซื้อ",
 				"insufficient_rhythm": "Rhythm ไม่พอ",
 				"insufficient_rhythm_message": "มี Rhythm ไม่เพียงพอที่จะซื้อ",
-				"MISSING-error_unlocking": "Error Unlocking"
+				"error_unlocking": "เกิดปัญหาในการปลดล็อค"
 			},
 			"gift": "ให้ของขวัญ",
 			"tickets": "ตั๋วและโทเคน"
@@ -1530,7 +1530,7 @@
 			"description": "ช่วยทำให้ลิสต์เพลงสมบูรณ์มากขึ้นโดยการเพิ่มไฟล์วีดิโอและเสียงให้กับเพลงที่ยังขาดอยู่ เพลงที่ไม่มีสามารถขอเพิ่มได้ใน Discord AMQ"
 		},
 		"video_preview": "ตัวอย่าง",
-		"MISSING-views": "Views:",
+		"views": "แสดง:",
 		"library": "ทั้งหมด",
 		"library_description": "ดูเพลงทั้งหมด",
 		"new_songs": "ใหม่",
@@ -2014,8 +2014,8 @@
 			"one_must_be_selected": "ต้องมีอย่างน้อย 1 ประเภท"
 		},
 		"genre": {
-			"MISSING-title": "Genre",
-			"MISSING-description": "Genres are determined using AniList. If optional is used, at least one optional genre will be required by the anime."
+			"title": "ประเภทอนิเมะ",
+			"description": "ประเภทของอนิเมะอิงจาก AniList"
 		},
 		"tags": {
 			"MISSING-title": "Tags",
@@ -2302,7 +2302,7 @@
 				"playback_speed": "ความเร็ว",
 				"anime_score": "คะแนนอนิเมะ",
 				"vintage": "ปีที่ฉาย",
-				"MISSING-genre": "Genre",
+				"genre": "ประเภทอนิเมะ",
 				"MISSING-tag": "Tag",
 				"popularity": "ความชอบ"
 			},
@@ -2415,7 +2415,7 @@
 				"song_selection": "ประเภทอนิเมะ",
 				"song_difficulty": "ความยากเพลง",
 				"vintage": "ปีที่อนิเมะฉาย",
-				"MISSING-genre_count": "Number of selected genres",
+				"genre_count": "จำนวนประเภทของอนิเมะที่เลือก",
 				"MISSING-tag_count": "Number of selected tags",
 				"song_types": "ประเภทเพลง"
 			},
@@ -2789,7 +2789,7 @@
 				"MISSING-game_mode": "Game Mode",
 				"modifiers": "อื่นๆ",
 				"MISSING-type": "Type",
-				"MISSING-genre": "Genre",
+				"genre": "ประเภทอนิเมะ",
 				"MISSING-tags": "Tags",
 				"lives": "จำนวนชีวิต",
 				"boss_lives": "จำนวนชีวิตบอส",
@@ -2971,7 +2971,7 @@
 				"vintage": "ปีที่ฉาย",
 				"anime_rating": "คะแนนอนิเมะ",
 				"difficulty": "ความยากเพลง",
-				"MISSING-genre": "Genre",
+				"genre": "ประเภทอนิเมะ",
 				"MISSING-tags": "Tags"
 			},
 			"song_type": {
@@ -3437,24 +3437,24 @@
 		"MISSING-zombie": "Zombie"
 	},
 	"genre_tags": {
-		"MISSING-action": "Action",
-		"MISSING-adventure": "Adventure",
-		"MISSING-comedy": "Comedy",
-		"MISSING-drama": "Drama",
+		"action": "แอคชั่น",
+		"adventure": "ผจญภัย",
+		"comedy": "ตลก",
+		"drama": "ดราม่า",
 		"MISSING-ecchi": "Ecchi",
-		"MISSING-fantasy": "Fantasy",
-		"MISSING-horror": "Horror",
-		"MISSING-mahou_shoujo": "Mahou Shoujo",
-		"MISSING-mecha": "Mecha",
-		"MISSING-music": "Music",
-		"MISSING-mystery": "Mystery",
-		"MISSING-psychological": "Psychological",
-		"MISSING-romance": "Romance",
-		"MISSING-sci-fi": "Sci-Fi",
-		"MISSING-slice_of_life": "Slice of Life",
-		"MISSING-sports": "Sports",
-		"MISSING-supernatural": "Supernatural",
-		"MISSING-thriller": "Thriller"
+		"fantasy": "แฟนตาซี",
+		"horror": "สยองขวัญ",
+		"mahou_shoujo": "สาวน้อยเวทมนตร์",
+		"mecha": "หุ่นยนต์",
+		"music": "ดนตรี",
+		"mystery": "ลึกลับ",
+		"psychological": "จิตวิทยา",
+		"romance": "โรแมนติก",
+		"sci-fi": "ไซไฟ",
+		"slice_of_life": "ชีวิตประจำวัน",
+		"sports": "กีฬา",
+		"supernatural": "เหนือธรรมชาติ",
+		"thriller": "ระทึกขวัญ"
 	},
 	"song_history": {
 		"title": "ประวัติเพลง",
@@ -3509,7 +3509,7 @@
 				"season_info": "ข้อมูลซีซั่น",
 				"vintage": "ซีซั่น",
 				"anime_rating": "คะแนนอนิเมะ",
-				"MISSING-genres": "Genres",
+				"genres": "ประเภทอนิเมะ",
 				"MISSING-tags": "Tags",
 				"video": "วีดิโอ",
 				"list_sites": "เว็บอนิเมะ",
@@ -5401,7 +5401,7 @@
 		"quests": {
 			"br_flex": {
 				"MISSING-title": "BR Flex",
-				"MISSING-description": "Guess 20 songs you didn't loot, in non-team games with looting enabled"
+				"description": "ตอบเพลงจากอนิเมะที่ไม่ได้เป็นคนเก็บถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"master_rigger": {
 				"MISSING-title": "Master Rigger",
@@ -5428,88 +5428,88 @@
 				"description": "ตอบเพลงจากอนิเมะใน 4 ซีซันล่าสุดถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"dont_skip_openings": {
-				"MISSING-title": "Don't Skip Openings",
+				"title": "อย่าข้ามเพลงเปิด",
 				"description": "ตอบเพลงเปิดถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"dont_skip_endings": {
-				"MISSING-title": "Don't Skip Endings",
+				"title": "อย่าข้ามเพลงปิด",
 				"description": "ตอบเพลงปิดถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"dont_skip_inserts": {
-				"MISSING-title": "Don't Skip Inserts",
+				"title": "อย่าข้ามเพลงประกอบ",
 				"description": "ตอบเพลงประกอบถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"action_fan": {
-				"MISSING-title": "Action Fan",
-				"MISSING-description": "Guess 20 songs from action shows, in non-team games"
+				"title": "แฟนอนิเมะแอคชั่น",
+				"description": "ตอบเพลงจากอนิเมะแอคชั่นถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"adventure_fan": {
-				"MISSING-title": "Adventure Fan",
-				"MISSING-description": "Guess 20 songs from adventure shows, in non-team games"
+				"title": "แฟนอนิเมะผจญภัย",
+				"description": "ตอบเพลงจากอนิเมะผจญภัยถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"comedy_fan": {
-				"MISSING-title": "Comedy Fan",
-				"MISSING-description": "Guess 20 songs from comedy shows, in non-team games"
+				"title": "แฟนอนิเมะตลก",
+				"description": "ตอบเพลงจากอนิเมะตลกถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"drama_fan": {
-				"MISSING-title": "Drama Fan",
-				"MISSING-description": "Guess 20 songs from drama shows, in non-team games"
+				"title": "แฟนอนิเมะดราม่า",
+				"description": "ตอบเพลงจากอนิเมะดราม่าถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"ecchi_fan": {
 				"MISSING-title": "Ecchi Fan",
 				"MISSING-description": "Guess 20 songs from ecchi shows, in non-team games"
 			},
 			"fantasy_fan": {
-				"MISSING-title": "Fantasy Fan",
-				"MISSING-description": "Guess 20 songs from fantasy shows, in non-team games"
+				"title": "แฟนอนิเมะแฟนตาซี",
+				"description": "ตอบเพลงจากอนิเมะแฟนตาซีถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"horror_fan": {
-				"MISSING-title": "Horror Fan",
-				"MISSING-description": "Guess 20 songs from horror shows, in non-team games"
+				"title": "แฟนอนิเมะสยองขวัญ",
+				"description": "ตอบเพลงจากอนิเมะสยองขวัญถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"mahou_shoujo_fan": {
-				"MISSING-title": "Mahou Shoujo Fan",
-				"MISSING-description": "Guess 20 songs from mahou shoujo shows, in non-team games"
+				"title": "แฟนอนิเมะสาวน้อนเวทมนตร์",
+				"description": "ตอบเพลงจากอนิเมะสาวน้อยเวทมนตร์ถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"mecha_fan": {
-				"MISSING-title": "Mecha Fan",
-				"MISSING-description": "Guess 20 songs from mecha shows, in non-team games"
+				"title": "แฟนอนิเมะหุ่นยนต์",
+				"description": "ตอบเพลงจากอนิเมะหุ่นยนต์ถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"music_fan": {
-				"MISSING-title": "Music Fan",
-				"MISSING-description": "Guess 20 songs from music shows, in non-team games"
+				"title": "แฟนอนิเมะดนตรี",
+				"description": "ตอบเพลงจากอนิเมะดนตรีถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"mystery_fan": {
-				"MISSING-title": "Mystery Fan",
-				"MISSING-description": "Guess 20 songs from mystery shows, in non-team games"
+				"title": "แฟนอนิเมะลึกลับ",
+				"description": "ตอบเพลงจากอนิเมะลึกลับถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"psychological_fan": {
-				"MISSING-title": "Psychological Fan",
-				"MISSING-description": "Guess 20 songs from psychological shows, in non-team games"
+				"title": "แฟนอนิเมะจิตวิทยา",
+				"description": "ตอบเพลงจากอนิเมะจิตวิทยาถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"romance_fan": {
-				"MISSING-title": "Romance Fan",
-				"MISSING-description": "Guess 20 songs from romance shows, in non-team games"
+				"title": "แฟนอนิเมะโรแมนติก",
+				"description": "ตอบเพลงจากอนิเมะโรแมนติกถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"sci-fi_fan": {
-				"MISSING-title": "Sci-Fi Fan",
-				"MISSING-description": "Guess 20 songs from sci-fi shows, in non-team games"
+				"title": "แฟนอนิเมะไซไฟ",
+				"description": "ตอบเพลงจากอนิเมะไซไฟถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"slice_of_life_fan": {
-				"MISSING-title": "Slice of Life Fan",
-				"MISSING-description": "Guess 20 songs from slice of fife shows, in non-team games"
+				"title": "แฟนอนิเมะชีวิตประจำวัน",
+				"description": "ตอบเพลงจากอนิเมะชีวิตประจำวันถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"sports_fan": {
-				"MISSING-title": "Sports Fan",
-				"MISSING-description": "Guess 20 songs from sports shows, in non-team games"
+				"title": "แฟนอนิเมะกีฬา",
+				"description": "ตอบเพลงจากอนิเมะกีฬาถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"supernatural_fan": {
-				"MISSING-title": "Supernatural Fan",
-				"MISSING-description": "Guess 20 songs from supernatural shows, in non-team games"
+				"title": "แฟนอนิเมะเหนือธรรมชาติ",
+				"description": "ตอบเพลงจากอนิเมะเหนือธรรมชาติถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"thriller_fan": {
-				"MISSING-title": "Thriller Fan",
-				"MISSING-description": "Guess 20 songs from thriller shows, in non-team games"
+				"title": "แฟนอนิเมะระทึกขวัญ",
+				"description": "ตอบเพลงจากอนิเมะระทึกขวัญถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
 			"just_jamming": { "title": "Just Jamming", "description": "ตอบถูก 20 เพลงในโหมด Jam" }
 		}
