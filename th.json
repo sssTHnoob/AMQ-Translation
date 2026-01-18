@@ -2827,13 +2827,13 @@
 			}
 		},
 		"ranked_rules": {
-			"MISSING-title": "Ranked Rules",
-			"MISSING-description": "Ranked matches are a place where players can test their individual skills up against the rest of the community. _BREAK_ In a ranked match, you compete against all the other players in guessing the most songs, which ranges from the easiest to the hardest in the game. _BREAK_ At the end of the match, you’ll get points based on how well you did. Gather points throughout the season to unlock unique badges and earn a spot in the championship match at the end of the season! _BREAK_ To ensure the integrity of ranked matches, it’s important you follow the rules below, as breaking these rules can lead to your account getting banned and/or excluded from playing ranked.",
+			"title": "กฎในการเล่นโหมดจัดอันดับ",
+			"description": "โหมดจัดอันดับเป็นโหมดที่มีไว้เพื่อทดสอบความสามารถของตัวเอง _BREAK_ ผู้เล่นทุกคนแข่งขันเพื่อทายเพลงที่มีระดับตั้งแต่ง่ายที่สุดไปจนถึงยากที่สุด _BREAK_ เมื่อจบการเล่นแต่ละรอบผู้เล่นจะได้รับแต้มตามจำนวนเพลงที่ตอบถูกและจะได้รับรางวัลตอนจบซีซันเป็นเหรียญตราและสิทธิในการเข้าแข่งโหมดชิงแชมป์ _BREAK_ เพื่อให้เกมดำเนินไปอย่างยุติธรรม การทำตามกฎต่อไปนี้จึงเป็นเรื่องสำคัญ หากไม่ทำตามจะส่งผลให้ถูกแบนได้",
 			"MISSING-themed_title": "Themed Quiz Rules",
 			"MISSING-themed_description": "Themed quizzes are a place where players can test their skills in specific themes selected for the day against the rest of the community! _BREAK_ Each themed quiz will feature a unique themed song pool, and is meant to be a fun way a and fresh way to challenge yourself against the community in a less competitive and more fun focused environment. _BREAK_ While not as competitive focused as ranked matches, it’s important that you follow the rules, to not ruin the experience of other players. Breaking the rules can lead to your account getting banned and/or excluded from Quiz of the Day.",
 			"play_solo": {
-				"MISSING-title": "Play Solo",
-				"MISSING-description": "Ranked is a test of individual skills, so giving hints and/or answer to other players, as well as receiving them, goes against the rules."
+				"title": "เล่นคนเดียว",
+				"description": "โหมดจัดอันดับมีไว้เพื่อทดสอบวามสามารถของผู้เล่นแต่ละคน การบอกหรือรับคำตอบกับผู้เล่นคนอื่นถือเป็นการทำผิดกฎ"
 			},
 			"themed_team_play": {
 				"MISSING-title": "Team Play",
@@ -2844,11 +2844,11 @@
 				"MISSING-description": "Using any kind of tool that gives an unfair advantage over other players is strictly prohibited. This includes using external tools to get additional information about the song, googling lyrics, and in general any external tool and/or method that gives an unfair advantage over other players."
 			},
 			"mod_instructions": {
-				"MISSING-title": "Follow Instructions from Moderators",
-				"MISSING-description": "The games moderators work hard to keep ranked fair for all players, so it’s important you follow any instructions issued by them so that they can ensure this.  _BREAK_ You can recognize moderators by the mod badge next to their name."
+				"title": "ทำตามคำขอของผู้ดูแล",
+				"description": "เพื่อให้เกมดำเนินไปอย่างยุติธรรม การทำตามคำขอของผู้ดูแลจึงเป็นสิ่งสำคัญ สามารถสังเกตคนที่เป็นผู้ดูแลได้จากเหรียญตราข้างชื่อผู้เล่น"
 			},
 			"english_chat": {
-				"MISSING-title": "Use English in the Chat",
+				"title": "ใช้ภาษาอังกฤษในการคุย",
 				"MISSING-description": "It isn’t possible to moderate every language, so keep messages in the ranked chat to English and emotes."
 			}
 		}
