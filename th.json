@@ -2694,8 +2694,8 @@
 			"typing": "พิมพ์",
 			"multiple_choice": "ตัวเลือก",
 			"selection": {
-				"MISSING-title": "Select Answer Mode",
-				"MISSING-description": "Select the answer mode you want to use. You can change it later at the top right of the lobby."
+				"title": "เลือกวิธีการตอบ",
+				"description": "เลือกวิธีการตอบที่ต้องการจะใช้ สามารถเปลี่ยนได้ตลอดเวลาในห้องเตรียมตัว"
 			}
 		},
 		"player_options": {
@@ -2705,10 +2705,10 @@
 			"kick": "ไล่ออกจากห้อง"
 		},
 		"errors": {
-			"MISSING-error_changing_to_player": "Error Changing to Player",
+			"error_changing_to_player": "เกิดปัญหาในการเปลี่ยนเป็นผู้เล่น",
 			"no_players_ready": {
-				"MISSING-title": "No Players Ready",
-				"MISSING-description": "At least one player must be ready to start the game"
+				"title": "ยังไม่มีผู้เล่นที่พร้อม",
+				"description": "ต้องมีผู้เล่นที่พร้อมอย่างน้อย 1 คนถึงจะเริ่มเกมได้"
 			},
 			"no_community_quiz": {
 				"MISSING-title": "No Community Quiz Selected",
@@ -2784,7 +2784,7 @@
 				"ending_categories": "เพลงปิด",
 				"insert_categories": "เพลงประกอบ",
 				"room_name": "ชื่อห้อง",
-				"MISSING-room_private": "Room Private",
+				"room_private": "ห้องส่วนตัว",
 				"password": "รหัส",
 				"playback_speed": "ความเร็ว",
 				"MISSING-game_mode": "Game Mode",
@@ -2933,7 +2933,7 @@
 			"MISSING-hidden": "Hidden",
 			"MISSING-hidden_description": "Hidden from other players",
 			"MISSING-answer_time": "Answer Time",
-			"MISSING-answer_time_number": "_NUMBER_s",
+			"answer_time_number": "_NUMBER_s",
 			"answering_mode": "การตอบ",
 			"multiple_choice": "ตัวเลือก",
 			"answer_status": {
@@ -2986,7 +2986,7 @@
 		},
 		"standings": {
 			"title": "อันดับ",
-			"MISSING-number_of_correct_guesses_popover": "Number of Correct Guesses",
+			"number_of_correct_guesses_popover": "จำนวนผู้เล่นที่ตอบถูก",
 			"MISSING-correct_guesses": "Correct Guesses",
 			"MISSING-list_number": "List Number",
 			"hide_team_messages": {
