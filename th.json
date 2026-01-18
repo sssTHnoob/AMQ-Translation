@@ -2905,8 +2905,8 @@
 		},
 		"join_button": "เล่น",
 		"video_quality": { "720p": "720p", "480p": "480p", "sound": "mp3" },
-		"MISSING-settings_popover": "Settings",
-		"MISSING-song_history_popover": "Song History",
+		"settings_popover": "ตั้งค่า",
+		"song_history_popover": "ประวัติเพลง",
 		"vote_skip": "โหวตข้าม",
 		"vote_states": {
 			"voted_skip": "โหวต _BREAK_ ข้าม",
@@ -2914,18 +2914,18 @@
 			"MISSING-waiting_answers": "Waiting _BREAK_ Answers",
 			"waiting_buffering": "รอโหลด",
 			"MISSING-ending_soon": "Ending _BREAK_ Soon",
-			"MISSING-votes_needed": "_NUMBER_/_NUMBER2_ _BREAK_ Votes"
+			"votes_needed": "_NUMBER_/_NUMBER2_ _BREAK_ โหวต"
 		},
-		"MISSING-no_songs_matching_settings": "No songs match the quiz settings, returning to lobby",
-		"MISSING-team_answer": "_NAME_ answered: _MESSAGE_",
+		"no_songs_matching_settings": "ไม่มีเพลงที่ตรงการตั้งค่า กลับเข้าสู่ห้องเตรียมตัว",
+		"team_answer": "_NAME_ ตอบ: _MESSAGE_",
 		"MISSING-current_answer": "Current Answer",
 		"pause_button_popovers": {
 			"MISSING-pause": "Pause the game at the end of this song. All players can end the pause.",
 			"MISSING-unpause": "Unpause the game"
 		},
 		"anime_names": {
-			"MISSING-alternative_names": "Alternative Names",
-			"MISSING-alternative_answers": "Alternative Answers"
+			"alternative_names": "ชื่ออื่น",
+			"alternative_answers": "คำตอบอื่นที่ตอบได้"
 		},
 		"avatar": {
 			"MISSING-loot": "Loot",
@@ -2934,8 +2934,8 @@
 			"MISSING-hidden_description": "Hidden from other players",
 			"MISSING-answer_time": "Answer Time",
 			"MISSING-answer_time_number": "_NUMBER_s",
-			"MISSING-answering_mode": "Answering Mode",
-			"MISSING-multiple_choice": "Multiple Choice",
+			"answering_mode": "การตอบ",
+			"multiple_choice": "ตัวเลือก",
 			"answer_status": {
 				"watching": "W",
 				"completed": "C",
