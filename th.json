@@ -1641,11 +1641,10 @@
 			"like_options": { "like": "ชอบ", "dislike": "ไม่ชอบ", "MISSING-unset": "Unset" },
 			"upload_state_messages": {
 				"missing": "ยังไม่มี",
-				"MISSING-pending": "Pending Approval",
-				"MISSING-uploaded": "Click to View",
+				"pending": "รอการตรวจ",
 				"uploaded": { "title": "มีแล้ว", "description": "กดเพื่อดู" }
 			},
-			"MISSING-anime_header": "Anime:"
+			"anime_header": "อนิเมะ:"
 		},
 		"faq": {
 			"shorthand": "FAQ",
@@ -1659,7 +1658,7 @@
 				"text": "ไม่ได้ ทุกไฟล์ต้องเป็นวีดิโอที่ถูกต้อง"
 			},
 			"what_to_include": {
-				"MISSING-title": "What should be included in the video?",
+				"title": "วีดิโอต้องมีอะไรบ้าง",
 				"MISSING-text": "The opening/ending/scene the song plays in. _BREAK_ If a song plays with talking or other sounds during the scene, replace the audio with a clean version that matches with what was used in the anime."
 			},
 			"file_format": {
@@ -1667,15 +1666,15 @@
 				"text": "webm สำหรับวีดิโอและ mp3 สำหรับเสียง ทุกไฟล์นอกเหนือจากนี้จะโดนปฏิเสธอัตโนมัติ"
 			},
 			"quality_requirements": {
-				"MISSING-title": "What are the quality requirements?",
+				"title": "ข้อกำหนดเรื่องคุณภาพ",
 				"MISSING-text": "The song must not be pitched, sped up, slowed down or remixed in any way from their original versions. Any silence at the start or end of the song should be cut out. Likewise, extended notes at the end of the song should be cut short. In addition, the bitrate of an upload should not exceed 6.2 kbps. _BREAK_ The video should also be of decent quality and not contain hardsubs, though exceptions can be made for older or rare shows where a better quality isn't available."
 			},
 			"volume_requirements": {
-				"MISSING-title": "What are the volume requirements?",
-				"MISSING-text": "Uploads should have a mean volume between -20 and -17db. The max volume ideally should not exceed -.5dB, and if possible should be around -5dB."
+				"title": "ข้อกำหนดเรื่องเสียง",
+				"text": "ต้องมีความดังเฉลี่ยระหว่าง -20dB ถึง -17dB ความดังสูงสุดต้องไม่เกินและควรอยู่ประมาณ -5dB"
 			},
 			"what_are_keyframes": {
-				"MISSING-title": "What are keyframes?",
+				"title": "Keyframes คืออะไร",
 				"MISSING-text": "Keyframes are special frames set when the video is encoded. They allow for skipping in the video without having to load the rest of the video up to the point skipped to. _BREAK_ For AMQ a minimum of 1 keyframe for each 10 seconds of video is required, anything less will get rejected by the bot. It's recommended to have 1 keyframe per 5 seconds."
 			},
 			"what_happens_file_submit": {
@@ -1934,11 +1933,11 @@
 			"host": "สร้าง",
 			"MISSING-create": "Create",
 			"MISSING-update": "Update",
-			"MISSING-change": "Change",
+			"change": "เปลี่ยน",
 			"MISSING-join": "Join",
 			"MISSING-spectate": "Spectate",
-			"MISSING-invite_link": "Invite Link",
-			"MISSING-invite_link_copied": "Copied!",
+			"invite_link": "ลิงก์เชิญ",
+			"invite_link_copied": "คัดลอกลิงก์แล้ว",
 			"reset_to_default": "กลับสู่ค่าตั้งต้น"
 		},
 		"room_name": "ชื่อห้อง",
@@ -2537,7 +2536,7 @@
 		"leave_queue_button": "ออกจากคิว",
 		"team_switch": "แชททีม",
 		"player_only_mode": "พิมพ์ได้เฉพาะผู้เล่น",
-		"MISSING-message": "Message",
+		"message": "ข้อความ",
 		"MISSING-slowmode": "Chat in slowmode",
 		"repeat_message_warning": "ส่งข้อความบ่อยเกินไป",
 		"ranked_chat_level_warning": "ต้องมีเลเวลอย่างน้อย _NUMBER_ เพื่อแชทในโหมดจัดอันดับ",
@@ -2575,8 +2574,8 @@
 		"MISSING-page_close_warning": "Leaving the page will leave the game. Sure you want to continue?",
 		"MISSING-error_leaving_queue": "Unexpected Error Leaving Queue",
 		"error_joining_queue": {
-			"MISSING-title": "Error Joining Queue",
-			"MISSING-not_a_spectator": "You must be a spectator to join the queue",
+			"title": "เกิดปัญหาในการเข้าคิว",
+			"not_a_spectator": "ต้องเป็นผู้ชมถึงจะสามารถเข้าคิวได้",
 			"already_in_queue": "อยู่ในคิวอยู่แล้ว",
 			"disabled": "ห้องนี้ไม่สามารถเข้าคิวได้"
 		},
@@ -2585,8 +2584,8 @@
 			"description": "คุณถูกไล่ออกจากห้อง Jam โดยผู้ดูแลและไม่สามารถเข้าใหม่ได้เป็นเวลา 1 ชั่วโมง"
 		},
 		"jam_quiz_ban_alert": {
-			"MISSING-title": "Banned from Jam Quizzes",
-			"MISSING-description": "Your jam quiz expires in _NUMBER_ minutes"
+			"title": "ถูกแบนจากห้อง Jam",
+			"description": "จบการแบนใน _NUMBER_ นาที"
 		}
 	},
 	"lobby": {
@@ -2840,8 +2839,8 @@
 				"MISSING-description": "It’s possible to play themed quizzes as a team, to do so set up or join your team from the top right option in the lobby. While in a team, you are allowed to work together to guess the answers, and will share the same score. _BREAK_ It’s not allowed to share any answers or hints with people not on your team."
 			},
 			"no_cheating": {
-				"MISSING-title": "No Cheating",
-				"MISSING-description": "Using any kind of tool that gives an unfair advantage over other players is strictly prohibited. This includes using external tools to get additional information about the song, googling lyrics, and in general any external tool and/or method that gives an unfair advantage over other players."
+				"title": "ห้ามโกง",
+				"description": "การใช้โปรแกรมหรือเครื่องมือทุกรูปแบบที่ทำให้เกิดความไม่ยุติธรรมถือว่าเป็นการโกง"
 			},
 			"mod_instructions": {
 				"title": "ทำตามคำขอของผู้ดูแล",
@@ -2849,20 +2848,20 @@
 			},
 			"english_chat": {
 				"title": "ใช้ภาษาอังกฤษในการคุย",
-				"MISSING-description": "It isn’t possible to moderate every language, so keep messages in the ranked chat to English and emotes."
+				"description": "การส่งข้อความในโหมดจัดอันดับให้ใช้เป็นภาษาอังกฤษหรือ Emote เท่านั้น"
 			}
 		}
 	},
 	"quiz": {
 		"boss_mode": {
 			"boss": "บอส",
-			"MISSING-defeat": "Defeat",
-			"MISSING-victory": "Victory",
+			"defeat": "แพ้",
+			"victory": "ชนะ",
 			"correct": "ตอบถูก _SPAN_ _NUMBER_ _SPAN_ เพลง",
-			"MISSING-lives": "_SPAN_ _NUMBER_ _SPAN_ / _SPAN2_ _NUMBER2_ _SPAN2_ Lives",
-			"MISSING-points": "_SPAN_ _NUMBER_ _SPAN_ Points",
+			"lives": "_SPAN_ _NUMBER_ _SPAN_ / _SPAN2_ _NUMBER2_ _SPAN2_ ชีวิต",
+			"points": "_SPAN_ _NUMBER_ _SPAN_ คะแนน",
 			"players_left": "จำนวนบอสที่เหลือ",
-			"MISSING-powers_left": "_SPAN_ _NUMBER_ _SPAN_ Powers Left",
+			"powers_left": "เหลือ _SPAN_ _NUMBER_ _SPAN_ พลัง",
 			"powers": {
 				"name_hint": {
 					"title": "ชื่ออนิเมะ",
@@ -2878,8 +2877,8 @@
 				},
 				"more_time": { "title": "เพิ่มเวลา", "description": "เพิ่มเวลาตอบ 10 วินาที" },
 				"end_guessing": {
-					"MISSING-title": "End Guessing",
-					"MISSING-description": "End the guessing phase immediately"
+					"title": "จบการตอบ",
+					"description": "จบช่วงเวลาตอบทันที"
 				},
 				"multiple_choice": {
 					"title": "ตัวเลือก",
@@ -2910,7 +2909,7 @@
 		"vote_skip": "โหวตข้าม",
 		"vote_states": {
 			"voted_skip": "โหวต _BREAK_ ข้าม",
-			"MISSING-no_votes": "No _BREAK_ Votes",
+			"no_votes": "ไม่มี _BREAK_ คนโหวต",
 			"MISSING-waiting_answers": "Waiting _BREAK_ Answers",
 			"waiting_buffering": "รอโหลด",
 			"MISSING-ending_soon": "Ending _BREAK_ Soon",
@@ -2920,8 +2919,8 @@
 		"team_answer": "_NAME_ ตอบ: _MESSAGE_",
 		"MISSING-current_answer": "Current Answer",
 		"pause_button_popovers": {
-			"MISSING-pause": "Pause the game at the end of this song. All players can end the pause.",
-			"MISSING-unpause": "Unpause the game"
+			"pause": "หยุดเกมหลังจบเพลงนี้ ผู้เล่นทุกคนสามารถเริ่มต่อได้",
+			"unpause": "เริ่มเกมต่อ"
 		},
 		"anime_names": {
 			"alternative_names": "ชื่ออื่น",
@@ -2987,12 +2986,12 @@
 		"standings": {
 			"title": "อันดับ",
 			"number_of_correct_guesses_popover": "จำนวนผู้เล่นที่ตอบถูก",
-			"MISSING-correct_guesses": "Correct Guesses",
-			"MISSING-list_number": "List Number",
+			"correct_guesses": "จำนวนที่ตอบถูก",
+			"list_number": "จำนวนอนิเมะจากลิสต์ของผู้เล่นนี้",
 			"hide_team_messages": {
-				"MISSING-mod": "Mods can't hide teams",
-				"MISSING-in_team": "Can't hide teams while in a team",
-				"MISSING-hide_teams": "Show/hide teams in the quiz"
+				"mod": "ผู้ดูแลไม่สามารถซ่อนทีมได้",
+				"in_team": "ไม่สามารถซ่อนทีมเมื่ออยู่ในทีมได้",
+				"hide_teams": "ซ่อนผู้เล่นแบบทีม"
 			},
 			"points": "คะแนน",
 			"lives": "ชีวิตที่เหลือ"
