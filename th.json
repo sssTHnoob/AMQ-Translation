@@ -61,6 +61,18 @@
 				"text": "ไม่สามารถเห็นข้อความหรือรับคำชวนจากคนที่บล็อกได้",
 				"confirm": "บล็อก",
 				"cancel": "ยกเลิก"
+			},
+			"detected_afk": {
+				"MISSING-title": "You have been detected as AFK",
+				"MISSING-text": "You'll be disconnected in _SPAN_ 60 _SPAN_ seconds",
+				"MISSING-text_host": "You'll lose host status (and be changed to spectator, if you aren't already) in _SPAN_ 10 _SPAN_ seconds",
+				"MISSING-stay_online": "Stay Online",
+				"MISSING-stay_host": "Stay Host"
+			},
+			"disconnected_for_inactivity": {
+				"MISSING-title": "Disconnected for inactivity",
+				"MISSING-text": "Reload the game to reconnect",
+				"MISSING-reload": "Reload"
 			}
 		},
 		"registration": {
@@ -945,14 +957,8 @@
 		},
 		"anime_list": {
 			"description": "เชื่อมต่อกับ AniList, MyAnimeList หรือ Kitsu เพื่อเล่นเฉพาะเพลงจากอนิเมะที่อยู่ในลิสต์ _BREAK_ ลิสต์จะทำการอัปเดตอัตโนมัติทุกๆ อาทิตย์ ในการยกเลิกการเชื่อมต่อให้กดอัปเดตหลังจากลบชื่อผู้ใช้ออก",
-			"share_entries": {
-				"title": "แสดงอนิเมะ",
-				"description": "แสดงอนิเมะที่มาจากลิสต์ของคุณ"
-			},
-			"show_scores": {
-				"title": "แสดงคะแนน",
-				"description": "แสดงคะแนนอนิเมะที่ให้จากลิสต์ของคุณ"
-			},
+			"share_entries": { "title": "แสดงอนิเมะ", "description": "แสดงอนิเมะที่มาจากลิสต์ของคุณ" },
+			"show_scores": { "title": "แสดงคะแนน", "description": "แสดงคะแนนอนิเมะที่ให้จากลิสต์ของคุณ" },
 			"anilist_username": "ชื่อผู้ใช้ AniList",
 			"mal_username": "ชื่อผู้ใช้ MyAnimeList",
 			"mal_username_short": "ชื่อผู้ใช้ MAL",
@@ -1121,26 +1127,11 @@
 		"filters": {
 			"locked": { "title": "ยังไม่มี", "description": "โชว์ตัวละครที่ยังไม้มี" },
 			"unlocked": { "title": "มีแล้ว", "description": "โชว์ตัวละครที่มีแล้ว" },
-			"available": {
-				"title": "ปลดล็อกได้",
-				"description": "แสดงสกินหรือของที่สามารถปลดล็อกได้"
-			},
-			"unavailable": {
-				"title": "ปลดล็อกไม่ได้",
-				"description": "แสดงสกินหรือของที่ไม่สามารถปลดล็อกได้ในตอนนี้"
-			},
-			"limited": {
-				"MISSING-title": "Limited",
-				"description": "แสดงสกินหรือของที่ปลดล็อกได้เฉพาะช่วงเวลาที่กำหนด"
-			},
-			"unlimited": {
-				"MISSING-title": "Unlimited",
-				"description": "แสดงสกินหรือของที่สามารถปลดล็อกได้ตลอกเวลา"
-			},
-			"exclusive": {
-				"MISSING-title": "Exclusive",
-				"description": "แสดงสกินหรือของที่ปลดล็อกได้ด้วยระบบสุ่ม"
-			},
+			"available": { "title": "ปลดล็อกได้", "description": "แสดงสกินหรือของที่สามารถปลดล็อกได้" },
+			"unavailable": { "title": "ปลดล็อกไม่ได้", "description": "แสดงสกินหรือของที่ไม่สามารถปลดล็อกได้ในตอนนี้" },
+			"limited": { "MISSING-title": "Limited", "description": "แสดงสกินหรือของที่ปลดล็อกได้เฉพาะช่วงเวลาที่กำหนด" },
+			"unlimited": { "MISSING-title": "Unlimited", "description": "แสดงสกินหรือของที่สามารถปลดล็อกได้ตลอกเวลา" },
+			"exclusive": { "MISSING-title": "Exclusive", "description": "แสดงสกินหรือของที่ปลดล็อกได้ด้วยระบบสุ่ม" },
 			"standard": { "MISSING-title": "Standard", "description": "แสดงสกินหรือของที่ปลดล็อกได้ด้วยโน้ต" },
 			"title": "ตัวกรอง"
 		},
@@ -1214,11 +1205,7 @@
 					"text": "เมื่อซื้อตั๋วหรือสมัคร Patreon จะได้รับโทเคนซึ่งสามารถนำไปใช้ร่วมกับการสุ่มด้วยตั๋วได้ เมื่อทำการสุ่มสามารถเลือกตัวละครหรือฤดูได้เพื่อทำให้มีโอกาส 50% ในการที่จะไม่ได้ของซ้ำ _BREAK_ โอกาสในการออกแต่ละอย่างยังเท่าเดิมอยู่"
 				}
 			},
-			"ticket_code_input": {
-				"title": "ใส่โค้ดแลก",
-				"placeholder": "โค้ดแลก",
-				"redeem": "ยืนยัน"
-			},
+			"ticket_code_input": { "title": "ใส่โค้ดแลก", "placeholder": "โค้ดแลก", "redeem": "ยืนยัน" },
 			"invalid_ticket_code": "โค้ดไม่ถูกต้อง",
 			"ticket_code_redeemed_message": {
 				"title": "แลกโค้ดสำเร็จ",
@@ -1231,14 +1218,8 @@
 			"tickets": "ตั๋ว",
 			"avatar_token": "โทเคน",
 			"avatar_tokens": "โทเคน",
-			"gift_message": {
-				"title": "ซื้อตั๋วให้ _NAME_",
-				"placeholder": "ข้อความที่ฝาก: _MESSAGE_"
-			},
-			"no_gift_target_message": {
-				"title": "ยังไม่ได้เลือกคนที่จะให้",
-				"description": "เลือกได้ข้างล่าง"
-			},
+			"gift_message": { "title": "ซื้อตั๋วให้ _NAME_", "placeholder": "ข้อความที่ฝาก: _MESSAGE_" },
+			"no_gift_target_message": { "title": "ยังไม่ได้เลือกคนที่จะให้", "description": "เลือกได้ข้างล่าง" },
 			"gift_no_friends": {
 				"title": "ไม่มีเพื่อนในรายชื่อเพื่อน",
 				"description": "สามารถให้ของขวัญกับเพื่อนได้เท่านั้น"
@@ -1282,7 +1263,8 @@
 				"error_unlocking": "เกิดปัญหาในการปลดล็อค"
 			},
 			"gift": "ให้ของขวัญ",
-			"tickets": "ตั๋วและโทเคน"
+			"tickets": "ตั๋วและโทเคน",
+			"MISSING-transaction_complete": "Transaction Complete"
 		},
 		"toggle_favorite": "ตั้งเป็นสกินที่ชอบ",
 		"avatar_states": {
@@ -1295,10 +1277,11 @@
 		"decoration_buttons": { "front": "ด้านหน้า", "back": "ด้านหลัง" },
 		"open_all": "แสดงทั้งหมด",
 		"item_types": {
-			"Memote": "Emote",
 			"background": "พื้นหลัง",
 			"decoration": "ของตกแต่ง",
-			"skin": "สกิน"
+			"skin": "สกิน",
+			"MISSING-emote": "Emote",
+			"DELETED-Memote": "Emote"
 		},
 		"MISSING-ticket_reward_tier": "Ticket Reward Tier _TIER_",
 		"MISSING-rhythm_price": "Rhythm Price",
@@ -1584,11 +1567,7 @@
 				"MISSING-instrumental": "Instrumental",
 				"MISSING-character": "Character"
 			},
-			"upload_status": {
-				"title": "สถานะเพลง",
-				"uploaded": "มีแล้ว",
-				"missing": "ยังไม่มี"
-			},
+			"upload_status": { "title": "สถานะเพลง", "uploaded": "มีแล้ว", "missing": "ยังไม่มี" },
 			"more_filters": "เพิ่มเติม"
 		},
 		"search_targets": {
@@ -1653,10 +1632,7 @@
 				"MISSING-title": "What version of a song should I use?",
 				"MISSING-text": "You should always use the version that was used in the show. For openings and endings, that's usually the 1:30 minute cut version. In the case that different versions are used throughout the show, you should go with the one most commonly used, if they're used equally go with the first one."
 			},
-			"still_image": {
-				"title": "ใช้รูปแทนวีดิโอได้มั้ย",
-				"text": "ไม่ได้ ทุกไฟล์ต้องเป็นวีดิโอที่ถูกต้อง"
-			},
+			"still_image": { "title": "ใช้รูปแทนวีดิโอได้มั้ย", "text": "ไม่ได้ ทุกไฟล์ต้องเป็นวีดิโอที่ถูกต้อง" },
 			"what_to_include": {
 				"title": "วีดิโอต้องมีอะไรบ้าง",
 				"MISSING-text": "The opening/ending/scene the song plays in. _BREAK_ If a song plays with talking or other sounds during the scene, replace the audio with a clean version that matches with what was used in the anime."
@@ -1794,18 +1770,9 @@
 		},
 		"no_quiz_selected": "ยังไม่ได้เลือก",
 		"messages": {
-			"error_cloning": {
-				"title": "มีปัญหาในการคัดลอก",
-				"description": "มีปัญหาในการคัดลอก โปรดลองใหม่อีกครั้ง"
-			},
-			"quiz_cloned": {
-				"title": "คัดลอกสำเร็จ",
-				"description": "ทำการคัดลอกสำเร็จ"
-			},
-			"quiz_reported": {
-				"title": "รายงานสำเร็จ",
-				"description": "ทำการรายงานเพื่อให้ผู้ดูแลตรวจสอบแล้ว"
-			},
+			"error_cloning": { "title": "มีปัญหาในการคัดลอก", "description": "มีปัญหาในการคัดลอก โปรดลองใหม่อีกครั้ง" },
+			"quiz_cloned": { "title": "คัดลอกสำเร็จ", "description": "ทำการคัดลอกสำเร็จ" },
+			"quiz_reported": { "title": "รายงานสำเร็จ", "description": "ทำการรายงานเพื่อให้ผู้ดูแลตรวจสอบแล้ว" },
 			"quiz_deleted": {
 				"MISSING-title": "Quiz Deleted",
 				"MISSING-description": "The quiz has been successfully deleted."
@@ -1921,12 +1888,7 @@
 		"select_settings_to_load": "เลือกการตั้งค่า",
 		"load_from_code": "โหลดจากโค้ด",
 		"tabs": { "quick": "พื้นฐาน", "advanced": "ละเอียด", "save": "บันทึก", "load": "ที่บันทึกไว้" },
-		"categories": {
-			"mode": "โหมด",
-			"general": "ทั่วไป",
-			"MISSING-quiz": "Quiz",
-			"anime": "อนิเมะ"
-		},
+		"categories": { "mode": "โหมด", "general": "ทั่วไป", "MISSING-quiz": "Quiz", "anime": "อนิเมะ" },
 		"quiz_mode": { "MISSING-standard_quiz": "Standard Quiz", "MISSING-community_quiz": "Community Quiz" },
 		"buttons": {
 			"exit": "ยกเลิก",
@@ -1964,14 +1926,8 @@
 		"game_mode": {
 			"title": "โหมด",
 			"standard": { "title": "ปกติ", "description": "แข่งกันตอบให้ได้มากที่สุด" },
-			"hint": {
-				"title": "คำใบ้",
-				"description": "สามารถรับคำใบ้ในการตอบแต่ละเพลงได้แต่จะได้รับคะแนนน้อยลง"
-			},
-			"quick_draw": {
-				"title": "ความเร็ว",
-				"description": "ได้รับคะแนนมากขึ้นเมื่อตอบเร็วกว่าผู้เล่นคนอื่น"
-			},
+			"hint": { "title": "คำใบ้", "description": "สามารถรับคำใบ้ในการตอบแต่ละเพลงได้แต่จะได้รับคะแนนน้อยลง" },
+			"quick_draw": { "title": "ความเร็ว", "description": "ได้รับคะแนนมากขึ้นเมื่อตอบเร็วกว่าผู้เล่นคนอื่น" },
 			"lives": {
 				"title": "ชีวิต",
 				"description": "ผู้เล่นเริ่มต้นด้วยจำนวนชีวิตที่กำหนดไว้และจะเสีย 1 ชีวิตเมื่อตอบผิดในเพลงที่ผู้เล่นอื่นตอบถูก"
@@ -1985,14 +1941,8 @@
 				"description": "ผู้เล่นแต่ละคนผลัดกันเป็นบอสและจะเล่นเฉพาะอนิเมะของผู้เล่นที่เป็นบอสเท่านั้น บอสสามารถใช้ความสามารถพิเศษได้และจะได้รับคะแนนพิเศษตามจำนวนเพลงที่ตอบถูก"
 			}
 		},
-		"player_score": {
-			"title": "คะแนนผู้เล่น",
-			"description": "คะแนนของอนิเมะในที่ผู้เล่นให้ที่จะมีให้เล่น"
-		},
-		"anime_score": {
-			"title": "คะแนนอนิเมะ",
-			"description": "คะแนนของอนิเมะใน AniList ที่จะมีให้เล่น"
-		},
+		"player_score": { "title": "คะแนนผู้เล่น", "description": "คะแนนของอนิเมะในที่ผู้เล่นให้ที่จะมีให้เล่น" },
+		"anime_score": { "title": "คะแนนอนิเมะ", "description": "คะแนนของอนิเมะใน AniList ที่จะมีให้เล่น" },
 		"vintage": {
 			"title": "ปีที่ฉาย",
 			"description": "ปีและฤดูที่อนิเมะเริ่มฉาย",
@@ -2013,10 +1963,7 @@
 			"special": "Special",
 			"one_must_be_selected": "ต้องมีอย่างน้อย 1 ประเภท"
 		},
-		"genre": {
-			"title": "ประเภทอนิเมะ",
-			"description": "ประเภทของอนิเมะอิงจาก AniList"
-		},
+		"genre": { "title": "ประเภทอนิเมะ", "description": "ประเภทของอนิเมะอิงจาก AniList" },
 		"tags": {
 			"MISSING-title": "Tags",
 			"MISSING-description": "Tags are determined using AniList. If optional is used, at least one optional tag will be required by the anime."
@@ -2063,18 +2010,9 @@
 		},
 		"scoring": {
 			"title": "การให้คะแนน",
-			"count": {
-				"title": "ปกติ",
-				"description": "ได้รับ 1 แต้มต่อจำนวนเพลงที่ตอบถูก"
-			},
-			"hint": {
-				"title": "คำใบ้",
-				"description": "สามารถใช้คำใบ้ในการตอบได้แต่จะได้รับแต้มลดลงตามคำใบ้ที่ใช้"
-			},
-			"speed": {
-				"title": "ความเร็ว",
-				"description": "ผู้เล่นที่ตอบเร็วกว่าจะได้คะแนนมากกว่า"
-			},
+			"count": { "title": "ปกติ", "description": "ได้รับ 1 แต้มต่อจำนวนเพลงที่ตอบถูก" },
+			"hint": { "title": "คำใบ้", "description": "สามารถใช้คำใบ้ในการตอบได้แต่จะได้รับแต้มลดลงตามคำใบ้ที่ใช้" },
+			"speed": { "title": "ความเร็ว", "description": "ผู้เล่นที่ตอบเร็วกว่าจะได้คะแนนมากกว่า" },
 			"lives": {
 				"title": "ชีวิต",
 				"description": "ผู้เล่นเริ่มต้นด้วยจำนวนชีวิตที่กำหนดไว้และจะเสีย 1 ชีวิตเมื่อตอบผิดในเพลงที่ผู้เล่นอื่นตอบถูก"
@@ -2096,46 +2034,25 @@
 		"answering": {
 			"title": "การตอบ",
 			"description": "วิธีในการตอบของผู้เล่น",
-			"typing": {
-				"title": "พิมพ์",
-				"description": "ผู้เล่นแต่ละคนต้องพิมพ์ชื่ออนิเมะในการตอบ"
-			},
-			"mix": {
-				"title": "เลือกได้",
-				"description": "ผู้เล่นแต่ละคนสามารถเลือกได้ว่าจะใช้การพิมพ์หรือเลือกจากตัวเลือก"
-			},
-			"multiple_choice": {
-				"title": "ตัวเลือก",
-				"description": "ผู้เล่นเลือกอนิเมะจาก 4 ตัวเลือกที่มีให้"
-			}
+			"typing": { "title": "พิมพ์", "description": "ผู้เล่นแต่ละคนต้องพิมพ์ชื่ออนิเมะในการตอบ" },
+			"mix": { "title": "เลือกได้", "description": "ผู้เล่นแต่ละคนสามารถเลือกได้ว่าจะใช้การพิมพ์หรือเลือกจากตัวเลือก" },
+			"multiple_choice": { "title": "ตัวเลือก", "description": "ผู้เล่นเลือกอนิเมะจาก 4 ตัวเลือกที่มีให้" }
 		},
 		"lives": { "title": "จำนวนชีวิต", "description": "จำนวนชีวิตเริ่มต้นที่ผู้เล่นแต่ละคนมี" },
-		"boss_lives": {
-			"title": "จำนวนชีวิตบอส",
-			"description": "จำนวนชีวิตเริ่มต้นที่ผู้เล่นที่เป็นบอสมี"
-		},
-		"boss_power_ups": {
-			"title": "จำนวนพลังบอส",
-			"description": "จำนวนครั้งที่บอสแต่ละคนสามารถใช้พลังได้"
-		},
+		"boss_lives": { "title": "จำนวนชีวิตบอส", "description": "จำนวนชีวิตเริ่มต้นที่ผู้เล่นที่เป็นบอสมี" },
+		"boss_power_ups": { "title": "จำนวนพลังบอส", "description": "จำนวนครั้งที่บอสแต่ละคนสามารถใช้พลังได้" },
 		"boss_max_song_count": {
 			"title": "จำนวนเพลงของบอส",
 			"description": "จำนวนเพลงที่เล่นได้มากที่สุดต่อผู้เล่นบอสหนึ่งคน ถ้าบอสมีชีวิตรอดจนครบจำนวนเพลงจะได้รับคะแนนพิเศษตามจำนวนเพลงที่ตอบได้"
 		},
-		"inventory_size": {
-			"title": "จำนวนอนิเมะต่อผู้เล่น",
-			"description": "จำนวนอนิเมะที่ผู้เล่นสามารถเลือกได้"
-		},
+		"inventory_size": { "title": "จำนวนอนิเมะต่อผู้เล่น", "description": "จำนวนอนิเมะที่ผู้เล่นสามารถเลือกได้" },
 		"looting_time": {
 			"title": "เวลาหาอนิเมะ",
 			"description": "เวลาที่ผู้เล่นใช้ในการเลือกอนิเมะ",
 			"time_display": "_NUMBER_ วินาที",
 			"time_range_display": "_NUMBER_-_NUMBER2_ วินาที"
 		},
-		"loot_dropping": {
-			"title": "ปล่อยอนิเมะ",
-			"description": "ให้ผู้เล่นสามารถปล่อยอนิเมะที่เก็บมาแล้วได้"
-		},
+		"loot_dropping": { "title": "ปล่อยอนิเมะ", "description": "ให้ผู้เล่นสามารถปล่อยอนิเมะที่เก็บมาแล้วได้" },
 		"guess_time": {
 			"title": "เวลาตอบ",
 			"description": "เวลาในการตอบระหว่างที่เพลงกำลังเล่นอยู่",
@@ -2180,26 +2097,11 @@
 		},
 		"modifiers": {
 			"title": "อื่นๆ",
-			"skip_guessing": {
-				"title": "ข้ามการทาย",
-				"description": "ให้ผู้เล่นสามารถโหวตข้ามช่วงทายได้"
-			},
-			"skip_results": {
-				"title": "ข้ามเฉลย",
-				"description": "ให้ผู้เล่นสามารถโหวตข้ามช่วงเฉลยได้"
-			},
-			"queueing": {
-				"title": "คิว",
-				"description": "ให้ผู้ชมเข้าคิวรอได้"
-			},
-			"duplicate_shows": {
-				"title": "อนิเมะซ้ำ",
-				"description": "ให้อนิเมะเรื่องเดียวกันโผล่ในเกมเดียวกันได้"
-			},
-			"rebroadcast_songs": {
-				"title": "ฉายซ้ำ",
-				"description": "ให้เพลงที่เล่นเฉพาะในการฉายซ้ำเท่านั้นโผล่ในเกมได้"
-			},
+			"skip_guessing": { "title": "ข้ามการทาย", "description": "ให้ผู้เล่นสามารถโหวตข้ามช่วงทายได้" },
+			"skip_results": { "title": "ข้ามเฉลย", "description": "ให้ผู้เล่นสามารถโหวตข้ามช่วงเฉลยได้" },
+			"queueing": { "title": "คิว", "description": "ให้ผู้ชมเข้าคิวรอได้" },
+			"duplicate_shows": { "title": "อนิเมะซ้ำ", "description": "ให้อนิเมะเรื่องเดียวกันโผล่ในเกมเดียวกันได้" },
+			"rebroadcast_songs": { "title": "ฉายซ้ำ", "description": "ให้เพลงที่เล่นเฉพาะในการฉายซ้ำเท่านั้นโผล่ในเกมได้" },
 			"dub_songs": {
 				"title": "พากย์อื่นๆ",
 				"description": "ให้เพลงที่มีเฉพาะในการพากย์ภาษาที่ไม่ใช่ต้นฉบับโหล่ในเกมได้ (ไม่มีการเพิ่มเพลงเพิ่มเติมแล้ว)"
@@ -2259,23 +2161,9 @@
 				"friends": "เพื่อน"
 			},
 			"show_selection": { "title": "การเลือกอนิเมะ", "auto": "อัตโนมัติ", "looting": "เก็บอนิเมะ" },
-			"answering_mode": {
-				"title": "การตอบ",
-				"typing": "พิมพ์",
-				"multiple_choice": "ตัวเลือก"
-			},
-			"song_type": {
-				"title": "ประเภทเพลง",
-				"openings": "เพลงเปิด",
-				"endings": "เพลงปิด",
-				"inserts": "เพลงประกอบ"
-			},
-			"song_selection": {
-				"title": "ประเภทอนิเมะ",
-				"watched": "ในลิสต์",
-				"unwatched": "นอกลิสต์",
-				"random": "สุ่ม"
-			},
+			"answering_mode": { "title": "การตอบ", "typing": "พิมพ์", "multiple_choice": "ตัวเลือก" },
+			"song_type": { "title": "ประเภทเพลง", "openings": "เพลงเปิด", "endings": "เพลงปิด", "inserts": "เพลงประกอบ" },
+			"song_selection": { "title": "ประเภทอนิเมะ", "watched": "ในลิสต์", "unwatched": "นอกลิสต์", "random": "สุ่ม" },
 			"scoring": {
 				"title": "การให้คะแนน",
 				"count": "ปกติ",
@@ -2337,12 +2225,7 @@
 				"MISSING-amq_awards": "AMQ Awards",
 				"MISSING-standard": "Standard"
 			},
-			"song_selection": {
-				"random": "สุ่ม",
-				"mix": "ผสม",
-				"watched": "ในลิสต์",
-				"custom": "ประเภทอนิเมะ"
-			},
+			"song_selection": { "random": "สุ่ม", "mix": "ผสม", "watched": "ในลิสต์", "custom": "ประเภทอนิเมะ" },
 			"MISSING-room_closed": "Room Closed",
 			"password": {
 				"title": "รหัสผ่าน",
@@ -2419,19 +2302,10 @@
 				"MISSING-tag_count": "Number of selected tags",
 				"song_types": "ประเภทเพลง"
 			},
-			"song_selection": {
-				"watched": "ในลิสต์",
-				"unwatched": "นอกลิสต์",
-				"random": "สุ่ม",
-				"mixed": "ผสม"
-			}
+			"song_selection": { "watched": "ในลิสต์", "unwatched": "นอกลิสต์", "random": "สุ่ม", "mixed": "ผสม" }
 		},
 		"anime_block": {
-			"song_type": {
-				"opening": "OP _NUMBER_",
-				"ending": "ED _NUMBER_",
-				"insert": "IN _NUMBER_"
-			},
+			"song_type": { "opening": "OP _NUMBER_", "ending": "ED _NUMBER_", "insert": "IN _NUMBER_" },
 			"number_of_songs_selected": {
 				"MISSING-description": "Number of Songs Selected from this Anime Block",
 				"MISSING-label": "Song Count"
@@ -2557,7 +2431,6 @@
 		"MISSING-all_players_disconnect_message": "All players have disconnected, pausing while waiting for reconnects",
 		"paused_game_message": "_NAME_ ทำการหยุดเกม",
 		"unpaused_game_message": "_NAME_ ทำการเริ่มเกมต่อแล้ว",
-		"hat_normal_mode_message": "มีผู้ดูแลแล้ว สามารถแชทได้ปกติ",
 		"chat_in_emote_only_mode_message": "ไม่มีผู้ดูแล สามารถใช้ Emote ได้เท่านั้น",
 		"promoted_host_message": "_NAME_ เป็นเจ้าของห้องแล้ว",
 		"kicked_from_room_alert": "คุณถูกไล่ออกจากห้อง",
@@ -2583,10 +2456,9 @@
 			"title": "ถูกไล่ออกจากห้อง Jam",
 			"description": "คุณถูกไล่ออกจากห้อง Jam โดยผู้ดูแลและไม่สามารถเข้าใหม่ได้เป็นเวลา 1 ชั่วโมง"
 		},
-		"jam_quiz_ban_alert": {
-			"title": "ถูกแบนจากห้อง Jam",
-			"description": "จบการแบนใน _NUMBER_ นาที"
-		}
+		"jam_quiz_ban_alert": { "title": "ถูกแบนจากห้อง Jam", "description": "จบการแบนใน _NUMBER_ นาที" },
+		"MISSING-chat_normal_mode_message": "Moderator joined, chat in normal mode",
+		"DELETED-hat_normal_mode_message": "มีผู้ดูแลแล้ว สามารถแชทได้ปกติ"
 	},
 	"lobby": {
 		"leave_button": "ออก",
@@ -2600,11 +2472,7 @@
 		"host": "เจ้าของห้อง",
 		"MISSING-team_unset": "Unset",
 		"MISSING-team_members": "สมาชิกทีม",
-		"join_themed_team": {
-			"title": "ใส่รหัสทีมเพื่อเข้าร่วมทีม",
-			"placeholder": "รหัสทีม",
-			"join_button": "ยืนยัน"
-		},
+		"join_themed_team": { "title": "ใส่รหัสทีมเพื่อเข้าร่วมทีม", "placeholder": "รหัสทีม", "join_button": "ยืนยัน" },
 		"main_button": {
 			"start": "เริ่ม",
 			"join": "เล่น",
@@ -2629,7 +2497,8 @@
 			"team_code": "รหัสทีม",
 			"create": "สร้าง",
 			"join": "เข้าร่วม",
-			"leave": "ออก"
+			"leave": "ออก",
+			"MISSING-create_team": "Create Team"
 		},
 		"rule_window": {
 			"MISSING-title": "Game Mode Overview",
@@ -2733,37 +2602,12 @@
 				"MISSING-only_watched": "Only Watched"
 			},
 			"show_selection": { "auto": "อัตโนมัติ", "looting": "เก็บอนิเมะ" },
-			"answering_mode": {
-				"typing": "พิมพ์",
-				"multiple_choice": "ตัวเลือก",
-				"mix": "เลือกได้"
-			},
+			"answering_mode": { "typing": "พิมพ์", "multiple_choice": "ตัวเลือก", "mix": "เลือกได้" },
 			"watched_distribution": { "random": "สุ่ม", "weighted": "ถ่วงน้ำหนัก", "equal": "เท่ากัน" },
-			"sample_point": {
-				"start": "เริ่มต้น",
-				"middle": "ตรงกลาง",
-				"end": "จบ",
-				"random": "สุ่ม"
-			},
-			"score_type": {
-				"count": "ปกติ",
-				"speed": "ความเร็ว",
-				"hint": "คำใบ้",
-				"lives": "ชีวิต",
-				"boss": "บอส"
-			},
-			"song_type": {
-				"openings": "เพลงเปิด",
-				"endings": "เพลงปิด",
-				"inserts": "เพลงประกอบ",
-				"random": "สุ่ม"
-			},
-			"vintage_seasons": {
-				"winter": "ฤดูหนาว",
-				"spring": "ฤดูใบไม้ผลิ",
-				"summer": "ฤดูร้อน",
-				"fall": "ฤดูใบไม้ร่วง"
-			},
+			"sample_point": { "start": "เริ่มต้น", "middle": "ตรงกลาง", "end": "จบ", "random": "สุ่ม" },
+			"score_type": { "count": "ปกติ", "speed": "ความเร็ว", "hint": "คำใบ้", "lives": "ชีวิต", "boss": "บอส" },
+			"song_type": { "openings": "เพลงเปิด", "endings": "เพลงปิด", "inserts": "เพลงประกอบ", "random": "สุ่ม" },
+			"vintage_seasons": { "winter": "ฤดูหนาว", "spring": "ฤดูใบไม้ผลิ", "summer": "ฤดูร้อน", "fall": "ฤดูใบไม้ร่วง" },
 			"titles": {
 				"vintage": "ปีที่ฉาย",
 				"anime_score": "คะแนนอนิเมะ",
@@ -2863,27 +2707,12 @@
 			"players_left": "จำนวนบอสที่เหลือ",
 			"powers_left": "เหลือ _SPAN_ _NUMBER_ _SPAN_ พลัง",
 			"powers": {
-				"name_hint": {
-					"title": "ชื่ออนิเมะ",
-					"description": "แสดงความยาวของชื่ออนิเมะและ 4 ตัวอักษร"
-				},
-				"song_hint": {
-					"title": "ข้อมูลเพลง",
-					"description": "แสดงข้อมูลบางส่วนของเพลง"
-				},
-				"peek_answers": {
-					"title": "แสดงคำตอบ",
-					"description": "แสดงคำตอบที่ผู้เล่นคนอื่นตอบ"
-				},
+				"name_hint": { "title": "ชื่ออนิเมะ", "description": "แสดงความยาวของชื่ออนิเมะและ 4 ตัวอักษร" },
+				"song_hint": { "title": "ข้อมูลเพลง", "description": "แสดงข้อมูลบางส่วนของเพลง" },
+				"peek_answers": { "title": "แสดงคำตอบ", "description": "แสดงคำตอบที่ผู้เล่นคนอื่นตอบ" },
 				"more_time": { "title": "เพิ่มเวลา", "description": "เพิ่มเวลาตอบ 10 วินาที" },
-				"end_guessing": {
-					"title": "จบการตอบ",
-					"description": "จบช่วงเวลาตอบทันที"
-				},
-				"multiple_choice": {
-					"title": "ตัวเลือก",
-					"description": "เปลี่ยนเป็นตอบแบบตัวเลือกสำหรับเพลงนี้"
-				}
+				"end_guessing": { "title": "จบการตอบ", "description": "จบช่วงเวลาตอบทันที" },
+				"multiple_choice": { "title": "ตัวเลือก", "description": "เปลี่ยนเป็นตอบแบบตัวเลือกสำหรับเพลงนี้" }
 			}
 		},
 		"leave_button": "ออก",
@@ -2922,10 +2751,7 @@
 			"pause": "หยุดเกมหลังจบเพลงนี้ ผู้เล่นทุกคนสามารถเริ่มต่อได้",
 			"unpause": "เริ่มเกมต่อ"
 		},
-		"anime_names": {
-			"alternative_names": "ชื่ออื่น",
-			"alternative_answers": "คำตอบอื่นที่ตอบได้"
-		},
+		"anime_names": { "alternative_names": "ชื่ออื่น", "alternative_answers": "คำตอบอื่นที่ตอบได้" },
 		"avatar": {
 			"MISSING-loot": "Loot",
 			"MISSING-host": "Host",
@@ -2935,13 +2761,7 @@
 			"answer_time_number": "_NUMBER_s",
 			"answering_mode": "การตอบ",
 			"multiple_choice": "ตัวเลือก",
-			"answer_status": {
-				"watching": "W",
-				"completed": "C",
-				"on_hold": "H",
-				"dropped": "D",
-				"plan_to_watch": "P"
-			},
+			"answer_status": { "watching": "W", "completed": "C", "on_hold": "H", "dropped": "D", "plan_to_watch": "P" },
 			"hint_used": {
 				"name": "ใช้คำใบ้ชื่ออนิเมะ",
 				"info": "ใช้คำใบ้ข้อมูลเพลง",
@@ -3009,15 +2829,9 @@
 			"hints": {
 				"title": "คำใบ้",
 				"point_value": "คะแนนที่ได้เมื่อตอบถูก",
-				"name": {
-					"title": "ชื่อ",
-					"description": "แสดงความยาวของชื่ออนิเมะและ 4 ตัวอักษร"
-				},
+				"name": { "title": "ชื่อ", "description": "แสดงความยาวของชื่ออนิเมะและ 4 ตัวอักษร" },
 				"info": { "title": "ข้อมูล", "description": "แสดงข้อมูลบางส่วนของเพลง" },
-				"multiple_choice": {
-					"title": "ตัวเลือก",
-					"description": "เปลี่ยนเป็นตอบแบบตัวเลือกสำหรับเพลงนี้"
-				},
+				"multiple_choice": { "title": "ตัวเลือก", "description": "เปลี่ยนเป็นตอบแบบตัวเลือกสำหรับเพลงนี้" },
 				"hint_popover": "_DESCRIPTION_ - แต้มที่ได้ลดลง: _NUMBER_"
 			},
 			"skip_messages": {
@@ -3460,12 +3274,7 @@
 		"title": "ประวัติเพลง",
 		"no_songs": "ไม่มีเพลง",
 		"load_songs": "โหลด",
-		"tabs": {
-			"current_game": "เกมนี้",
-			"last_game": "เกมที่แล้ว",
-			"games": "เกมทั้งหมด",
-			"options": "ตั้งค่า"
-		},
+		"tabs": { "current_game": "เกมนี้", "last_game": "เกมที่แล้ว", "games": "เกมทั้งหมด", "options": "ตั้งค่า" },
 		"columns": {
 			"title": "หัวข้อ",
 			"anime": "อนิเมะ",
@@ -3487,13 +3296,7 @@
 			},
 			"anime_link": {
 				"title": "ลิงก์อนิเมะ",
-				"ticks": {
-					"anilist": "Anilist",
-					"kitsu": "Kitsu",
-					"default": "ค่าพื้นฐาน",
-					"mal": "MAL",
-					"ann": "ANN"
-				}
+				"ticks": { "anilist": "Anilist", "kitsu": "Kitsu", "default": "ค่าพื้นฐาน", "mal": "MAL", "ann": "ANN" }
 			}
 		},
 		"song_window": {
@@ -5075,7 +4878,12 @@
 			"genre_protection": {
 				"MISSING-name": "_NAME_ Protection",
 				"MISSING-description": "Negate all damage from attacks when the current show doesn’t have the _NAME_ genre."
-			}
+			},
+			"data_feedback": {
+				"MISSING-name": "Data Feedback",
+				"MISSING-description": "Data shield damage reduction offline"
+			},
+			"data_shield": { "MISSING-name": "Data Shield", "MISSING-description": "Greatly reduce all damage taken" }
 		},
 		"enemies": {
 			"MISSING-assassin": "Assassin",
@@ -5093,6 +4901,21 @@
 			"MISSING-title": "Rejoin Disconnect Nexus Game",
 			"MISSING-description": "You where disconnected from your last nexus game, want to rejoin it?",
 			"MISSING-rejoin_button": "Rejoin"
+		},
+		"floor_descriptions": {
+			"MISSING-enemy_hp": "Enemies have more hp",
+			"MISSING-enemy_damage": "Enemies deal more damage",
+			"MISSING-avatar_debuffs_longer": "Debuffs on avatars last longer",
+			"MISSING-reduced_guessing_time": "Reduced guessing time",
+			"MISSING-crafting_fewer_artifacts": "Crafting stations have fewer artifacts",
+			"MISSING-start_damaged": "Party starts damaged",
+			"MISSING-avatar_buffs_expire_quicker": "Buffs on avatars expire quicker",
+			"MISSING-enemy_random_buff": "Enemies start with a random buff",
+			"MISSING-enemy_debuffs_shorter": "Debuffs on enemies expire quicker",
+			"MISSING-avatar_max_three_artifacts": "Avatars can equip max 3 artifacts",
+			"MISSING-enemies_quicker": "Enemies attacks quicker",
+			"MISSING-fewer_combat_reward_artifacts": "Combat rewards have fewer artifacts",
+			"MISSING-more_enemies": "Enemy encounters can have more enemies"
 		}
 	},
 	"tutorial": {
@@ -5427,14 +5250,8 @@
 				"MISSING-title": "Keeping Up To Date",
 				"description": "ตอบเพลงจากอนิเมะใน 4 ซีซันล่าสุดถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
-			"dont_skip_openings": {
-				"title": "อย่าข้ามเพลงเปิด",
-				"description": "ตอบเพลงเปิดถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
-			},
-			"dont_skip_endings": {
-				"title": "อย่าข้ามเพลงปิด",
-				"description": "ตอบเพลงปิดถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
-			},
+			"dont_skip_openings": { "title": "อย่าข้ามเพลงเปิด", "description": "ตอบเพลงเปิดถูก 20 เพลงในโหมดที่ไม่ใช่ทีม" },
+			"dont_skip_endings": { "title": "อย่าข้ามเพลงปิด", "description": "ตอบเพลงปิดถูก 20 เพลงในโหมดที่ไม่ใช่ทีม" },
 			"dont_skip_inserts": {
 				"title": "อย่าข้ามเพลงประกอบ",
 				"description": "ตอบเพลงประกอบถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
@@ -5447,14 +5264,8 @@
 				"title": "แฟนอนิเมะผจญภัย",
 				"description": "ตอบเพลงจากอนิเมะผจญภัยถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
-			"comedy_fan": {
-				"title": "แฟนอนิเมะตลก",
-				"description": "ตอบเพลงจากอนิเมะตลกถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
-			},
-			"drama_fan": {
-				"title": "แฟนอนิเมะดราม่า",
-				"description": "ตอบเพลงจากอนิเมะดราม่าถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
-			},
+			"comedy_fan": { "title": "แฟนอนิเมะตลก", "description": "ตอบเพลงจากอนิเมะตลกถูก 20 เพลงในโหมดที่ไม่ใช่ทีม" },
+			"drama_fan": { "title": "แฟนอนิเมะดราม่า", "description": "ตอบเพลงจากอนิเมะดราม่าถูก 20 เพลงในโหมดที่ไม่ใช่ทีม" },
 			"ecchi_fan": {
 				"MISSING-title": "Ecchi Fan",
 				"MISSING-description": "Guess 20 songs from ecchi shows, in non-team games"
@@ -5475,10 +5286,7 @@
 				"title": "แฟนอนิเมะหุ่นยนต์",
 				"description": "ตอบเพลงจากอนิเมะหุ่นยนต์ถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
-			"music_fan": {
-				"title": "แฟนอนิเมะดนตรี",
-				"description": "ตอบเพลงจากอนิเมะดนตรีถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
-			},
+			"music_fan": { "title": "แฟนอนิเมะดนตรี", "description": "ตอบเพลงจากอนิเมะดนตรีถูก 20 เพลงในโหมดที่ไม่ใช่ทีม" },
 			"mystery_fan": {
 				"title": "แฟนอนิเมะลึกลับ",
 				"description": "ตอบเพลงจากอนิเมะลึกลับถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
@@ -5491,18 +5299,12 @@
 				"title": "แฟนอนิเมะโรแมนติก",
 				"description": "ตอบเพลงจากอนิเมะโรแมนติกถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
-			"sci-fi_fan": {
-				"title": "แฟนอนิเมะไซไฟ",
-				"description": "ตอบเพลงจากอนิเมะไซไฟถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
-			},
+			"sci-fi_fan": { "title": "แฟนอนิเมะไซไฟ", "description": "ตอบเพลงจากอนิเมะไซไฟถูก 20 เพลงในโหมดที่ไม่ใช่ทีม" },
 			"slice_of_life_fan": {
 				"title": "แฟนอนิเมะชีวิตประจำวัน",
 				"description": "ตอบเพลงจากอนิเมะชีวิตประจำวันถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
 			},
-			"sports_fan": {
-				"title": "แฟนอนิเมะกีฬา",
-				"description": "ตอบเพลงจากอนิเมะกีฬาถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
-			},
+			"sports_fan": { "title": "แฟนอนิเมะกีฬา", "description": "ตอบเพลงจากอนิเมะกีฬาถูก 20 เพลงในโหมดที่ไม่ใช่ทีม" },
 			"supernatural_fan": {
 				"title": "แฟนอนิเมะเหนือธรรมชาติ",
 				"description": "ตอบเพลงจากอนิเมะเหนือธรรมชาติถูก 20 เพลงในโหมดที่ไม่ใช่ทีม"
@@ -5513,5 +5315,25 @@
 			},
 			"just_jamming": { "title": "Just Jamming", "description": "ตอบถูก 20 เพลงในโหมด Jam" }
 		}
+	},
+	"quiz_of_the_day": {
+		"starting_messages": {
+			"MISSING-championship_starting_in": "_NAME_ Championship Match Starting in _NUMBER_ min",
+			"MISSING-themed_starting_in": "Themed Quiz Starting in _NUMBER_ min",
+			"MISSING-ranked_starting_in": "Ranked Match Starting in _NUMBER_ min",
+			"MISSING-amq_awards_starting_in": "AMQ Awards Starting in _NUMBER_ min",
+			"MISSING-join_lobby_instruction": "Lobby can be joined from the main menu"
+		},
+		"championship_winner_message": {
+			"solo": {
+				"MISSING-title": "New _NAME_ Region Champion Found!",
+				"MISSING-message": "_NAME_ is the new champion!"
+			},
+			"multiple": {
+				"MISSING-title": "New _NAME_ Region Champions Found!",
+				"MISSING-message": "_NAMELIST_ are the new champions!"
+			}
+		},
+		"region_names": { "MISSING-east": "East", "MISSING-west": "West", "MISSING-central": "Central" }
 	}
 }
