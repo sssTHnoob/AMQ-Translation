@@ -1280,8 +1280,7 @@
 			"background": "พื้นหลัง",
 			"decoration": "ของตกแต่ง",
 			"skin": "สกิน",
-			"MISSING-emote": "Emote",
-			"DELETED-Memote": "Emote"
+			"emote": "Emote"
 		},
 		"MISSING-ticket_reward_tier": "Ticket Reward Tier _TIER_",
 		"MISSING-rhythm_price": "Rhythm Price",
@@ -2457,8 +2456,7 @@
 			"description": "คุณถูกไล่ออกจากห้อง Jam โดยผู้ดูแลและไม่สามารถเข้าใหม่ได้เป็นเวลา 1 ชั่วโมง"
 		},
 		"jam_quiz_ban_alert": { "title": "ถูกแบนจากห้อง Jam", "description": "จบการแบนใน _NUMBER_ นาที" },
-		"MISSING-chat_normal_mode_message": "Moderator joined, chat in normal mode",
-		"DELETED-hat_normal_mode_message": "มีผู้ดูแลแล้ว สามารถแชทได้ปกติ"
+		"chat_normal_mode_message": "มีผู้ดูแลแล้ว สามารถแชทได้ปกติ"
 	},
 	"lobby": {
 		"leave_button": "ออก",
