@@ -1588,7 +1588,7 @@
 				"summer": "ฤดูร้อน _YEAR_",
 				"fall": "ฤดูใบไม้ร่วง _YEAR_"
 			},
-			"MISSING-genre": "Genre",
+			"genre": "ประเภท",
 			"names": "ชื่ออนิเมะ",
 			"MISSING-tags": "Tags",
 			"songs": "เพลง",
@@ -4917,50 +4917,50 @@
 		}
 	},
 	"tutorial": {
-		"MISSING-continue_button": "Continue",
-		"MISSING-exit_button": "Exit",
+		"continue_button": "ต่อไป",
+		"exit_button": "ออก",
 		"welcome": {
-			"MISSING-title": "Welcome to AMQ",
+			"title": "ยินดีต้อนรับสู่ AMQ",
 			"step_one": {
-				"MISSING-text": "Hi and welcome to Anime Music Quiz! _BREAK_I suggest taking my quick tutorial to learn the basics of the game. _BREAK_ There might even be rewards at the end of it!",
-				"options": { "MISSING-play_tutorial": "Play Tutorial", "MISSING-skip_tutorial": "Skip Tutorial" }
+				"text": "ยินดีต้อนรับสู่ Anime Music Quiz! _BREAK_ ฉันแนะนำให้ลองเล่นโหมดสอนเพื่อที่จะได้รู้พื้นฐานของเกม _BREAK_ ถ้าเล่นจบอาจจะมีรางวัลให้ก็ได้นะ",
+				"options": { "play_tutorial": "เล่นโหมดสอน", "skip_tutorial": "ข้ามโหมดสอน" }
 			},
-			"step_two": { "MISSING-text": "Awesome, let's get started!" },
-			"step_dismiss": { "MISSING-text": "You can always find the tutorial in the bottom right menu." }
+			"step_two": { "text": "เยี่ยมมาก! มาเริ่มกันเลย" },
+			"step_dismiss": { "text": "สามารถกลับมาเล่นได้ทุกเมื่อที่เมนูด้านล่างขวานะ" }
 		},
 		"welcome_no_list": {
-			"MISSING-title": "Add Anime List",
+			"title": "เพิ่มลิสต์อนิเมะ",
 			"step_one": {
-				"MISSING-text": "To start out I can see that you don't have an AniList, MyAnimeList or Kitsu user connected to your account. _BREAK_ I strongly recommend adding one, as it'll allow the game to pick songs from shows you have watched.",
+				"text": "เริ่มจากการเชื่อมต่อบัญชี AniList, MyAnimeList หรือ Kitsu _BREAK_ ฉันแนะนำให้เชื่อมต่อบัญชีเพื่อที่ได้จะเล่นเพลงจากอนิเมะที่เคยดูแล้ว",
 				"options": {
-					"MISSING-no_list": "Don't have one",
-					"MISSING-add_one": "Ok, let's add one",
-					"MISSING-skip": "I'll go without"
+					"no_list": "ไม่มีบัญชี",
+					"add_one": "เชื่อมต่อบัญชี",
+					"skip": "เล่นแบบไม่มีบัญชี"
 				}
 			},
 			"step_two": {
-				"MISSING-text": "You can easily set up one for free on one of the sites: _LINK_ AniList _LINK_, _LINK2_ MyAnimeList _LINK2_ or _LINK3_ Kitsu _LINK3_. _BREAK_ I'll wait if you want to set one up now.",
-				"options": { "MISSING-created_one": "Ok, I've created one", "MISSING-skip": "Maybe another time" }
+				"text": "สามารถสร้างบัญชีได้ฟรีจากเว็บไซต์เหล่านี้: _LINK_ AniList _LINK_, _LINK2_ MyAnimeList _LINK2_ หรือ _LINK3_ Kitsu _LINK3_ _BREAK_ ฉันจะรอให้คุณสร้างเสร็จนะ",
+				"options": { "created_one": "สร้างเรียบร้อย", "skip": "ไว้คราวหลัง" }
 			},
 			"step_three": {
-				"MISSING-text": "Perfect, let's get it connected to your AMQ account then! _BREAK_ Which site do you have a list on?",
+				"text": "เยี่ยมมาก! เว็บไซต์ไหนที่คุณสร้างบัญชีไว้",
 				"options": {
-					"MISSING-anilist": "AniList",
-					"MISSING-myanimelist": "MyAnimeList",
-					"MISSING-kitsu": "Kitsu",
-					"MISSING-cancel": "Cancel"
+					"anilist": "AniList",
+					"myanimelist": "MyAnimeList",
+					"kitsu": "Kitsu",
+					"cancel": "ยกเลิก"
 				}
 			},
 			"step_anilist": {
-				"MISSING-text": "Please type your AniList username or leave it blank if you changed your mind."
+				"text": "ใส่ชื่อบัญชี AniList หรือถ้าเปลี่ยนใจก็เว้นว่างเอาไว้ได้"
 			},
-			"step_kitsu": { "MISSING-text": "Please type your Kitsu username or leave it blank if you changed your mind." },
+			"step_kitsu": { "text": "ใส่ชื่อบัญชี Kitsu หรือถ้าเปลี่ยนใจก็เว้นว่างเอาไว้ได้" },
 			"step_myanimelist": {
-				"MISSING-text": "Please type your MyAnimeList username or leave it blank if you changed your mind."
+				"text": "ใส่ชื่อบัญชี MyAnimeList หรือถ้าเปลี่ยนใจก็เว้นว่างเอาไว้ได้"
 			},
-			"step_four": { "MISSING-text": "Now the game will be able to select songs from shows you've watched!" },
+			"step_four": { "text": "ตอนนี้เกมจะเลือกเล่นเฉพาะเพลงที่มาจากอนิเมะที่เคยดูให้เรียบร้อย" },
 			"step_dismiss": {
-				"MISSING-text": "That's fine, you can still play without one! _BREAK_ You can add anime lists in the bottom right menu under \"Settings\"."
+				"text": "ไม่เป็นไร ถึงจะไม่เชื่อมต่อบัญชีก็ยังเล่นได้ _BREAK_ สามารถมาเชื่อมต่อตอนไหนก็ได้ที่ \"ตั้งค่า\" ในเมนูด้านล่างขวา"
 			}
 		},
 		"first_game": {
